@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_find_exact.dir/find_exact.cpp.o  -o ../../bin/demo_find_exact -rdynamic -lrt -lz -lbz2 

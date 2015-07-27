@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>AMA - a motif search tool</title>
+		<link href="./meme-suite.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="main">
+			<script src="./meme-suite-logo.js" type="text/javascript">&gt;</script>
+			<p><b>Usage:</b></p>
+      <p>
+			<code>ama [options] &lt;motif file&gt; &lt;sequence file&gt; [&lt;background file&gt;]</code>
+    	</p>
+      <p>
+      <b>Description:</b>
+      </p>
+
+      <p>
+        The name <code>AMA</code> stands for "Average Motif Affinity".
+        The program scores a set of DNA sequences given a DNA-binding motif,
+        treating each position in the sequence as a possible
+        binding event. The score is calculated by averaging the
+        likelihood ratio scores for all feasible binding events to
+        the given sequence and to its reverse strand.
+        The binding strength at each potential site is defined as
+	the likelihood ratio of the site under the motif versus under
+        a zero-order background model provided by the user.
+      </p>
+      <p>
+        By default, <code>AMA</code> reports the average motif affinity score.
+	It can also report <i>p</i>-values, which are estimated analytically 
+	using the given zero-order background model or using the GC-content
+	of each sequence. 
+      </p>
+      <p>
+	<code>AMA</code> can also compute the 
+	sequence-dependent likelihood ratio score used by Clover.  The 
+	denominator of this score depends on the sequence being scored,
+        and is the likelihood of the site under a Markov model derived 
+        from the sequence itself.  Unlike Clover,
+	<code>AMA</code> also allows higher-order sequence-derived Markov
+	models (see <i>--sdbg</i> option below).
+      </p>
+      <p>
+        If the input file contains more than one motif, the motifs
+        will be processed consecutively.
+      </p>
+      <p>
+      Full details are given in the supplement to the GOMO paper:
+      </p>
+      <p>
+      Fabian A. Buske, Mikael Bóden, Denis C. Bauer and Timothy L. Bailey, 
+      <a href="http://bioinformatics.oxfordjournals.org/content/26/7/860.full">"Assigning
+      roles to DNA regulatory motifs using comparative genomics"</a>,
+      <em>Bioinformatics</em>, 26(7):860-866, 2010.
+      </p>
+
+      <p><b>Input:</b></p> 
+      <ul> 
+      <li>
+      <code>&lt;motif file&gt;</code> containing a list of motifs, in 
+      <a href="meme-format.html">MEME format</a>.
+      </li>
+      <li>
+      <code>&lt;sequence file&gt;</code> is a collection of sequences in
+      <a href="fasta-format.html">FASTA</a> format. 
+      </li>
+      <li>
+      <code>[&lt;background file&gt;]</code> is a 0-order Markov model in
+	<a href="bfile-format.html">background model format</a>
+        such as produced by 
+        <a href="fasta-get-markov.html"><code>fasta-get-markov</code></a>.
+      </li>
+      </ul>
+      
+    	<p><b>Output:</b></p>
+      <p>
+      <code>AMA</code> writes to standard out, unless you specify one of
+      <code>--o</code> or <code>--oc</code> in which case the <code>o-format</code>
+      option (if given) is ignored and separate files containing each output format are
+      written to the named directory. The available output formats are
+      <a href="http://www.sanger.ac.uk/Software/formats/GFF">gff</a> and
+      <a href="http://zlab.bu.edu/~phaverty/SupplementalData/CisML">CisML</a>.
+      </p>
+      <p>
+      gff output has the format: <pre> &lt;sequence_name&gt; ama sequence 1 &lt;sequence_length&gt; &lt;sequence_score&gt; &lt;sequence_p-value&gt; . . .</pre> 
+      </p>
+
+      <p>
+      <b>Options:</b> 
+      </p>
+      <ul>
+    		<li><code>--sdbg <i>&lt;n&gt;</i></code>
+    - Use a sequence-dependent Markov model of order <i>&lt;n&gt;</i>
+    when computing likelihood ratios.  
+    A different sequence-dependent Markov model is computed
+    for each sequence in the input and used to compute the
+    likelihood ratio of all sites in that sequence.
+    This option overrides 
+    <code>--pvalues</code>, 
+    <code>--gcbins</code>, and
+    <code>--rma</code>;
+    <code>&lt;background file&gt;</code> is required unless
+    <code>--sdbg</code> is specified.
+  </li>
+    		<li><code>--motif <i>&lt;id&gt;</i></code>
+    - Use only the motif identified by <code><i>&lt;id&gt;</i></code>. 
+    This option may be repeated.
+  </li>
+    		<li><code>--motif-pseudo <i>&lt;float&gt;</i></code>
+    - A pseudocount to be added to each count in the motif matrix,
+    after first multiplying by the corresponding background frequency (default=0.1).
+  </li>
+    		<li><code>--norc</code>
+    - Do not score the reverse complement DNA strand.  Both
+	strands are scored by default.
+  </li>
+    		<li><code>--scoring avg-odds|max-odds </code>
+    - indicates whether the average or the maximum likelihood ratio (odds)
+        score should be calculated (default avg-odds).
+        If max-odds is chosen, no <i>p</i>-value will be printed.
+  </li>
+    		<li><code>--rma</code>
+    - Scale the motif affinity score by the maximum achievable score for
+        each motif. This is termed the <b>R</b>elative <b>M</b>otif 
+	<b>A</b>ffinity score. This allows for direct comparison between
+	different motifs. By default, affinity scores are not scaled.
+  </li>
+    		<li><code>--pvalues</code>
+    - Print the <i>p</i>-value of the average odds score in the output 
+        file.  The <i>p</i>-score for a score is normally computed
+        (but see <code>--gcbins</code>) assuming the
+	sequences were each generated by the 0-order Markov model specified
+	by the background file frequencies.
+        By default, no <i>p</i>-value will be printed.
+	This option is ignored if max-odds scoring is used.
+  </li>
+    		<li><code>--gcbins <i>&lt;bins&gt;</i></code>
+    - Compensate <i>p</i>-values for the GC content of each
+	sequence independently.  This is done by computing the
+	score distributions for a range of GC values.  Using
+	41 bins (recommended) computes distributions at intervals
+	of 2.5% GC content.  The computation assumes that the
+	ratios of G to C and A to T are both equal to 1.  This
+	assumption will fail if a sequence contains far more of
+	a letter than its complement.
+	This option sets the <code>--pvalues</code> option.
+        By default, uncompensated <i>p</i>-values are printed.
+	This option is ignored if max-odds scoring is used.
+  </li>
+    		<li><code>--cs </code>
+    - Enables combining of sequences with the same identifier
+	by taking the average score and the Sidak corrected p-value:  1−(1−α)^1/n.
+	Different sequences with the same identifier are used in GOMO databases
+	if one gene in the reference species has more than one homologous 
+	gene in the related species (one-to-many relationship). By default sequences are 
+	processed independently of each other.
+  </li>
+    		<li><code>--o-format gff|cisml</code>
+    - Output file format (default cisml).
+  </li>
+    		<li><code>--o <i>&lt;dir name&gt;</i></code>
+    - Specifies the output directory.
+    If the directory already exists, the contents will not be overwritten.
+  </li>
+    		<li><code>--oc <i>&lt;dir name&gt;</i></code>
+    - Specifies the output directory.
+    If the directory already exists, the contents will be overwritten.
+  </li>
+    		<li><code>--verbosity 1|2|3|4</code>
+    - Set the verbosity of status reports to standard error.
+    The default level is 2.
+  </li>
+    		<li><code>--max-seq-length <code><i>&lt;max&gt;</i></code></code>
+    - Set the maximum length allowed for input sequences.
+    By default the maximum allowed length is 250000000.
+  </li>
+    		<li><code>--last <code><i>&lt;max&gt;</i></code></code>
+    - Use only scores of (up to) last &lt;n&gt; sequence
+    positions to compute AMA. If the sequence is shorter
+    than this value the entire sequence is scored. If the
+    motif is longer than this value it will not be scored. 
+  </li>
+   		</ul>
+		</div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/seqan/!svn/ver/14041/trunk/core/apps/splazers
+END
+outputFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13607/trunk/core/apps/splazers/outputFormat.h
+END
+razers_spliced.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13938/trunk/core/apps/splazers/razers_spliced.h
+END
+razers_matepairs.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13607/trunk/core/apps/splazers/razers_matepairs.h
+END
+readSimulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13607/trunk/core/apps/splazers/readSimulator.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13281/trunk/core/apps/splazers/LICENSE
+END
+splazers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/14041/trunk/core/apps/splazers/splazers.cpp
+END
+razers_parallel.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/razers_parallel.h
+END
+paramChooser.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13468/trunk/core/apps/splazers/paramChooser.h
+END
+razers.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13607/trunk/core/apps/splazers/razers.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13281/trunk/core/apps/splazers/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/README
+END

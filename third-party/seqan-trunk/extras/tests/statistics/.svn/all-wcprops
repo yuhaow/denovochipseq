@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13855/trunk/extras/tests/statistics
+END
+zscore_human_mm.3
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/extras/tests/statistics/zscore_human_mm.3
+END
+test_statistics_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13855/trunk/extras/tests/statistics/test_statistics_base.h
+END
+test_statistics.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13855/trunk/extras/tests/statistics/test_statistics.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13313/trunk/extras/tests/statistics/CMakeLists.txt
+END
+test_statistics_markov_model.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13855/trunk/extras/tests/statistics/test_statistics_markov_model.h
+END

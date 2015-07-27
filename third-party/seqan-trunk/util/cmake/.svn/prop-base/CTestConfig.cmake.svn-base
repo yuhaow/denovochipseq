@@ -1,0 +1,9 @@
+K 13
+svn:eol-style
+V 6
+native
+K 13
+svn:mergeinfo
+V 60
+/trunk/seqan/projects/library/cmake/CTestConfig.cmake:3-5062
+END

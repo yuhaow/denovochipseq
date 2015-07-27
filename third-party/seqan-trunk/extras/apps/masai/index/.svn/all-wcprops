@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13607/trunk/extras/apps/masai/index
+END
+find_backtracking_bfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13519/trunk/extras/apps/masai/index/find_backtracking_bfs.h
+END
+find_backtracking_dfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13378/trunk/extras/apps/masai/index/find_backtracking_dfs.h
+END
+index_qgram_stretched.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13607/trunk/extras/apps/masai/index/index_qgram_stretched.h
+END
+find_backtracking_stretched.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13050/trunk/extras/apps/masai/index/find_backtracking_stretched.h
+END

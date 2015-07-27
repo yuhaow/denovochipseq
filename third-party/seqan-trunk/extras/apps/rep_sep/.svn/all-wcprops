@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/13988/trunk/extras/apps/rep_sep
+END
+assembly_parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13982/trunk/extras/apps/rep_sep/assembly_parser.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13281/trunk/extras/apps/rep_sep/LICENSE
+END
+rgraph_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13034/trunk/extras/apps/rep_sep/rgraph_base.h
+END
+rgraph_construction.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13982/trunk/extras/apps/rep_sep/rgraph_construction.h
+END
+rgraph_score.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/extras/apps/rep_sep/rgraph_score.h
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13034/trunk/extras/apps/rep_sep/utils.h
+END
+rgraph.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13034/trunk/extras/apps/rep_sep/rgraph.h
+END
+rgraph_heuristics.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13607/trunk/extras/apps/rep_sep/rgraph_heuristics.h
+END
+column_scanner.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13988/trunk/extras/apps/rep_sep/column_scanner.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13281/trunk/extras/apps/rep_sep/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13281/trunk/extras/apps/rep_sep/README
+END
+rep_sep.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13034/trunk/extras/apps/rep_sep/rep_sep.cpp
+END

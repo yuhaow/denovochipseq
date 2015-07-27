@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -fopenmp -O3 -DNDEBUG -DSEQAN_ENABLE_DEBUG=0    CMakeFiles/razers3_simulate_reads.dir/simulate_reads.cpp.o  -o ../../../bin/razers3_simulate_reads -rdynamic -lrt -lz -lbz2 

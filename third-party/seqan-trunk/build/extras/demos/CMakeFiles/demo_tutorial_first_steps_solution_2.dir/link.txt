@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_first_steps_solution_2.dir/tutorial/first_steps/solution_2.cpp.o  -o ../../bin/demo_tutorial_first_steps_solution_2 -rdynamic -lrt -lz -lbz2 

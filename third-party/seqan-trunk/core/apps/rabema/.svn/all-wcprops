@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/14115/trunk/core/apps/rabema
+END
+prepare_sam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13744/trunk/core/apps/rabema/prepare_sam.cpp
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13281/trunk/core/apps/rabema/LICENSE
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/CHANGELOG
+END
+ref_id_mapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/ref_id_mapping.h
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seqan/!svn/ver/13933/trunk/core/apps/rabema/INFO
+END
+rabema_stats.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/rabema_stats.h
+END
+find_myers_ukkonen_reads.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/find_myers_ukkonen_reads.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13945/trunk/core/apps/rabema/README
+END
+rabema_evaluate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13988/trunk/core/apps/rabema/rabema_evaluate.cpp
+END
+io_gsi.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/io_gsi.h
+END
+find_myers_ukkonen_ext.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/find_myers_ukkonen_ext.h
+END
+find_hamming_simple_ext.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/find_hamming_simple_ext.h
+END
+curve_smoothing.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13982/trunk/core/apps/rabema/curve_smoothing.h
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/COPYING
+END
+do_search.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/do_search.cpp
+END
+rabema.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/rabema.cpp
+END
+sorting.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/sorting.h
+END
+rabema_build_gold_standard.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13938/trunk/core/apps/rabema/rabema_build_gold_standard.cpp
+END
+rabema.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/rabema.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13622/trunk/core/apps/rabema/CMakeLists.txt
+END

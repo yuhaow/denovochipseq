@@ -1,0 +1,4453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SpaMo - Spaced Motif Analysis</title>
+<style type="text/css">
+    
+    /* START INCLUDED FILE "meme.css" */
+        /* The following is the content of meme.css */
+        body { background-color:white; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+        div.help {
+          display: inline-block;
+          margin: 0px;
+          padding: 0px;
+          width: 12px;
+          height: 13px;
+          cursor: pointer;
+          background-image: url("help.gif");
+          background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAANAQMAAACn5x0BAAAAAXNSR0IArs4c6QAAAAZQTFRFAAAAnp6eqp814gAAAAF0Uk5TAEDm2GYAAAABYktHRACIBR1IAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH2gMJBQgGYqhNZQAAACZJREFUCNdj+P+BoUGAoV+AYeYEEGoWYGgTYGgRAAm2gRGQ8f8DAOnhC2lYnqs6AAAAAElFTkSuQmCC");
+        }
+
+        div.help2 {
+          color: #999;
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          border: 1px solid #999;
+          font-size: 13px;
+          line-height:12px;
+          font-family: Helvetica, sans-serif;
+          font-weight: bold;
+          font-style: normal;
+          cursor: pointer;
+        }
+        div.help2:hover {
+          color: #000;
+          border-color: #000;
+        }
+        
+        p.spaced { line-height: 1.8em;}
+        
+        span.citation { font-family: "Book Antiqua", "Palatino Linotype", serif; color: #004a4d;}
+
+        p.pad { padding-left: 30px; padding-top: 5px; padding-bottom: 10px;}
+
+        td.jump { font-size: 13px; color: #ffffff; background-color: #00666a;
+          font-family: Georgia, "Times New Roman", Times, serif;}
+
+        a.jump { margin: 15px 0 0; font-style: normal; font-variant: small-caps;
+          font-weight: bolder; font-family: Georgia, "Times New Roman", Times, serif;}
+
+        h2.mainh {font-size: 1.5em; font-style: normal; margin: 15px 0 0;
+          font-variant: small-caps; font-family: Georgia, "Times New Roman", Times, serif;}
+
+        h2.line {border-bottom: 1px solid #CCCCCC; font-size: 1.5em; font-style: normal;
+          margin: 15px 0 0; padding-bottom: 3px; font-variant: small-caps;
+          font-family: Georgia, "Times New Roman", Times, serif;}
+
+        h4 {border-bottom: 1px solid #CCCCCC; font-size: 1.2em; font-style: normal;
+          margin: 10px 0 0; padding-bottom: 3px; font-family: Georgia, "Times New Roman", Times, serif;}
+
+        h5 {margin: 0px}
+
+        a.help { font-size: 9px; font-style: normal; text-transform: uppercase;
+          font-family: Georgia, "Times New Roman", Times, serif;}
+
+        div.pad { padding-left: 30px; padding-top: 5px; padding-bottom: 10px;}
+        
+        div.pad1 { margin: 10px 5px;}
+
+        div.pad2 { margin: 25px 5px 5px;}
+        h2.pad2 { padding: 25px 5px 5px;}
+
+        div.pad3 { padding: 5px 0px 10px 30px;}
+
+        div.box { border: 2px solid #CCCCCC; padding:10px;}
+
+        div.bar { border-left: 7px solid #00666a; padding:5px; margin-top:25px; }
+
+        div.subsection {margin:25px 0px;}
+
+        img {border:0px none;}
+
+        th.majorth {text-align:left;}
+        th.minorth {font-weight:normal; text-align:left; width:8em; padding: 3px 0px;}
+        th.actionth {font-weight:normal; text-align:left;}
+
+        .strand_name {text-align:left;}
+        .strand_side {padding:0px 10px;}
+        .strand_start {padding:0px 10px;}
+        .strand_pvalue {text-align:center; padding:0px 10px;}
+        .strand_lflank {text-align:right; padding-right:5px; font-weight:bold; font-size:large; font-family: 'Courier New', Courier, monospace; color:gray;}
+        .strand_seq {text-align:center; font-weight:bold; font-size:large; font-family: 'Courier New', Courier, monospace;}
+        .strand_rflank {text-align:left; padding-left:5px; font-weight:bold; font-size:large; font-family: 'Courier New', Courier, monospace; color:gray;}
+
+        .block_td {height:25px;}
+        .block_container {position:relative; width:99%; height:25px; padding:0px; margin:0px;}
+        .block_motif {position:absolute; z-index:3; height:12px; top:0px; text-align:center; vertical-align:middle; background-color:cyan;}
+        .block_rule {position:absolute; z-index:2; width:100%; height:1px; top:12px; left:0px; background-color:gray;}
+        .block_plus_sym {position:absolute; z-index:4; width:12px; height:12px; top:0px; left:0px; color:gray;}
+        .block_minus_sym {position:absolute; z-index:4; width:12px; height:12px; top:13px; left:0px; color:gray;}
+
+        .tic_major {position:absolute; border-left:2px solid blue; height:0.5em; top:0em;}
+        .tic_minor {position:absolute; border-left:1px solid blue; height:0.2em; top:0em;}
+        .tic_label {position:absolute; top:0.5em;  height: 1em; text-align:center; vertical-align:middle}
+
+        .explain h5 {font-size:1em; margin-left: 1em;}
+
+        div.doc {margin-left: 2em; margin-bottom: 3em;}
+        
+        div.tabArea {
+          font-size: 80%;
+          font-weight: bold;
+        }
+
+        a.tab {
+          background-color: #ddddff;
+          border: 1px solid #000000;
+          padding: 2px 1em 2px 1em;
+          text-decoration: none;
+        }
+        div.tabArea.base a.tab {
+          border-top-width: 0px;
+        }
+        div.tabArea.top a.tab {
+          border-bottom-width: 0px;
+        }
+
+        a.tab, a.tab:visited {
+          color: #808080;
+        }
+
+        a.tab:hover {
+          background-color: #d0d0d0;
+          color: #606060;
+        }
+        a.tab.activeTab, a.tab.activeTab:hover, a.tab.activeTab:visited {
+          background-color: #f0f0f0;
+          color: #000000;
+        }
+        div.tabMain {
+          border: 1px solid #000000;
+          background-color: #ffffff;
+          padding: 5px;
+          margin-right: 5px;
+        }
+        th.trainingset {
+          border-bottom: thin dashed black; 
+          font-weight:normal; 
+          padding:0px 10px;
+        }
+        .dnaseq {
+          font-weight: bold; 
+          font-size: large; 
+          font-family: 'Courier New', Courier, monospace;
+        }
+        .dna_A {
+          color: rgb(204,0,0);
+        }
+        .dna_C {
+          color: rgb(0,0,204);
+        }
+        .dna_G {
+          color: rgb(255,179,0);
+        }
+        .dna_T {
+          color: rgb(0,128,0);
+        }
+    /* END INCLUDED FILE "meme.css" */
+    
+  
+    
+    /* START INCLUDED FILE "spamo-to-html.css" */
+      /* ++++++++++++++++++++++++++++++ start spamo.css ++++++++++++++++++++++++++++++++++ */
+      div.summary_scroll {width: 99%; height: 300px; overflow: auto; margin: 0 auto; margin:1px;}
+      /* specifies positions for the titles of the same and opposite strands for both the graph and spacings */
+      div.st_box {position:relative; width:15px; height: 260px;}
+      div.st_same {position:absolute; width:130px; height:15px; top:57.5px; left:-60px;}
+      div.st_oppo {position:absolute; width:130px; height:15px; top:187.5px; left:-60px;}
+      /* the 4 quadrants of significant spacings */
+/*
+      div.sp_box {position:relative; width: 260px; height: 260px;}
+      div.sp_same_up {position:absolute; top:0px; height: 129px; left:0px; width:129px; border: 1px solid black;}
+      div.sp_same_down {position:absolute; top:0px; height: 129px; left:130px; width:129px; border-top: 1px solid black; border-right: 1px solid black;}
+      div.sp_oppo_up {position:absolute; top:130px; height:129px; left:0px; width:129px; border-left: 1px solid black; border-bottom: 1px solid black;}
+      div.sp_oppo_down {position:absolute; top:130px; height: 128px; left:130px; width:128px; border: 1px solid black;}
+      /* sp_scroll and sp_fixed are for styling the spacing table.
+       * they make use of css 3 to style alternating rows with different colours.
+*/
+      div.sp_box {position:relative; width: 280px; height: 280px;}
+      div.sp_same_up {position:absolute; top:0px; height: 139px; left:0px; width:139px; border: 1px solid black;}
+      div.sp_same_down {position:absolute; top:0px; height: 139px; left:140px; width:139px; border-top: 1px solid black; border-right: 1px solid black;}
+      div.sp_oppo_up {position:absolute; top:140px; height:139px; left:0px; width:139px; border-left: 1px solid black; border-bottom: 1px solid black;}
+      div.sp_oppo_down {position:absolute; top:140px; height: 138px; left:140px; width:138px; border: 1px solid black;}
+      /* sp_scroll and sp_fixed are for styling the spacing table.
+       * they make use of css 3 to style alternating rows with different colours.
+       * sp_scroll is used on tables with more than 5 elements to create vertical scrollbars 
+       * on the body of the spacing table
+       * sp_fixed is for tables with 5 or less elements. It exists because firefox 3 likes
+       * to spread the entries out when there are less than needed to fit in the vertical 
+       * space*/
+      div.sp_scroll {width: 99%; height: 130px; overflow: auto; margin: 0 auto; margin:1px;}
+      div.sp_fixed {width: 99%; margin: 0 auto; margin:1px;}
+      div.sp_scroll table, div.sp_fixed table {width: 100%; border: none; border-spacing: 0px; background-color: transparent;}
+      /* make it scroll for a table body height of larger than 105px, disable the horizontal scrollbar */
+      div.sp_scroll table>tbody {overflow: auto; height: 105px; overflow-x: hidden;}
+      /* detach table header by making relative and forcing to the top */
+      div.sp_scroll table>thead tr {position:relative; top: 0px;}
+      /* set alternating row colours (note uses css3 feature nth-child so may not work many places) */
+      div.sp_scroll table>tbody tr, div.sp_fixed table>tbody tr {height: auto; background: #ccccee;}
+      div.sp_scroll table>tbody tr:nth-child(odd), div.sp_fixed table>tbody tr:nth-child(odd) {background: #eeeeee;}
+      /* check box scrolling */
+      div.ck_scroll {width: 99%; height: 120px; overflow: auto; margin: 0 auto; margin:1px;}
+      div.ck_fixed {width: 99%; margin: 0 auto; margin:1px;}
+      /* set column alignment */
+      td.sp_gap, td.sp_count {text-align:right;}
+      td.sp_gap {padding-right: 0.5em;}
+      td.sp_pvalue {text-align:left;}
+      table.details>tbody th {text-align:right;}
+      /* consensus sequence colours */
+      div.seq {font-family: monospace; font-size:20px;}
+      div.seqbox {height:61px; margin-right:10px; border: 1px solid black; display: table-cell; vertical-align: middle; text-align: center; padding: 0px 5px;}
+      span.A {color:red;}
+      span.C {color:blue;}
+      span.G {color:orange;}
+      span.T {color:green;}
+      span.trim {background-color:gray;}
+      .deg90rotate {
+     -moz-transform: rotate(-90deg);  /* FF3.5+ */
+       -o-transform: rotate(-90deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-90deg);  /* Saf3.1+, Chrome */
+          transform: rotate(-90deg);  
+             filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', /* IE6,IE7 */ 
+                      M11=6.123233995736766e-17, M12=1, M21=-1, M22=6.123233995736766e-17); 
+         -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=6.123233995736766e-17, M12=1, M21=-1, M22=6.123233995736766e-17, sizingMethod='auto expand')"; /* IE8 */
+               zoom: 1;
+
+      }
+      .sm_group{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+      }
+      .sm_group p{
+        font-weight: bold;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+      }
+      .sm_group label{
+        display: block;
+      }
+
+      .details h4 {
+        border: 0px;
+      }
+
+      div.pop_content {
+        position:absolute;
+        z-index:1;
+        width:300px;
+        padding: 5px;
+        background: #E4ECEC;
+        font-size: 12px;
+        font-family: Arial;
+        border-style: double;
+        border-width: 3px;
+        border-color: #AA2244;
+        display:none;
+      }
+
+      table.preview {
+        border-spacing: 10px 0px;
+      }
+      
+      table.preview tr th {
+        text-align: left;
+        font-size: 1.2em; 
+        font-style: normal;
+        font-family: Georgia, "Times New Roman", Times, serif; 
+        border-bottom: 1px solid #CCCCCC; 
+      }
+
+      table.preview tr td.summarylist {
+        line-height: 1.8em;
+      }
+
+      /* ++++++++++++++++++++++++++++++ end spamo.css ++++++++++++++++++++++++++++++++++++ */
+    /* END INCLUDED FILE "spamo-to-html.css" */
+    
+  </style>
+<script type="text/javascript">
+    
+    /* START INCLUDED FILE "delay_draw.js" */
+      //
+      // Functions to measure the position of page elements relative to the size of the page
+      //
+
+      // gets the offset of the top of the page due to scrolling
+      // from: http://www.howtocreate.co.uk/tutorials/javascript/browserwindow
+      function get_scroll_xy() {
+        var scrOfX = 0, scrOfY = 0;
+        if( typeof( window.pageYOffset ) == 'number' ) {
+          //Netscape compliant
+          scrOfY = window.pageYOffset;
+          scrOfX = window.pageXOffset;
+        } else if( document.body && ( document.body.scrollLeft || document.body.scrollTop ) ) {
+          //DOM compliant
+          scrOfY = document.body.scrollTop;
+          scrOfX = document.body.scrollLeft;
+        } else if( document.documentElement && ( document.documentElement.scrollLeft || document.documentElement.scrollTop ) ) {
+          //IE6 standards compliant mode
+          scrOfY = document.documentElement.scrollTop;
+          scrOfX = document.documentElement.scrollLeft;
+        }
+        return [ scrOfX, scrOfY ];
+      }
+
+      // gets the width and height of the visible page
+      // from: http://www.howtocreate.co.uk/tutorials/javascript/browserwindow
+      function get_page_size() {
+        var myWidth = 0, myHeight = 0;
+        if( typeof( window.innerWidth ) == 'number' ) {
+          //Non-IE
+          myWidth = window.innerWidth;
+          myHeight = window.innerHeight;
+        } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+          //IE 6+ in 'standards compliant mode'
+          myWidth = document.documentElement.clientWidth;
+          myHeight = document.documentElement.clientHeight;
+        } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+          //IE 4 compatible
+          myWidth = document.body.clientWidth;
+          myHeight = document.body.clientHeight;
+        }
+        return [myWidth, myHeight];
+      }
+
+      // gets the x and y offset of an element
+      // from http://www.quirksmode.org/js/findpos.html
+      function get_elem_xy(elem) {
+        var myX = myY = 0;
+        if (elem.offsetParent) {
+          do {
+            myX += elem.offsetLeft;
+            myY += elem.offsetTop;
+          } while (elem = elem.offsetParent);
+        }
+        return [myX, myY];
+      }
+
+      //
+      // Functions to delay a drawing task until it is required or it would not lag the display to do so
+      //
+
+      // a list of items still to be drawn
+      var drawable_list = [];
+      // the delay between drawing objects that are not currently visible
+      var draw_delay = 1;
+      // the delay after a user interaction
+      var user_delay = 300;
+      // the delay after a user has stopped scrolling and is viewing the stuff drawn on the current page
+      var stop_delay = 2000;
+      // the timer handle; allows resetting of the timer after user interactions
+      var draw_timer = null;
+
+      //
+      // Drawable
+      //
+      // elem - a page element which defines the position on the page that drawing is to be done
+      // task - an object with the method run which takes care of painting the object
+      //
+      function Drawable(elem, task) {
+        this.elem = elem;
+        this.task = task;
+        this.is_visible = Drawable_is_visible;
+      }
+
+      //
+      // Drawable_is_visible
+      //
+      // Determines if the drawable object is in the visible part of the page.
+      //
+      // page_top - the distance to the top of the page for the visible region
+      // page_height - the height of the visible region
+      function Drawable_is_visible(page_top, page_height) {
+        var elem_top = get_elem_xy(this.elem)[1];
+        var elem_height = this.elem.height;
+        if (typeof (elem_height) != 'number') elem_height = 1;
+        return ((elem_top + elem_height) >= page_top && elem_top <= (page_top + page_height));
+      }
+
+      //
+      // draw_on_screen
+      //
+      // Checks each drawable object and draws those on screen.
+      //
+      function draw_on_screen() {
+        var found = false;
+        var page_top = get_scroll_xy()[1];
+        var page_height = get_page_size()[1];
+        for (var i = 0; i < drawable_list.length; i++) {
+          var drawable = drawable_list[i];
+          if (drawable.is_visible(page_top, page_height)) {
+            drawable.task.run();
+            drawable_list.splice(i--, 1);
+            found = true;
+          }
+        }
+        return found;
+      }
+
+      //
+      // process_draw_tasks
+      //
+      // Called on a delay to process the next avaliable
+      // draw task.
+      //
+      function process_draw_tasks() {
+        var delay = draw_delay;
+        draw_timer = null;
+        if (drawable_list.length == 0) return; //no more tasks
+        if (draw_on_screen()) {
+          delay = stop_delay; //give the user a chance to scroll
+        } else {
+          //get next task
+          var drawable = drawable_list.shift();
+          drawable.task.run();
+        }
+        //allow UI updates between tasks
+        draw_timer = window.setTimeout("process_draw_tasks()", draw_delay);
+      }
+
+      //
+      // delayed_process_draw_tasks
+      //
+      // Call process_draw_tasks after a short delay.
+      // The delay serves to group multiple redundant events.       
+      // Should be set as event handler for onscroll and onresize.
+      //
+      function delayed_process_draw_tasks() {
+        //reset the timer
+        if (drawable_list.length > 0) { 
+          if (draw_timer != null) clearTimeout(draw_timer);
+          draw_timer = window.setTimeout("process_draw_tasks()", user_delay);
+        }
+      }
+
+      //
+      // add_draw_task
+      //
+      // Add a drawing task to be called immediately if it is
+      // visible, or to be called on a delay to reduce stuttering
+      // effect on the web browser.
+      function add_draw_task(elem, task) {
+        var page_top = get_scroll_xy()[1];
+        var page_height = get_page_size()[1];
+        drawable = new Drawable(elem, task);
+        if (drawable.is_visible(page_top, page_height)) {
+          task.run();
+        } else {
+          drawable_list.push(drawable);
+          //reset timer
+          if (draw_timer != null) clearTimeout(draw_timer);
+          draw_timer = window.setTimeout("process_draw_tasks()", user_delay);
+        }
+      }
+
+    /* END INCLUDED FILE "delay_draw.js" */
+    
+  
+    
+    /* START INCLUDED FILE "motif_logo.js" */
+    //======================================================================
+    // start Alphabet object
+    //======================================================================
+    function Alphabet(alphabet, bg) {
+      //variable prototype
+      this.freqs = new Array();
+      this.alphabet = new Array();
+      this.letter_count = 0;
+      //method prototype
+      this.get_ic = Alphabet_get_ic;
+      this.get_size = Alphabet_get_size;
+      this.get_index = Alphabet_get_index;
+      this.get_letter = Alphabet_get_letter;
+      this.get_colour = Alphabet_get_colour;
+      this.get_bg_freq = Alphabet_get_bg_freq;
+      this.is_nucleotide = Alphabet_is_nucleotide;
+      this.is_ambig = Alphabet_is_ambig;
+      this.toString = Alphabet_to_string;
+      //construct
+      var is_letter = /^\w$/;
+      var is_prob = /^((1(\.0+)?)|(0(\.\d+)?))$/;
+      for (var pos = 0; pos < alphabet.length; pos++) {
+        var letter = alphabet.charAt(pos);
+        if (is_letter.test(letter)) {
+          this.alphabet[this.letter_count] = letter.toUpperCase();
+          this.freqs[this.letter_count] = -1;
+          this.letter_count++;
+        }
+      }
+      if (!(bg === undefined)) {
+        var parts = bg.split(/\s+/);
+        for (var i = 0, pos = 0; (i + 1) < parts.length; i += 2) {
+          var letter = parts[i];
+          var freq = parts[i+1];
+          if (is_letter.test(letter) && is_prob.test(freq)) {
+            letter = letter.toUpperCase();          //find the letter it matches
+            for (;pos < this.letter_count; pos++) {
+              if (this.alphabet[pos] == letter) break;
+            }
+            if (pos >= this.letter_count) throw "NOT_IN_ALPHABET";
+            this.freqs[pos] = (+freq);
+          }
+        }
+      } else {
+        //assume uniform background
+        var freq = 1.0 / this.letter_count;
+        for (var pos = 0; pos < this.letter_count; pos++) {
+          this.freqs[pos] = freq;
+        }
+      }
+    }
+
+
+    function Alphabet_get_ic() {
+      if (this.is_nucleotide()) {
+        return 2;
+      } else {
+        return Math.log(20) / Math.LN2;
+      }
+    }
+
+    function Alphabet_get_size() {
+      return this.letter_count;
+    }
+
+    function Alphabet_get_letter(alph_index) {
+      if (alph_index < 0 || alph_index >= this.letter_count) {
+        throw "BAD_ALPHABET_INDEX";
+      }
+      return this.alphabet[alph_index];
+    }
+
+    function Alphabet_get_bg_freq(alph_index) {
+      if (alph_index < 0 || alph_index >= this.letter_count) {
+        throw "BAD_ALPHABET_INDEX";
+      }
+      if (this.freqs[alph_index] == -1) throw "BG_FREQ_NOT_SET";
+      return this.freqs[alph_index];
+    }
+
+    function Alphabet_get_colour(alph_index) {
+      var red = "rgb(204,0,0)";
+      var blue = "rgb(0,0,204)";
+      var orange = "rgb(255,179,0)";
+      var green = "rgb(0,128,0)";
+      var yellow = "rgb(255,255,0)";
+      var purple = "rgb(204,0,204)";
+      var magenta = "rgb(255,0,255)";
+      var pink = "rgb(255,204,204)";
+      var turquoise = "rgb(51,230,204)";
+      if (alph_index < 0 || alph_index >= this.letter_count) {
+        throw "BAD_ALPHABET_INDEX";
+      }
+      if (this.is_nucleotide()) {
+        switch (this.alphabet[alph_index]) {
+          case "A":
+            return red;
+          case "C":
+            return blue;
+          case "G":
+            return orange;
+          case "T":
+            return green;
+        }
+      } else {
+        switch (this.alphabet[alph_index]) {
+          case "A":
+          case "C":
+          case "F":
+          case "I":
+          case "L":
+          case "V":
+          case "W":
+          case "M":
+            return blue;
+          case "N":
+          case "Q":
+          case "S":
+          case "T":
+            return green;
+          case "D":
+          case "E":
+            return magenta;
+          case "K":
+          case "R":
+            return red;
+          case "H":
+            return pink;
+          case "G":
+            return orange;
+          case "P":
+            return yellow;
+          case "Y":
+            return turquoise;
+        }
+      }
+      return "black";
+    }
+
+    function Alphabet_is_ambig(alph_index) {
+      if (alph_index < 0 || alph_index >= this.letter_count) {
+        throw "BAD_ALPHABET_INDEX";
+      }
+      if (this.is_nucleotide()) {
+        return ("ACGT".indexOf(this.alphabet[alph_index]) == -1);
+      } else {
+        return ("ACDEFGHIKLMNPQRSTVWY".indexOf(this.alphabet[alph_index]) == -1);
+      }
+    }
+
+    function Alphabet_get_index(letter) {
+      for (i = 0; i < this.letter_count; i++) {
+        if (this.alphabet[i] == letter.toUpperCase()) return i;
+      }
+      throw "UNKNOWN_LETTER";
+    }
+
+    function Alphabet_is_nucleotide() {
+      //TODO basic method, make better
+      if (this.letter_count < 20) return true;
+      return false;
+    }
+
+    function Alphabet_to_string() {
+      return (this.is_nucleotide() ? "Nucleotide" : "Protein") + " Alphabet " + (this.alphabet.join(""));
+    }
+
+    //======================================================================
+    // end Alphabet object
+    //======================================================================
+
+    //======================================================================
+    // start Symbol object
+    //======================================================================
+    function Symbol(alph_index, scale, alphabet) {
+      //variable prototype
+      this.symbol = alphabet.get_letter(alph_index);
+      this.scale = scale;
+      this.colour = alphabet.get_colour(alph_index);
+      //function prototype
+      this.get_symbol = Symbol_get_symbol;
+      this.get_scale = Symbol_get_scale;
+      this.get_colour = Symbol_get_colour;
+      this.toString = Symbol_to_string;
+    }
+
+    function Symbol_get_symbol() {
+      return this.symbol;
+    }
+
+    function Symbol_get_scale() {
+      return this.scale;
+    }
+
+    function Symbol_get_colour() {
+      return this.colour;
+    }
+
+    function Symbol_to_string() {
+      return this.symbol + " " + (Math.round(this.scale*1000)/10) + "%";
+    }
+
+    function compare_symbol(sym1, sym2) {
+      if (sym1.get_scale() < sym2.get_scale()) {
+        return -1;
+      } else if (sym1.get_scale() > sym2.get_scale()) {
+        return 1;
+      } else {
+        return 0;
+      }
+    }
+    //======================================================================
+    // end Symbol object
+    //======================================================================
+
+    //======================================================================
+    // start Pspm object
+    //======================================================================
+    function Pspm(pspm, name, ltrim, rtrim, nsites, evalue) {
+      if (ltrim === undefined) ltrim = 0;
+      if (rtrim === undefined) rtrim = 0;
+      if (nsites === undefined) nsites = 0;
+      if (evalue === undefined) evalue = 0;
+      //variable prototype
+      this.alph_length = 0;
+      this.motif_length = 0;
+      this.pspm = null;
+      this.name = (typeof name == "string" ? name : "");
+      this.nsites = nsites;
+      this.evalue = evalue;
+      this.ltrim = ltrim;
+      this.rtrim = rtrim;
+      //function prototype
+      this.copy = Pspm_copy;
+      this.reverse_complement = Pspm_reverse_complement;
+      this.get_stack = Pspm_get_stack;
+      this.get_stack_ic = Pspm_get_stack_ic;
+      this.get_motif_length = Pspm_get_motif_length;
+      this.get_alph_length = Pspm_get_alph_length;
+      this.get_left_trim = Pspm_get_left_trim;
+      this.get_right_trim = Pspm_get_right_trim;
+      this.as_pspm = Pspm_as_pspm;
+      this.as_pssm = Pspm_as_pssm;
+      this.toString = Pspm_to_string;
+      //construct
+      if (typeof pspm == "string") {
+        var pspm_header = /letter-probability matrix:\s+alength=\s+(\d+)\s+w=\s+(\d+)(\s+nsites=\s+(\S+))?(\s+E=\s+(\S+))?\s*/;
+        var lines = pspm.split(/\n/);
+        var read_pspm = false;
+        var line_num = 0;
+        var col_num = 0;
+        this.pspm = new Array();
+        for (line_index in lines) {
+          //exclude inherited properties and undefined properties
+          if (!lines.hasOwnProperty(line_index) || lines[line_index] === undefined) continue;
+
+          var line = trim(lines[line_index]);
+          if (line == '') {
+            continue;
+          }
+          if (!read_pspm) {
+            var header_match = pspm_header.exec(line);
+            if (header_match != null) {
+              read_pspm = true;
+              this.alph_length = (+header_match[1]);
+              this.motif_length = (+header_match[2]);
+              if (header_match[4]) this.nsites = parseFloat(header_match[4]);//not always an integer
+              if (header_match[6]) this.evalue = parseFloat(header_match[6]);
+              this.pspm = new Array(this.motif_length);
+            }
+            continue;
+          }
+          if (line_num >= this.motif_length) {
+            throw "TOO_MANY_ROWS";
+          }
+          this.pspm[line_num] = new Array(this.alph_length);
+          col_num = 0;
+          var parts = line.split(/\s+/);
+          for (part_index in parts) {
+            //exclude inherited properties and undefined properties
+            if (!parts.hasOwnProperty(part_index) || parts[part_index] === undefined) continue;
+            
+            var prob = parts[part_index];
+            if (col_num >= this.alph_length) {
+              throw "TOO_MANY_COLS";
+            }
+            this.pspm[line_num][col_num] = (+prob);
+            //check the probability is within bounds
+            if (this.pspm[line_num][col_num] > 1 || this.pspm[line_num][col_num] < 0) {
+              throw "NUM_NOT_PROB";
+            }
+            col_num++;
+          }
+          if (col_num != this.alph_length) {
+            throw "TOO_FEW_COLS";
+          }
+        line_num++;
+        }
+        if (line_num != this.motif_length) {
+          throw "TOO_FEW_ROWS";
+        }
+      } else { 
+        // assume pspm is a nested array
+        this.motif_length = pspm.length;
+        this.alph_length = (pspm.length > 0 ? pspm[0].length : 0);
+        this.pspm = new Array(this.motif_length);
+        // copy pspm and check
+        for (var row = 0; row < this.motif_length; row++) {
+          if (this.alph_length != pspm[row].length) throw "COLUMN_MISMATCH";
+          this.pspm[row] = new Array(this.alph_length);
+          var row_sum = 0;
+          for (var col = 0; col < this.alph_length; col++) {
+            this.pspm[row][col] = pspm[row][col];
+            row_sum += this.pspm[row][col];
+          }
+          var delta = 0.1
+          if (isNaN(row_sum) || (row_sum > 1 && (row_sum - 1) > delta) || 
+              (row_sum < 1 && (1 - row_sum) > delta)) {
+            throw "INVALID_SUM";
+          }
+        }
+      }
+    }
+
+    function Clone() {}
+
+    function Pspm_copy() {
+      Clone.prototype = this;
+      var clone = new Clone();
+      //so far only a shallow copy, need to copy everything
+      clone.alph_length = (0+this.alph_length);
+      clone.motif_length = (0+this.motif_length);
+      clone.name = (""+this.name);
+      clone.nsites = (0+this.nsites);
+      clone.evalue = (0+this.evalue);
+      clone.ltrim = (0+this.ltrim);
+      clone.rtrim = (0+this.rtrim);
+      clone.pspm = new Array(this.motif_length);
+      for (row = 0; row < this.motif_length; row++) {
+        clone.pspm[row] = new Array(this.alph_length);
+        for (col = 0; col < this.alph_length; col++) {
+          clone.pspm[row][col] = (0+this.pspm[row][col]);
+        }
+      }
+      return clone;
+    }
+
+    function Pspm_reverse_complement(alphabet) {
+      if (this.alph_length != alphabet.get_size()) {
+        throw "ALPHABET_MISMATCH";
+      }
+      if (!alphabet.is_nucleotide()) {
+        throw "NO_PROTEIN_RC";
+      }
+      //reverse
+      var x = 0;
+      var y = this.motif_length-1;
+      while (x < y) {
+        var temp = this.pspm[x];
+        this.pspm[x] = this.pspm[y];
+        this.pspm[y] = temp;
+        x++;
+        y--;
+      }
+      //complement
+      var a_index = alphabet.get_index("A");
+      var c_index = alphabet.get_index("C");
+      var g_index = alphabet.get_index("G");
+      var t_index = alphabet.get_index("T");
+      for (i = 0; i < this.motif_length; i++) {
+        var row = this.pspm[i];
+        //swap A and T
+        var temp = row[a_index];
+        row[a_index] = row[t_index];
+        row[t_index] = temp;
+        //swap C and G
+        temp = row[c_index];
+        row[c_index] = row[g_index];
+        row[g_index] = temp;
+      }
+      //swap triming
+      var temp_trim = this.ltrim;
+      this.ltrim = this.rtrim;
+      this.rtrim = temp_trim;
+      //note that ambigs are ignored because they don't effect motifs
+      return this; //allow function chaining...
+    }
+
+    function Pspm_get_stack(position, alphabet) {
+      if (this.alph_length != alphabet.get_size()) {
+        throw "ALPHABET_MISMATCH";
+      }
+      var row = this.pspm[position];
+      var stack_ic = this.get_stack_ic(position, alphabet);
+      var alphabet_ic = alphabet.get_ic();
+      var stack = new Array();
+      for (i = 0; i < this.alph_length; i++) {
+        if (alphabet.is_ambig(i)) continue;
+        var sym = new Symbol(i, row[i]*stack_ic/alphabet_ic, alphabet);
+        if (sym.get_scale() <= 0) continue;
+        stack.push(sym);
+      }
+      stack.sort(compare_symbol);
+      return stack;
+    }
+
+    function Pspm_get_stack_ic(position, alphabet) {
+      if (this.alph_length != alphabet.get_size()) {
+        throw "ALPHABET_MISMATCH";
+      }
+      var row = this.pspm[position];
+      var H = 0;
+      for (var i = 0; i < this.alph_length; i++) {
+        if (alphabet.is_ambig(i)) continue;
+        if (row[i] == 0) continue;
+        H -= (row[i] * (Math.log(row[i]) / Math.LN2));
+      }
+      return alphabet.get_ic() - H;
+    }
+
+    function Pspm_get_error(alphabet) {
+      var asize;
+      if (this.nsites == 0) return 0;
+      if (alphabet.is_nucleotide()) {
+        asize = 4;
+      } else {
+        asize = 20;
+      }
+      return (asize-1) / (2 * Math.log(2)*this.nsites);
+    }
+
+    function Pspm_get_motif_length() {
+      return this.motif_length;
+    }
+
+    function Pspm_get_alph_length() {
+      return this.alph_length;
+    }
+
+    function Pspm_get_left_trim() {
+      return this.ltrim;
+    }
+
+    function Pspm_get_right_trim() {
+      return this.rtrim;
+    }
+
+    function Pspm_as_pspm() {
+      var out = "letter-probability matrix: alength= " + this.alph_length + 
+          " w= " + this.motif_length + " nsites= " + this.nsites + 
+          " E= " + this.evalue.toExponential() + "\n";
+      for (var row = 0; row < this.motif_length; row++) {
+        for (var col = 0; col < this.alph_length; col++) {
+          if (col != 0) out += " ";
+          out += this.pspm[row][col].toFixed(6);
+        }
+        out += "\n";
+      }
+      return out;
+    }
+
+    function Pspm_as_pssm(alphabet, pseudo) {
+      if (typeof pseudo != "number") pseudo = 0.1;
+      var out = "log-odds matrix: alength= " + this.alph_length + 
+          " w= " + this.motif_length + 
+          " E= " + this.evalue.toExponential() + "\n";
+      var log2 = Math.log(2);
+      var total = this.nsites + pseudo;
+      for (var row = 0; row < this.motif_length; row++) {
+        for (var col = 0; col < this.alph_length; col++) {
+          if (col != 0) out += " ";
+          var p = this.pspm[row][col];
+          // to avoid log of zero we add a pseudo count
+          var bg = alphabet.get_bg_freq(col);
+          var p2 = (p * this.nsites + bg * pseudo) / total;
+          // now calculate the score
+          var score = -10000;
+          if (p2 > 0) {
+            score = Math.round((Math.log(p2 / bg) / log2) * 100)
+          }
+          out += score;
+        }
+        out += "\n";
+      }
+      return out;
+    }
+
+    function Pspm_to_string() {
+      var str = "";
+      for (row_index in this.pspm) {
+        //exclude inherited properties and undefined properties
+        if (!this.pspm.hasOwnProperty(row_index) || this.pspm[row_index] === undefined) continue;
+        
+        var row = this.pspm[row_index];
+        str += row.join("\t") + "\n";
+      }
+      return str;
+    }
+    //======================================================================
+    // end Pspm object
+    //======================================================================
+    
+    //======================================================================
+    // start Logo object
+    //======================================================================
+    function Logo(alphabet, fine_text) {
+      this.alphabet = alphabet;
+      this.fine_text = fine_text;
+      this.pspm_list = [];
+      this.pspm_column = [];
+      this.rows = 0;
+      this.columns = 0;
+
+      //functions
+      this.add_pspm = Logo_add_pspm;
+      this.get_columns = Logo_get_columns;
+      this.get_rows = Logo_get_rows;
+      this.get_pspm = Logo_get_pspm;
+      this.get_offset = Logo_get_offset;
+    }
+
+    function Logo_add_pspm(pspm, column) {
+      if (column === undefined) column = 0;
+      else if (column < 0) throw "COLUMN_OUT_OF_BOUNDS";
+      this.pspm_list[this.rows] = pspm;
+      this.pspm_column[this.rows] = column;
+      this.rows++;
+      var col = column + pspm.get_motif_length();
+      if (col > this.columns) this.columns = col;
+    }
+
+    function Logo_get_columns() {
+      return this.columns;
+    }
+
+    function Logo_get_rows() {
+      return this.rows;
+    }
+
+    function Logo_get_pspm(row_index) {
+      if (row_index < 0 || row_index >= this.rows) throw "INDEX_OUT_OF_BOUNDS";
+      return this.pspm_list[row_index];
+    }
+
+    function Logo_get_offset(row_index) {
+      if (row_index < 0 || row_index >= this.rows) throw "INDEX_OUT_OF_BOUNDS";
+      return this.pspm_column[row_index];
+    }
+
+    //======================================================================
+    // end Logo object
+    //======================================================================
+
+    //======================================================================
+    // start RasterizedAlphabet
+    //======================================================================
+
+    // Rasterize Alphabet
+    // 1) Measure width of text at default font for all symbols in alphabet
+    // 2) sort in width ascending
+    // 3) Drop the top and bottom 10% (designed to ignore outliers like 'W' and 'I')
+    // 4) Calculate the average as the maximum scaling factor (designed to stop I becoming a rectangular blob).
+    // 5) Assume scale of zero would result in width of zero, interpolate scale required to make perfect width font
+    // 6) Draw text onto temp canvas at calculated scale
+    // 7) Find bounds of drawn text
+    // 8) Paint on to another canvas at the desired height (but only scaling width to fit if larger).
+    function RasterizedAlphabet(alphabet, font, target_width) {
+      //variable prototypes
+      this.lookup = []; //a map of letter to index
+      this.rasters = []; //a list of rasters
+      this.dimensions = []; //a list of dimensions
+
+      //function prototypes
+      this.draw = RasterizedAlphabet_draw;
+
+      //construct
+      var default_size = 60; // size of square to assume as the default width
+      var safety_pad = 20; // pixels to pad around so we don't miss the edges
+      // create a canvas to do our rasterizing on
+      var canvas = document.createElement("canvas");
+      // assume the default font would fit in a canvas of 100 by 100
+      canvas.width = default_size + 2 * safety_pad;
+      canvas.height = default_size + 2 * safety_pad;
+      // check for canvas support before attempting anything
+      if (!canvas.getContext) throw "NO_CANVAS_SUPPORT";
+      var ctx = canvas.getContext('2d');
+      // check for html5 text drawing support
+      if (!supports_text(ctx)) throw "NO_CANVAS_TEXT_SUPPORT";
+      // calculate the middle
+      var middle = Math.round(canvas.width / 2);
+      // calculate the baseline
+      var baseline = Math.round(canvas.height - safety_pad);
+      // list of widths
+      var widths = [];
+      var count = 0;
+      var letters = [];
+      //now measure each letter in the alphabet
+      for (var i = 0; i < alphabet.get_size(); ++i) {
+        if (alphabet.is_ambig(i)) continue; //skip ambigs as they're never rendered
+        var letter = alphabet.get_letter(i);
+        letters.push(letter);
+        var pos = count++;
+        this.lookup[letter] = pos;
+        //clear the canvas
+        canvas.width = canvas.width;
+        // get the context and prepare to draw our width test
+        var ctx = canvas.getContext('2d');
+        ctx.font = font;
+        ctx.fillStyle = alphabet.get_colour(i);
+        ctx.textAlign = "center";
+        ctx.translate(middle, baseline);
+        // draw the test text
+        ctx.fillText(letter, 0, 0);
+        //measure
+        var size = RasterizedAlphabet_measure(ctx, canvas.width, canvas.height);
+        if (size.width == 0) throw "INVISIBLE_LETTER"; //maybe the fill was white on white?
+        widths.push(size.width);
+        this.dimensions[pos] = size;
+      }
+      //sort the widths
+      widths.sort(function(a,b) {return a - b;});
+      //drop 10% of the items off each end
+      var tenpercent = Math.floor(widths.length / 10);
+      for (var i = 0; i < tenpercent; ++i) {
+        widths.pop();
+        widths.shift();
+      }
+      //calculate average width
+      var avg_width = 0;
+      for (var i = 0; i < widths.length; ++i) avg_width += widths[i];
+      avg_width /= widths.length;
+      // calculate scales
+      for (var i = 0; i < this.dimensions.length; ++i) {
+        var size = this.dimensions[i];
+        // calculate scale
+        var scale = target_width / Math.max(avg_width, size.width);
+        // estimate scaled height
+        var target_height = size.height * scale;
+        // create an approprately sized canvas
+        var raster = document.createElement("canvas");
+        raster.width = target_width; // if it goes over the edge too bad...
+        raster.height = target_height + safety_pad * 2;
+        // calculate the middle
+        middle = Math.round(raster.width / 2);
+        // calculate the baseline
+        baseline = Math.round(raster.height - safety_pad);
+        // get the context and prepare to draw the rasterized text
+        ctx = raster.getContext('2d');
+        ctx.font = font;
+        ctx.fillStyle = alphabet.get_colour(i);
+        ctx.textAlign = "center";
+        ctx.translate(middle, baseline);
+        ctx.save();
+        ctx.scale(scale, scale);
+        // draw the rasterized text
+        ctx.fillText(letters[i], 0, 0);
+        ctx.restore();
+        this.rasters[i] = raster;
+        this.dimensions[i] = RasterizedAlphabet_measure(ctx, raster.width, raster.height);
+      }
+    }
+
+    function RasterizedAlphabet_measure(ctx, cwidth, cheight) {
+      var data = ctx.getImageData(0, 0, cwidth, cheight).data;
+      var r = 0, c = 0;// r: row, c: column
+      var top_line = -1, bottom_line = -1, left_line = -1, right_line = -1;
+      var txt_width = 0, txt_height = 0;
+      // Find the top-most line with a non-white pixel
+      for (r = 0; r < cheight; r++) {
+        for (c = 0; c < cwidth; c++) {
+          if (data[r * cwidth * 4 + c * 4 + 3]) {
+            top_line = r;
+            break;
+          }
+        }
+        if (top_line != -1) break;
+      }
+      
+      //find the last line with a non-white pixel
+      if (top_line != -1) {
+        for (r = cheight-1; r >= top_line; r--) {
+          for(c = 0; c < cwidth; c++) {
+            if(data[r * cwidth * 4 + c * 4 + 3]) {
+              bottom_line = r;
+              break;
+            }
+          }
+          if (bottom_line != -1) break;
+        }
+        txt_height = bottom_line - top_line + 1;
+      }
+
+      // Find the left-most line with a non-white pixel
+      for (c = 0; c < cwidth; c++) {
+        for (r = 0; r < cheight; r++) {
+          if (data[r * cwidth * 4 + c * 4 + 3]) {
+            left_line = c;
+            break;
+          }
+        }
+        if (left_line != -1) break;
+      }
+
+      //find the right most line with a non-white pixel
+      if (left_line != -1) {
+        for (c = cwidth-1; c >= left_line; c--) {
+          for(r = 0; r < cheight; r++) {
+            if(data[r * cwidth * 4 + c * 4 + 3]) {
+              right_line = c;
+              break;
+            }
+          }
+          if (right_line != -1) break;
+        }
+        txt_width = right_line - left_line + 1;
+      }
+
+      //return the bounds
+      return {bound_top: top_line, bound_bottom: bottom_line, bound_left: left_line, bound_right: right_line, width: txt_width, height: txt_height};
+    }
+
+    function RasterizedAlphabet_draw(ctx, letter, dx, dy, dWidth, dHeight) {
+      var index = this.lookup[letter];
+      var raster = this.rasters[index];
+      var size = this.dimensions[index];
+      ctx.drawImage(raster, 0, size.bound_top -1, raster.width, size.height+1, dx, dy, dWidth, dHeight);
+    }
+
+    //======================================================================
+    // end RasterizedAlphabet
+    //======================================================================
+
+    //======================================================================
+    // start LogoMetrics object
+    //======================================================================
+
+    function LogoMetrics(ctx, canvas_width, canvas_height, logo_columns, logo_rows, allow_space_for_names) {
+      if (allow_space_for_names === undefined) allow_space_for_names = false;
+      //variable prototypes
+      this.canvas_width = canvas_width;
+      this.canvas_height = canvas_height;
+      this.scale_x = 1;
+      this.scale_y = 1;
+      this.pad_top = 5;
+      this.pad_left = 10;
+      this.pad_right = 5;
+      this.pad_bottom = 0;
+      this.pad_middle = 20;
+      this.name_height = 14;
+      this.name_font = "bold " + this.name_height + "px Times, sans-serif";
+      this.name_spacer = 0;
+      this.y_label = "bits"
+      this.y_label_height = 12;
+      this.y_label_font = "bold " + this.y_label_height + "px Helvetica, sans-serif";
+      this.y_label_spacer = 3;
+      this.y_num_height = 12;
+      this.y_num_width = 0;
+      this.y_num_font = "bold " + this.y_num_height + "px Helvetica, sans-serif";
+      this.y_tic_width = 5;
+      this.stack_pad_left = 0;
+      this.stack_font = "bold 25px Helvetica, sans-serif";
+      this.stack_height = 90;
+      this.stack_width = 26;
+      this.stacks_pad_right = 5;
+      this.x_num_above = 2;
+      this.x_num_height = 12;
+      this.x_num_width = 0;
+      this.x_num_font = "bold " + this.x_num_height + "px Helvetica, sans-serif";
+      this.fine_txt_height = 6;
+      this.fine_txt_above = 2;
+      this.fine_txt_font = "normal " + this.fine_txt_height + "px Helvetica, sans-serif";
+      this.letter_metrics = new Array();
+      this.summed_width = 0;
+      this.summed_height = 0;
+      //function prototypes
+      //none
+      //calculate the width of the y axis numbers
+      ctx.font = this.y_num_font;
+      for (var i = 0; i <= 2; i++) {
+        this.y_num_width = Math.max(this.y_num_width, ctx.measureText("" + i).width);
+      }
+      //calculate the width of the x axis numbers (but they are rotated so it becomes height)
+      ctx.font = this.x_num_font;
+      for (var i = 1; i <= logo_columns; i++) {
+        this.x_num_width = Math.max(this.x_num_width, ctx.measureText("" + i).width);
+      }
+      
+      //calculate how much vertical space we want to draw this
+      //first we add the padding at the top and bottom since that's always there
+      this.summed_height += this.pad_top + this.pad_bottom;
+      //all except the last row have the same amount of space allocated to them
+      if (logo_rows > 1) {
+        var row_height = this.stack_height + this.pad_middle;
+        if (allow_space_for_names) {
+          row_height += this.name_height;
+          //the label is allowed to overlap into the spacer
+          row_height += Math.max(this.y_num_height/2, this.name_spacer); 
+          //the label is allowed to overlap the space used by the other label
+          row_height += Math.max(this.y_num_height/2, this.x_num_height + this.x_num_above); 
+        } else {
+          row_height += this.y_num_height/2; 
+          //the label is allowed to overlap the space used by the other label
+          row_height += Math.max(this.y_num_height/2, this.x_num_height + this.x_num_above); 
+        }
+        this.summed_height += row_height * (logo_rows - 1);
+      }
+      //the last row has the name and fine text below it but no padding
+      this.summed_height += this.stack_height + this.y_num_height/2;
+      if (allow_space_for_names) {
+        this.summed_height += this.fine_txt_height + this.fine_txt_above + this.name_height;
+        this.summed_height += Math.max(this.y_num_height/2, this.x_num_height + this.x_num_above + this.name_spacer);
+      } else {
+        this.summed_height += Math.max(this.y_num_height/2, this.x_num_height + this.x_num_above + this.fine_txt_height + this.fine_txt_above);
+      }
+
+      //calculate how much horizontal space we want to draw this
+      //first add the padding at the left and right since that's always there
+      this.summed_width += this.pad_left + this.pad_right;
+      //add on the space for the y-axis label
+      this.summed_width += this.y_label_height + this.y_label_spacer;
+      //add on the space for the y-axis
+      this.summed_width += this.y_num_width + this.y_tic_width;
+      //add on the space for the stacks
+      this.summed_width += (this.stack_pad_left + this.stack_width) * logo_columns;
+      //add on the padding after the stacks (an offset from the fine text)
+      this.summed_width += this.stacks_pad_right;
+
+      //calculate scaling factors
+      this.scale_y = this.canvas_height / this.summed_height;
+      this.scale_x = this.canvas_width / this.summed_width;
+
+      //maintain aspect ratio
+      if (this.scale_y > this.scale_x) {
+        this.scale_y = this.scale_x;
+      } else {
+        this.scale_x = this.scale_y;
+      }
+
+
+    }
+
+    //======================================================================
+    // end LogoMetrics object
+    //======================================================================
+
+
+    //found this trick at http://talideon.com/weblog/2005/02/detecting-broken-images-js.cfm
+    function image_ok(img) {
+      // During the onload event, IE correctly identifies any images that
+      // weren't downloaded as not complete. Others should too. Gecko-based
+      // browsers act like NS4 in that they report this incorrectly.
+      if (!img.complete) {
+        return false;
+      }
+      // However, they do have two very useful properties: naturalWidth and
+      // naturalHeight. These give the true size of the image. If it failed
+      // to load, either of these should be zero.
+      if (typeof img.naturalWidth != "undefined" && img.naturalWidth == 0) {
+        return false;
+      }
+      // No other way of checking: assume it's ok.
+      return true;
+    }
+      
+    function supports_text(ctx) {
+      if (!ctx.fillText) return false;
+      if (!ctx.measureText) return false;
+      return true;
+    }
+
+    //draws the scale, returns the width
+    function draw_scale(ctx, metrics, alphabet_ic) {
+      var tic_height = metrics.stack_height / alphabet_ic;
+      ctx.save();
+      ctx.lineWidth = 1.5;
+      ctx.translate(metrics.y_label_height, metrics.y_num_height/2);
+      //draw the axis label
+      ctx.save();
+      ctx.font = metrics.y_label_font;
+      ctx.translate(0, metrics.stack_height/2);
+      ctx.save();
+      ctx.rotate(-(Math.PI / 2));
+      ctx.textAlign = "center";
+      ctx.fillText("bits", 0, 0);
+      ctx.restore();
+      ctx.restore();
+
+      ctx.translate(metrics.y_label_spacer + metrics.y_num_width, 0);
+
+      //draw the axis tics
+      ctx.save();
+      ctx.translate(0, metrics.stack_height);
+      ctx.font = metrics.y_num_font;
+      ctx.textAlign = "right";
+      ctx.textBaseline = "middle";
+      for (var i = 0; i <= alphabet_ic; i++) {
+        //draw the number
+        ctx.fillText("" + i, 0, 0);
+        //draw the tic
+        ctx.beginPath();
+        ctx.moveTo(0, 0);
+        ctx.lineTo(metrics.y_tic_width, 0);
+        ctx.stroke();
+        //prepare for next tic
+        ctx.translate(0, -tic_height);
+      }
+      ctx.restore();
+
+      ctx.translate(metrics.y_tic_width, 0);
+
+      ctx.beginPath();
+      ctx.moveTo(0, 0);
+      ctx.lineTo(0, metrics.stack_height);
+      ctx.stroke();
+
+      ctx.restore();
+    }
+
+    function draw_stack_num(ctx, metrics, row_index) {
+      ctx.save();
+      ctx.font = metrics.x_num_font;
+      ctx.translate(metrics.stack_width / 2, metrics.stack_height + metrics.x_num_above);
+      ctx.save();
+      ctx.rotate(-(Math.PI / 2));
+      ctx.textBaseline = "middle"
+      ctx.textAlign = "right"
+      ctx.fillText("" + (row_index + 1), 0, 0);
+      ctx.restore();
+      ctx.restore();
+    }
+
+    function draw_stack(ctx, metrics, symbols, raster) {
+      var preferred_pad = 0;
+      var sym_min = 5;
+
+      ctx.save();//1
+      ctx.translate(0, metrics.stack_height);
+      for (var i in symbols) {
+        //exclude inherited properties and undefined properties
+        if (!symbols.hasOwnProperty(i) || symbols[i] === undefined) continue;
+        
+        var sym = symbols[i];
+        var sym_height = metrics.stack_height * sym.get_scale();
+        
+        var pad = preferred_pad;
+        if (sym_height - pad < sym_min) {
+          pad = Math.min(pad, Math.max(0, sym_height - sym_min));
+        }
+        sym_height -= pad;
+
+        //translate to the correct position
+        ctx.translate(0, -(pad/2 + sym_height));
+        //draw
+        raster.draw(ctx, sym.get_symbol(), 0, 0, metrics.stack_width, sym_height);
+        //translate past the padding
+        ctx.translate(0, -(pad/2));
+      }
+      ctx.restore();//1
+    }
+
+    //draws a stack of symbols
+    function draw_stack_old(ctx, metrics, symbols) {
+      var lpad = 2;
+      var sym_min = 5;
+      var pos = metrics.stack_height;
+      for (var i in symbols) {
+        //exclude inherited properties and undefined properties
+        if (!symbols.hasOwnProperty(i) || symbols[i] === undefined) continue;
+        
+        var sym = symbols[i];
+        var sym_height = metrics.stack_height*sym.get_scale();
+        var letter = metrics.get_letter_metrics(sym.get_symbol());
+        //attempting to draw something smaller than a pixel causes display corruption
+        if (sym_height >= 1) {
+          //it's better to see the letter than to pad it
+          var pad = lpad;
+          if (sym_height - pad < sym_min) {
+            pad = Math.min(pad, Math.max(0, sym_height - sym_min));
+          }
+          //move to the correct drawing position
+          ctx.save();//s1
+          ctx.translate(0, pos);
+          //create a clipping rectangle to ensure the letter doesn't overlap when it's distorted
+          ctx.save();//s2
+          //ctx.beginPath(); //disabled clipping because after the improvements in the text metrics it looks better without
+          //ctx.moveTo(-metrics.stack_width/2,0);
+          //ctx.lineTo(metrics.stack_width/2, 0);
+          //ctx.lineTo(metrics.stack_width/2, -sym_height);
+          //ctx.lineTo(-metrics.stack_width/2, -sym_height);
+          //ctx.lineTo(-metrics.stack_width/2,0);
+          //ctx.clip();
+          //now draw
+          ctx.translate(0, -(pad/2));
+          ctx.translate(0, -letter.get_descent(sym_height - pad));
+          ctx.fillStyle = sym.get_colour();
+          ctx.textAlign = "center";
+          ctx.save();//s3
+          ctx.scale(letter.wscale, letter.get_hscale(sym_height - pad));
+          ctx.fillText(sym.get_symbol(), 0, 0);
+          ctx.restore();//s3
+
+          ctx.restore();//s2
+          ctx.restore();//s1
+        }
+
+        pos = pos - sym_height;
+      }
+    }
+    
+    function draw_dashed_line(ctx, pattern, start, x1, y1, x2, y2) {
+        var x, y, len, i;
+        var dx = x2 - x1;
+        var dy = y2 - y1;
+        var tlen = Math.pow(dx*dx + dy*dy, 0.5);
+        var theta = Math.atan2(dy,dx);
+        var mulx = Math.cos(theta);
+        var muly = Math.sin(theta);
+        var lx = [];
+        var ly = [];
+        for (i = 0; i < pattern; ++i) {
+          lx.push(pattern[i] * mulx);
+          ly.push(pattern[i] * muly);
+        }
+        i = start;
+        x = x1;
+        y = y1;
+        len = 0;
+        ctx.beginPath();
+        while (len + pattern[i] < tlen) {
+          ctx.moveTo(x, y);
+          x += lx[i];
+          y += ly[i];
+          ctx.lineTo(x, y);
+          len += pattern[i];
+          i = (i + 1) % pattern.length;
+          x += lx[i];
+          y += ly[i];
+          len += pattern[i];
+          i = (i + 1) % pattern.length;
+        }
+        if (len < tlen) {
+          ctx.moveTo(x, y);
+          x += mulx * (tlen - len);
+          y += muly * (tlen - len);
+          ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+    }
+
+    function draw_trim_background(ctx, metrics, pspm, offset) {
+      var lwidth = metrics.stack_width * pspm.get_left_trim();
+      var rwidth = metrics.stack_width * pspm.get_right_trim();
+      var mwidth = metrics.stack_width * pspm.get_motif_length();
+      var rstart = mwidth - rwidth;
+      ctx.save();//s8
+      ctx.translate(offset * metrics.stack_width, 0);
+      ctx.fillStyle = "rgb(240, 240, 240)";
+      if (pspm.get_left_trim() > 0) ctx.fillRect(0, 0, lwidth, metrics.stack_height);
+      if (pspm.get_right_trim() > 0) ctx.fillRect(rstart, 0, rwidth, metrics.stack_height);
+      ctx.fillStyle = "rgb(51, 51, 51)";
+      if (pspm.get_left_trim() > 0) draw_dashed_line(ctx, [3], 0, lwidth-0.5, 0, lwidth-0.5,  metrics.stack_height);
+      if (pspm.get_right_trim() > 0) draw_dashed_line(ctx, [3], 0, rstart+0.5, 0, rstart+0.5,  metrics.stack_height);
+      ctx.restore();//s8
+    }
+
+    function draw_logo_on_canvas(logo, canvas, show_names, scale) {
+      var draw_name = (typeof show_names == "boolean" ? show_names : (logo.get_rows() > 1));
+      var cwidth = canvas.width;
+      var cheight = canvas.height;
+      //need a minimum 46 x 120 canvas to draw the font size checks on
+      if (canvas.width < 46) canvas.width = 46;
+      if (canvas.height < 120) canvas.height = 120;
+      var ctx = canvas.getContext('2d');
+      //assume that the user wants the canvas scaled equally so calculate what the best width for this image should be
+      var metrics = new LogoMetrics(ctx, canvas.width, canvas.height, logo.get_columns(), logo.get_rows(), draw_name);
+      ctx.save();//s1
+      if (typeof scale == "number") {
+        //resize the canvas to fit the scaled logo
+        cwidth = metrics.summed_width * scale;
+        cheight = metrics.summed_height * scale;
+      } else {
+        if (cwidth == 0 && cheight == 0) {
+          throw "CANVAS_MUST_HAVE_DIMENSIONS";
+        } else if (cwidth == 0) {
+          scale = cheight / metrics.summed_height;
+          cwidth = metrics.summed_width * scale;
+        } else if (cheight == 0) {
+          scale = cwidth / metrics.summed_width;
+          cheight = metrics.summed_height * scale;
+        } else {
+          scale = Math.min(cwidth / metrics.summed_width, cheight / metrics.summed_height);
+        }
+      }
+      var raster = new RasterizedAlphabet(logo.alphabet, metrics.stack_font, metrics.stack_width * scale * 2);
+      if (cwidth != canvas.width || cheight != canvas.height) {
+        canvas.width = cwidth;
+        canvas.height = cheight;
+        //as the canvas has been resized the context is now out of date
+        ctx = canvas.getContext('2d');
+      }
+      ctx.scale(scale, scale);
+      ctx.save();//s2
+      ctx.save();//s7
+      //create margin
+      ctx.translate(metrics.pad_left, metrics.pad_top);
+      for (var pspm_i = 0; pspm_i < logo.get_rows(); ++pspm_i) {
+        var pspm = logo.get_pspm(pspm_i);
+        var offset = logo.get_offset(pspm_i);
+        //optionally draw name if this isn't the last row or is the only row 
+        if (draw_name && (logo.get_rows() == 1 || pspm_i != (logo.get_rows()-1))) {
+          ctx.save();//s4
+          ctx.translate(metrics.summed_width/2, metrics.name_height);
+          ctx.font = metrics.name_font;
+          ctx.textAlign = "center";
+          ctx.fillText(pspm.name, 0, 0);
+          ctx.restore();//s4
+          ctx.translate(0, metrics.name_height + Math.min(0, metrics.name_spacer - metrics.y_num_height/2));
+        }
+        //draw scale
+        draw_scale(ctx, metrics, logo.alphabet.get_ic());
+        ctx.save();//s5
+        //translate across past the scale
+        ctx.translate(metrics.y_label_height + metrics.y_label_spacer + 
+            metrics.y_num_width + metrics.y_tic_width, 0);
+        //draw the trimming background
+        if (pspm.get_left_trim() > 0 || pspm.get_right_trim() > 0) {
+          draw_trim_background(ctx, metrics, pspm, offset);
+        }
+        //draw letters
+        ctx.translate(0, metrics.y_num_height / 2);
+        for (var col_index = 0; col_index < logo.get_columns(); col_index++) {
+          ctx.translate(metrics.stack_pad_left,0);
+          if (col_index >= offset && col_index < (offset + pspm.get_motif_length())) {
+            var motif_position = col_index - offset;
+            draw_stack_num(ctx, metrics, motif_position);
+            draw_stack(ctx, metrics, pspm.get_stack(motif_position, logo.alphabet), raster);
+          }
+          ctx.translate(metrics.stack_width, 0);
+        }
+        ctx.restore();//s5
+        ////optionally draw name if this is the last row but isn't the only row 
+        if (draw_name && (logo.get_rows() != 1 && pspm_i == (logo.get_rows()-1))) {
+          //translate vertically past the stack and axis's        
+          ctx.translate(0, metrics.y_num_height/2 + metrics.stack_height + 
+              Math.max(metrics.y_num_height/2, metrics.x_num_above + metrics.x_num_width + metrics.name_spacer));
+
+          ctx.save();//s6
+          ctx.translate(metrics.summed_width/2, metrics.name_height);
+          ctx.font = metrics.name_font;
+          ctx.textAlign = "center";
+          ctx.fillText(pspm.name, 0, 0);
+          ctx.restore();//s6
+          ctx.translate(0, metrics.name_height);
+        } else {
+          //translate vertically past the stack and axis's        
+          ctx.translate(0, metrics.y_num_height/2 + metrics.stack_height + Math.max(metrics.y_num_height/2, metrics.x_num_above + metrics.x_num_width));
+        }
+        //if not the last row then add middle padding
+        if (pspm_i != (logo.get_rows() -1)) {
+          ctx.translate(0, metrics.pad_middle);
+        }
+      }
+      ctx.restore();//s7
+      ctx.translate(metrics.summed_width - metrics.pad_right, metrics.summed_height - metrics.pad_bottom);
+      ctx.font = metrics.fine_txt_font;
+      ctx.textAlign = "right";
+      ctx.fillText(logo.fine_text, 0,0);
+      ctx.restore();//s2
+      ctx.restore();//s1
+    }
+
+    function create_canvas(c_width, c_height, c_id, c_title, c_display) {
+      var canvas = document.createElement("canvas");
+      //check for canvas support before attempting anything
+      if (!canvas.getContext) return null;
+      var ctx = canvas.getContext('2d');
+      //check for html5 text drawing support
+      if (!supports_text(ctx)) return null;
+      //size the canvas
+      canvas.width = c_width;
+      canvas.height = c_height;
+      canvas.id = c_id;
+      canvas.title = c_title;
+      canvas.style.display = c_display;
+      return canvas;
+    }
+
+    function logo_1(alphabet, fine_text, pspm) {
+      var logo = new Logo(alphabet, fine_text);
+      logo.add_pspm(pspm);
+      return logo;
+    }
+    
+    function logo_2(alphabet, fine_text, target, query, query_offset) {
+      var logo = new Logo(alphabet, fine_text);
+      if (query_offset < 0) {
+        logo.add_pspm(target, -query_offset);
+        logo.add_pspm(query);
+      } else {
+        logo.add_pspm(target);
+        logo.add_pspm(query, query_offset);
+      }      
+      return logo;
+    }
+
+    /*
+     * Specifies an alternate source for an image.
+     * If the image with the image_id specified has
+     * not loaded then a generated logo will be used 
+     * to replace it.
+     *
+     * Note that the image must either have dimensions
+     * or a scale must be set.
+     */
+    function alternate_logo(logo, image_id, scale) {
+      var image = document.getElementById(image_id);
+      if (!image) {
+        alert("Can't find specified image id (" +  image_id + ")");
+        return;
+      }
+      //if the image has loaded then there is no reason to use the canvas
+      if (image_ok(image)) return;
+      //the image has failed to load so replace it with a canvas if we can.
+      var canvas = create_canvas(image.width, image.height, image_id, image.title, image.style.display);
+      if (canvas == null) return;
+      //draw the logo on the canvas
+      draw_logo_on_canvas(logo, canvas, undefined, scale);
+      //replace the image with the canvas
+      image.parentNode.replaceChild(canvas, image);
+    }
+
+    /*
+     * Specifes that the element with the specified id
+     * should be replaced with a generated logo.
+     */
+    function replace_logo(logo, replace_id, scale, title_txt, display_style) {
+      var element = document.getElementById(replace_id);
+      if (!replace_id) {
+        alert("Can't find specified id (" + replace_id + ")");
+        return;
+      }
+      //found the element!
+      var canvas = create_canvas(50, 120, replace_id, title_txt, display_style);
+      if (canvas == null) return;
+      //draw the logo on the canvas
+      draw_logo_on_canvas(logo, canvas, undefined, scale);
+      //replace the element with the canvas
+      element.parentNode.replaceChild(canvas, element);
+    }
+
+    /*
+     * Fast string trimming implementation found at
+     * http://blog.stevenlevithan.com/archives/faster-trim-javascript
+     *
+     * Note that regex is good at removing leading space but
+     * bad at removing trailing space as it has to first go through
+     * the whole string.
+     */
+    function trim (str) {
+      str = str.replace(/^\s\s*/, '');
+      var ws = /\s/, i = str.length;
+      while (ws.test(str.charAt(--i)));
+      return str.slice(0, i + 1);
+    }
+    /* END INCLUDED FILE "motif_logo.js" */
+    
+  
+    
+    /* START INCLUDED FILE "spamo_graph.js" */
+      var SpamoEnum = {"INTEGER" : 1, "DECIMAL" : 2, "STRING" : 3, "CMD" : 4, "COMMENT" : 5, "EOF" : 6, "ERROR" : 7};
+
+      var SpamoConstants = {
+        "size_title" : 18,
+        "font_title" : "normal 18px Times, sans-serif",
+        "size_subtitle" : 14,
+        "font_subtitle" : "normal 14px Times, sans-serif",
+        //font for the axis descriptions
+        "size_axis" : 12,
+        "font_axis" : "normal 12px Times, sans-serif",
+        //font for the numbers on the axis
+        "size_label" : 8,
+        "font_label" : "normal 8px Times, sans-serif",
+        "size_tic" : 2,
+        "spacer_tic" : 2,
+        "spacer_side" : 5,
+        "spacer_top" : 5,
+        "spacer_bottom" : 5,
+        "spacer_title" : 0,
+        "spacer_subtitle" : 5,
+        "spacer_axis" : 0,
+        "spacer_base" : 3,
+        "spacer_mid" : 10,
+        "spacer_border" : 5,
+        "y_axis_label_start" : "# of Sequences with Spacing (total = ",
+        "y_axis_label_end" : ")",
+        "x_axis_label" : "Spacings from Primary to Secondary Motif (Gap)",
+        "same_strand_label" : "Same Strand",
+        "oppo_strand_label" : "Opposite Strand",
+        "upstream_label" : "Upstream",
+        "downstream_label" : "Downstream",
+      };
+
+      var SpamoMeasureBox;
+
+      /*
+       * Measures the character heights in string
+       * by painting them over the top of each other and finding the
+       * bounding box. Returns the height of the total string
+       * as well as calculating the vertical centering offset.
+       */
+      function string_height(text, font, size) {
+        var i, x, y, box;
+        x = size / 2;
+        y = size + (size / 2);
+        if (!SpamoMeasureBox) SpamoMeasureBox = document.createElement("canvas");
+        SpamoMeasureBox.width = size * 2;
+        SpamoMeasureBox.height = size * 2;
+        ctx = SpamoMeasureBox.getContext('2d');
+        ctx.font = font;
+        for (i = 0; i < text.length; ++i) {
+          ctx.fillText(text.charAt(i), x, y);
+        }
+        box = bbox(ctx, size * 2, size * 2, true);
+
+        return {height: box.height, vcenteroffset: (box.height / 2)}
+      }
+
+      /*
+       * Calculates a tight bounding box on the contents of a canvas
+       */
+      function bbox(ctx, cwidth, cheight, skip_width_calculation, skip_height_calculation) {
+        if (typeof skip_width_calculation != 'boolean') skip_width_calculation = false;
+        if (typeof skip_height_calculation != 'boolean') skip_height_calculation = false;
+        if (skip_width_calculation && skip_height_calculation) throw "bbox: can't skip calculation of both width and height";
+        var data = ctx.getImageData(0, 0, cwidth, cheight).data;
+        var r = 0, c = 0;// r: row, c: column
+        var top_line = -1, bottom_line = -1, left_line = -1, right_line = -1;
+        var box_width = 0, box_height = 0;
+        if (!skip_height_calculation) {
+          // Find the top-most line with a non-white pixel
+          for (r = 0; r < cheight; r++) {
+            for (c = 0; c < cwidth; c++) {
+              if (data[r * cwidth * 4 + c * 4 + 3]) {
+                top_line = r;
+                break;
+              }
+            }
+            if (top_line != -1) break;
+          }
+          
+          //find the last line with a non-white pixel
+          if (top_line != -1) {
+            for (r = cheight-1; r >= top_line; r--) {
+              for(c = 0; c < cwidth; c++) {
+                if(data[r * cwidth * 4 + c * 4 + 3]) {
+                  bottom_line = r;
+                  break;
+                }
+              }
+              if (bottom_line != -1) break;
+            }
+            box_height = bottom_line - top_line + 1;
+          }
+        }
+
+        if (!skip_width_calculation) {
+          // Find the left-most line with a non-white pixel
+          for (c = 0; c < cwidth; c++) {
+            for (r = 0; r < cheight; r++) {
+              if (data[r * cwidth * 4 + c * 4 + 3]) {
+                left_line = c;
+                break;
+              }
+            }
+            if (left_line != -1) break;
+          }
+
+          //find the right most line with a non-white pixel
+          if (left_line != -1) {
+            for (c = cwidth-1; c >= left_line; c--) {
+              for(r = 0; r < cheight; r++) {
+                if(data[r * cwidth * 4 + c * 4 + 3]) {
+                  right_line = c;
+                  break;
+                }
+              }
+              if (right_line != -1) break;
+            }
+            box_width = right_line - left_line + 1;
+          }
+        }
+        //return the bounds
+        if (!skip_height_calculation && !skip_width_calculation) {
+          return {top: top_line, bottom: bottom_line, left: left_line, right: right_line, width: box_width, height: box_height};
+        } else if (!skip_height_calculation) {
+          return {top: top_line, bottom: bottom_line, height: box_height};
+        } else {
+          return {left: left_line, right: right_line, width: box_width};
+        }
+      }
+
+
+      function SpamoHistogram(text) {
+        //initialise graph state to default
+        this.graph_title = "";
+        this.graph_margin = 150;
+        this.graph_mlength = 10;
+        this.graph_binsize = 1;
+        this.graph_binmax = 50;
+        this.graph_sequences = 0;
+        this.graph_significant = 0.05;
+        this.graph_has_border = false;
+        this.graph_has_subtitle = false;
+        this.graph_has_y_axis_label = true;
+        this.graph_has_x_axis_label = true;
+        this.graph_has_stream_label = false;
+        this.graph_has_strand_label = false;
+        
+
+        var tokeniser = new SpamoTokeniser(text);
+        var token = tokeniser.next();
+        var stack = [];
+        while (token.type != SpamoEnum.EOF) {
+          switch (token.type) {
+            case SpamoEnum.ERROR:
+              die(token.value);
+            case SpamoEnum.INTEGER:
+            case SpamoEnum.DECIMAL:
+            case SpamoEnum.STRING:
+              stack.push(token);
+              break;
+            case SpamoEnum.CMD:
+              if (token.value == "title") {
+                var title = stack.pop();
+                if (title === undefined || title.type != SpamoEnum.STRING) die("Command 'title' expects string on stack.");
+                this.graph_title = title.value;
+              } else if (token.value == "margin") {
+                var margin = stack.pop();
+                if (margin === undefined || margin.type != SpamoEnum.INTEGER) die("Command 'margin' expects integer on stack.");
+                if (margin.value <= 0) die("Command 'margin' expects an integer 1 or larger.");
+                this.graph_margin = margin.value;
+              } else if (token.value == "motif-length") {
+                var mlen = stack.pop();
+                if (mlen === undefined || mlen.type != SpamoEnum.INTEGER) die("Command 'motif-length' expects integer on stack.");
+                if (mlen.value <= 0) die("Command 'motif-length' expects an integer 1 or larger.");
+                this.graph_mlength = mlen.value;
+              } else if (token.value == "bin-size") {
+                var bin = stack.pop();
+                if (bin === undefined || bin.type != SpamoEnum.INTEGER) die("Command 'bin-size' expects integer on stack.");
+                if (bin.value <= 0) die("Command 'bin-size' expects an integer 1 or larger.");
+                this.graph_binsize = bin.value;
+              } else if (token.value == "bin-max") {
+                var bin_max = stack.pop();
+                if (bin_max === undefined || bin_max.type != SpamoEnum.INTEGER) die("Command 'bin-max' expects integer on stack.");
+                if (bin_max.value < 0) die("Command 'bin-max' expects a positive integer.");
+                this.graph_binmax = bin_max.value;
+              } else if (token.value == "sequences") {
+                var sequences = stack.pop();
+                if (sequences === undefined || bin_max.type != SpamoEnum.INTEGER) die("Command 'sequences' expects integer on stack.");
+                if (sequences.value < 0) die("Command 'sequences' expects a positive integer.");
+                this.graph_sequences = sequences.value;
+              } else if (token.value == "threshold") {
+                var thresh = stack.pop();
+                if (thresh === undefined || (thresh.type != SpamoEnum.INTEGER && thresh.type != SpamoEnum.DECIMAL)) 
+                  die("Command 'threshold' expects a number on stack.");
+                if (thresh.value < 0 || thresh.value >= 1) die("Command 'threshold' expects 0 <= value < 1.");
+                this.graph_significant = thresh.value;
+              } else if (token.value == "show-border") {
+                this.graph_has_border = true;
+              } else if (token.value == "show-subtitle") {
+                this.graph_has_subtitle = true;
+              } else if (token.value == "hide-y-axis-label") {
+                this.graph_has_y_axis_label = false;
+              } else if (token.value == "hide-x-axis-label") {
+                this.graph_has_x_axis_label = false;
+              } else if (token.value == "show-stream-labels") {
+                this.graph_has_stream_label = true;
+              } else if (token.value == "show-strand-labels") {
+                this.graph_has_strand_label = true;
+              } else {
+                die("Unknown command '"+token.value+"'");
+              }
+          }
+          token = tokeniser.next();
+        }
+        //calculate bin count to read in the bin values
+        var possible_count = this.graph_margin - this.graph_mlength + 1;
+        var bin_count = Math.floor(possible_count / this.graph_binsize) + (possible_count % this.graph_binsize > 1 ? 1 : 0);
+        var i;
+        
+        //get the bins
+        this.bins_opposite_right = SpamoHistogram_bins(stack, bin_count);
+        this.bins_opposite_left = SpamoHistogram_bins(stack, bin_count);
+        this.bins_same_right = SpamoHistogram_bins(stack, bin_count);
+        this.bins_same_left = SpamoHistogram_bins(stack, bin_count);
+
+        //check the stack
+        if (stack.length != 0) die("Everything loaded but stack not empty!");
+
+        //calculate variables
+        this.graph_has_title = this.graph_title.length > 0;
+        this.graph_subtitle = "margin: " + this.graph_margin + "   bin size: " + this.graph_binsize;
+        this.y_axis_max = (Math.floor(this.graph_binmax / 5) + 1) * 5;
+        this.full_bin_count = Math.floor((this.graph_margin - this.graph_mlength + 1) / this.graph_binsize);
+      }
+
+      function SpamoHistogram_bins(stack, bin_count) {
+        bins = new Array(bin_count);
+        for (i = bin_count - 1; i >= 0; --i) {
+          var pvalue = stack.pop();
+          if (pvalue === undefined || (pvalue.type != SpamoEnum.INTEGER && pvalue.type != SpamoEnum.DECIMAL) 
+              || pvalue.value < 0 || pvalue.value > 1) die("Expected pvalue on stack.");
+          var count = stack.pop();
+          if (count === undefined || (count.type != SpamoEnum.INTEGER && count.type != SpamoEnum.DECIMAL)
+              || count.value < 0) die("Expected count on stack.");
+          bins[i] = new SpamoBin(count.value, pvalue.value); 
+        }
+        return bins;
+      }
+
+      function SpamoBin(count, pvalue) {
+        this.count = count;
+        this.pvalue = pvalue;
+      }
+
+      function SpamoTokeniser(text) {
+        this.text = text;
+        this.pos = 0;
+        this.next = SpamoTokeniser_next;
+      }
+
+      function SpamoTokeniser_next() {
+        var whitespace = /\s/;
+        //skip over whitespace
+        for (;this.pos < this.text.length; this.pos++) {
+          if (!this.text.charAt(this.pos).match(whitespace)) break;
+        }
+        //check for eof
+        if (this.pos >= this.text.length) return new SpamoToken(SpamoEnum.EOF, null);
+        //check for a comment
+        if (this.text.charAt(this.pos) == '%') {
+          this.pos++;
+          //find the next new line
+          var eol = this.text.indexOf("\n", this.pos);
+          var line;
+          if (eol == -1) {
+            //last line in file!
+            line = this.text.substring(this.pos);
+            this.pos = this.text.length;
+          } else {
+            line = this.text.substring(this.pos, eol);
+            this.pos = eol + 1;
+          }
+          return new SpamoToken(SpamoEnum.COMMENT, line);
+        }
+        //check for a string
+        if (this.text.charAt(this.pos) == '(') {
+          var start = ++this.pos;
+          var eos;
+          while (true) {
+            //find the end of the string
+            eos = this.text.indexOf(")", this.pos);
+            if (eos == -1) {
+              //uhoh, unterminated string!
+              return new SpamoToken(SpamoEnum.ERROR, "Unterminated string at " + this.pos);
+            }
+            this.pos = eos+1;
+            if (this.text.charAt(eos-1) != "\\") break;
+          }
+          return new SpamoToken(SpamoEnum.STRING, this.text.substring(start, eos));
+        }
+        //read the next word
+        {
+          var start = this.pos;
+          for (;this.pos < this.text.length; this.pos++) {
+            if (this.text.charAt(this.pos).match(whitespace)) break;
+          }
+          var word = this.text.substring(start, this.pos);
+          //check for integer
+          if (word.match(/^\d+$/)) {
+            return new SpamoToken(SpamoEnum.INTEGER, parseInt(word, 10));
+          }
+          //check for decimal
+          var num = word * 1;
+          if (!isNaN(num)) {
+            return new SpamoToken(SpamoEnum.DECIMAL, num);
+          }
+          //assume must be command
+          return new SpamoToken(SpamoEnum.CMD, word);
+        } 
+      }
+
+      function SpamoToken(type, value) {
+        this.type = type;
+        this.value = value;
+      }
+
+      function SpamoMetrics(spamo, canvas, ctx) {
+        var i;
+
+        this.width = canvas.width;
+        this.height = canvas.height;
+
+        //count axis numbers width
+        this.count_width = 0;
+        ctx.font = SpamoConstants.font_label;
+        for (i = 0; i <= spamo.y_axis_max; i+= 5) {
+          var width = ctx.measureText("" + i).width;
+          if (width > this.count_width) {
+            this.count_width = width;
+          }
+        }
+        //spacing axis numbers width
+        this.spacing_width = 0;
+        ctx.font = SpamoConstants.font_label;
+        for (i = -spamo.graph_margin; i <= spamo.graph_margin; ++i) {
+          var width = ctx.measureText("" + i).width;
+          if (width > this.spacing_width) {
+            this.spacing_width = width;
+          }
+        }
+        //calculate the height of a quadrant
+        this.quad_height = this.height;
+        if (spamo.graph_has_border) {
+          this.quad_height -= 2 * SpamoConstants.spacer_border;
+        }
+        this.quad_height -= SpamoConstants.spacer_top;
+        if (spamo.graph_has_title) {
+          this.quad_height -= SpamoConstants.size_title;
+        }
+        if (spamo.graph_has_title && spamo.graph_has_subtitle) {
+          this.quad_height -= SpamoConstants.spacer_title;
+        }
+        if (spamo.graph_has_subtitle) {
+          this.quad_height -= SpamoConstants.size_subtitle;
+        }
+        if (spamo.graph_has_title || spamo.graph_has_subtitle) {
+          this.quad_height -= SpamoConstants.spacer_subtitle;
+        }
+        if (spamo.graph_has_stream_label) {
+          this.quad_height -= SpamoConstants.size_axis;
+        }
+        this.quad_height -= SpamoConstants.spacer_base * 2;
+        this.quad_height -= this.spacing_width;
+        if (spamo.graph_has_x_axis_label) {
+          this.quad_height -= SpamoConstants.spacer_axis + SpamoConstants.size_axis;
+        }
+        this.quad_height -= SpamoConstants.spacer_bottom;
+        this.quad_height /= 2;
+
+        //calculate the max width of a quadrant
+        this.quad_max_width = this.width;
+        if (spamo.graph_has_border) {
+          this.quad_max_width -= 2 * SpamoConstants.spacer_border;
+        }
+        this.quad_max_width -= 2 * SpamoConstants.spacer_side;
+        if (spamo.graph_has_y_axis_label) {
+          this.quad_max_width -= SpamoConstants.size_axis + SpamoConstants.spacer_axis; 
+        }
+        this.quad_max_width -= this.count_width + SpamoConstants.spacer_tic + SpamoConstants.spacer_mid;
+        if (spamo.graph_has_strand_label) {
+          this.quad_max_width -= SpamoConstants.size_axis + SpamoConstants.spacer_axis;
+        }
+        this.quad_max_width /= 2;
+
+        //calculate the width of a graph bar the size of a single unit
+        this.unit_width = this.quad_max_width / spamo.graph_margin;
+        if (this.unit_width > 1) this.unit_width = Math.floor(this.unit_width);
+
+        //calculate the width of the first possible bar
+        this.partial_bar_width = ((spamo.graph_margin - spamo.graph_mlength + 1) % spamo.graph_binsize) * this.unit_width;
+
+        //calculate the width of a full bar
+        this.full_bar_width = this.unit_width * spamo.graph_binsize;
+
+        //calculate the true width of a quadrant
+        this.quad_width = this.unit_width * spamo.graph_margin;
+
+        //add the excess onto the central spacer
+        this.spacer_mid = SpamoConstants.spacer_mid + (this.quad_max_width - this.quad_width) * 2;
+
+        //calculate the left quad
+        this.left_quad = 0;
+        if (spamo.graph_has_border) {
+          this.left_quad += SpamoConstants.spacer_border;
+        }
+        this.left_quad += SpamoConstants.spacer_side;
+        if (spamo.graph_has_y_axis_label) {
+          this.left_quad += SpamoConstants.size_axis + SpamoConstants.spacer_axis;
+        }
+        this.left_quad += this.count_width + SpamoConstants.spacer_tic + SpamoConstants.size_tic;
+
+        //calculate the right quad
+        this.right_quad = this.left_quad + this.quad_width + this.spacer_mid;
+
+        //calculate the bottom quad
+        this.bottom_quad = 0;
+        if (spamo.graph_has_border) {
+          this.bottom_quad += SpamoConstants.spacer_border;
+        }
+        this.bottom_quad += SpamoConstants.spacer_bottom;
+        if (spamo.graph_has_x_axis_label) {
+          this.bottom_quad += SpamoConstants.size_axis + SpamoConstants.spacer_axis;
+        }
+
+        //calculate the top quad
+        this.top_quad = this.bottom_quad + this.quad_height + (2 * SpamoConstants.spacer_base) + this.spacing_width;
+        
+        
+      }
+
+      function calculate_spamo_bar_height(spamo, metrics, counts) {
+        return (counts / spamo.y_axis_max) * metrics.quad_height;
+      }
+
+      function die(msg) {
+        throw msg;
+      }
+
+      function draw_spamo_border(spamo, metrics, ctx) {
+        var bdr = SpamoConstants.spacer_border;
+        var bdr2 = 2 * bdr;
+        //add on 0.5 so the rectangle is in the center of a pixel and so is only 1 pixel wide
+        ctx.strokeRect(bdr + 0.5, bdr + 0.5, metrics.width - bdr2, metrics.height - bdr2); 
+      }
+
+      function draw_spamo_title(spamo, metrics, ctx) {
+        ctx.font = SpamoConstants.font_title;
+        var title_width = ctx.measureText(spamo.graph_title).width;
+        var x = (metrics.width / 2) - (title_width / 2);
+        var y = metrics.height - SpamoConstants.spacer_top - SpamoConstants.size_title;
+        if (spamo.graph_has_border) {
+          y -= SpamoConstants.spacer_border;
+        }
+        ctx.fillText(spamo.graph_title, x, metrics.height - y);
+      }
+
+      function draw_spamo_subtitle(spamo, metrics, ctx) {
+        ctx.font = SpamoConstants.font_subtitle;
+        var subtitle_width = ctx.measureText(spamo.graph_subtitle).width;
+        var x = (metrics.width / 2) - (subtitle_width / 2);
+        var y = metrics.height - SpamoConstants.spacer_top - SpamoConstants.size_subtitle;
+        if (spamo.graph_has_border) {
+          y -= SpamoConstants.spacer_border;
+        }
+        if (spamo.graph_has_title) {
+          y -= (SpamoConstants.size_title + SpamoConstants.spacer_title);
+        }
+        ctx.fillText(spamo.graph_subtitle, x, metrics.height - y);
+      }
+
+      function draw_spamo_y_axis_label(spamo, metrics, ctx) {
+        ctx.font = SpamoConstants.font_axis;
+        var txt = SpamoConstants.y_axis_label_start + spamo.graph_sequences + SpamoConstants.y_axis_label_end;
+        var axislabel_width = ctx.measureText(txt).width;
+        var x = SpamoConstants.spacer_side + SpamoConstants.size_axis;
+        if (spamo.graph_has_border) {
+          x += SpamoConstants.spacer_border;
+        }
+        var y = (metrics.height / 2) - (axislabel_width / 2);
+        ctx.save();
+        ctx.translate(x, metrics.height - y);
+        ctx.rotate(-(Math.PI / 2));
+        ctx.fillText(txt, 0, 0);
+        ctx.restore();
+      }
+
+      function draw_spamo_x_axis_label(spamo, metrics, ctx) {
+        ctx.font = SpamoConstants.font_axis;
+        var axislabel_width = ctx.measureText(SpamoConstants.x_axis_label).width;
+        var x = (metrics.width / 2) - (axislabel_width / 2);
+        var y = SpamoConstants.spacer_bottom;
+        if (spamo.graph_has_border) {
+          y += SpamoConstants.spacer_border;
+        }
+        ctx.fillText(SpamoConstants.x_axis_label, x, metrics.height - y);
+      }
+
+      function draw_spamo_strand_labels(spamo, metrics, ctx) {
+        ctx.font = SpamoConstants.font_axis;
+        var upstream_width = ctx.measureText(SpamoConstants.upstream_label).width;
+        var downstream_width = ctx.measureText(SpamoConstants.downstream_label).width;
+        var y = metrics.top_quad + metrics.quad_height;
+        var x = metrics.left_quad + (metrics.quad_width / 2) - (upstream_width / 2);
+        ctx.fillText(SpamoConstants.upstream_label, x, metrics.height - y);
+        x = metrics.right_quad + (metrics.quad_width / 2) - (downstream_width / 2);
+        ctx.fillText(SpamoConstants.downstream_label, x, metrics.height - y);
+      }
+
+      function draw_spamo_stream_labels(spamo, metrics, ctx) {
+        ctx.font = SpamoConstants.font_axis;
+        var same_strand_width = ctx.measureText(SpamoConstants.same_strand_label).width;
+        var oppo_strand_width = ctx.measureText(SpamoConstants.oppo_strand_label).width;
+        var x = metrics.right_quad + metrics.quad_width + SpamoConstants.spacer_axis + SpamoConstants.size_axis;
+        var y = metrics.top_quad + (metrics.quad_height / 2) - (same_strand_width / 2);
+        ctx.save();
+        ctx.translate(x, metrics.height - y);
+        ctx.rotate(-(Math.PI / 2));
+        ctx.fillText(SpamoConstants.same_strand_label, 0, 0);
+        ctx.restore();
+        y = metrics.bottom_quad + (metrics.quad_height / 2) - (oppo_strand_width / 2);
+        ctx.save();
+        ctx.translate(x, metrics.height - y);
+        ctx.rotate(-(Math.PI / 2));
+        ctx.fillText(SpamoConstants.oppo_strand_label, 0, 0);
+        ctx.restore();
+      }
+
+      function draw_spamo_y_axis_part(spamo, metrics, ctx, start_y, height) {
+        ctx.font = SpamoConstants.font_label;
+        ctx.beginPath();
+        ctx.moveTo(metrics.left_quad - 0.5, metrics.height - start_y);
+        ctx.lineTo(metrics.left_quad - 0.5, metrics.height - (start_y + height));
+        ctx.stroke();
+        //y_inc = -(height / spamo.y_axis_max * 5);
+	n_y_tics = 10
+	i_inc = Math.max(1, Math.floor(spamo.y_axis_max/n_y_tics));
+        y_inc = -(height / spamo.y_axis_max * i_inc);
+        ctx.save();
+        ctx.translate(metrics.left_quad, metrics.height - start_y);
+        //for (i = 0; i <= spamo.y_axis_max; i += 5) {
+        for (i = 0; i <= spamo.y_axis_max; i += i_inc) {
+          var lbl = "" + i;
+          var lbl_width = ctx.measureText(lbl).width;
+          var lbl_heightbox = string_height(lbl, SpamoConstants.font_label, SpamoConstants.size_label);
+          var x = -(lbl_width + SpamoConstants.size_tic);
+          var y = lbl_heightbox.vcenteroffset;
+          //draw text
+          ctx.fillText(lbl, x, y);
+
+          //draw tic
+          ctx.beginPath();
+          ctx.moveTo(0, 0.5);
+          ctx.lineTo(-SpamoConstants.size_tic, 0.5);
+          ctx.stroke();
+
+          ctx.translate(0, y_inc);
+        }
+        ctx.restore();
+      }
+
+      function draw_spamo_y_axis(spamo, metrics, ctx) {
+        draw_spamo_y_axis_part(spamo, metrics, ctx, metrics.top_quad, metrics.quad_height);  
+        draw_spamo_y_axis_part(spamo, metrics, ctx, metrics.bottom_quad + metrics.quad_height, -metrics.quad_height);  
+      }
+
+      function draw_spamo_divider_part(spamo, metrics, ctx, x, y, len, dir) {
+        var offset;
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        offset = 1;
+        while (offset <= len) {
+          ctx.lineTo(x, y + offset * dir);
+          offset += 2;
+          ctx.moveTo(x, y + offset * dir);
+          offset += 1;
+        }
+
+        ctx.stroke();
+      }
+
+      function draw_spamo_divider(spamo, metrics, ctx) {
+        draw_spamo_divider_part(spamo, metrics, ctx, metrics.left_quad + metrics.quad_width + 0.5, 
+            metrics.height - metrics.top_quad, metrics.quad_height, -1);
+
+        draw_spamo_divider_part(spamo, metrics, ctx, metrics.right_quad - 0.5, 
+            metrics.height - metrics.top_quad, metrics.quad_height, -1);
+
+        draw_spamo_divider_part(spamo, metrics, ctx, metrics.left_quad + metrics.quad_width + 0.5, 
+            metrics.height - (metrics.bottom_quad + metrics.quad_height), metrics.quad_height, 1);
+
+        draw_spamo_divider_part(spamo, metrics, ctx, metrics.right_quad - 0.5, 
+            metrics.height - (metrics.bottom_quad + metrics.quad_height), metrics.quad_height, 1);
+      }
+
+      function draw_spamo_motif_boundary(spamo, metrics, ctx) {
+        if (spamo.graph_mlength == 1) return;
+        var offset = metrics.unit_width * (spamo.graph_mlength - 1);
+
+        draw_spamo_divider_part(spamo, metrics, ctx, metrics.left_quad + offset - 0.5,
+            metrics.height - metrics.top_quad, metrics.quad_height, -1);
+
+        draw_spamo_divider_part(spamo, metrics, ctx, metrics.right_quad + metrics.quad_width - offset + 0.5, 
+            metrics.height - metrics.top_quad, metrics.quad_height, -1);
+
+        draw_spamo_divider_part(spamo, metrics, ctx, metrics.left_quad + offset - 0.5, 
+            metrics.height - (metrics.bottom_quad + metrics.quad_height), metrics.quad_height, 1);
+
+        draw_spamo_divider_part(spamo, metrics, ctx, metrics.right_quad + metrics.quad_width - offset + 0.5, 
+            metrics.height - (metrics.bottom_quad + metrics.quad_height), metrics.quad_height, 1);
+      }
+
+      function draw_spamo_ender(spamo, metrics, ctx) {
+        var left = metrics.right_quad + metrics.quad_width + 0.5;
+        ctx.save();
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(left, metrics.height - metrics.top_quad);
+        ctx.lineTo(left, metrics.height - (metrics.top_quad + metrics.quad_height));
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.moveTo(left, metrics.height - (metrics.bottom_quad + metrics.quad_height));
+        ctx.lineTo(left, metrics.height - metrics.bottom_quad);
+        ctx.stroke();
+
+        ctx.restore();
+      }
+
+      function draw_spamo_x_axis_num(spamo, metrics, ctx, num) {
+        ctx.font = SpamoConstants.font_label;
+        var txt = "" + num;
+        var width = ctx.measureText(txt).width;
+        var vcenter = string_height(txt, SpamoConstants.font_label, SpamoConstants.size_label).vcenteroffset;
+        ctx.save();
+        ctx.rotate(-(Math.PI / 2));
+        ctx.fillText(txt, -width - 0.5, vcenter);
+        ctx.restore();
+      }
+
+      function draw_spamo_x_axis(spamo, metrics, ctx) {
+        var x = metrics.left_quad + metrics.quad_width;
+        var y = metrics.bottom_quad + metrics.quad_height + SpamoConstants.spacer_base + metrics.spacing_width;
+        var skip = Math.ceil(SpamoConstants.size_label / metrics.unit_width);
+        if (skip == 0) skip = 1;
+        if (skip % 10 > 0) {
+          skip -= (skip % 10) + 10;
+        }
+        ctx.save();
+        ctx.translate(x - 0.5, metrics.height - y);
+        for (var num = 0; num < spamo.graph_margin; num++) {
+          if (num % skip == 0) {
+            draw_spamo_x_axis_num(spamo, metrics, ctx, num);
+          }
+          ctx.translate(-metrics.unit_width, 0);
+        }
+        ctx.restore();
+        x = metrics.right_quad;
+        ctx.save();
+        ctx.translate(x + 0.5, metrics.height - y);
+        for (var num = 0; num < spamo.graph_margin; num++) {
+          if (num % skip == 0) {
+            draw_spamo_x_axis_num(spamo, metrics, ctx, num);
+          }
+          ctx.translate(metrics.unit_width, 0);
+        }
+        ctx.restore();
+
+      }
+
+
+      function draw_spamo_bar(spamo, metrics, ctx, bar_width, bin) {
+        var bar_height = calculate_spamo_bar_height(spamo, metrics, bin.count);
+        if (bin.pvalue <= spamo.graph_significant) {
+          ctx.strokeStyle = "rgb(205, 0, 0)";
+        } else {
+          ctx.strokeStyle = "rgb(205, 205, 205)";
+        }
+        //this is easier to think of as lines than rectangles
+        ctx.lineWidth = bar_width;
+        ctx.beginPath();
+        ctx.moveTo(bar_width / 2, 0);
+        ctx.lineTo(bar_width / 2, -bar_height);
+        ctx.stroke();
+      }
+
+      function draw_spamo_bars_part(spamo, metrics, ctx, bins) {
+        var i;
+        //skip unused
+        if (spamo.graph_mlength > 1) ctx.translate(metrics.unit_width * (spamo.graph_mlength - 1), 0);
+        i = bins.length -1;
+        //draw partial bar
+        if (metrics.partial_bar_width > 0) {
+          draw_spamo_bar(spamo, metrics, ctx, metrics.partial_bar_width, bins[i--]);
+          ctx.translate(metrics.partial_bar_width, 0);
+        }
+        //draw full bar
+        for (; i >= 0; i--) {
+          draw_spamo_bar(spamo, metrics, ctx, metrics.full_bar_width, bins[i]);
+          ctx.translate(metrics.full_bar_width, 0);
+        }
+
+      }
+
+      function draw_spamo_bars(spamo, metrics, ctx) {
+        // bottom right
+        ctx.save();
+        ctx.translate(metrics.right_quad + metrics.quad_width, metrics.height - (metrics.bottom_quad + metrics.quad_height));
+        ctx.scale(-1, -1);
+        draw_spamo_bars_part(spamo, metrics, ctx, spamo.bins_opposite_right);
+        ctx.restore();
+        // bottom left
+        ctx.save();
+        ctx.translate(metrics.left_quad, metrics.height - (metrics.bottom_quad + metrics.quad_height));
+        ctx.scale(1, -1);
+        draw_spamo_bars_part(spamo, metrics, ctx, spamo.bins_opposite_left);
+        ctx.restore();
+        // top right
+        ctx.save();
+        ctx.translate(metrics.right_quad + metrics.quad_width, metrics.height - metrics.top_quad);
+        ctx.scale(-1, 1);
+        draw_spamo_bars_part(spamo, metrics, ctx, spamo.bins_same_right);
+        ctx.restore();
+        // top left
+        ctx.save();
+        ctx.translate(metrics.left_quad, metrics.height - metrics.top_quad);
+        draw_spamo_bars_part(spamo, metrics, ctx, spamo.bins_same_left);
+        ctx.restore();
+      }
+
+
+      function draw_spamo_on_canvas(spamo, canvas) {
+        var ctx = canvas.getContext('2d');
+        var metrics = new SpamoMetrics(spamo, canvas, ctx);
+        
+        if (spamo.graph_has_border) draw_spamo_border(spamo, metrics, ctx);
+        if (spamo.graph_has_title) draw_spamo_title(spamo, metrics, ctx);
+        if (spamo.graph_has_subtitle) draw_spamo_subtitle(spamo, metrics, ctx);
+        if (spamo.graph_has_y_axis_label) draw_spamo_y_axis_label(spamo, metrics, ctx);
+        if (spamo.graph_has_x_axis_label) draw_spamo_x_axis_label(spamo, metrics, ctx);
+        if (spamo.graph_has_strand_label) draw_spamo_strand_labels(spamo, metrics, ctx);
+        if (spamo.graph_has_stream_label) draw_spamo_stream_labels(spamo, metrics, ctx);
+        draw_spamo_y_axis(spamo, metrics, ctx);
+        draw_spamo_x_axis(spamo, metrics, ctx);
+        draw_spamo_bars(spamo, metrics, ctx);
+        draw_spamo_ender(spamo, metrics, ctx);
+        draw_spamo_divider(spamo, metrics, ctx);
+        draw_spamo_motif_boundary(spamo, metrics, ctx);
+      }
+    /* END INCLUDED FILE "spamo_graph.js" */
+    
+  
+    
+    /* START INCLUDED FILE "spamo-to-html.js" */
+
+      var alphabet = new Alphabet("ACGT");
+      var motif_lookup = [];
+      var graph_lookup = [];
+      var group_lookup = [];
+
+      /*
+       * store_motif
+       *
+       * Put the motif data in a lookup table so it can be
+       * retrieved when required.
+       */
+      function store_motif(motif_id, name, ltrim, rtrim, pspm_text) {
+        var pspm = new Pspm(pspm_text, name, ltrim, rtrim);
+        motif_lookup[motif_id] = pspm;
+      }
+
+      /*
+       * ready_motif
+       *
+       * Add the information about where a motif needs to be drawn and any
+       * modifiers that change the way it is drawn (reverse_complement & 
+       * indent) to the datastructures responsible for drawing them.
+       *
+       * Cache is used as a hint to the drawing code to reduce
+       * draw calls by caching the output and using that when future
+       * draw calls are made. A duplicate cache entry will be made
+       * for each different indent and reverse_complement combination.
+       *
+       * If group_id is specified then the motifs will be drawn when the
+       * group is activated as opposed to when they scroll onto screen
+       * which is the default. Hence the group_id is only used for hidden
+       * motifs.
+       */
+      function ready_motif(replace_id, motif_id, cache, indent, reverse_complement, title_text, group_id) {
+        var elem = document.getElementById(replace_id);
+        var pspm = motif_lookup[motif_id];
+        // check we have enough information to make the task possible
+        if (elem === null || elem === undefined) {
+          if (console) console.error("Can not find element from id %s", replace_id);
+          return;
+        }
+        if (pspm === undefined) {
+          if (console) console.error("Missing pspm for %s: unable to replace %s", motif_id, replace_id);
+          return;
+        }
+        // create the task
+        var task = new MotifTask(replace_id, motif_id, cache, indent, reverse_complement, title_text);
+
+        // dispatch the task
+        if (group_id === undefined) {
+          // this is defined in delay_draw.js
+          add_draw_task(document.getElementById(replace_id), task);
+        } else { 
+          add_group_task(group_id, task);
+        }
+      }
+
+      /*
+       * store_graph
+       *
+       * Put the graph data in a lookup table so it can be 
+       * retrieved when required.
+       */
+      function store_graph(id, graph_text) {
+        var graph = new SpamoHistogram(graph_text);
+        graph_lookup[id] = graph;
+      }
+
+      /*
+       * ready_graph
+       *
+       *
+       */
+      function ready_graph(replace_id, graph_id, cache, alternate_image, title_text, group_id) {
+        var elem = document.getElementById(replace_id);
+        var graph = graph_lookup[graph_id];
+        // check we have enough information to make the task possible
+        if (elem === null || elem === undefined) {
+          if (console) console.error("Can not find element from id %s", replace_id);
+          return;
+        }
+        if (graph === undefined) {
+          if (console) console.error("Missing graph for %s: unable to replace %s", graph_id, replace_id);
+          return;
+        }
+        // create the task
+        var task = new GraphTask(replace_id, graph_id, cache, alternate_image, title_text);
+
+        // dispatch the task
+        if (group_id === undefined) {
+          // this is defined in delay_draw.js
+          add_draw_task(document.getElementById(replace_id), task);
+        } else {
+          add_group_task(group_id, task);
+        }
+      }
+
+      /*
+       *
+       */
+      function toggle_group(group_id) {
+        //on first run render all the tasks in the group
+        if (group_lookup.hasOwnProperty(group_id)) {
+          var list = group_lookup[group_id];
+          for (var i = 0; i < list.length; i++) {
+            list[i].run();
+          }
+          delete group_lookup[group_id];
+        }
+        //toggle the visibility
+        var elem = document.getElementById(group_id);
+        if (elem.style.display == 'none') {
+          elem.style.display = 'block';
+        } else {
+          elem.style.display = 'none';
+        }
+      }
+
+      /*
+       * help_popup
+       *
+       * Moves around help pop-ups so they appear
+       * below an activator.
+       */
+      function help_popup(activator, popup_id) {
+        if (help_popup.popup === undefined) {
+          help_popup.popup = null;
+        }
+        if (help_popup.activator === undefined) {
+          help_popup.activator = null;
+        }
+
+        if (typeof(activator) == 'undefined') { // no activator so hide
+          help_popup.popup.style.display = 'none';
+          help_popup.popup = null;
+          return;
+        }
+        var pop = document.getElementById(popup_id);
+        if (pop == help_popup.popup) {
+          if (activator == help_popup.activator) {
+            //hide popup (as we've already shown it for the current help button)
+            help_popup.popup.style.display = 'none';
+            help_popup.popup = null;
+            return; // toggling complete!
+          }
+        } else if (help_popup.popup != null) {
+          //activating different popup so hide current one
+          help_popup.popup.style.display = 'none';
+        }
+        help_popup.popup = pop;
+        help_popup.activator = activator;
+
+        //must make the popup visible to measure it or it has zero width
+        pop.style.display = 'block';
+        var xy = get_elem_xy(activator);
+        var padding = 10;
+        var edge_padding = 15;
+        var scroll_padding = 15;
+
+        var pop_left = (xy[0] + (activator.offsetWidth / 2)  - (pop.offsetWidth / 2));
+        var pop_top = (xy[1] + activator.offsetHeight + padding);
+
+        // ensure the box is not past the top or left of the page
+        if (pop_left < 0) pop_left = edge_padding;
+        if (pop_top < 0) pop_top = edge_padding;
+        // ensure the box does not cause horizontal scroll bars
+        var page_width = null;
+        if (window.innerWidth) {
+          page_width = window.innerWidth;
+        } else if (document.body) {
+          page_width = document.body.clientWidth;
+        }
+        if (page_width) {
+          if (pop_left + pop.offsetWidth > page_width) {
+            pop_left = page_width - pop.offsetWidth - edge_padding - scroll_padding; //account for scrollbars
+          }
+        }
+
+        pop.style.left = pop_left + "px";
+        pop.style.top = pop_top + "px";
+      }
+
+      /*
+       * show_hidden
+       *
+       * Looks for specially named elements and switches to the shown view
+       */
+      function show_hidden(prefix) {
+        document.getElementById(prefix + '_activator').style.display = 'none';
+        document.getElementById(prefix + '_deactivator').style.display = 'block';
+        document.getElementById(prefix + '_data').style.display = 'block';
+      }
+      /*
+       * hide_shown
+       *
+       * Looks for specially named elements and switches to the hidden view
+       */
+      function hide_shown(prefix) {
+        document.getElementById(prefix + '_activator').style.display = 'block';
+        document.getElementById(prefix + '_deactivator').style.display = 'none';
+        document.getElementById(prefix + '_data').style.display = 'none';
+      }
+      
+  
+      /*
+       * add_group_task
+       *
+       *
+       */
+      function add_group_task(group_id, task) {
+        var list;
+        if (group_lookup.hasOwnProperty(group_id)) {
+          list = group_lookup[group_id]
+        } else {
+          list = [];
+          group_lookup[group_id] = list;
+        }
+        list.push(task);
+      }
+
+      /*
+       * MotifTask
+       */
+      function MotifTask(replace_id, motif_id, cache, indent, reverse_complement, title_text) {
+        this.replace_id = replace_id;
+        this.motif_id = motif_id;
+        this.cache = cache;
+        this.indent = indent;
+        this.reverse_complement = reverse_complement;
+        this.title_text = title_text;
+        this.run = MotifTask_run;
+      }
+
+      /*
+       * MotifTask_run
+       */
+      function MotifTask_run() {
+        var pspm = motif_lookup[this.motif_id];
+        if (this.reverse_complement) {
+          pspm = pspm.copy().reverse_complement(alphabet);
+        }
+        var logo = new Logo(alphabet, "MEME");
+        logo.add_pspm(pspm, this.indent);
+        replace_logo(logo, this.replace_id, 0.5, this.title_text, "block");
+      }
+
+      /*
+       * GraphTask
+       */
+      function GraphTask(replace_id, graph_id, cache, alternate_image, title_text) {
+        this.replace_id = replace_id;
+        this.graph_id = graph_id;
+        this.cache = cache;
+        this.alternate_image = alternate_image;
+        this.title_text = title_text;
+        this.run = GraphTask_run;
+      }
+
+      /*
+       * GraphTask_run
+       */
+      function GraphTask_run() {
+        var element = document.getElementById(this.replace_id);
+        var canvas = create_canvas(350, 260, this.replace_id, "", "block");
+        if (canvas) {
+          var spamo = graph_lookup[this.graph_id];
+          draw_spamo_on_canvas(spamo, canvas);
+          canvas.title = this.title_text;
+          element.parentNode.replaceChild(canvas, element);
+        } else {
+          var image = document.createElement("img");
+          image.width = 350;
+          image.height = 260;
+          image.src = this.alternate_image;
+          image.title = this.title_text;
+        }
+      }
+    /* END INCLUDED FILE "spamo-to-html.js" */
+    
+  
+      store_motif(
+        "1",
+        "CCMCRCCC",
+        0,
+        0,
+        "letter-probability matrix: alength= 4 w= 8 nsites= 510 E= 3.7e-72\n" + 
+        "4.99647e-05 0.999852 4.76356e-05 5.05306e-05\n" + 
+        "4.99647e-05 0.999852 4.76356e-05 5.05306e-05\n" + 
+        "0.548962 0.450939 4.76356e-05 5.05306e-05\n" + 
+        "4.99647e-05 0.999852 4.76356e-05 5.05306e-05\n" + 
+        "0.725398 4.79091e-05 0.274504 5.05306e-05\n" + 
+        "4.99647e-05 0.999852 4.76356e-05 5.05306e-05\n" + 
+        "4.99647e-05 0.999852 4.76356e-05 5.05306e-05\n" + 
+        "4.99647e-05 0.999852 4.76356e-05 5.05306e-05\n"
+      );
+</script>
+</head>
+<body onscroll="delayed_process_draw_tasks()" onresize="delayed_process_draw_tasks()">
+<div class="pop_content" id="pop_primary_motif_name">
+<p>The name of the primary motif.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_primary_motif_preview">
+<p>The logo of the primary motif.</p>
+<p>Sections of the motif with a gray background have been trimmed and 
+        were not used for scanning.</p>
+<div style="float:right; bottom:0px;">[
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_primary_motif_sig_motifs">
+<p>The number of secondary motifs found that had significant spacings in 
+        the tested region.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_primary_motif_sig_list">
+<p>The list of secondary motifs found that had significant spacings in 
+        the tested region.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_seqs_name">
+<p>The name of the sequence database.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_seqs_last_modified">
+<p>The last modified date of the sequence database.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_seqs_loaded">
+<p>The number of sequences in the sequence database.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_seqs_too_short">
+<p>The number of sequences in the sequence database which were excluded 
+        because they were shorter than twice the margin plus the primary motif 
+        length.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_seqs_no_primary">
+<p>The number of sequences in the sequence database which were excluded 
+        because no match to the primary motif could be found at a distance to 
+        the edges larger than the margin.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_seqs_too_similar">
+<p>The number of sequences in the sequence database which were excluded 
+        because they were largly identical to other sequences when aligned on
+        the primary motif site.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_seqs_used">
+<p>The number of sequences which were scanned with the secondary 
+        motifs.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_secondary_databases_name">
+<p>The name of the motif database derived from the file name.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_secondary_databases_last_modified">
+<p>The date that the motif database was last modified.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_secondary_databases_num_motifs">
+<p>The number of motifs loaded from the motif database. Some motifs may 
+        have been excluded.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_secondary_databases_sig_motifs">
+<p>The number of motifs with significant <i>E</i>-values whose
+	significant spacings were not considered too similar to those of another motif.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_secondary_databases_redundant_motifs">
+<p>The number of motifs that while having significant spacings were less 
+        signficant than another motif that matched
+      most of the same sites.</p>
+<div style="float:right; bottom:0px;">[ 
+      <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_primary">
+<p>The primary motif is used as the reference point for all spacing 
+        calculation.</p>
+<p>Sections of the motif with a gray background have been trimmed and 
+        were not used for scanning.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_secondary">
+<p>The secondary motif occurs at the spacings relative to the primary 
+        shown in the histogram below.</p>
+<p>Sections of the motif with a gray background have been trimmed and 
+        were not used for scanning.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_evalue">
+<p>The <i>E</i>-value is the lowest <i>p</i>-value of any spacing of the
+	secondary motif times the number of secondary motifs.
+        It estimates the expected number of <i>random</i> secondary motifs that
+	would have the observed minimum <i>p</i>-value or less.
+      </p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_histogram">
+<p>The histogram below shows the frequency of spacings from the primary 
+        motif to the secondary motif. Red bars
+        indicate that a spacing has occured a statistically significant number 
+        of times.</p>
+<dl>
+<dt><b>Upstream</b></dt>
+<dd>These are sequences where the secondary motif occurs before the 
+        primary motif.</dd>
+<dt><b>Downstream</b></dt>
+<dd>These are sequences where the secondary motif occurs after the 
+        primary motif.</dd>
+<dt><b>Same Strand</b></dt>
+<dd>These are sequences where the secondary motif is on the same strand 
+        as the primary motif.</dd>
+<dt><b>Opposite Strand</b></dt>
+<dd>These are sequences where the secondary motif is on the opposite 
+        strand to the primary motif.</dd>
+</dl>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_spacings">
+<p>The details of the significant spacings are shown in the four 
+        quadrants as they relate to the quadrants of the graph.</p>
+<dl>
+<dt><b>P-value</b></dt>
+<dd>is the probability of the observed number (or more) sequences
+          having the observed spacing between the primary and secondary motif,
+          adjusted for multiple tests.  The number of multiple tests is the 
+	  number of spacing bins (the number of bars in the histogram)
+	  tested for significance.</dd>
+<dt><b>Gap</b></dt>
+<dd>is the space between the primary and secondary motifs where a value 
+        of zero means there is no space between them.</dd>
+<dt><b>#</b></dt>
+<dd>is the number of sequences where that spacing was observed.</dd>
+</dl>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_seqtotal">
+<p>The total number of sequences that have a match for both the primary 
+        motif and this secondary motif.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_motifdb">
+<p>The motif database which this secondary motif came from.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_redundant">
+<p>The list of secondary motifs which have been identified as possibly 
+        similar to this motif because their most significant spacings 
+        overlaped with the most significant spacing of this motif. Check the 
+        boxes to show the possibly similar secondary motifs.</p>
+<div style="float:right; bottom:0px;">[ 
+      <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<div class="pop_content" id="pop_alignment">
+<p>This shows the first secondary motif aligned with the current 
+        secondary motif by the most significant spacing.</p>
+<p>Sections of the motif with a gray background have been trimmed and 
+        were not used for scanning.</p>
+<div style="float:right; bottom:0px;">[ 
+        <a href="javascript:help_popup()">close</a> ]</div>
+</div>
+<a name="top"></a><div class="pad1">
+<h1><img src="http://vm2.ucsd.edu:8080/meme/doc/images/spamo_logo.png" alt="Spaced Motif analysis tool (SpaMo)"></h1>
+<p>
+        For further information on how to interpret these results or to get a 
+        copy of the MEME software please access 
+        <a href="http://meme.nbcr.net/">http://meme.nbcr.net</a>. 
+      </p>
+<p>
+        If you use SpaMo in your research please cite the following paper:<br><span class="citation">
+          Tom Whitington, Martin C. Frith, James Johnson and Timothy L. Bailey,
+          "Inferring transcription factor complexes from ChIP-seq data",
+          <i>Nucleic Acids Research</i>, <b>39</b>(15):e98, 2011.
+        </span></p>
+</div>
+<div class="pad2">
+<a class="jump" href="#primary_summary">Primary Motif</a>  |  <a class="jump" href="#sequence_summary">Sequence Database</a>  |  <a class="jump" href="#secondary_summary">Secondary Databases</a>  |  <a class="jump" href="#spacing_analysis">Spacing Analysis</a>  |  <a class="jump" href="#program">Program information</a>
+</div>
+<a name="primary_summary"></a><table width="100%" border="0" cellspacing="1" cellpadding="4" bgcolor="#FFFFFF"><tr>
+<td><h2 class="mainh">Primary Motif</h2></td>
+<td align="right" valign="bottom">
+<a href="#sequence_summary">Next</a> <a href="#top">Top</a>
+</td>
+</tr></table>
+<div class="box"><table class="preview">
+<tr>
+<th>Name <div class="help" onclick="help_popup(this, 'pop_primary_motif_name')"></div>
+</th>
+<th>Preview <div class="help" onclick="help_popup(this, 'pop_primary_motif_preview')"></div>
+</th>
+<th>Significant Secondaries <div class="help" onclick="help_popup(this, 'pop_primary_motif_sig_motifs')"></div>
+</th>
+<th>List <div class="help" onclick="help_popup(this, 'pop_primary_motif_sig_list')"></div>
+</th>
+</tr>
+<tr>
+<td>CCMCRCCC</td>
+<td>
+<div class="seq seqbox" id="preview_primary_1">
+<span class="C ">C</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="C ">C</span><span class="C ">C</span>
+</div>
+<script>
+ready_motif(
+  "preview_primary_1",
+  "1",
+  false,
+  0,
+  false,
+  "Primary: CCMCRCCC"
+);
+</script>
+</td>
+<td>5</td>
+<td class="summarylist">
+<a href="#s_1_1">MA0307.1 (GLN3)</a>,  <a href="#s_1_2">MA0140.1 (Tal1::Gata1)</a>,  <a href="#s_1_3">MA0199.1 (Optix)</a>,  <a href="#s_1_4">MA0057.1 (MZF1 5-13)</a>,  <a href="#s_1_5">MA0448.1 (H2.0)</a>
+</td>
+</tr>
+</table></div>
+<a name="sequence_summary"></a><table width="100%" border="0" cellspacing="1" cellpadding="4" bgcolor="#FFFFFF"><tr>
+<td><h2 class="mainh">Sequence Database</h2></td>
+<td align="right" valign="bottom">
+<a href="#primary_summary">Previous</a> <a href="#secondary_summary">Next</a> <a href="#top">Top</a>
+</td>
+</tr></table>
+<div class="box"><table class="preview">
+<tr>
+<th>Name <div class="help" onclick="help_popup(this, 'pop_seqs_name')"></div>
+</th>
+<th>Last Modified <div class="help" onclick="help_popup(this, 'pop_seqs_last_modified')"></div>
+</th>
+<th>Loaded <div class="help" onclick="help_popup(this, 'pop_seqs_loaded')"></div>
+</th>
+<th>Too Short <div class="help" onclick="help_popup(this, 'pop_seqs_too_short')"></div>
+</th>
+<th>No Primary <div class="help" onclick="help_popup(this, 'pop_seqs_no_primary')"></div>
+</th>
+<th>Too Similar <div class="help" onclick="help_popup(this, 'pop_seqs_too_similar')"></div>
+</th>
+<th>Used <div class="help" onclick="help_popup(this, 'pop_seqs_used')"></div>
+</th>
+</tr>
+<tr>
+<td>sample-dna-Klf1</td>
+<td>Wed Jan 11 16:31:12 2012</td>
+<td>904</td>
+<td>0</td>
+<td>616</td>
+<td>22</td>
+<td>266</td>
+</tr>
+</table></div>
+<a name="secondary_summary"></a><table width="100%" border="0" cellspacing="1" cellpadding="4" bgcolor="#FFFFFF"><tr>
+<td><h2 class="mainh">Secondary Databases</h2></td>
+<td align="right" valign="bottom">
+<a href="#sequence_summary">Previous</a> <a href="#spacing_analysis">Next</a> <a href="#top">Top</a>
+</td>
+</tr></table>
+<div class="box"><table class="preview">
+<tr>
+<th>Name <div class="help" onclick="help_popup(this, 'pop_secondary_databases_name')"></div>
+</th>
+<th>Last Modified <div class="help" onclick="help_popup(this, 'pop_secondary_databases_last_modified')"></div>
+</th>
+<th>Number of Motifs <div class="help" onclick="help_popup(this, 'pop_secondary_databases_num_motifs')"></div>
+</th>
+<th>Motifs Significant <div class="help" onclick="help_popup(this, 'pop_secondary_databases_sig_motifs')"></div>
+</th>
+<th>Motifs Redundant <div class="help" onclick="help_popup(this, 'pop_secondary_databases_redundant_motifs')"></div>
+</th>
+</tr>
+<tr>
+<td>JASPAR CORE 2009</td>
+<td>Wed Jan 11 15:48:13 2012</td>
+<td>476</td>
+<td>5</td>
+<td>4</td>
+</tr>
+</table></div>
+<a name="spacing_analysis"></a><a name="s_1_1"></a><table width="100%" border="0" cellspacing="1" cellpadding="4" bgcolor="#FFFFFF"><tr>
+<td><h2 class="mainh">Spacings of "MA0307.1 (GLN3)" relative to "CCMCRCCC"</h2></td>
+<td align="right" valign="bottom">
+<a href="#secondary_summary">Previous</a> <a href="#s_1_2">Next</a> <a href="#top">Top</a>
+</td>
+</tr></table>
+<div class="box">
+<table>
+<tr>
+<th>Primary: CCMCRCCC <div class="help" onclick="help_popup(this, 'pop_primary')"></div>
+</th>
+<th>Secondary: <a href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl?ID=MA0307.1&amp;rm=present&amp;collection=CORE">MA0307.1 (GLN3)</a> <div class="help" onclick="help_popup(this, 'pop_secondary')"></div>
+</th>
+<th>
+<i>E</i>-value <div class="help" onclick="help_popup(this, 'pop_evalue')"></div>
+</th>
+</tr>
+<tr>
+<td>
+<div class="seq seqbox" id="s_1_1_pm">
+<span class="C ">C</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="C ">C</span><span class="C ">C</span>
+</div>
+<script>
+ready_motif(
+  "s_1_1_pm",
+  "1",
+  false,
+  0,
+  false,
+  "Primary: CCMCRCCC"
+);
+</script>
+</td>
+<td>
+<div class="seq seqbox" id="s_1_1_sm">
+<span class="G ">G</span><span class="A ">A</span><span class="T ">T</span><span class="A ">A</span><span class="A ">A</span>
+</div>
+<script>
+store_motif(
+  "s_1_1",
+  "MA0307.1",
+  0,
+  0,
+  "letter-probability matrix: alength= 4 w= 5 nsites= 100 E= 0\n" + 
+  "0.000254615 0.00024414 0.999244 0.000257499\n" + 
+  "0.999256 0.00024414 0.000242746 0.000257499\n" + 
+  "0.000254615 0.00024414 0.000242746 0.999258\n" + 
+  "0.739515 0.00024414 0.000242746 0.259998\n" + 
+  "0.609645 0.00024414 0.269973 0.120138\n"
+);
+
+ready_motif(
+  "s_1_1_sm",
+  "s_1_1",
+  false,
+  0,
+  false,
+  "Secondary: MA0307.1"
+);
+</script>
+</td>
+<td style="vertical-align:middle; text-align:right;font-weight: bold">0.002</td>
+</tr>
+</table>
+<table>
+<tr>
+<th colspan="2">Motif Spacing Histogram <div class="help" onclick="help_popup(this, 'pop_histogram')"></div>
+</th>
+<th> </th>
+<th colspan="2">Significant Motif Spacings (<i>p</i>&lt;0.05) <div class="help" onclick="help_popup(this, 'pop_spacings')"></div>
+</th>
+<th> </th>
+</tr>
+<tr>
+<th style="width:175px">Upstream</th>
+<th style="width:175px">Downstream</th>
+<th> </th>
+<th style="width:130px">Upstream</th>
+<th style="width:130px">Downstream</th>
+<th>Other Details</th>
+</tr>
+<tr>
+<td colspan="2">
+<noscript><img src="hist_CCMCRCCC_db1_MA0307.1.png"></noscript>
+<span id="s_1_1_hist"></span><script type="text/javascript">
+      store_graph(
+        "s_1_1_hist",
+        "% Input Data\n" + 
+        "150 margin 5 motif-length 1 bin-size 8 bin-max 224 sequences 0.05 threshold\n\n" + 
+        "% Same Left\n" + 
+        "1 1 0 1 1 1 3 0.98 1 1 0 1 1 1 1 1 3 0.98 0 1 1 1 2 1 0 1 1 1 0 1 1 1 2 1 0 1 1 1 1 1 2 1 1 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 2 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 0 1 1 1\n" + 
+        "2 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 1 1\n" + 
+        "0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Same Right\n" + 
+        "0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 2 1 3 0.98 1 1 0 1 0 1 1 1 0 1 1 1 1 1 2 1 0 1 0 1 0 1 0 1 0 1 2 1 1 1 2 1 1 1 1 1 0 1 1 1 3 0.98 1 1 0 1\n" + 
+        "0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1\n" + 
+        "0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 3 0.98 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Left\n" + 
+        "0 1 0 1 1 1 1 1 0 1 2 1 0 1 2 1 2 1 0 1 2 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 1 2 1 0 1 0 1 2 1 2 1 8 4.3e-06 2 1 4 0.32 1 1 1 1 1 1 1 1 1 1 2 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 1 1 1 1 0 1 3 0.98 0 1 0 1 1 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 0 1\n\n" + 
+        "% Opposite Right\n" + 
+        "0 1 0 1 0 1 4 0.32 2 1 2 1 0 1 0 1 1 1 2 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 2 1 2 1 0 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 2 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 2 1 0 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 0 1 1 1 2 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1\n" + 
+        "0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1\n\n"
+      );
+      ready_graph(
+        "s_1_1_hist",
+        "s_1_1_hist",
+        false,
+        "hist_CCMCRCCC_db1_MA0307.1.png",
+        ""
+        
+      );
+    </script>
+</td>
+<th><div class="st_box">
+<div class="st_same deg90rotate">Same Strand</div>
+<div class="st_oppo deg90rotate">Opposite Strand</div>
+</div></th>
+<td colspan="2"><div class="sp_box">
+<div class="sp_same_up"></div>
+<div class="sp_same_down"></div>
+<div class="sp_oppo_up"><div class="sp_fixed"><table>
+<thead><tr>
+<th>P-value</th>
+<th>Gap</th>
+<th>#</th>
+<th style="width:15px;"> </th>
+</tr></thead>
+<tbody><tr>
+<td class="sp_pvalue">4.3e-06</td>
+<td class="sp_gap">26</td>
+<td class="sp_count">8</td>
+<td> </td>
+</tr></tbody>
+</table></div></div>
+<div class="sp_oppo_down"></div>
+</div></td>
+<td class="details" style="vertical-align:top">
+<h4>Total sequences with primary and secondary motif <div class="help" onclick="help_popup(this, 'pop_seqtotal')"></div>
+</h4>224<br><h4>Motif Database <div class="help" onclick="help_popup(this, 'pop_motifdb')"></div>
+</h4>JASPAR CORE 2009<br><fieldset class="sm_group">
+<h4>Secondary motifs with similar spacings <div class="help" onclick="help_popup(this, 'pop_redundant')"></div>
+</h4>
+<div class="ck_fixed">
+<label><input type="checkbox" autocomplete="off" onclick='toggle_group("s_1_1_1")'>MA0309.1 (GZF3)</label><label><input type="checkbox" autocomplete="off" onclick='toggle_group("s_1_1_2")'>MA0289.1 (DAL80)</label><label><input type="checkbox" autocomplete="off" onclick='toggle_group("s_1_1_3")'>MA0035.2 (Gata1)</label><label><input type="checkbox" autocomplete="off" onclick='toggle_group("s_1_1_4")'>MA0300.1 (GAT1)</label>
+</div>
+</fieldset>
+</td>
+</tr>
+</table>
+<div id="s_1_1_1"><table>
+<tr><th colspan="6">Similar Secondary: <a href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl?ID=MA0309.1&amp;rm=present&amp;collection=CORE">MA0309.1 (GZF3)</a>
+</th></tr>
+<tr>
+<td colspan="2" style="width:350px;">
+<noscript><img src="hist_CCMCRCCC_db1_MA0309.1.png"></noscript>
+<span id="s_1_1_1_hist"></span><script type="text/javascript">
+      store_graph(
+        "s_1_1_1_hist",
+        "% Input Data\n" + 
+        "150 margin 7 motif-length 1 bin-size 8 bin-max 158 sequences 0.05 threshold\n\n" + 
+        "% Same Left\n" + 
+        "0 1 1 1 4 0.1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 2 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Same Right\n" + 
+        "1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 2 1 3 0.8 0 1 0 1 0 1 2 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 2 1 1 1 2 1 1 1 0 1 0 1 2 1 2 1 1 1 0 1 0 1\n" + 
+        "0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Left\n" + 
+        "0 1 0 1 0 1 0 1 2 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 0 1 7 9.3e-06 0 1 4 0.1 0 1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1\n" + 
+        "0 1 0 1 0 1 2 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Right\n" + 
+        "0 1 0 1 2 1 1 1 1 1 0 1 0 1 1 1 2 1 0 1 1 1 2 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 2 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n"
+      );
+      ready_graph(
+        "s_1_1_1_hist",
+        "s_1_1_1_hist",
+        false,
+        "hist_CCMCRCCC_db1_MA0309.1.png",
+        ""
+        
+          ,"s_1_1_1"
+        
+      );
+    </script>
+</td>
+<th><div class="st_box">
+<div class="st_same deg90rotate">Same Strand</div>
+<div class="st_oppo deg90rotate">Opposite Strand</div>
+</div></th>
+<td colspan="2"><div class="sp_box">
+<div class="sp_same_up"></div>
+<div class="sp_same_down"></div>
+<div class="sp_oppo_up"><div class="sp_fixed"><table>
+<thead><tr>
+<th>P-value</th>
+<th>Gap</th>
+<th>#</th>
+<th style="width:15px;"> </th>
+</tr></thead>
+<tbody><tr>
+<td class="sp_pvalue">9.3e-06</td>
+<td class="sp_gap">25</td>
+<td class="sp_count">7</td>
+<td> </td>
+</tr></tbody>
+</table></div></div>
+<div class="sp_oppo_down"></div>
+</div></td>
+<td class="details" style="vertical-align:top">
+<h4>Total sequences with primary and secondary motif <div class="help" onclick="help_popup(this, 'pop_seqtotal')"></div>
+</h4>158<h4>Alignment by most significant spacings <div class="help" onclick="help_popup(this, 'pop_alignment')"></div>
+</h4>
+<table>
+<tr>
+<td>Best Similar<br>Secondary</td>
+<td><div class="seq" id="s_1_1_1_sm"> <span class="G ">G</span><span class="A ">A</span><span class="T ">T</span><span class="A ">A</span><span class="A ">A</span>
+</div></td>
+</tr>
+<tr>
+<td>This Similar<br>Secondary</td>
+<td><div class="seq" id="s_1_1_1_ssm">
+<span class="T ">T</span><span class="G ">G</span><span class="A ">A</span><span class="T ">T</span><span class="A ">A</span><span class="A ">A</span><span class="G ">G</span><span class="A trim">A</span>
+</div></td>
+</tr>
+</table>
+<script>
+store_motif(
+  "s_1_1_1",
+  "MA0309.1",
+  0,
+  1,
+  "letter-probability matrix: alength= 4 w= 8 nsites= 100 E= 0\n" + 
+  "0.180075 0.389855 0.0202228 0.409848\n" + 
+  "0.000254615 0.00024414 0.999244 0.000257499\n" + 
+  "0.999256 0.00024414 0.000242746 0.000257499\n" + 
+  "0.000254615 0.00024414 0.000242746 0.999258\n" + 
+  "0.999256 0.00024414 0.000242746 0.000257499\n" + 
+  "0.729525 0.0901542 0.000242746 0.180078\n" + 
+  "0.0398191 0.376106 0.583817 0.000257499\n" + 
+  "0.389865 0.180064 0.269973 0.160098\n"
+);
+
+ready_motif(
+  "s_1_1_1_sm",
+  "s_1_1",
+  false,
+  1,
+  false,
+  "Secondary: MA0307.1",
+  "s_1_1_1"
+
+);
+
+ready_motif(
+  "s_1_1_1_ssm",
+  "s_1_1_1",
+  false,
+  0,
+  false,
+  "Similar Secondary: MA0309.1",
+  "s_1_1_1"
+
+);
+</script>
+</td>
+</tr>
+</table></div>
+<script>
+        document.getElementById("s_1_1_1").style.display = "none";
+      </script><div id="s_1_1_2"><table>
+<tr><th colspan="6">Similar Secondary: <a href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl?ID=MA0289.1&amp;rm=present&amp;collection=CORE">MA0289.1 (DAL80)</a>
+</th></tr>
+<tr>
+<td colspan="2" style="width:350px;">
+<noscript><img src="hist_CCMCRCCC_db1_MA0289.1.png"></noscript>
+<span id="s_1_1_2_hist"></span><script type="text/javascript">
+      store_graph(
+        "s_1_1_2_hist",
+        "% Input Data\n" + 
+        "150 margin 7 motif-length 1 bin-size 8 bin-max 141 sequences 0.05 threshold\n\n" + 
+        "% Same Left\n" + 
+        "0 1 1 1 4 0.066 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Same Right\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 3 0.68 2 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 2 1 2 1 1 1 2 1 1 1 0 1 0 1 2 1 1 1 1 1 0 1 0 1\n" + 
+        "0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Left\n" + 
+        "0 1 0 1 0 1 0 1 2 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 0 1 6 0.00013 0 1 3 0.68 0 1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1\n" + 
+        "0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Right\n" + 
+        "0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 2 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n"
+      );
+      ready_graph(
+        "s_1_1_2_hist",
+        "s_1_1_2_hist",
+        false,
+        "hist_CCMCRCCC_db1_MA0289.1.png",
+        ""
+        
+          ,"s_1_1_2"
+        
+      );
+    </script>
+</td>
+<th><div class="st_box">
+<div class="st_same deg90rotate">Same Strand</div>
+<div class="st_oppo deg90rotate">Opposite Strand</div>
+</div></th>
+<td colspan="2"><div class="sp_box">
+<div class="sp_same_up"></div>
+<div class="sp_same_down"></div>
+<div class="sp_oppo_up"><div class="sp_fixed"><table>
+<thead><tr>
+<th>P-value</th>
+<th>Gap</th>
+<th>#</th>
+<th style="width:15px;"> </th>
+</tr></thead>
+<tbody><tr>
+<td class="sp_pvalue">0.00013</td>
+<td class="sp_gap">25</td>
+<td class="sp_count">6</td>
+<td> </td>
+</tr></tbody>
+</table></div></div>
+<div class="sp_oppo_down"></div>
+</div></td>
+<td class="details" style="vertical-align:top">
+<h4>Total sequences with primary and secondary motif <div class="help" onclick="help_popup(this, 'pop_seqtotal')"></div>
+</h4>141<h4>Alignment by most significant spacings <div class="help" onclick="help_popup(this, 'pop_alignment')"></div>
+</h4>
+<table>
+<tr>
+<td>Best Similar<br>Secondary</td>
+<td><div class="seq" id="s_1_1_2_sm"> <span class="G ">G</span><span class="A ">A</span><span class="T ">T</span><span class="A ">A</span><span class="A ">A</span>
+</div></td>
+</tr>
+<tr>
+<td>This Similar<br>Secondary</td>
+<td><div class="seq" id="s_1_1_2_ssm">
+<span class="C ">C</span><span class="G ">G</span><span class="A ">A</span><span class="T ">T</span><span class="A ">A</span><span class="A ">A</span><span class="G ">G</span>
+</div></td>
+</tr>
+</table>
+<script>
+store_motif(
+  "s_1_1_2",
+  "MA0289.1",
+  0,
+  0,
+  "letter-probability matrix: alength= 4 w= 7 nsites= 100 E= 0\n" + 
+  "0.109057 0.662947 0.0595894 0.168406\n" + 
+  "0.000254615 0.00024414 0.999244 0.000257499\n" + 
+  "0.999256 0.00024414 0.000242746 0.000257499\n" + 
+  "0.000254615 0.00024414 0.000242746 0.999258\n" + 
+  "0.999256 0.00024414 0.000242746 0.000257499\n" + 
+  "0.908437 0.010335 0.0103337 0.0708939\n" + 
+  "0.0302246 0.190054 0.749493 0.0302275\n"
+);
+
+ready_motif(
+  "s_1_1_2_sm",
+  "s_1_1",
+  false,
+  1,
+  false,
+  "Secondary: MA0307.1",
+  "s_1_1_2"
+
+);
+
+ready_motif(
+  "s_1_1_2_ssm",
+  "s_1_1_2",
+  false,
+  0,
+  false,
+  "Similar Secondary: MA0289.1",
+  "s_1_1_2"
+
+);
+</script>
+</td>
+</tr>
+</table></div>
+<script>
+        document.getElementById("s_1_1_2").style.display = "none";
+      </script><div id="s_1_1_3"><table>
+<tr><th colspan="6">Similar Secondary: <a href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl?ID=MA0035.2&amp;rm=present&amp;collection=CORE">MA0035.2 (Gata1)</a>
+</th></tr>
+<tr>
+<td colspan="2" style="width:350px;">
+<noscript><img src="hist_CCMCRCCC_db1_MA0035.2.png"></noscript>
+<span id="s_1_1_3_hist"></span><script type="text/javascript">
+      store_graph(
+        "s_1_1_3_hist",
+        "% Input Data\n" + 
+        "150 margin 7 motif-length 1 bin-size 8 bin-max 203 sequences 0.05 threshold\n\n" + 
+        "% Same Left\n" + 
+        "0 1 1 1 3 0.96 1 1 0 1 1 1 2 1 2 1 0 1 0 1 1 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 2 1 1 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 2 1\n" + 
+        "0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 2 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Same Right\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 3 0.96 3 0.96 1 1 0 1 0 1 0 1 0 1 0 1 1 1 3 0.96 1 1 1 1 0 1 0 1 1 1 2 1 1 1 2 1 1 1 0 1 0 1 2 1 2 1 1 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 2 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 3 0.96 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Left\n" + 
+        "0 1 0 1 1 1 0 1 2 1 0 1 2 1 1 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 0 1 0 1 2 1 1 1 6 0.0011 1 1 4 0.24 1 1 1 1 1 1 1 1 1 1 2 1 1 1 0 1 0 1 2 1 0 1 1 1\n" + 
+        "1 1 1 1 0 1 2 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1\n\n" + 
+        "% Opposite Right\n" + 
+        "0 1 0 1 4 0.24 2 1 3 0.96 0 1 0 1 1 1 2 1 0 1 2 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 2 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 3 0.96 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 2 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1\n\n"
+      );
+      ready_graph(
+        "s_1_1_3_hist",
+        "s_1_1_3_hist",
+        false,
+        "hist_CCMCRCCC_db1_MA0035.2.png",
+        ""
+        
+          ,"s_1_1_3"
+        
+      );
+    </script>
+</td>
+<th><div class="st_box">
+<div class="st_same deg90rotate">Same Strand</div>
+<div class="st_oppo deg90rotate">Opposite Strand</div>
+</div></th>
+<td colspan="2"><div class="sp_box">
+<div class="sp_same_up"></div>
+<div class="sp_same_down"></div>
+<div class="sp_oppo_up"><div class="sp_fixed"><table>
+<thead><tr>
+<th>P-value</th>
+<th>Gap</th>
+<th>#</th>
+<th style="width:15px;"> </th>
+</tr></thead>
+<tbody><tr>
+<td class="sp_pvalue">0.0011</td>
+<td class="sp_gap">25</td>
+<td class="sp_count">6</td>
+<td> </td>
+</tr></tbody>
+</table></div></div>
+<div class="sp_oppo_down"></div>
+</div></td>
+<td class="details" style="vertical-align:top">
+<h4>Total sequences with primary and secondary motif <div class="help" onclick="help_popup(this, 'pop_seqtotal')"></div>
+</h4>203<h4>Alignment by most significant spacings <div class="help" onclick="help_popup(this, 'pop_alignment')"></div>
+</h4>
+<table>
+<tr>
+<td>Best Similar<br>Secondary</td>
+<td><div class="seq" id="s_1_1_3_sm">   <span class="G ">G</span><span class="A ">A</span><span class="T ">T</span><span class="A ">A</span><span class="A ">A</span>
+</div></td>
+</tr>
+<tr>
+<td>This Similar<br>Secondary</td>
+<td><div class="seq" id="s_1_1_3_ssm">
+<span class="A trim">A</span><span class="C trim">C</span><span class="A ">A</span><span class="G ">G</span><span class="A ">A</span><span class="T ">T</span><span class="A ">A</span><span class="A ">A</span><span class="G ">G</span><span class="A trim">A</span><span class="A trim">A</span>
+</div></td>
+</tr>
+</table>
+<script>
+store_motif(
+  "s_1_1_3",
+  "MA0035.2",
+  2,
+  2,
+  "letter-probability matrix: alength= 4 w= 11 nsites= 4000 E= 0\n" + 
+  "0.355747 0.140003 0.310498 0.193752\n" + 
+  "0.177002 0.408246 0.308748 0.106004\n" + 
+  "0.695489 0.00775592 0.00250601 0.294249\n" + 
+  "6.37159e-06 6.10946e-06 0.999981 6.44375e-06\n" + 
+  "0.999981 6.10946e-06 6.07457e-06 6.44375e-06\n" + 
+  "0.0067562 0.00725593 0.0272554 0.958732\n" + 
+  "0.971732 6.10946e-06 0.00150604 0.0267558\n" + 
+  "0.887484 0.00100608 0.0957537 0.0157561\n" + 
+  "0.199751 0.170252 0.573992 0.056005\n" + 
+  "0.357997 0.224251 0.339998 0.0777545\n" + 
+  "0.371747 0.207251 0.274749 0.146253\n"
+);
+
+ready_motif(
+  "s_1_1_3_sm",
+  "s_1_1",
+  false,
+  3,
+  false,
+  "Secondary: MA0307.1",
+  "s_1_1_3"
+
+);
+
+ready_motif(
+  "s_1_1_3_ssm",
+  "s_1_1_3",
+  false,
+  0,
+  false,
+  "Similar Secondary: MA0035.2",
+  "s_1_1_3"
+
+);
+</script>
+</td>
+</tr>
+</table></div>
+<script>
+        document.getElementById("s_1_1_3").style.display = "none";
+      </script><div id="s_1_1_4"><table>
+<tr><th colspan="6">Similar Secondary: <a href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl?ID=MA0300.1&amp;rm=present&amp;collection=CORE">MA0300.1 (GAT1)</a>
+</th></tr>
+<tr>
+<td colspan="2" style="width:350px;">
+<noscript><img src="hist_CCMCRCCC_db1_MA0300.1.png"></noscript>
+<span id="s_1_1_4_hist"></span><script type="text/javascript">
+      store_graph(
+        "s_1_1_4_hist",
+        "% Input Data\n" + 
+        "150 margin 7 motif-length 1 bin-size 8 bin-max 148 sequences 0.05 threshold\n\n" + 
+        "% Same Left\n" + 
+        "0 1 1 1 3 0.73 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 2 1\n" + 
+        "0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Same Right\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 3 0.73 3 0.73 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 2 1 1 1 2 1 1 1 0 1 0 1 2 1 2 1 1 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Left\n" + 
+        "0 1 0 1 0 1 0 1 2 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 2 1 1 1 1 1 1 1 0 1 0 1 1 1 0 1 5 0.0041 0 1 3 0.73 0 1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1\n" + 
+        "0 1 0 1 0 1 2 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 2 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Right\n" + 
+        "0 1 0 1 2 1 0 1 1 1 0 1 0 1 1 1 2 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 2 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n"
+      );
+      ready_graph(
+        "s_1_1_4_hist",
+        "s_1_1_4_hist",
+        false,
+        "hist_CCMCRCCC_db1_MA0300.1.png",
+        ""
+        
+          ,"s_1_1_4"
+        
+      );
+    </script>
+</td>
+<th><div class="st_box">
+<div class="st_same deg90rotate">Same Strand</div>
+<div class="st_oppo deg90rotate">Opposite Strand</div>
+</div></th>
+<td colspan="2"><div class="sp_box">
+<div class="sp_same_up"></div>
+<div class="sp_same_down"></div>
+<div class="sp_oppo_up"><div class="sp_fixed"><table>
+<thead><tr>
+<th>P-value</th>
+<th>Gap</th>
+<th>#</th>
+<th style="width:15px;"> </th>
+</tr></thead>
+<tbody><tr>
+<td class="sp_pvalue">0.0041</td>
+<td class="sp_gap">25</td>
+<td class="sp_count">5</td>
+<td> </td>
+</tr></tbody>
+</table></div></div>
+<div class="sp_oppo_down"></div>
+</div></td>
+<td class="details" style="vertical-align:top">
+<h4>Total sequences with primary and secondary motif <div class="help" onclick="help_popup(this, 'pop_seqtotal')"></div>
+</h4>148<h4>Alignment by most significant spacings <div class="help" onclick="help_popup(this, 'pop_alignment')"></div>
+</h4>
+<table>
+<tr>
+<td>Best Similar<br>Secondary</td>
+<td><div class="seq" id="s_1_1_4_sm">  <span class="G ">G</span><span class="A ">A</span><span class="T ">T</span><span class="A ">A</span><span class="A ">A</span>
+</div></td>
+</tr>
+<tr>
+<td>This Similar<br>Secondary</td>
+<td><div class="seq" id="s_1_1_4_ssm">
+<span class="C trim">C</span><span class="C ">C</span><span class="G ">G</span><span class="A ">A</span><span class="T ">T</span><span class="A ">A</span><span class="A ">A</span><span class="G ">G</span>
+</div></td>
+</tr>
+</table>
+<script>
+store_motif(
+  "s_1_1_4",
+  "MA0300.1",
+  1,
+  0,
+  "letter-probability matrix: alength= 4 w= 8 nsites= 100 E= 0\n" + 
+  "0.128839 0.435453 0.188174 0.247535\n" + 
+  "0.170085 0.419825 0.0501928 0.359898\n" + 
+  "0.000254615 0.00024414 0.999244 0.000257499\n" + 
+  "0.999256 0.00024414 0.000242746 0.000257499\n" + 
+  "0.000254615 0.00024414 0.000242746 0.999258\n" + 
+  "0.999256 0.00024414 0.000242746 0.000257499\n" + 
+  "0.999256 0.00024414 0.000242746 0.000257499\n" + 
+  "0.0305273 0.0910623 0.84788 0.0305302\n"
+);
+
+ready_motif(
+  "s_1_1_4_sm",
+  "s_1_1",
+  false,
+  2,
+  false,
+  "Secondary: MA0307.1",
+  "s_1_1_4"
+
+);
+
+ready_motif(
+  "s_1_1_4_ssm",
+  "s_1_1_4",
+  false,
+  0,
+  false,
+  "Similar Secondary: MA0300.1",
+  "s_1_1_4"
+
+);
+</script>
+</td>
+</tr>
+</table></div>
+<script>
+        document.getElementById("s_1_1_4").style.display = "none";
+      </script>
+</div>
+<a name="s_1_2"></a><table width="100%" border="0" cellspacing="1" cellpadding="4" bgcolor="#FFFFFF"><tr>
+<td><h2 class="mainh">Spacings of "MA0140.1 (Tal1::Gata1)" relative to "CCMCRCCC"</h2></td>
+<td align="right" valign="bottom">
+<a href="#s_1_1">Previous</a> <a href="#s_1_3">Next</a> <a href="#top">Top</a>
+</td>
+</tr></table>
+<div class="box">
+<table>
+<tr>
+<th>Primary: CCMCRCCC <div class="help" onclick="help_popup(this, 'pop_primary')"></div>
+</th>
+<th>Secondary: <a href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl?ID=MA0140.1&amp;rm=present&amp;collection=CORE">MA0140.1 (Tal1::Gata1)</a> <div class="help" onclick="help_popup(this, 'pop_secondary')"></div>
+</th>
+<th>
+<i>E</i>-value <div class="help" onclick="help_popup(this, 'pop_evalue')"></div>
+</th>
+</tr>
+<tr>
+<td>
+<div class="seq seqbox" id="s_1_2_pm">
+<span class="C ">C</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="C ">C</span><span class="C ">C</span>
+</div>
+<script>
+ready_motif(
+  "s_1_2_pm",
+  "1",
+  false,
+  0,
+  false,
+  "Primary: CCMCRCCC"
+);
+</script>
+</td>
+<td>
+<div class="seq seqbox" id="s_1_2_sm">
+<span class="C trim">C</span><span class="T ">T</span><span class="G ">G</span><span class="G ">G</span><span class="T ">T</span><span class="G ">G</span><span class="G ">G</span><span class="G ">G</span><span class="G ">G</span><span class="A ">A</span><span class="C ">C</span><span class="A ">A</span><span class="G ">G</span><span class="A ">A</span><span class="T ">T</span><span class="A ">A</span><span class="A ">A</span><span class="G ">G</span>
+</div>
+<script>
+store_motif(
+  "s_1_2",
+  "MA0140.1",
+  1,
+  0,
+  "letter-probability matrix: alength= 4 w= 18 nsites= 2945 E= 0\n" + 
+  "0.135966 0.451727 0.210062 0.202245\n" + 
+  "0.0887206 0.150921 0.176753 0.583606\n" + 
+  "0.0445041 0.0618272 0.6525 0.241169\n" + 
+  "0.0899886 0.253311 0.416972 0.239729\n" + 
+  "0.227166 0.215621 0.263157 0.294057\n" + 
+  "0.238032 0.233277 0.306619 0.222072\n" + 
+  "0.225391 0.252885 0.318395 0.203329\n" + 
+  "0.241941 0.23719 0.302339 0.218528\n" + 
+  "0.248898 0.224484 0.2923 0.234318\n" + 
+  "0.338083 0.138157 0.319074 0.204686\n" + 
+  "0.17895 0.397958 0.30594 0.117153\n" + 
+  "0.66473 0.0105269 0.0125628 0.31218\n" + 
+  "0.00102662 0.00238422 0.99658 8.75204e-06\n" + 
+  "0.993528 0.00238322 0.000687228 0.00340164\n" + 
+  "0.00544147 0.008837 0.0101949 0.975528\n" + 
+  "0.941193 0.00204723 0.00782299 0.0489371\n" + 
+  "0.809359 0.0173367 0.127765 0.0455392\n" + 
+  "0.186056 0.187077 0.544548 0.082319\n"
+);
+
+ready_motif(
+  "s_1_2_sm",
+  "s_1_2",
+  false,
+  0,
+  false,
+  "Secondary: MA0140.1"
+);
+</script>
+</td>
+<td style="vertical-align:middle; text-align:right;font-weight: bold">0.35</td>
+</tr>
+</table>
+<table>
+<tr>
+<th colspan="2">Motif Spacing Histogram <div class="help" onclick="help_popup(this, 'pop_histogram')"></div>
+</th>
+<th> </th>
+<th colspan="2">Significant Motif Spacings (<i>p</i>&lt;0.05) <div class="help" onclick="help_popup(this, 'pop_spacings')"></div>
+</th>
+<th> </th>
+</tr>
+<tr>
+<th style="width:175px">Upstream</th>
+<th style="width:175px">Downstream</th>
+<th> </th>
+<th style="width:130px">Upstream</th>
+<th style="width:130px">Downstream</th>
+<th>Other Details</th>
+</tr>
+<tr>
+<td colspan="2">
+<noscript><img src="hist_CCMCRCCC_db1_MA0140.1.png"></noscript>
+<span id="s_1_2_hist"></span><script type="text/javascript">
+      store_graph(
+        "s_1_2_hist",
+        "% Input Data\n" + 
+        "150 margin 17 motif-length 1 bin-size 8 bin-max 180 sequences 0.05 threshold\n\n" + 
+        "% Same Left\n" + 
+        "0 1 1 1 3 0.93 1 1 0 1 2 1 2 1 2 1 0 1 0 1 0 1 1 1 0 1 0 1 2 1 0 1 0 1 1 1 1 1 2 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1\n" + 
+        "0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1\n\n" + 
+        "% Same Right\n" + 
+        "2 1 0 1 0 1 1 1 4 0.19 1 1 1 1 0 1 0 1 2 1 0 1 0 1 0 1 6 0.00074 1 1 1 1 0 1 0 1 1 1 2 1 1 1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 1 1 1 1 0 1 0 1\n" + 
+        "0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 2 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 3 0.93 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Left\n" + 
+        "0 1 0 1 0 1 1 1 0 1 0 1 1 1 2 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 4 0.19 1 1 3 0.93 1 1 1 1 1 1 2 1 1 1 2 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 2 1 0 1 0 1 1 1 1 1 0 1 1 1\n" + 
+        "0 1 0 1 1 1 2 1 2 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 2 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1\n\n" + 
+        "% Opposite Right\n" + 
+        "0 1 0 1 3 0.93 1 1 2 1 0 1 0 1 1 1 1 1 1 1 1 1 2 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 3 0.93 1 1 1 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 2 1 0 1 0 1 1 1 0 1 0 1 0 1 2 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n"
+      );
+      ready_graph(
+        "s_1_2_hist",
+        "s_1_2_hist",
+        false,
+        "hist_CCMCRCCC_db1_MA0140.1.png",
+        ""
+        
+      );
+    </script>
+</td>
+<th><div class="st_box">
+<div class="st_same deg90rotate">Same Strand</div>
+<div class="st_oppo deg90rotate">Opposite Strand</div>
+</div></th>
+<td colspan="2"><div class="sp_box">
+<div class="sp_same_up"></div>
+<div class="sp_same_down"><div class="sp_fixed"><table>
+<thead><tr>
+<th>P-value</th>
+<th>Gap</th>
+<th>#</th>
+<th style="width:15px;"> </th>
+</tr></thead>
+<tbody><tr>
+<td class="sp_pvalue">0.00074</td>
+<td class="sp_gap">13</td>
+<td class="sp_count">6</td>
+<td> </td>
+</tr></tbody>
+</table></div></div>
+<div class="sp_oppo_up"></div>
+<div class="sp_oppo_down"></div>
+</div></td>
+<td class="details" style="vertical-align:top">
+<h4>Total sequences with primary and secondary motif <div class="help" onclick="help_popup(this, 'pop_seqtotal')"></div>
+</h4>180<br><h4>Motif Database <div class="help" onclick="help_popup(this, 'pop_motifdb')"></div>
+</h4>JASPAR CORE 2009<br>
+</td>
+</tr>
+</table>
+</div>
+<a name="s_1_3"></a><table width="100%" border="0" cellspacing="1" cellpadding="4" bgcolor="#FFFFFF"><tr>
+<td><h2 class="mainh">Spacings of "MA0199.1 (Optix)" relative to "CCMCRCCC"</h2></td>
+<td align="right" valign="bottom">
+<a href="#s_1_2">Previous</a> <a href="#s_1_4">Next</a> <a href="#top">Top</a>
+</td>
+</tr></table>
+<div class="box">
+<table>
+<tr>
+<th>Primary: CCMCRCCC <div class="help" onclick="help_popup(this, 'pop_primary')"></div>
+</th>
+<th>Secondary: <a href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl?ID=MA0199.1&amp;rm=present&amp;collection=CORE">MA0199.1 (Optix)</a> <div class="help" onclick="help_popup(this, 'pop_secondary')"></div>
+</th>
+<th>
+<i>E</i>-value <div class="help" onclick="help_popup(this, 'pop_evalue')"></div>
+</th>
+</tr>
+<tr>
+<td>
+<div class="seq seqbox" id="s_1_3_pm">
+<span class="C ">C</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="C ">C</span><span class="C ">C</span>
+</div>
+<script>
+ready_motif(
+  "s_1_3_pm",
+  "1",
+  false,
+  0,
+  false,
+  "Primary: CCMCRCCC"
+);
+</script>
+</td>
+<td>
+<div class="seq seqbox" id="s_1_3_sm">
+<span class="T ">T</span><span class="G ">G</span><span class="A ">A</span><span class="T ">T</span><span class="A ">A</span>
+</div>
+<script>
+store_motif(
+  "s_1_3",
+  "MA0199.1",
+  0,
+  0,
+  "letter-probability matrix: alength= 4 w= 5 nsites= 27 E= 0\n" + 
+  "0.00094048 0.185403 0.000896638 0.812759\n" + 
+  "0.00094048 0.000901788 0.997207 0.000951131\n" + 
+  "0.99725 0.000901788 0.000896638 0.000951131\n" + 
+  "0.00094048 0.000901788 0.000896638 0.997261\n" + 
+  "0.96035 0.000901788 0.037797 0.000951131\n"
+);
+
+ready_motif(
+  "s_1_3_sm",
+  "s_1_3",
+  false,
+  0,
+  false,
+  "Secondary: MA0199.1"
+);
+</script>
+</td>
+<td style="vertical-align:middle; text-align:right;font-weight: bold">2.4</td>
+</tr>
+</table>
+<table>
+<tr>
+<th colspan="2">Motif Spacing Histogram <div class="help" onclick="help_popup(this, 'pop_histogram')"></div>
+</th>
+<th> </th>
+<th colspan="2">Significant Motif Spacings (<i>p</i>&lt;0.05) <div class="help" onclick="help_popup(this, 'pop_spacings')"></div>
+</th>
+<th> </th>
+</tr>
+<tr>
+<th style="width:175px">Upstream</th>
+<th style="width:175px">Downstream</th>
+<th> </th>
+<th style="width:130px">Upstream</th>
+<th style="width:130px">Downstream</th>
+<th>Other Details</th>
+</tr>
+<tr>
+<td colspan="2">
+<noscript><img src="hist_CCMCRCCC_db1_MA0199.1.png"></noscript>
+<span id="s_1_3_hist"></span><script type="text/javascript">
+      store_graph(
+        "s_1_3_hist",
+        "% Input Data\n" + 
+        "150 margin 5 motif-length 1 bin-size 8 bin-max 156 sequences 0.05 threshold\n\n" + 
+        "% Same Left\n" + 
+        "0 1 0 1 0 1 1 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 2 1 0 1 0 1 1 1 0 1 2 1 0 1 0 1 0 1 2 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 2 1\n" + 
+        "0 1 1 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Same Right\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 2 1 3 0.78 1 1 0 1 0 1 1 1 0 1 1 1 1 1 1 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 1 1 0 1 0 1\n" + 
+        "0 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 2 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Left\n" + 
+        "0 1 0 1 0 1 0 1 2 1 0 1 0 1 2 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 5 0.005 2 1 2 1 0 1 1 1 1 1 0 1 0 1 2 1 0 1 1 1 0 1 1 1 0 1 1 1\n" + 
+        "0 1 1 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1\n" + 
+        "1 1 1 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Right\n" + 
+        "0 1 0 1 0 1 0 1 2 1 1 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 3 0.78 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 3 0.78 1 1 0 1 1 1 1 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1\n" + 
+        "0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 1 1 0 1\n\n"
+      );
+      ready_graph(
+        "s_1_3_hist",
+        "s_1_3_hist",
+        false,
+        "hist_CCMCRCCC_db1_MA0199.1.png",
+        ""
+        
+      );
+    </script>
+</td>
+<th><div class="st_box">
+<div class="st_same deg90rotate">Same Strand</div>
+<div class="st_oppo deg90rotate">Opposite Strand</div>
+</div></th>
+<td colspan="2"><div class="sp_box">
+<div class="sp_same_up"></div>
+<div class="sp_same_down"></div>
+<div class="sp_oppo_up"><div class="sp_fixed"><table>
+<thead><tr>
+<th>P-value</th>
+<th>Gap</th>
+<th>#</th>
+<th style="width:15px;"> </th>
+</tr></thead>
+<tbody><tr>
+<td class="sp_pvalue">0.005</td>
+<td class="sp_gap">25</td>
+<td class="sp_count">5</td>
+<td> </td>
+</tr></tbody>
+</table></div></div>
+<div class="sp_oppo_down"></div>
+</div></td>
+<td class="details" style="vertical-align:top">
+<h4>Total sequences with primary and secondary motif <div class="help" onclick="help_popup(this, 'pop_seqtotal')"></div>
+</h4>156<br><h4>Motif Database <div class="help" onclick="help_popup(this, 'pop_motifdb')"></div>
+</h4>JASPAR CORE 2009<br>
+</td>
+</tr>
+</table>
+</div>
+<a name="s_1_4"></a><table width="100%" border="0" cellspacing="1" cellpadding="4" bgcolor="#FFFFFF"><tr>
+<td><h2 class="mainh">Spacings of "MA0057.1 (MZF1 5-13)" relative to "CCMCRCCC"</h2></td>
+<td align="right" valign="bottom">
+<a href="#s_1_3">Previous</a> <a href="#s_1_5">Next</a> <a href="#top">Top</a>
+</td>
+</tr></table>
+<div class="box">
+<table>
+<tr>
+<th>Primary: CCMCRCCC <div class="help" onclick="help_popup(this, 'pop_primary')"></div>
+</th>
+<th>Secondary: <a href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl?ID=MA0057.1&amp;rm=present&amp;collection=CORE">MA0057.1 (MZF1 5-13)</a> <div class="help" onclick="help_popup(this, 'pop_secondary')"></div>
+</th>
+<th>
+<i>E</i>-value <div class="help" onclick="help_popup(this, 'pop_evalue')"></div>
+</th>
+</tr>
+<tr>
+<td>
+<div class="seq seqbox" id="s_1_4_pm">
+<span class="C ">C</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="C ">C</span><span class="C ">C</span>
+</div>
+<script>
+ready_motif(
+  "s_1_4_pm",
+  "1",
+  false,
+  0,
+  false,
+  "Primary: CCMCRCCC"
+);
+</script>
+</td>
+<td>
+<div class="seq seqbox" id="s_1_4_sm">
+<span class="G trim">G</span><span class="T ">T</span><span class="A ">A</span><span class="G ">G</span><span class="G ">G</span><span class="G ">G</span><span class="G ">G</span><span class="G ">G</span><span class="A ">A</span><span class="A trim">A</span>
+</div>
+<script>
+store_motif(
+  "s_1_4",
+  "MA0057.1",
+  1,
+  1,
+  "letter-probability matrix: alength= 4 w= 10 nsites= 16 E= 0\n" + 
+  "0.0636948 0.249965 0.436292 0.250048\n" + 
+  "0.125807 0.00151792 0.436292 0.436384\n" + 
+  "0.93326 0.0636297 0.00150925 0.00160097\n" + 
+  "0.00158304 0.00151792 0.684739 0.31216\n" + 
+  "0.00158304 0.00151792 0.933186 0.0637128\n" + 
+  "0.00158304 0.125742 0.871074 0.00160097\n" + 
+  "0.00158304 0.00151792 0.871074 0.125825\n" + 
+  "0.187918 0.0636297 0.498404 0.250048\n" + 
+  "0.622701 0.00151792 0.249956 0.125825\n" + 
+  "0.498477 0.125742 0.249956 0.125825\n"
+);
+
+ready_motif(
+  "s_1_4_sm",
+  "s_1_4",
+  false,
+  0,
+  false,
+  "Secondary: MA0057.1"
+);
+</script>
+</td>
+<td style="vertical-align:middle; text-align:right;font-weight: bold">2.7</td>
+</tr>
+</table>
+<table>
+<tr>
+<th colspan="2">Motif Spacing Histogram <div class="help" onclick="help_popup(this, 'pop_histogram')"></div>
+</th>
+<th> </th>
+<th colspan="2">Significant Motif Spacings (<i>p</i>&lt;0.05) <div class="help" onclick="help_popup(this, 'pop_spacings')"></div>
+</th>
+<th> </th>
+</tr>
+<tr>
+<th style="width:175px">Upstream</th>
+<th style="width:175px">Downstream</th>
+<th> </th>
+<th style="width:130px">Upstream</th>
+<th style="width:130px">Downstream</th>
+<th>Other Details</th>
+</tr>
+<tr>
+<td colspan="2">
+<noscript><img src="hist_CCMCRCCC_db1_MA0057.1.png"></noscript>
+<span id="s_1_4_hist"></span><script type="text/javascript">
+      store_graph(
+        "s_1_4_hist",
+        "% Input Data\n" + 
+        "150 margin 8 motif-length 1 bin-size 8 bin-max 158 sequences 0.05 threshold\n\n" + 
+        "% Same Left\n" + 
+        "0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 2 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1\n" + 
+        "0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Same Right\n" + 
+        "0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 1 1 2 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1\n\n" + 
+        "% Opposite Left\n" + 
+        "0 1 0 1 0 1 0 1 2 1 1 1 0 1 2 1 0 1 2 1 1 1 1 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1\n" + 
+        "0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 5 0.0057 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 0 1 3 0.8 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1\n" + 
+        "1 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1\n\n" + 
+        "% Opposite Right\n" + 
+        "1 1 0 1 1 1 0 1 0 1 2 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 2 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1\n" + 
+        "0 1 1 1 1 1 1 1 0 1 1 1 2 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1\n" + 
+        "2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 1 1 2 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1\n" + 
+        "1 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 3 0.8 1 1 0 1 0 1 0 1\n\n"
+      );
+      ready_graph(
+        "s_1_4_hist",
+        "s_1_4_hist",
+        false,
+        "hist_CCMCRCCC_db1_MA0057.1.png",
+        ""
+        
+      );
+    </script>
+</td>
+<th><div class="st_box">
+<div class="st_same deg90rotate">Same Strand</div>
+<div class="st_oppo deg90rotate">Opposite Strand</div>
+</div></th>
+<td colspan="2"><div class="sp_box">
+<div class="sp_same_up"></div>
+<div class="sp_same_down"></div>
+<div class="sp_oppo_up"><div class="sp_fixed"><table>
+<thead><tr>
+<th>P-value</th>
+<th>Gap</th>
+<th>#</th>
+<th style="width:15px;"> </th>
+</tr></thead>
+<tbody><tr>
+<td class="sp_pvalue">0.0057</td>
+<td class="sp_gap">95</td>
+<td class="sp_count">5</td>
+<td> </td>
+</tr></tbody>
+</table></div></div>
+<div class="sp_oppo_down"></div>
+</div></td>
+<td class="details" style="vertical-align:top">
+<h4>Total sequences with primary and secondary motif <div class="help" onclick="help_popup(this, 'pop_seqtotal')"></div>
+</h4>158<br><h4>Motif Database <div class="help" onclick="help_popup(this, 'pop_motifdb')"></div>
+</h4>JASPAR CORE 2009<br>
+</td>
+</tr>
+</table>
+</div>
+<a name="last_spacing_analysis"></a><a name="s_1_5"></a><table width="100%" border="0" cellspacing="1" cellpadding="4" bgcolor="#FFFFFF"><tr>
+<td><h2 class="mainh">Spacings of "MA0448.1 (H2.0)" relative to "CCMCRCCC"</h2></td>
+<td align="right" valign="bottom">
+<a href="#s_1_4">Previous</a> <a href="#program">Next</a> <a href="#top">Top</a>
+</td>
+</tr></table>
+<div class="box">
+<table>
+<tr>
+<th>Primary: CCMCRCCC <div class="help" onclick="help_popup(this, 'pop_primary')"></div>
+</th>
+<th>Secondary: <a href="http://jaspar.genereg.net/cgi-bin/jaspar_db.pl?ID=MA0448.1&amp;rm=present&amp;collection=CORE">MA0448.1 (H2.0)</a> <div class="help" onclick="help_popup(this, 'pop_secondary')"></div>
+</th>
+<th>
+<i>E</i>-value <div class="help" onclick="help_popup(this, 'pop_evalue')"></div>
+</th>
+</tr>
+<tr>
+<td>
+<div class="seq seqbox" id="s_1_5_pm">
+<span class="C ">C</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="A ">A</span><span class="C ">C</span><span class="C ">C</span><span class="C ">C</span>
+</div>
+<script>
+ready_motif(
+  "s_1_5_pm",
+  "1",
+  false,
+  0,
+  false,
+  "Primary: CCMCRCCC"
+);
+</script>
+</td>
+<td>
+<div class="seq seqbox" id="s_1_5_sm">
+<span class="T ">T</span><span class="T ">T</span><span class="A ">A</span><span class="A ">A</span><span class="T ">T</span><span class="T ">T</span><span class="A ">A</span>
+</div>
+<script>
+store_motif(
+  "s_1_5",
+  "MA0448.1",
+  0,
+  0,
+  "letter-probability matrix: alength= 4 w= 7 nsites= 32 E= 0\n" + 
+  "0.18771 0.0942193 0.125368 0.592703\n" + 
+  "0.0630993 0.031914 0.000756975 0.90423\n" + 
+  "0.499236 0.031914 0.0319096 0.43694\n" + 
+  "0.966526 0.000761323 0.000756975 0.0319556\n" + 
+  "0.000793988 0.000761323 0.000756975 0.997688\n" + 
+  "0.250015 0.000761323 0.281131 0.468093\n" + 
+  "0.748458 0.000761323 0.218826 0.0319556\n"
+);
+
+ready_motif(
+  "s_1_5_sm",
+  "s_1_5",
+  false,
+  0,
+  false,
+  "Secondary: MA0448.1"
+);
+</script>
+</td>
+<td style="vertical-align:middle; text-align:right;font-weight: bold">4.7</td>
+</tr>
+</table>
+<table>
+<tr>
+<th colspan="2">Motif Spacing Histogram <div class="help" onclick="help_popup(this, 'pop_histogram')"></div>
+</th>
+<th> </th>
+<th colspan="2">Significant Motif Spacings (<i>p</i>&lt;0.05) <div class="help" onclick="help_popup(this, 'pop_spacings')"></div>
+</th>
+<th> </th>
+</tr>
+<tr>
+<th style="width:175px">Upstream</th>
+<th style="width:175px">Downstream</th>
+<th> </th>
+<th style="width:130px">Upstream</th>
+<th style="width:130px">Downstream</th>
+<th>Other Details</th>
+</tr>
+<tr>
+<td colspan="2">
+<noscript><img src="hist_CCMCRCCC_db1_MA0448.1.png"></noscript>
+<span id="s_1_5_hist"></span><script type="text/javascript">
+      store_graph(
+        "s_1_5_hist",
+        "% Input Data\n" + 
+        "150 margin 7 motif-length 1 bin-size 8 bin-max 86 sequences 0.05 threshold\n\n" + 
+        "% Same Left\n" + 
+        "0 1 0 1 2 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Same Right\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 1 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1\n\n" + 
+        "% Opposite Left\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 2 1 1 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 1 1 0 1\n" + 
+        "1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 1 1 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1\n\n" + 
+        "% Opposite Right\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 1 1 0 1 0 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 2 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1\n" + 
+        "0 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 4 0.0099 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 0 1 1 1\n" + 
+        "0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1\n\n"
+      );
+      ready_graph(
+        "s_1_5_hist",
+        "s_1_5_hist",
+        false,
+        "hist_CCMCRCCC_db1_MA0448.1.png",
+        ""
+        
+      );
+    </script>
+</td>
+<th><div class="st_box">
+<div class="st_same deg90rotate">Same Strand</div>
+<div class="st_oppo deg90rotate">Opposite Strand</div>
+</div></th>
+<td colspan="2"><div class="sp_box">
+<div class="sp_same_up"></div>
+<div class="sp_same_down"></div>
+<div class="sp_oppo_up"></div>
+<div class="sp_oppo_down"><div class="sp_fixed"><table>
+<thead><tr>
+<th>P-value</th>
+<th>Gap</th>
+<th>#</th>
+<th style="width:15px;"> </th>
+</tr></thead>
+<tbody><tr>
+<td class="sp_pvalue">0.0099</td>
+<td class="sp_gap">97</td>
+<td class="sp_count">4</td>
+<td> </td>
+</tr></tbody>
+</table></div></div>
+</div></td>
+<td class="details" style="vertical-align:top">
+<h4>Total sequences with primary and secondary motif <div class="help" onclick="help_popup(this, 'pop_seqtotal')"></div>
+</h4>86<br><h4>Motif Database <div class="help" onclick="help_popup(this, 'pop_motifdb')"></div>
+</h4>JASPAR CORE 2009<br>
+</td>
+</tr>
+</table>
+</div>
+<a name="program"></a><div class="bar">
+<div style="text-align:right;">
+<a href="#last_spacing_analysis">Previous</a> <a href="#top">Top</a>
+</div>
+<div class="subsection">
+<a name="version"></a><h5>SpaMo version</h5>4.8.0 (Release date: Wed Jan 11 15:32:51 EST 2012)
+      </div>
+<div class="subsection">
+<a name="reference"></a><h5>Reference</h5>
+<span class="citation">
+          Tom Whitington, Martin C. Frith, James Johnson and Timothy L. Bailey,
+          "Inferring transcription factor complexes from ChIP-seq data",
+          <i>Nucleic Acids Research</i>, <b>39</b>(15):e98, 2011.
+        </span>
+</div>
+<div class="subsection">
+<a name="command"></a><h5>Command line summary</h5>
+<textarea rows="1" style="width:100%;" readonly>spamo  -png sample-dna-Klf1.fa dreme-Klf1.meme JASPAR_CORE_2009.meme</textarea><br>Result calculation took 1 minute 0 seconds<br>Note that the random number generator was initilized with a seed of 1 so you need
+        "-numgen 1" in the list of arguments
+        to replicate the experiment.
+      </div>
+<a href="javascript:show_hidden('model')" id="model_activator">show model parameters...</a><div class="subsection" id="model_data" style="display:none;">
+<h5>Model parameters</h5>
+<textarea style="width:100%;" rows="15" readonly>
+seed                  = 1
+margin                = 150
+bin_size              = 1
+bin_pvalue_calc_range = 150
+bin_pvalue_cutoff     = 0.05
+motif_evalue_cutoff   = 10
+seq_max_shared_fract  = 0.5
+seq_min_hit_score     = 7
+redundant_overlap     = 2
+redundant_joint       = 0.5
+motif_pseudocount     = 0.1
+motif_trim            = 0.25
+bin_max               = 8
+host                  = tlb-takumi-lt.imb.uq.edu.au
+when                  = Wed Jan 11 18:25:52 2012
+</textarea>
+</div>
+<a href="javascript:hide_shown('model')" style="display:none;" id="model_deactivator">hide model parameters...</a>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

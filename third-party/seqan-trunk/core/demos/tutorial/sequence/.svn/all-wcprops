@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13982/trunk/core/demos/tutorial/sequence
+END
+replace_as.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/sequence/replace_as.cpp
+END
+count_generic_characters.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13982/trunk/core/demos/tutorial/sequence/count_generic_characters.cpp
+END
+sequence_iterator_demo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/sequence/sequence_iterator_demo.cpp
+END
+count_characters.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/sequence/count_characters.cpp
+END
+sequence_all_strings.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/sequence/sequence_all_strings.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/sequence/CMakeLists.txt
+END

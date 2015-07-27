@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13994/trunk/extras/apps/breakpoint_calculator
+END
+breakpoint_counts.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13994/trunk/extras/apps/breakpoint_calculator/breakpoint_counts.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13281/trunk/extras/apps/breakpoint_calculator/LICENSE
+END
+breakpoint_calculator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/extras/apps/breakpoint_calculator/breakpoint_calculator.cpp
+END
+FindLEMON.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13782/trunk/extras/apps/breakpoint_calculator/FindLEMON.cmake
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13933/trunk/extras/apps/breakpoint_calculator/INFO
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13281/trunk/extras/apps/breakpoint_calculator/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/extras/apps/breakpoint_calculator/README
+END
+breakpoint_calculator.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13034/trunk/extras/apps/breakpoint_calculator/breakpoint_calculator.h
+END
+parse_alignment.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13789/trunk/extras/apps/breakpoint_calculator/parse_alignment.h
+END

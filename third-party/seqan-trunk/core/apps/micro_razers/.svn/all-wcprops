@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13740/trunk/core/apps/micro_razers
+END
+outputFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13607/trunk/core/apps/micro_razers/outputFormat.h
+END
+micro_razers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13740/trunk/core/apps/micro_razers/micro_razers.cpp
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13281/trunk/core/apps/micro_razers/LICENSE
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13281/trunk/core/apps/micro_razers/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/README
+END

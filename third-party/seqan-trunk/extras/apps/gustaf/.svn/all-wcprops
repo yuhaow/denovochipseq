@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/seqan/!svn/ver/14047/trunk/extras/apps/gustaf
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/14047/trunk/extras/apps/gustaf/LICENSE
+END
+msplazer.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/14035/trunk/extras/apps/gustaf/msplazer.h
+END
+stellar_routines.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/14024/trunk/extras/apps/gustaf/stellar_routines.h
+END
+create_stellarmatches_from_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/14035/trunk/extras/apps/gustaf/create_stellarmatches_from_file.h
+END
+msplazer_main.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/14035/trunk/extras/apps/gustaf/msplazer_main.h
+END
+msplazer_parseOptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/14024/trunk/extras/apps/gustaf/msplazer_parseOptions.h
+END
+gustaf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/14024/trunk/extras/apps/gustaf/gustaf.cpp
+END
+msplazer_out.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14035/trunk/extras/apps/gustaf/msplazer_out.h
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/INFO
+END
+msplazer_algorithms.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/14039/trunk/extras/apps/gustaf/msplazer_algorithms.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14047/trunk/extras/apps/gustaf/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/14047/trunk/extras/apps/gustaf/README
+END

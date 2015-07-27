@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/seqan/!svn/ver/14255/trunk/util/cmake
+END
+FindZLIB.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/14242/trunk/util/cmake/FindZLIB.cmake
+END
+SeqAnUsabilityAnalyzer.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13888/trunk/util/cmake/SeqAnUsabilityAnalyzer.cmake
+END
+SetCPackSystemName.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13281/trunk/util/cmake/SetCPackSystemName.cmake
+END
+FindPackageHandleStandardArgs.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/util/cmake/FindPackageHandleStandardArgs.cmake
+END
+FindSeqAn.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/14036/trunk/util/cmake/FindSeqAn.cmake
+END
+CTestConfig.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13034/trunk/util/cmake/CTestConfig.cmake
+END
+FeatureSummary.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13034/trunk/util/cmake/FeatureSummary.cmake
+END
+SeqAnContribs.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/14255/trunk/util/cmake/SeqAnContribs.cmake
+END
+LibFindMacros.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13034/trunk/util/cmake/LibFindMacros.cmake
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/13281/trunk/util/cmake/README
+END
+SeqAnVersion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13281/trunk/util/cmake/SeqAnVersion.cpp
+END
+GetCurrentDate.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13281/trunk/util/cmake/GetCurrentDate.cmake
+END
+FindOpenCL.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13034/trunk/util/cmake/FindOpenCL.cmake
+END
+SeqAnLegacyBuildSystem.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13997/trunk/util/cmake/SeqAnLegacyBuildSystem.cmake
+END
+GetCurrentDate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13281/trunk/util/cmake/GetCurrentDate.cpp
+END
+CMakeMacroParseArguments.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/util/cmake/CMakeMacroParseArguments.cmake
+END
+SeqAnCtdSetup.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/14071/trunk/util/cmake/SeqAnCtdSetup.cmake
+END
+FindBZip2.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/14242/trunk/util/cmake/FindBZip2.cmake
+END
+package.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13996/trunk/util/cmake/package.cmake
+END
+SeqAnBuildSystem.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14181/trunk/util/cmake/SeqAnBuildSystem.cmake
+END
+FindOpenMP.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13402/trunk/util/cmake/FindOpenMP.cmake
+END

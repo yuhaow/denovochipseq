@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_find_motif.dir/tutorial/find_motif.cpp.o  -o ../../bin/demo_tutorial_find_motif -rdynamic -lrt -lz -lbz2 

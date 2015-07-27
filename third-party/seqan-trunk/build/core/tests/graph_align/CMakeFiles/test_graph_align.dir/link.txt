@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG    CMakeFiles/test_graph_align.dir/test_graph_align.cpp.o  -o ../../../bin/test_graph_align -rdynamic -lrt 

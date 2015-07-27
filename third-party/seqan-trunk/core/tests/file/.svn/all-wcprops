@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/seqan/!svn/ver/13855/trunk/core/tests/file
+END
+fasta_crlf.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13034/trunk/core/tests/file/fasta_crlf.txt
+END
+fasta_align.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13034/trunk/core/tests/file/fasta_align.txt
+END
+fasta_align_to_cgviz_result.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13445/trunk/core/tests/file/fasta_align_to_cgviz_result.txt
+END
+genbank_crlf.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13034/trunk/core/tests/file/genbank_crlf.txt
+END
+takifugu_scl_embl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13034/trunk/core/tests/file/takifugu_scl_embl.txt
+END
+fasta_lf.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13034/trunk/core/tests/file/fasta_lf.txt
+END
+test_file.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13855/trunk/core/tests/file/test_file.cpp
+END
+fasta_cr.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13034/trunk/core/tests/file/fasta_cr.txt
+END
+embl_crlf.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/tests/file/embl_crlf.txt
+END
+test_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13855/trunk/core/tests/file/test_file.h
+END
+test_embl.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13855/trunk/core/tests/file/test_embl.h
+END
+fasta_align_dna.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13034/trunk/core/tests/file/fasta_align_dna.txt
+END
+fasta_align2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13034/trunk/core/tests/file/fasta_align2.txt
+END
+fasta.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/tests/file/fasta.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13313/trunk/core/tests/file/CMakeLists.txt
+END

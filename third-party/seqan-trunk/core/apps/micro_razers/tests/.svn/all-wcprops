@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests
+END
+se-adeno-reads36_1_sl14_se.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl14_se.out
+END
+se-adeno-reads36_1_sl16_se.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl16_se.out
+END
+se-adeno-reads36_1_sl18_se.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl18_se.out
+END
+se-adeno-reads36_1_sl20.out
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl20.out
+END
+se-adeno-reads36_1_default.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_default.out
+END
+se-adeno-reads36_1_sl14_se.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl14_se.stdout
+END
+se-adeno-reads36_1_sl15_se.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl15_se.stdout
+END
+se-adeno-reads36_1_sl16_se.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl16_se.stdout
+END
+se-adeno-reads36_1_sl17_se.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl17_se.stdout
+END
+se-adeno-reads36_1_sl18_se.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl18_se.stdout
+END
+se-adeno-reads36_1_sl19_se.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl19_se.stdout
+END
+se-adeno-reads36_1_sl20.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl20.stdout
+END
+se-adeno-reads36_1_sl14.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl14.stdout
+END
+se-adeno-reads36_1_default.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_default.stdout
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/generate_outputs.sh
+END
+se-adeno-reads36_1_sl16.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl16.stdout
+END
+se-adeno-reads36_1_sl18_m20_pa.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl18_m20_pa.stdout
+END
+se-adeno-reads36_1_sl18.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl18.stdout
+END
+se-adeno-reads36_1_sl15_se.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl15_se.out
+END
+se-adeno-reads36_1_sl17_se.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl17_se.out
+END
+adeno-genome.fa
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/adeno-genome.fa
+END
+se-adeno-reads36_1_sl19_se.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl19_se.out
+END
+se-adeno-reads36_1_sl20_se.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl20_se.stdout
+END
+se-adeno-reads36_1_sl14.out
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl14.out
+END
+se-adeno-reads36_1_sl15.out
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl15.out
+END
+se-adeno-reads36_1_sl18_m20_pa.out
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl18_m20_pa.out
+END
+se-adeno-reads36_1_sl16.out
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl16.out
+END
+se-adeno-reads36_1_sl17.out
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl17.out
+END
+se-adeno-reads36_1_sl18.out
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl18.out
+END
+se-adeno-reads36_1_sl19.out
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl19.out
+END
+adeno-reads36_1.fa
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/adeno-reads36_1.fa
+END
+se-adeno-reads36_1_sl15.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl15.stdout
+END
+se-adeno-reads36_1_sl17.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl17.stdout
+END
+se-adeno-reads36_1_sl19.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl19.stdout
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/run_tests.py
+END
+se-adeno-reads36_1_sl20_se.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/tests/se-adeno-reads36_1_sl20_se.out
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/13855/trunk/core/tests/sequence
+END
+test_sequence_v2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13855/trunk/core/tests/sequence/test_sequence_v2.cpp
+END
+test_segment_beta.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/sequence/test_segment_beta.h
+END
+test_string_set.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13855/trunk/core/tests/sequence/test_string_set.h
+END
+test_segment.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13855/trunk/core/tests/sequence/test_segment.h
+END
+test_stringset.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13855/trunk/core/tests/sequence/test_stringset.h
+END
+test_sequence.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13855/trunk/core/tests/sequence/test_sequence.cpp
+END
+test_sequence_std_adaptions.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13855/trunk/core/tests/sequence/test_sequence_std_adaptions.h
+END
+test_string.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13855/trunk/core/tests/sequence/test_string.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13825/trunk/core/tests/sequence/CMakeLists.txt
+END
+test_sequence.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13855/trunk/core/tests/sequence/test_sequence.h
+END

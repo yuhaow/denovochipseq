@@ -1,0 +1,455 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/seqan/!svn/ver/14251/trunk/core/demos
+END
+graph_algo_dfs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_dfs.cpp
+END
+annotation_converter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13034/trunk/core/demos/annotation_converter.cpp
+END
+find_exact.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/demos/find_exact.cpp
+END
+index_lcp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/14251/trunk/core/demos/index_lcp.cpp
+END
+benchmark_stream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13950/trunk/core/demos/benchmark_stream.cpp
+END
+repeats_demo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13950/trunk/core/demos/repeats_demo.cpp
+END
+sequence_length.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13067/trunk/core/demos/sequence_length.cpp
+END
+sample_seqs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13950/trunk/core/demos/sample_seqs.cpp
+END
+alignment_msa.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13034/trunk/core/demos/alignment_msa.cpp
+END
+graph_hmm_silent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13034/trunk/core/demos/graph_hmm_silent.cpp
+END
+alphabet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/core/demos/alphabet.cpp
+END
+arg_align.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/core/demos/arg_align.cpp
+END
+stream_read_fastq_gz.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13034/trunk/core/demos/stream_read_fastq_gz.cpp
+END
+graph_algo_path_bellmanford.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_path_bellmanford.cpp
+END
+gff2gtf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13034/trunk/core/demos/gff2gtf.cpp
+END
+ecoln.out
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/13034/trunk/core/demos/ecoln.out
+END
+file_format.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13034/trunk/core/demos/file_format.cpp
+END
+index_qgram_counts.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13034/trunk/core/demos/index_qgram_counts.cpp
+END
+iterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/core/demos/iterator.cpp
+END
+graph_algo_path_dag.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_path_dag.cpp
+END
+index_mummy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13034/trunk/core/demos/index_mummy.cpp
+END
+graph_algo_topsort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_topsort.cpp
+END
+index_maxrepeats.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13988/trunk/core/demos/index_maxrepeats.cpp
+END
+seeds.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/13711/trunk/core/demos/seeds.cpp
+END
+graph_algo_lcs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13873/trunk/core/demos/graph_algo_lcs.cpp
+END
+rooted_iterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13034/trunk/core/demos/rooted_iterator.cpp
+END
+index_find.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/demos/index_find.cpp
+END
+index_counting.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/demos/index_counting.cpp
+END
+alignment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13572/trunk/core/demos/alignment.cpp
+END
+graph_algo_tree_kruskal.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_tree_kruskal.cpp
+END
+terminal_demo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13034/trunk/core/demos/terminal_demo.cpp
+END
+lagan2.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/core/demos/lagan2.fasta
+END
+index_sufarray.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/demos/index_sufarray.cpp
+END
+file_readwrite.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/demos/file_readwrite.cpp
+END
+alignment_local.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13034/trunk/core/demos/alignment_local.cpp
+END
+modifier_modview.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13266/trunk/core/demos/modifier_modview.cpp
+END
+example_seq_io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13950/trunk/core/demos/example_seq_io.cpp
+END
+sequence_2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/core/demos/sequence_2.fa
+END
+arg_align.README
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13034/trunk/core/demos/arg_align.README
+END
+file_speed.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13412/trunk/core/demos/file_speed.cpp
+END
+modifier_nested.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13266/trunk/core/demos/modifier_nested.cpp
+END
+segmentalignment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13034/trunk/core/demos/segmentalignment.cpp
+END
+arg_parse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13950/trunk/core/demos/arg_parse.cpp
+END
+graph_algo_path_allpairs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_path_allpairs.cpp
+END
+index_mums.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/demos/index_mums.cpp
+END
+template_subclassing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13034/trunk/core/demos/template_subclassing.cpp
+END
+graph_algo_tree_prim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_tree_prim.cpp
+END
+graph_algo_path_floydwarshall.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_path_floydwarshall.cpp
+END
+allocator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/core/demos/allocator.cpp
+END
+sam2svg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13034/trunk/core/demos/sam2svg.cpp
+END
+graph_algo_scc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_scc.cpp
+END
+sequence_1.fa
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/core/demos/sequence_1.fa
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13281/trunk/core/demos/CMakeLists.txt
+END
+enumerate_strings.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13950/trunk/core/demos/enumerate_strings.cpp
+END
+find_wild.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/core/demos/find_wild.cpp
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/seqan/!svn/ver/13034/trunk/core/demos/LICENSE
+END
+graph_hmm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/core/demos/graph_hmm.cpp
+END
+interval_tree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13873/trunk/core/demos/interval_tree.cpp
+END
+pipe_sort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13950/trunk/core/demos/pipe_sort.cpp
+END
+graph_algo_his.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_his.cpp
+END
+find_approx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13034/trunk/core/demos/find_approx.cpp
+END
+index_find_stringset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13988/trunk/core/demos/index_find_stringset.cpp
+END
+graph_algo_lis.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_lis.cpp
+END
+graph_algo_path_dijkstra.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_path_dijkstra.cpp
+END
+index_supermaxrepeats.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/core/demos/index_supermaxrepeats.cpp
+END
+benchmark_stream_write.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13950/trunk/core/demos/benchmark_stream_write.cpp
+END
+lagan1.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/core/demos/lagan1.fasta
+END
+soft_to_hard_masking.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13950/trunk/core/demos/soft_to_hard_masking.cpp
+END
+filter_sam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/demos/filter_sam.cpp
+END
+graph_algo_path_transitive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_path_transitive.cpp
+END
+align_gaps_clipping.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13878/trunk/core/demos/align_gaps_clipping.cpp
+END
+modifier_modreverse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13266/trunk/core/demos/modifier_modreverse.cpp
+END
+index_node_predicate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13034/trunk/core/demos/index_node_predicate.cpp
+END
+graph_algo_flow_fordfulkerson.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_flow_fordfulkerson.cpp
+END
+graph_algo_bfs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/demos/graph_algo_bfs.cpp
+END

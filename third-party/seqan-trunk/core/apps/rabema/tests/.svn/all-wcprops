@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/14115/trunk/core/apps/rabema/tests
+END
+gold-adeno-edit-08.by_coordinate.sam
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-edit-08.by_coordinate.sam
+END
+adeno-genome.fa.fai
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/adeno-genome.fa.fai
+END
+adeno-genome.fa
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/adeno-genome.fa
+END
+razers2-adeno-hamming-04.by_qname.sam
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/14115/trunk/core/apps/rabema/tests/razers2-adeno-hamming-04.by_qname.sam
+END
+gold-adeno-hamming-08.by_qname.sam
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/14115/trunk/core/apps/rabema/tests/gold-adeno-hamming-08.by_qname.sam
+END
+razers2-adeno-edit-04.by_qname.sam
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/14115/trunk/core/apps/rabema/tests/razers2-adeno-edit-04.by_qname.sam
+END
+gold-adeno-hamming-08.by_coordinate.bam
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-hamming-08.by_coordinate.bam
+END
+gold-adeno-edit-08.by_qname.sam
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/14115/trunk/core/apps/rabema/tests/gold-adeno-edit-08.by_qname.sam
+END
+razers2-adeno-hamming-04.sam
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/razers2-adeno-hamming-04.sam
+END
+gold-adeno-hamming-08.sam
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-hamming-08.sam
+END
+reads.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/reads.fasta
+END
+razers2-adeno-hamming-04.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/razers2-adeno-hamming-04.stdout
+END
+gold-adeno-hamming-08.gsi
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-hamming-08.gsi
+END
+gold-adeno-hamming-08.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-hamming-08.stdout
+END
+razers2-adeno-hamming-08.sam
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/razers2-adeno-hamming-08.sam
+END
+gold-adeno-edit-08.by_coordinate.bam
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-edit-08.by_coordinate.bam
+END
+razers2-adeno-edit-04.sam
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/razers2-adeno-edit-04.sam
+END
+gold-adeno-edit-08.sam
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-edit-08.sam
+END
+razers2-adeno-hamming-08.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/razers2-adeno-hamming-08.stdout
+END
+razers2-adeno-edit-04.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/razers2-adeno-edit-04.stdout
+END
+gold-adeno-edit-08.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-edit-08.stdout
+END
+gold-adeno-edit-08.gsi
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-edit-08.gsi
+END
+razers2-adeno-edit-08.sam
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/razers2-adeno-edit-08.sam
+END
+gold-adeno-hamming-08.by_qname.bam
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-hamming-08.by_qname.bam
+END
+razers2-adeno-edit-08.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/razers2-adeno-edit-08.stdout
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13620/trunk/core/apps/rabema/tests/generate_outputs.sh
+END
+gold-adeno-edit-08.by_qname.bam
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-edit-08.by_qname.bam
+END
+reads.fasta.sam
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/14115/trunk/core/apps/rabema/tests/reads.fasta.sam
+END
+gold-adeno-hamming-08.by_coordinate.sam
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/rabema/tests/gold-adeno-hamming-08.by_coordinate.sam
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13620/trunk/core/apps/rabema/tests/run_tests.py
+END

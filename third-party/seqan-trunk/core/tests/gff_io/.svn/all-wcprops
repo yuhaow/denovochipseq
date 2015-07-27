@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/14203/trunk/core/tests/gff_io
+END
+example_gtf.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13685/trunk/core/tests/gff_io/example_gtf.tsv
+END
+example_gtf_pseudogenes.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13892/trunk/core/tests/gff_io/example_gtf_pseudogenes.tsv
+END
+example_gff.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13685/trunk/core/tests/gff_io/example_gff.tsv
+END
+test_gff_io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14203/trunk/core/tests/gff_io/test_gff_io.cpp
+END
+example_gtf_context.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13685/trunk/core/tests/gff_io/example_gtf_context.tsv
+END
+example_gff_context.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13685/trunk/core/tests/gff_io/example_gff_context.tsv
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13685/trunk/core/tests/gff_io/CMakeLists.txt
+END
+test_gff_io.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/14203/trunk/core/tests/gff_io/test_gff_io.h
+END

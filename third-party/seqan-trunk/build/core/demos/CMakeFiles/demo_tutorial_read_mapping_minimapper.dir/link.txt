@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_read_mapping_minimapper.dir/tutorial/read_mapping/minimapper.cpp.o  -o ../../bin/demo_tutorial_read_mapping_minimapper -rdynamic -lrt -lz -lbz2 

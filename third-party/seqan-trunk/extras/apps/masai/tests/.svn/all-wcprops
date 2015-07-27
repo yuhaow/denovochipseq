@@ -1,0 +1,443 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/14228/trunk/extras/apps/masai/tests
+END
+se-adeno-reads100_1-ofsam.out.sam
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/14205/trunk/extras/apps/masai/tests/se-adeno-reads100_1-ofsam.out.sam
+END
+se-adeno-reads100_1.out.raw
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/se-adeno-reads100_1.out.raw
+END
+se-adeno-reads100_1-e0.out.raw
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/se-adeno-reads100_1-e0.out.raw
+END
+se-adeno-reads100_1-e1.out.raw
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/se-adeno-reads100_1-e1.out.raw
+END
+adeno-index-fm.out.lf.wtc.2.bl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.2.bl
+END
+se-adeno-reads100_1-e2.out.raw
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/se-adeno-reads100_1-e2.out.raw
+END
+se-adeno-reads100_1-e3.out.raw
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/se-adeno-reads100_1-e3.out.raw
+END
+se-adeno-reads100_1-e4.out.raw
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/se-adeno-reads100_1-e4.out.raw
+END
+adeno-genome.sa
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13335/trunk/extras/apps/masai/tests/adeno-genome.sa
+END
+adeno-index-fm.out.lf.drp.sbl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.drp.sbl
+END
+adeno-index-fm.out.lf.pst
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.pst
+END
+adeno-index-fm.out.sa.ind.bl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.sa.ind.bl
+END
+se-adeno-reads100_1-e1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1-e1.stdout
+END
+adeno-index-fm.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.stdout
+END
+adeno-index-sa.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/adeno-index-sa.stdout
+END
+adeno-index-qgram.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/adeno-index-qgram.stdout
+END
+adeno-index-qgram.out.dir
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-qgram.out.dir
+END
+adeno-index-fm.out.sa.val
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.sa.val
+END
+adeno-index-esa.out.lcp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-esa.out.lcp
+END
+adeno-index-fm.out.lf.wtc.1.bl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.1.bl
+END
+se-adeno-reads100_1-sl50.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1-sl50.stdout
+END
+adeno-index-fm.out.sa.ind.sbl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.sa.ind.sbl
+END
+adeno-index-fm.out.lf.drp.len
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.drp.len
+END
+adeno-index-fm.out.lf.drp.bit
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.drp.bit
+END
+adeno-index-esa.out.bwt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-esa.out.bwt
+END
+se-adeno-reads100_1-mmall.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1-mmall.stdout
+END
+adeno-reads100_2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13335/trunk/extras/apps/masai/tests/adeno-reads100_2.fa
+END
+adeno-index-fm.out.lf.wtc.0.sbl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.0.sbl
+END
+se-adeno-reads100_1-e0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1-e0.stdout
+END
+adeno-index-fm.out.lf.wtc.1.sbl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.1.sbl
+END
+adeno-index-fm.out.lf.wtc.2.sbl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.2.sbl
+END
+adeno-index-fm.out.lf.wtc.3.sbl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.3.sbl
+END
+adeno-index-fm.out.lf.wts.rtm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wts.rtm
+END
+se-adeno-reads100_1-e4.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1-e4.stdout
+END
+adeno-index-esa.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/adeno-index-esa.stdout
+END
+se-adeno-reads100_1-mmall.out.raw
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/se-adeno-reads100_1-mmall.out.raw
+END
+adeno-index-fm.out.lf.wtc.0.bl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.0.bl
+END
+adeno-index-fm.out.lf.wts.rtv
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wts.rtv
+END
+adeno-index-fm.out.sa.ind.len
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-fm.out.sa.ind.len
+END
+adeno-index-fm.out.sa.ind.bit
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.sa.ind.bit
+END
+adeno-index-esa.out.child
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-esa.out.child
+END
+se-adeno-reads100_1-nogaps.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1-nogaps.stdout
+END
+adeno-reads36_2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13335/trunk/extras/apps/masai/tests/adeno-reads36_2.fa
+END
+adeno-index-sa.out.sa
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-sa.out.sa
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/generate_outputs.sh
+END
+se-adeno-reads100_1-sl50.out.raw
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/se-adeno-reads100_1-sl50.out.raw
+END
+adeno-reads100_1.fa
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13335/trunk/extras/apps/masai/tests/adeno-reads100_1.fa
+END
+adeno-index-qgram.out.sa
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-qgram.out.sa
+END
+adeno-index-fm.out.lf.wtc.0.bit
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.0.bit
+END
+adeno-index-fm.out.lf.wtc.0.len
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.0.len
+END
+adeno-index-fm.out.lf.wtc.1.bit
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.1.bit
+END
+adeno-index-fm.out.lf.wtc.1.len
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.1.len
+END
+se-adeno-reads100_1-ofsam-no-cigar.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1-ofsam-no-cigar.stdout
+END
+se-adeno-reads100_1-sl16.out.raw
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/se-adeno-reads100_1-sl16.out.raw
+END
+adeno-index-fm.out.lf.wtc.2.bit
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.2.bit
+END
+adeno-index-fm.out.lf.wtc.2.len
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.2.len
+END
+adeno-index-fm.out.lf.wtc.3.bit
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.3.bit
+END
+adeno-index-fm.out.lf.wtc.3.len
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.3.len
+END
+se-adeno-reads100_1-ofsam.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1-ofsam.stdout
+END
+se-adeno-reads100_1-e3.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1-e3.stdout
+END
+adeno-index-fm.out.lf.drp.bl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.drp.bl
+END
+adeno-genome.fa
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13335/trunk/extras/apps/masai/tests/adeno-genome.fa
+END
+se-adeno-reads100_1-ofsam-no-cigar.out.raw
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/se-adeno-reads100_1-ofsam-no-cigar.out.raw
+END
+adeno-index-fm.out.lf.drs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.drs
+END
+adeno-index-fm.out.lf.wtc.3.bl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13526/trunk/extras/apps/masai/tests/adeno-index-fm.out.lf.wtc.3.bl
+END
+se-adeno-reads100_1-sl16.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1-sl16.stdout
+END
+adeno-reads36_1.fa
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13335/trunk/extras/apps/masai/tests/adeno-reads36_1.fa
+END
+adeno-index-fm.out.fma
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/adeno-index-fm.out.fma
+END
+adeno-index-esa.out.sa
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13346/trunk/extras/apps/masai/tests/adeno-index-esa.out.sa
+END
+se-adeno-reads100_1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1.stdout
+END
+se-adeno-reads100_1-nogaps.out.raw
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seqan/!svn/ver/13683/trunk/extras/apps/masai/tests/se-adeno-reads100_1-nogaps.out.raw
+END
+se-adeno-reads100_1-e2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13365/trunk/extras/apps/masai/tests/se-adeno-reads100_1-e2.stdout
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/14228/trunk/extras/apps/masai/tests/run_tests.py
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13783/trunk/extras/apps/breakpoint_calculator/tests
+END
+alignment.maf
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13034/trunk/extras/apps/breakpoint_calculator/tests/alignment.maf
+END
+d2_xmfa.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13034/trunk/extras/apps/breakpoint_calculator/tests/d2_xmfa.stdout
+END
+d3_xmfa.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13034/trunk/extras/apps/breakpoint_calculator/tests/d3_xmfa.stdout
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/extras/apps/breakpoint_calculator/tests/generate_outputs.sh
+END
+alignment.xmfa
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13034/trunk/extras/apps/breakpoint_calculator/tests/alignment.xmfa
+END
+d2_maf.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13034/trunk/extras/apps/breakpoint_calculator/tests/d2_maf.stdout
+END
+d3_maf.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13034/trunk/extras/apps/breakpoint_calculator/tests/d3_maf.stdout
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13783/trunk/extras/apps/breakpoint_calculator/tests/run_tests.py
+END

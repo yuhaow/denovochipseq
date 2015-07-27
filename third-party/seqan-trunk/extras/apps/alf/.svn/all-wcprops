@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/seqan/!svn/ver/13933/trunk/extras/apps/alf
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13281/trunk/extras/apps/alf/LICENSE
+END
+alf.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13671/trunk/extras/apps/alf/alf.cpp
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/13933/trunk/extras/apps/alf/INFO
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13668/trunk/extras/apps/alf/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13034/trunk/extras/apps/alf/README
+END

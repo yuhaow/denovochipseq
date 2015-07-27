@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/14161/trunk/core/demos/bam_io
+END
+example.sam
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/14161/trunk/core/demos/bam_io/example.sam
+END
+bam_stream.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/14161/trunk/core/demos/bam_io/bam_stream.cpp
+END

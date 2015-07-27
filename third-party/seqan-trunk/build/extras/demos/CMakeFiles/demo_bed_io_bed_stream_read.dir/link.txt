@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_bed_io_bed_stream_read.dir/bed_io/bed_stream_read.cpp.o  -o ../../bin/demo_bed_io_bed_stream_read -rdynamic -lrt -lz -lbz2 

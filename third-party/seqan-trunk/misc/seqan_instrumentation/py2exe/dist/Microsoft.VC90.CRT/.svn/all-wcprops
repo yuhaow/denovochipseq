@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/Microsoft.VC90.CRT
+END
+Microsoft.VC90.CRT.manifest
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest
+END
+msvcm90.dll
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/Microsoft.VC90.CRT/msvcm90.dll
+END
+msvcp90.dll
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/Microsoft.VC90.CRT/msvcp90.dll
+END
+msvcr90.dll
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/Microsoft.VC90.CRT/msvcr90.dll
+END

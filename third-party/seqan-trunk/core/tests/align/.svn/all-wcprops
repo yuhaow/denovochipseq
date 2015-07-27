@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/14258/trunk/core/tests/align
+END
+test_align_alignment_operations.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/14258/trunk/core/tests/align/test_align_alignment_operations.h
+END
+test_alignment_dp_adapt_tracesegments.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_alignment_dp_adapt_tracesegments.h
+END
+test_alignment_dp_matrix_navigator.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/14194/trunk/core/tests/align/test_alignment_dp_matrix_navigator.h
+END
+test_alignment_dp_cell.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_alignment_dp_cell.h
+END
+test_alignment_dp_traceback.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/14194/trunk/core/tests/align/test_alignment_dp_traceback.h
+END
+test_alignment_dp_trace_segment.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_alignment_dp_trace_segment.h
+END
+test_align_local_alignment.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_align_local_alignment.h
+END
+test_align_global_alignment_score.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_align_global_alignment_score.h
+END
+test_align_gaps.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13944/trunk/core/tests/align/test_align_gaps.h
+END
+test_align_align.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_align_align.h
+END
+test_local_align.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_local_align.h
+END
+test_align_stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_align_stream.h
+END
+test_align_global_alignment_banded.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_align_global_alignment_banded.h
+END
+test_align_global_alignment.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_align_global_alignment.h
+END
+test_align_myers.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_align_myers.h
+END
+test_align_gaps_iterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_align_gaps_iterator.h
+END
+test_align_matrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_align_matrix.h
+END
+test_alignment_algorithms_local_banded.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_alignment_algorithms_local_banded.h
+END
+test_alignment_algorithms_band_position.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seqan/!svn/ver/14194/trunk/core/tests/align/test_alignment_algorithms_band_position.h
+END
+test_alignment_algorithms_local.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_alignment_algorithms_local.h
+END
+test_alignment_dp_profile.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/14194/trunk/core/tests/align/test_alignment_dp_profile.h
+END
+test_align_global_alignment_specialized.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seqan/!svn/ver/13909/trunk/core/tests/align/test_align_global_alignment_specialized.h
+END
+test_alignment_algorithms_global_banded.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_alignment_algorithms_global_banded.h
+END
+test_align.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/14258/trunk/core/tests/align/test_align.cpp
+END
+test_alignment_dp_band.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_alignment_dp_band.h
+END
+test_alignment_dp_matrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_alignment_dp_matrix.h
+END
+test_alignment_dp_formula.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/14194/trunk/core/tests/align/test_alignment_dp_formula.h
+END
+test_alignment_algorithms_global.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13855/trunk/core/tests/align/test_alignment_algorithms_global.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13908/trunk/core/tests/align/CMakeLists.txt
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13938/trunk/extras/apps/masai/store
+END
+store_io.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13055/trunk/extras/apps/masai/store/store_io.h
+END
+store_io_sam.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13938/trunk/extras/apps/masai/store/store_io_sam.h
+END

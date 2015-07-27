@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13949/trunk/util/skel/module_template
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13034/trunk/util/skel/module_template/INFO
+END
+module.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13949/trunk/util/skel/module_template/module.h
+END
+header.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13949/trunk/util/skel/module_template/header.h
+END

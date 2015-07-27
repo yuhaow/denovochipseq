@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_graph_algo_tree_kruskal.dir/graph_algo_tree_kruskal.cpp.o  -o ../../bin/demo_graph_algo_tree_kruskal -rdynamic -lrt -lz -lbz2 

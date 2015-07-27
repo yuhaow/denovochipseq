@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>MIAO - a motif search tool</title>
+    <link href="./meme-suite.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <script src="./meme-suite-logo.js" type="text/javascript">&gt;</script>
+      <h1>MIAO -- not currently supported</h1>
+      <p><b>Usage:</b> </p>
+      <p>
+      <code>miao [options] &lt;motifs&gt; &lt;database&gt;</code>
+      </p>
+      <p>
+      <b>Description:</b>
+      </p>
+      <p>
+      <code>miao</code> 
+      (<b>m</b>otifs <b>i</b>n <b>a</b>ny <b>o</b>rder) 
+      Searches a sequence database for clusters of known motifs.
+      As in <code><a href="beadstring.html">beadstring</a></code> 
+      motifs are represented using a hidden Markov model,
+      but <code>miao</code> uses the complete or star topologies.
+      This allows the motifs to appear in any order.
+      A full description of the algorithm is found in:
+      </p>
+      <p>
+      <a href="http://noble.gs.washington.edu/papers/thesis.html">
+      Grundy.  <i>A Bayesian Approach to Motif-based Protein
+      Modeling</i>. Ph.D. dissertation. University of California, San
+      Diego. June, 1998.</a>
+      </p>
+      <p><b>Input:</b></p> 
+      <ul> 
+      <li>
+      <code>&lt;motifs&gt;</code> is a list of motifs, in <A HREF="meme-format.html">MEME format</A>.
+      </li>
+      <li>
+      <code>&lt;database&gt;</code> is a collection of sequences in
+      <A HREF="fasta-format.html">FASTA</A> format. 
+      </li>
+      </ul>
+      <p><b>Output:</b></p>
+      <p>
+      An XML file using the 
+      <a href="http://zlab.bu.edu/~phaverty/SupplementalData/CisML">CisML</a>
+      schema.
+      </p>
+      <p><b>Options:</b> </p>
+      <ul>
+      <li><code>--allow-weak-motifs</code> 
+    - In p-value score mode, weak motifs
+    are defined as ones where the best possible hit has a p-value greater
+    than the p-value threshold.  Such motifs cannot contribute to a match
+    in p-value score mode. By default, the program rejects any search
+    results containing weak motifs, unless the
+    <code>--allow-weak-motifs</code> switch is given.  In that case, the
+    search will proceed, but the weak motifs will never appear in any
+    matches.  <b>Note</b>:This switch only applies to p-value score mode.
+  </li>
+      <li><code>--bgfile <i>&lt;bfile&gt;</i></code> 
+    - Read background frequencies from
+    <code><i>&lt;bfile&gt;</i></code>.  
+    The file should be in 
+    <a href="bfile-format.html">MEME background file format</a>.
+    The default is to use frequencies
+    embedded in the application from the non-redundant database.  If the
+    argument is the keyword <code>motif-file</code>, then the frequencies
+    will be taken from the motif file.
+  </li>
+      <li><code>--eg-cost <i>&lt;cost&gt;</i></code>
+    - Scale the expected cost of a
+    random gap to be <i><code>&lt;cost&gt;</code></i>
+    times the expected score of a
+    random hit. By default, gap costs are essentially zero. The larger
+    you set <i><code>&lt;cost&gt;</code></i>, 
+    the more gaps will be penalized. 
+    This can only be used in conjunction with <code>--max-gap</code>. 
+    This may not be used in conjunction with <code>--min-score</code>.
+  </li>
+      <li><code>--e-thresh <i>&lt;ev&gt;</i></code>
+    - Only print results with E-values less than 
+    <code><i>&lt;ev&gt;</i></code>.
+  </li>
+      <li><code>--fim</code>
+    - Gaps between motifs are not penalized.
+    Spacer states between motifs are represented as free-insertion modules (FIM).
+    A FIM is an insert state with 1.0 probability of self-transition 
+    and 1.0 probability of exit transition. 
+    Thus, traversing such a state has zero transition cost.
+    Specifying this option causes all spacers to be represented using FIMs.
+  </li>
+      <li><code>--gap-extend <i>&lt;cost&gt;</i></code>
+    - This switch causes
+    <b>all</b> spacer self-loop log-odds scores to be set to
+    <code><i>&lt;cost&gt;</i></code>. 
+    In addition, it causes all other transitions out of a
+    spacer to be set to zero. Together with the <code>--gap-open</code>
+    switch, this allows you to specify an affine gap penalty function,
+    overriding the gap penalty implicit in the model (self-loop transition
+    probabilities of gap states).
+  </li>
+      <li><code>--gap-open <i>&lt;cost&gt;</i></code>
+    - This switch causes
+    <b>all</b> transitions into a spacer state to be assigned a log-odds
+    score equal to <code><i>&lt;cost&gt;</i></code>.
+    Together with the <code>--gap-extend</code> switch,
+    this allows you to specify an affine gap penalty function,
+    overriding the gap penalty implicit in the model
+    (transition probabilities into and out of gap states).
+  </li>
+      <li><code>--keep-unused</code>
+    - By default all inter-motif transitions that are
+    not observed in the data are removed from the transition probability matrix.
+    This option allows those transitions to be retained.
+    This option is only relevant if the model has a
+    completely connected topology.
+  </li>
+      <li><code>--max-gap <i>&lt;max-gap&gt;</i></code>
+    - The value of <code><i>&lt;max-gap&gt;</i></code> specifies
+    the longest distance allowed between two hits in a match.
+    Hits separated by more than <code><i>&lt;max-gap&gt;</i></code> 
+    will be placed in different matches. The default value is 50.
+    <b>Note</b>:
+    Large values of <code><i>&lt;max-gap&gt;</i></code> combined with
+    large values of <i>pthresh</i> may prevent <code>MCAST</code> from
+    computing <i>E</i>-values.
+  </li>
+      <li><code>--max-seqs <code><i>&lt;max&gt;</i></code></code>
+    - Print results for no more than <code><i>&lt;max&gt;</i></code>
+    sequences.  By default, all matches are reported, up to the specified
+    E-value threshold (see <code>--e-thresh</code>).
+  </li>
+      <li><code>--min-score <i>&lt;minscore&gt;</i></code>
+    - This switch allows you to
+    specify the threshold for the repeated match algorithm used by
+    <code>miao</code>.
+    Matches must have a score of at least
+    <code><i>&lt;minscore&gt;</i></code> to be detected.
+    Matches containing internal regions with scores less than minus 
+    'threshold' will be split and reported as two separate matches.
+  </li>
+      <li><code>--motif <i>&lt;id&gt;</i></code>
+    - Use only the motif identified by <code><i>&lt;id&gt;</i></code>. 
+    This option may be repeated.
+  </li>
+      <li><command-option name="motif-scoring"></command-option></li>
+      <li><code>--nspacer <i>&lt;value&gt;</i></code>
+    - By default each spacer is modeled using a single insert state.
+    The distribution of spacer lengths produced by a single insert
+    state is exponential in form.
+    A more reasonable distribution would be a bell-shaped curve such as a Gaussian.
+    Modeling the length distribution explicitly is computationally expensive;
+    however, a Gaussian distribution can be
+    approximated using multiple insert states to represent a single
+    spacer region. The <code>--nspacer</code> option specifies the number of
+    insert states used to represent each spacer.
+  </li>
+      <li><code>--pam <i>&lt;distance&gt;</i></code>
+    - By default, target probabilities are derived
+    from the <em>distance-250</em> PAM matrix for proteins, and from a
+    <code><i>&lt;distance&gt;-1</i></code>
+    transition/transversion matrix for DNA.  
+    With the <code>-pam</code> switch, 
+    you can specify a different <b>integer</b> distance
+    from 1 to 500. (This can be overridden with 
+    the <code>--score-file</code> switch below). 
+    The <code><i>&lt;distance&gt;-1</i></code> transition/transversion joint
+    probability matrix for DNA is given below:
+
+    <pre>
+           A    C    G    T    
+      A  .990 .002 .006 .002
+      C  .002 .990 .002 .006
+      G  .006 .002 .990 .002
+      T  .002 .006 .002 .990
+    </pre></li>
+      <li><command-option name="p-thresh"></command-option></li>
+      <li><code>--progress <i>&lt;value&gt;</i></code>
+    - Print to standard error a progress
+    message approximately every <code><i>&lt;value&gt;</i></code> seconds.
+  </li>
+      <li><code>--score-file <i>&lt;score file&gt;</i></code>
+    - Cause a score file (in BLAST format) to be read and used instead of
+    the built-in PAM (for proteins) or transition/transversion (for DNA)
+    score file. Several score files are provided (including BLOSUM62) in the
+    directory <code>doc</code>.
+    Other, user-provided score files may be specified as well,
+    as long as they are in the proper format.
+  </li>
+      <li><code>--spacer-pseudo <i>&lt;value&gt;</i></code>
+    - Specify the value of the
+    pseudocount used in converting transition counts to spacer
+    self-loop probabilities.
+  </li>
+      <li><code>--synth</code>
+    - Create synthetic sequences for estimating
+    <i>E</i>-values. This is useful with small input databases where
+    not enough match scores are found to estimate <i>E</i>-values.
+    The <code>--bgfile</code> option must also be set when
+    using this option.
+  </li>
+      <li><code>--trans-pseudo <i>&lt;value&gt;</i></code>
+    - Specify the value of the
+    pseudocount used in converting transition counts to transition
+    probabilities.
+  </li>
+      <li><code>--type [complete|star]</code>
+    - This option specifies the topology of the model.
+    The <code>complete</code> topology includes
+    transitions from the end of each motif to the beginning of every
+    other motif in the model (with a spacer model along each
+    transition). 
+    This allows for motifs that are repeated, deleted or shuffled.
+    In the <code>star</code> topology the transitions from each motif lead to
+    the intra-motif state. 
+    The default for <code>miao</code> is the <code>complete</code> topology.
+  </li>
+      <li><code>--verbosity 1|2|3|4</code>
+    - Set the verbosity of status reports to standard error.
+    The default level is 2.
+  </li>
+      <li><code>--zselo</code>
+    Spacer emission log-odds scores to be set to zero.
+    This prevents regions of unusual base/residue composition 
+    matching spacers well when
+    the spacer emission frequencies are different than the background frequencies.
+    It is particularly useful with DNA models.
+  </li>
+      </ul>
+    </div>
+  </body>
+</html>

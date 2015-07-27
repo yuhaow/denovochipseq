@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13810/trunk/extras/apps/param_chooser
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13810/trunk/extras/apps/param_chooser/LICENSE
+END
+test_param_chooser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13469/trunk/extras/apps/param_chooser/test_param_chooser.cpp
+END
+param_chooser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/extras/apps/param_chooser/param_chooser.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13458/trunk/extras/apps/param_chooser/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13810/trunk/extras/apps/param_chooser/README
+END

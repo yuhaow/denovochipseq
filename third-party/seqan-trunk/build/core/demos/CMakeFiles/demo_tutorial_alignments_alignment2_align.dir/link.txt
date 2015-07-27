@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_alignments_alignment2_align.dir/tutorial/alignments/alignment2_align.cpp.o  -o ../../bin/demo_tutorial_alignments_alignment2_align -rdynamic -lrt -lz -lbz2 

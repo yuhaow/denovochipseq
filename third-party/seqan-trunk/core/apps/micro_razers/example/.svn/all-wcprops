@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/example
+END
+genome.fa
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/example/genome.fa
+END
+reads.fa.result
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/example/reads.fa.result
+END
+reads.fa
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/apps/micro_razers/example/reads.fa
+END

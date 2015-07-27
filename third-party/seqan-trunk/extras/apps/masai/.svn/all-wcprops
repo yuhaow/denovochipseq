@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/14228/trunk/extras/apps/masai
+END
+indexer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13675/trunk/extras/apps/masai/indexer.cpp
+END
+options.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/14053/trunk/extras/apps/masai/options.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13281/trunk/extras/apps/masai/LICENSE
+END
+store.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13774/trunk/extras/apps/masai/store.h
+END
+indexer.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13675/trunk/extras/apps/masai/indexer.h
+END
+tags.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13055/trunk/extras/apps/masai/tags.h
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13933/trunk/extras/apps/masai/INFO
+END
+index.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13675/trunk/extras/apps/masai/index.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13497/trunk/extras/apps/masai/README
+END
+seeder.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13675/trunk/extras/apps/masai/seeder.h
+END
+sorter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/14052/trunk/extras/apps/masai/sorter.cpp
+END
+manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13675/trunk/extras/apps/masai/manager.h
+END
+verifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13050/trunk/extras/apps/masai/verifier.h
+END
+writer.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13814/trunk/extras/apps/masai/writer.h
+END
+pairer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13676/trunk/extras/apps/masai/pairer.cpp
+END
+extender.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13815/trunk/extras/apps/masai/extender.h
+END
+sorter.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13982/trunk/extras/apps/masai/sorter.h
+END
+mapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13676/trunk/extras/apps/masai/mapper.cpp
+END
+pairer.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13675/trunk/extras/apps/masai/pairer.h
+END
+matches.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13982/trunk/extras/apps/masai/matches.h
+END
+mapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13675/trunk/extras/apps/masai/mapper.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13824/trunk/extras/apps/masai/CMakeLists.txt
+END

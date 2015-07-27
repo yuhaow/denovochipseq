@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13374/trunk/util/skel/repository_template
+END
+tests_CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13281/trunk/util/skel/repository_template/tests_CMakeLists.txt
+END
+apps_CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13281/trunk/util/skel/repository_template/apps_CMakeLists.txt
+END
+demos_CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13281/trunk/util/skel/repository_template/demos_CMakeLists.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13374/trunk/util/skel/repository_template/CMakeLists.txt
+END

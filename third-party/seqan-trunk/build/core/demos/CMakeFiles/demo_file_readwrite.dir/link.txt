@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_file_readwrite.dir/file_readwrite.cpp.o  -o ../../bin/demo_file_readwrite -rdynamic -lrt -lz -lbz2 

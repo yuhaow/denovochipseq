@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG    CMakeFiles/test_basic_aggregate.dir/test_basic_aggregate.cpp.o  -o ../../../bin/test_basic_aggregate -rdynamic -lrt 

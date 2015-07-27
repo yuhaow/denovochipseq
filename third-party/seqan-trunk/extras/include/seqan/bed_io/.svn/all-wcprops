@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/14245/trunk/extras/include/seqan/bed_io
+END
+write_bed.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/14182/trunk/extras/include/seqan/bed_io/write_bed.h
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/14010/trunk/extras/include/seqan/bed_io/INFO
+END
+bed_io_context.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/14245/trunk/extras/include/seqan/bed_io/bed_io_context.h
+END
+bed_stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/14245/trunk/extras/include/seqan/bed_io/bed_stream.h
+END
+read_bed.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/14015/trunk/extras/include/seqan/bed_io/read_bed.h
+END
+bed_record.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/14021/trunk/extras/include/seqan/bed_io/bed_record.h
+END

@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/13988/trunk/core/tests/index
+END
+test_index_fm_sentinel_rank_dictionary.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13988/trunk/core/tests/index/test_index_fm_sentinel_rank_dictionary.h
+END
+test_index_fm_stree.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_fm_stree.h
+END
+test_index_fm_sparse_string.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_fm_sparse_string.h
+END
+test_qgram_index.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_qgram_index.h
+END
+test_sa_bwtwalk.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_sa_bwtwalk.h
+END
+test_index_crosscompare_dna.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_crosscompare_dna.cpp
+END
+test_index_fm_right_array_binary_tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13988/trunk/core/tests/index/test_index_fm_right_array_binary_tree.h
+END
+test_index_drawing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_drawing.cpp
+END
+test_stree_iterators.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_stree_iterators.h
+END
+test_index_fm_rank_support_bit_string.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_fm_rank_support_bit_string.h
+END
+test_index_fm_rank_dictionary.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_fm_rank_dictionary.cpp
+END
+test_index_fm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13988/trunk/core/tests/index/test_index_fm.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13707/trunk/core/tests/index/CMakeLists.txt
+END
+m_tuberculosis_h37rv.fa
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/tests/index/m_tuberculosis_h37rv.fa
+END
+test_index_qgram.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13919/trunk/core/tests/index/test_index_qgram.cpp
+END
+test_index_repeats.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_repeats.h
+END
+test_index_creation.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_creation.h
+END
+test_index_fm_rank_support_bit_string_iterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_fm_rank_support_bit_string_iterator.h
+END
+test_index_stree_iterators.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13919/trunk/core/tests/index/test_index_stree_iterators.cpp
+END
+test_crosscompare.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_crosscompare.h
+END
+test_index_fm_compressed_sa.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_fm_compressed_sa.h
+END
+test_index_crosscompare_char_dfi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_crosscompare_char_dfi.cpp
+END
+test_index_fm_prefix_sum_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_fm_prefix_sum_table.h
+END
+test_index_shapes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13919/trunk/core/tests/index/test_index_shapes.cpp
+END
+test_index_fm_compressed_sa_iterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_fm_compressed_sa_iterator.h
+END
+test_index_crosscompare_char.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_crosscompare_char.cpp
+END
+test_index_sa_bwtwalk.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13919/trunk/core/tests/index/test_index_sa_bwtwalk.cpp
+END
+test_index_fm_right_array_binary_tree_iterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13988/trunk/core/tests/index/test_index_fm_right_array_binary_tree_iterator.h
+END
+test_shapes.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_shapes.h
+END
+test_index_repeats.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_repeats.cpp
+END
+test_index_creation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13919/trunk/core/tests/index/test_index_creation.cpp
+END
+test_index_crosscompare_dna_dfi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_crosscompare_dna_dfi.cpp
+END
+fasta.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13034/trunk/core/tests/index/fasta.txt
+END
+test_index_helpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13919/trunk/core/tests/index/test_index_helpers.h
+END
+test_index_fm_rank_dictionary.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13988/trunk/core/tests/index/test_index_fm_rank_dictionary.h
+END
+test_index_fm.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13855/trunk/core/tests/index/test_index_fm.h
+END

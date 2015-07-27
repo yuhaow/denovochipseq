@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG    CMakeFiles/test_sequence_journaled.dir/test_sequence_journaled.cpp.o  -o ../../../bin/test_sequence_journaled -rdynamic -lrt 

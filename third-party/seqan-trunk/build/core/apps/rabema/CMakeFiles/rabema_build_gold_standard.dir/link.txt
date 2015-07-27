@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG -DSEQAN_ENABLE_DEBUG=0    CMakeFiles/rabema_build_gold_standard.dir/rabema_build_gold_standard.cpp.o  -o ../../../bin/rabema_build_gold_standard -rdynamic -lrt -lz 

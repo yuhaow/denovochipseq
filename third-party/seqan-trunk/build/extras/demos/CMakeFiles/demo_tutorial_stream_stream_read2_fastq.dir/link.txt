@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_stream_stream_read2_fastq.dir/tutorial/stream/stream_read2_fastq.cpp.o  -o ../../bin/demo_tutorial_stream_stream_read2_fastq -rdynamic -lrt -lz -lbz2 

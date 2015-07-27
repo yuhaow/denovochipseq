@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>shadow</title>
+    <link href="./meme-suite.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+    <script src="./meme-suite-logo.js" type="text/javascript">&gt;</script>
+    <h1><img height="81" width="444" src="meta-meme.gif" /></h1>
+    <center>
+      <h1>shadow</h1>
+    </center>
+
+  <br />
+  <b>Usage:</b> 
+  <blockquote>
+    <code>shadow [options] &lt;tree&gt; &lt;alignment&gt;</code>
+  </blockquote>
+
+  <p>
+    <b>Description:</b>
+  </p>
+
+  <blockquote>
+  <p>
+  Perform phylogenetic shadowing on a given DNA alignment, using a given
+  tree (Boffelli et al, Science 2003).  This program is a simplified
+  version of <a href="motiph.html"><code>motiph</code></a>, in which the
+  equilibrium distribution is set equal to the background model, rather
+  than being taken from a given motif.
+  </p>
+  </blockquote>
+
+  <b>Input:</b>
+  <ul> 
+
+  <li>
+  <code>&lt;tree&gt;</code> is a phylogenetic tree in 
+  <a href="http://evolution.genetics.washington.edu/phylip/newicktree.html">Phylip Newick</a> format.  
+  This tree may contain additional species not represented in the alignment.</li>
+
+  <li>
+  <code>&lt;alignment&gt;</code> is a DNA multiple alignment in 
+  <a href="clustalw-format.html">ClustalW</a> format.</li>
+
+  </ul>
+
+  <b>Output:</b>
+
+  <blockquote>
+    <p>
+    Shadow will create a directory, named <code>shadow_out</code> by default.
+    Any existing output files in the directory will be overwritten.
+    The directory will contain:
+    </p>
+    <ul>
+    <li>
+    An XML file named <code>shadow.xml</code> using the 
+    <a href="http://zlab.bu.edu/~phaverty/SupplementalData/CisML">CisML</a> schema.
+    </li>
+    <li>
+    An HTML file named <code>shadow.html</code>
+    </li>
+    <li>
+    A plain text file named <code>shadow.text</code>
+    </li>
+    </ul>
+    <p>
+    The default can be overridden using the <code>--o</code> or <code>--oc</code>
+    options which are described below.
+    </p>
+    The <code>--text</code> will limit output to plain text sent to the standard output.
+
+  </blockquote>
+
+  <b>Options:</b>
+  <ul>
+  <li> <code>--bg <i>&lt;float&gt;</i></code>
+    - The mutation rate for sites in the
+    background model.  The default value is 1.
+  </li>
+  <li> <code>--bgfile <i>&lt;bfile&gt;</i></code> 
+    - Read background frequencies from
+    <code><i>&lt;bfile&gt;</i></code>.  
+    The file should be in 
+    <a href="bfile-format.html">MEME background file format</a>.
+    The default is to use frequencies
+    embedded in the application from the non-redundant database.  If the
+    argument is the keyword <code>motif-file</code>, then the frequencies
+    will be taken from the motif file.
+  </li>
+  <li> <code>--fg <i>&lt;float&gt;</i></code>
+    - The mutation rate for sites in the foreground model(s).
+    The default value is 1.
+  </li>
+  <li> <code>--gap <i>&lt;method&gt;</i></code>
+    - Specifies the gap handling strategy.
+    Allowed values for method are:
+    <ul><li><code>skip</code> Skip those sites where any position in the alignment
+      window contains a gap. This is the default gap handling strategy.
+      </li><li><code>fixed</code> Sites containing gaps are assigned a fixed
+      score, specified by <code>--gap-cost</code>.
+      </li><li><code>wildcard</code> The gap character matches any base, and the
+      score is the product of the corresponding probabilities.
+      </li><li><code>minimum</code> The gap character is assigned the score
+      corresponding to the least likely letter at the given position.
+      </li><li><code>model</code> Use model-specific gap handling. Currently, the only
+      model that supports this is <code>f81_gap</code>.
+      </li></ul></li>
+  <li> <code>--gap-cost <i>&lt;float&gt;</i></code>
+    - Specifies the costs for gaps when
+      using the <code>fixed</code> gap handling strategy. Default is 0.0.
+  </li>
+  <li> <code>--list</code>
+    - Treat the second required input as a list of
+    alignments, rather than a single alignment.
+  </li>
+  <li> <code>--max-stored-scores <code><i>&lt;max&gt;</i></code></code>
+    - Set the maximum number of scores that will be stored.
+    Precise calculation of q-values depends on having a complete list of scores.
+    However, keeping a complete list of scores may exceed available memory.
+    Once the number of stored scores reaches the maximum allowed, 
+    the least significant 50% of scores will be dropped,
+    and approximate q-values will be calculated.
+    By default the maximum number of stored matches is 100,000.
+  </li>
+  <li> <code>--model [jc|k2|f81|f84|hky|tn]</code>
+    - The evolutionary model to use.
+    The available models are:
+    <ul><li>jc - Jukes-Cantor: equilibrium base frequencies are all 1/4;
+    the only free parameter is the mutation rate.</li><li>k2 - Kimura 2-parameter: equilibrium base frequencies are all 1/4;
+    the free parameters are the mutation rate and the transition/transversion rate ratio.</li><li>f81 - Felsenstein 1981: equilibrium base frequencies are taken from the alignment;
+    the only free parameter is the mutation rate.</li><li>f84 - Felsenstein 1984: equilibrium base frequencies are taken
+    from the alignment; the free parameters are the mutation rate and the
+    transition/transversion rate ratio.  The ratio of purine-purine to
+    pyrimidine-&gt;pyrimidine transitions is assumed to be 1.</li><li>hky - Hasegawa-Kishino-Yano: equilibrium base frequencies are
+    taken from the alignment; the free parameters are the mutation rate
+    and the transition/transversion rate ratio.  The ratio of
+    purine-purine to pyrimidine-pyrimidine transitions is assumed to be
+    equal to the  ratio of purines to pyrimidines.</li><li>tn - Tamura-Nei: equilibrium base frequencies are taken from the
+    alignment;  the free parameters are the mutation rate, the
+    transition/transversion rate ratio, and the ratio of purine-purine
+    transitions to pyrimidine-pyrimidine transitions.</li></ul><p>
+    The default model is f81.  A description of the f81 model is available
+    in chapter 13 of <i>Statistical Methods in Bioinformatics</i> by Ewens
+    and Grant. The other models are described in chapters 9 and 13 of
+    <i>Inferring Phylogenies</i> by Felsenstein.
+    </p></li>
+  <li> <code>--no-pvalue</code>
+    - Skip the p-value calculation.  This 
+    switch will be necessary when a large number <i>n</i> of species are
+    in the tree, because the memory requirement is
+    4<sup><i>n</i></sup>. This also disables computation of q-values.
+  </li>
+  <li> <code>--no-qvalue</code>
+    - Do not compute a q-value for each p-value.  The q-value 
+    calculation is that of Benjamini and Hochberg (1995).
+    By default, q-values are computed.
+  </li>
+  <li> <code>--o <i>&lt;dir name&gt;</i></code>
+    - Specifies the output directory.
+    If the directory already exists, the contents will not be overwritten.
+  </li>
+  <li> <code>--oc <i>&lt;dir name&gt;</i></code>
+    - Specifies the output directory.
+    If the directory already exists, the contents will be overwritten.
+  </li>
+  <li><code>--output-pthresh <i>&lt;float&gt;</i></code>
+    - The p-value threshold for displaying search results.
+    If the p-value of a match is greater than this value,
+    then the match will not be printed. 
+    If both the <code>--output-pthresh</code> and <code>--output-qthresh</code>
+    options appear on the command line, whichever appears later
+    on the command line will be applied.
+    The default p-value threshold is 1e-4.
+  </li>
+  <li><code>--output-qthresh <i>&lt;float&gt;</i></code>
+    - The q-value threshold for displaying search results.
+    If the q-value of a match is greater than this value,
+    then the match will not be printed.
+    By default, no q-value threshold is applied.
+  </li>
+  <li> <code>--pur-pyr &lt;float&gt;</code>
+    - The ratio of the purine transition rate to pyrimidine transition rate.
+    This parameter is used by the Tamura-nei model.
+    The default value is 1.0.
+  </li>
+  <li> <code>--text</code>
+    Limits output to plain text sent to standard out.  For FIMO, the
+    text output is unsorted, and q-values are not reported.  This mode
+    allows the program to search an arbitrarily large database,
+    because results are not stored in memory.
+  </li>
+  <li> <code>--transition-transversion &lt;float&gt;</code>
+    - The ratio of the transition rate to the transversion rate.
+    This parameter is used by the Kimura 2-parameter, F84, HKY,
+    and Tamura-nei models.
+    The default value is 0.5.
+  </li>
+  <li> <code>--verbosity 1|2|3|4</code>
+    - Set the verbosity of status reports to standard error.
+    The default level is 2.
+  </li>
+  </ul>
+  <b>Warning messages:</b> None
+</div>
+</body>
+</html>

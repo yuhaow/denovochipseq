@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/14245/trunk/extras/include/seqan/find_motif
+END
+find_motif_projection.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/14219/trunk/extras/include/seqan/find_motif/find_motif_projection.h
+END
+pseudocount_mode_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/find_motif/pseudocount_mode_p.h
+END
+find_motif_epatternbranching.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/14219/trunk/extras/include/seqan/find_motif/find_motif_epatternbranching.h
+END
+sequence_model_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/find_motif/sequence_model_types.h
+END
+find_motif_pmsp.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/14219/trunk/extras/include/seqan/find_motif/find_motif_pmsp.h
+END
+find_motif_pms1.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/14219/trunk/extras/include/seqan/find_motif/find_motif_pms1.h
+END
+pseudocount_mode_c.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/find_motif/pseudocount_mode_c.h
+END
+frequency_distribution.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/14245/trunk/extras/include/seqan/find_motif/frequency_distribution.h
+END
+profile.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13982/trunk/extras/include/seqan/find_motif/profile.h
+END
+pseudocount_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/find_motif/pseudocount_base.h
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13933/trunk/extras/include/seqan/find_motif/INFO
+END
+em_algorithm.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/14219/trunk/extras/include/seqan/find_motif/em_algorithm.h
+END
+find_motif_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/14219/trunk/extras/include/seqan/find_motif/find_motif_base.h
+END

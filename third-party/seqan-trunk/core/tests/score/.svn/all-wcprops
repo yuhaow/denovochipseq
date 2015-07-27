@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/13855/trunk/core/tests/score
+END
+PAM200
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/core/tests/score/PAM200
+END
+PAM120
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/core/tests/score/PAM120
+END
+PAM40
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13034/trunk/core/tests/score/PAM40
+END
+BLOSUM30
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/tests/score/BLOSUM30
+END
+PAM250
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/core/tests/score/PAM250
+END
+BLOSUM62
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/tests/score/BLOSUM62
+END
+BLOSUM80
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/tests/score/BLOSUM80
+END
+BLOSUM45
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/tests/score/BLOSUM45
+END
+test_score.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13855/trunk/core/tests/score/test_score.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13313/trunk/core/tests/score/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/core/tests/score/README
+END
+VTML200I
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/tests/score/VTML200I
+END

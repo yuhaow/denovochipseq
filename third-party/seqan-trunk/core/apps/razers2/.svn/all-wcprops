@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/13774/trunk/core/apps/razers2
+END
+outputFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13774/trunk/core/apps/razers2/outputFormat.h
+END
+param_tabs.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13127/trunk/core/apps/razers2/param_tabs.h
+END
+param_tabs.inc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13127/trunk/core/apps/razers2/param_tabs.inc
+END
+razers_matepairs.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13607/trunk/core/apps/razers2/razers_matepairs.h
+END
+readSimulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13607/trunk/core/apps/razers2/readSimulator.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13652/trunk/core/apps/razers2/LICENSE
+END
+razers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13764/trunk/core/apps/razers2/razers.cpp
+END
+paramChooser.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13127/trunk/core/apps/razers2/paramChooser.h
+END
+param_tabs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13127/trunk/core/apps/razers2/param_tabs.cpp
+END
+razers.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13774/trunk/core/apps/razers2/razers.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13654/trunk/core/apps/razers2/README
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13600/trunk/core/apps/razers2/CMakeLists.txt
+END

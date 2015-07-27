@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_bed_io_solution2.dir/tutorial/bed_io/solution2.cpp.o  -o ../../bin/demo_tutorial_bed_io_solution2 -rdynamic -lrt -lz -lbz2 

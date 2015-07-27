@@ -1,0 +1,7 @@
+# WARNING: this file is not sorted!
+# db	motif                         	 E-value	adj_p-value	log_adj_p-value	bin_location	bin_width	total_width	sites_in_bin	total_sites	p_success	 p-value	mult_tests
+   1	MA0108.1 TBP                  	4.3e-014	   8.6e-015	         -32.38	       -25.0	       14	        486	          66	        605	  0.02881	7.3e-020	    118340
+   1	UP00093_1 Klf7_primary        	9.9e-023	   2.0e-023	         -52.28	       -62.5	      128	        485	         320	        697	  0.26392	1.7e-028	    117854
+   1	UP00020_1 Atf1_primary        	9.0e-006	   1.8e-006	         -13.22	       -52.5	      112	        485	         112	        270	  0.23093	1.5e-011	    117854
+   1	UP00002_2 Sp4_secondary       	4.1e-003	   8.2e-004	          -7.11	       -73.5	      137	        486	         295	        784	  0.28189	6.9e-009	    118340
+   1	MA0060.1 NFYA                 	4.3e-014	   8.5e-015	         -32.39	       -60.0	       87	        485	         148	        397	  0.17938	7.3e-020	    117854

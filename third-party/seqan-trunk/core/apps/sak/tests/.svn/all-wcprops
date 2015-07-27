@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/13680/trunk/core/apps/sak/tests
+END
+adeno.s1i5-25.fa
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13680/trunk/core/apps/sak/tests/adeno.s1i5-25.fa
+END
+adeno.all.fa
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13680/trunk/core/apps/sak/tests/adeno.all.fa
+END
+adeno.s1rc.fa
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13680/trunk/core/apps/sak/tests/adeno.s1rc.fa
+END
+adeno.seq1-2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13680/trunk/core/apps/sak/tests/adeno.seq1-2.fa
+END
+adeno.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13034/trunk/core/apps/sak/tests/adeno.fasta
+END
+adeno.seq1.fa
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13680/trunk/core/apps/sak/tests/adeno.seq1.fa
+END
+adeno.seq3.fa
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13680/trunk/core/apps/sak/tests/adeno.seq3.fa
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13680/trunk/core/apps/sak/tests/generate_outputs.sh
+END
+adeno.sn.fa
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13680/trunk/core/apps/sak/tests/adeno.sn.fa
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13680/trunk/core/apps/sak/tests/run_tests.py
+END
+adeno.s1-2i5-25.fa
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13680/trunk/core/apps/sak/tests/adeno.s1-2i5-25.fa
+END

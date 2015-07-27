@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/14192/trunk/core/demos/tutorial/index
+END
+index_qgram.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/index/index_qgram.cpp
+END
+index_qgram_hash.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/14192/trunk/core/demos/tutorial/index/index_qgram_hash.cpp
+END
+iterator_solution1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13241/trunk/core/demos/tutorial/index/iterator_solution1.cpp
+END
+iterator_solution2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13241/trunk/core/demos/tutorial/index/iterator_solution2.cpp
+END
+index_preorder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/index/index_preorder.cpp
+END
+index_search2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13249/trunk/core/demos/tutorial/index/index_search2.cpp
+END
+index_assignment1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/index/index_assignment1.cpp
+END
+index_assignment2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/index/index_assignment2.cpp
+END
+index_assignment3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/index/index_assignment3.cpp
+END
+index_assignment4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/index/index_assignment4.cpp
+END
+index_assignment5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/14141/trunk/core/demos/tutorial/index/index_assignment5.cpp
+END
+index_assignment6.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/index/index_assignment6.cpp
+END
+indices_assignment_1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13240/trunk/core/demos/tutorial/index/indices_assignment_1.cpp
+END
+indices_assignment_2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13240/trunk/core/demos/tutorial/index/indices_assignment_2.cpp
+END
+index_property_maps.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/index/index_property_maps.cpp
+END
+index_search.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13897/trunk/core/demos/tutorial/index/index_search.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/index/CMakeLists.txt
+END

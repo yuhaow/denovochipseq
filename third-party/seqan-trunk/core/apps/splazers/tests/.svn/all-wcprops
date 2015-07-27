@@ -1,0 +1,989 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13482/trunk/core/apps/splazers/tests
+END
+se-adeno-reads100_1_mml20-r_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-r_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml20-i90_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i90_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml22_ep0_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep0_es1.stdout
+END
+se-adeno-reads100_1_mml21_ep0_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep0_es2.stdout
+END
+se-adeno-reads100_1_mml23_ep0_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep0_es0.stdout
+END
+se-adeno-reads100_1_mml16_ep1_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep1_es0.stdout
+END
+se-adeno-reads100_1_mml24_ep1_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep1_es2.stdout
+END
+se-adeno-reads100_1_mml25_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml20-i98_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i98_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml20-i100_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i100_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml19_ep0_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep0_es2.stdout
+END
+anchored_adeno_example100.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13481/trunk/core/apps/splazers/tests/anchored_adeno_example100.stdout
+END
+se-adeno-reads100_1_default.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_default.stdout
+END
+se-adeno-reads100_1_mml20-so0_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-so0_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-i91_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i91_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-i93_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i93_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-i95_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i95_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-i97_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i97_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-i99_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i99_ep1_es1.out
+END
+se-adeno-reads100_1_mml22_ep0_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep0_es0.stdout
+END
+se-adeno-reads100_1_mml21_ep0_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep0_es1.stdout
+END
+se-adeno-reads100_1_mml20_ep0_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep0_es2.stdout
+END
+se-adeno-reads100_1_mml23_ep1_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep1_es2.stdout
+END
+se-adeno-reads100_1_mml24_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml25_ep1_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep1_es0.stdout
+END
+se-adeno-reads100_1_mml20-i97_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i97_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml18_ep0_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep0_es2.stdout
+END
+se-adeno-reads100_1_mml19_ep0_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep0_es1.stdout
+END
+se-adeno-reads100_1_mml17_ep0_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep0_es0.out
+END
+se-adeno-reads100_1_mml16_ep0_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep0_es1.out
+END
+se-adeno-reads100_1_mml17_ep1_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep1_es0.out
+END
+se-adeno-reads100_1_mml16_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep1_es1.out
+END
+se-adeno-reads100_1_mml17_ep0_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep0_es2.out
+END
+se-adeno-reads100_1_mml18_ep0_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep0_es1.out
+END
+se-adeno-reads100_1_mml19_ep0_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep0_es0.out
+END
+se-adeno-reads100_1_mml17_ep1_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep1_es2.out
+END
+se-adeno-reads100_1_mml18_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep1_es1.out
+END
+se-adeno-reads100_1_mml19_ep1_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep1_es0.out
+END
+se-adeno-reads100_1_mml19_ep0_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep0_es2.out
+END
+se-adeno-reads100_1_mml19_ep1_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep1_es2.out
+END
+se-adeno-reads100_1_mml21_ep0_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep0_es0.stdout
+END
+se-adeno-reads100_1_mml20_ep0_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep0_es1.stdout
+END
+se-adeno-reads100_1_mml22_ep1_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep1_es2.stdout
+END
+se-adeno-reads100_1_mml23_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml24_ep1_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep1_es0.stdout
+END
+se-adeno-reads100_1_mml20-i96_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i96_ep1_es1.stdout
+END
+se-adeno-reads100_1_default.out
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_default.out
+END
+se-adeno-reads100_1_mml17_ep0_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep0_es2.stdout
+END
+se-adeno-reads100_1_mml18_ep0_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep0_es1.stdout
+END
+se-adeno-reads100_1_mml19_ep0_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep0_es0.stdout
+END
+adeno-reads100_1.fa
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/adeno-reads100_1.fa
+END
+se-adeno-reads100_1_mml20_ep0_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep0_es0.out
+END
+se-adeno-reads100_1_mml20_ep1_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep1_es0.out
+END
+se-adeno-reads100_1_mml22_ep0_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep0_es0.out
+END
+se-adeno-reads100_1_mml21_ep0_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep0_es1.out
+END
+se-adeno-reads100_1_mml20_ep0_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep0_es2.out
+END
+se-adeno-reads100_1_mml22_ep1_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep1_es0.out
+END
+se-adeno-reads100_1_mml21_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep1_es1.out
+END
+se-adeno-reads100_1_mml20_ep1_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep1_es2.out
+END
+se-adeno-reads100_1_mml22_ep0_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep0_es2.out
+END
+se-adeno-reads100_1_mml23_ep0_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep0_es1.out
+END
+se-adeno-reads100_1_mml24_ep0_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep0_es0.out
+END
+se-adeno-reads100_1_mml23_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep1_es1.out
+END
+se-adeno-reads100_1_mml24_ep1_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep1_es0.out
+END
+se-adeno-reads100_1_mml22_ep1_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep1_es2.out
+END
+se-adeno-reads100_1_mml24_ep0_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep0_es2.out
+END
+se-adeno-reads100_1_mml25_ep0_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep0_es1.out
+END
+se-adeno-reads100_1_mml24_ep1_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep1_es2.out
+END
+se-adeno-reads100_1_mml25_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep1_es1.out
+END
+se-adeno-reads100_1_mml20_ep0_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep0_es0.stdout
+END
+se-adeno-reads100_1_mml20-so1_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-so1_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml22_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml21_ep1_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep1_es2.stdout
+END
+se-adeno-reads100_1_mml23_ep1_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep1_es0.stdout
+END
+se-adeno-reads100_1_mml20-i95_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i95_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml17_ep0_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep0_es1.stdout
+END
+se-adeno-reads100_1_mml16_ep0_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep0_es2.stdout
+END
+se-adeno-reads100_1_mml18_ep0_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep0_es0.stdout
+END
+se-adeno-reads100_1_mml19_ep1_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep1_es2.stdout
+END
+se-adeno-reads100_1_mml20-of4_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-of4_ep1_es1.out
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13481/trunk/core/apps/splazers/tests/run_tests.py
+END
+se-adeno-reads100_1_mml20-f_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-f_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml20-of4_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-of4_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml20-so0_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-so0_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml22_ep1_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep1_es0.stdout
+END
+se-adeno-reads100_1_mml21_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml20_ep1_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep1_es2.stdout
+END
+se-adeno-reads100_1_mml20-i94_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i94_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml17_ep0_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep0_es0.stdout
+END
+se-adeno-reads100_1_mml16_ep0_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep0_es1.stdout
+END
+se-adeno-reads100_1_mml25_ep0_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep0_es2.stdout
+END
+se-adeno-reads100_1_mml18_ep1_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep1_es2.stdout
+END
+se-adeno-reads100_1_mml19_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml20-f_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-f_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-r_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-r_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-i90_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i90_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-so1_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-so1_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-of3_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-of3_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml20-i92_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i92_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-i94_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i94_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-i96_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i96_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-i98_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i98_ep1_es1.out
+END
+se-adeno-reads100_1_mml20-i100_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i100_ep1_es1.out
+END
+se-adeno-reads100_1_mml21_ep1_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep1_es0.stdout
+END
+se-adeno-reads100_1_mml20_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml20-i93_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i93_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml16_ep0_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep0_es0.stdout
+END
+se-adeno-reads100_1_mml24_ep0_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep0_es2.stdout
+END
+se-adeno-reads100_1_mml25_ep0_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep0_es1.stdout
+END
+adeno-reads-pe.sam
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13481/trunk/core/apps/splazers/tests/adeno-reads-pe.sam
+END
+se-adeno-reads100_1_mml17_ep1_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep1_es2.stdout
+END
+se-adeno-reads100_1_mml18_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml19_ep1_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep1_es0.stdout
+END
+adeno-reads100_2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13481/trunk/core/apps/splazers/tests/adeno-reads100_2.fa
+END
+se-adeno-reads100_1_mml16_ep0_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep0_es0.out
+END
+se-adeno-reads100_1_mml16_ep1_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep1_es0.out
+END
+se-adeno-reads100_1_mml17_ep0_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep0_es1.out
+END
+se-adeno-reads100_1_mml16_ep0_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep0_es2.out
+END
+se-adeno-reads100_1_mml18_ep0_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep0_es0.out
+END
+se-adeno-reads100_1_mml17_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep1_es1.out
+END
+se-adeno-reads100_1_mml16_ep1_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep1_es2.out
+END
+se-adeno-reads100_1_mml18_ep1_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep1_es0.out
+END
+se-adeno-reads100_1_mml18_ep0_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep0_es2.out
+END
+se-adeno-reads100_1_mml19_ep0_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep0_es1.out
+END
+se-adeno-reads100_1_mml18_ep1_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep1_es2.out
+END
+se-adeno-reads100_1_mml19_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml19_ep1_es1.out
+END
+se-adeno-reads100_1_mml20_ep1_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep1_es0.stdout
+END
+se-adeno-reads100_1_mml20-i92_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i92_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml23_ep0_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep0_es2.stdout
+END
+se-adeno-reads100_1_mml24_ep0_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep0_es1.stdout
+END
+se-adeno-reads100_1_mml25_ep0_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep0_es0.stdout
+END
+se-adeno-reads100_1_mml17_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml16_ep1_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep1_es2.stdout
+END
+se-adeno-reads100_1_mml18_ep1_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml18_ep1_es0.stdout
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/generate_outputs.sh
+END
+se-adeno-reads100_1_mml21_ep0_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep0_es0.out
+END
+se-adeno-reads100_1_mml20_ep0_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep0_es1.out
+END
+se-adeno-reads100_1_mml21_ep1_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep1_es0.out
+END
+se-adeno-reads100_1_mml20_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20_ep1_es1.out
+END
+se-adeno-reads100_1_mml22_ep0_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep0_es1.out
+END
+se-adeno-reads100_1_mml21_ep0_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep0_es2.out
+END
+adeno-genome.fa
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/adeno-genome.fa
+END
+se-adeno-reads100_1_mml23_ep0_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep0_es0.out
+END
+se-adeno-reads100_1_mml22_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep1_es1.out
+END
+se-adeno-reads100_1_mml21_ep1_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml21_ep1_es2.out
+END
+se-adeno-reads100_1_mml23_ep1_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep1_es0.out
+END
+se-adeno-reads100_1_mml23_ep0_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep0_es2.out
+END
+se-adeno-reads100_1_mml24_ep0_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep0_es1.out
+END
+se-adeno-reads100_1_mml25_ep0_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep0_es0.out
+END
+se-adeno-reads100_1_mml23_ep1_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep1_es2.out
+END
+se-adeno-reads100_1_mml24_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep1_es1.out
+END
+se-adeno-reads100_1_mml25_ep1_es0.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep1_es0.out
+END
+se-adeno-reads100_1_mml25_ep0_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep0_es2.out
+END
+se-adeno-reads100_1_mml25_ep1_es2.out
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep1_es2.out
+END
+anchored_adeno_example100.out
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13482/trunk/core/apps/splazers/tests/anchored_adeno_example100.out
+END
+se-adeno-reads100_1_mml20-i91_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i91_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml22_ep0_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml22_ep0_es2.stdout
+END
+se-adeno-reads100_1_mml23_ep0_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml23_ep0_es1.stdout
+END
+se-adeno-reads100_1_mml24_ep0_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml24_ep0_es0.stdout
+END
+se-adeno-reads100_1_mml17_ep1_es0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml17_ep1_es0.stdout
+END
+se-adeno-reads100_1_mml16_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml16_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml25_ep1_es2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml25_ep1_es2.stdout
+END
+se-adeno-reads100_1_mml20-i99_ep1_es1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-i99_ep1_es1.stdout
+END
+se-adeno-reads100_1_mml20-of3_ep1_es1.out
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/splazers/tests/se-adeno-reads100_1_mml20-of3_ep1_es1.out
+END

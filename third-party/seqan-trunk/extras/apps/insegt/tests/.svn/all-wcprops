@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13691/trunk/extras/apps/insegt/tests
+END
+default_tupleOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/default_tupleOutput.gff
+END
+alignments.sam
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/alignments.sam
+END
+default_annoOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/default_annoOutput.gff
+END
+threshold-count2_readOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/threshold-count2_readOutput.gff
+END
+ntuple3_tupleOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/ntuple3_tupleOutput.gff
+END
+exact-ntuple_readOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/exact-ntuple_readOutput.gff
+END
+ntuple3_annoOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/ntuple3_annoOutput.gff
+END
+max-tuple_readOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/max-tuple_readOutput.gff
+END
+annotations.gff
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/annotations.gff
+END
+threshold-count2_tupleOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/threshold-count2_tupleOutput.gff
+END
+default_readOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/default_readOutput.gff
+END
+threshold-count2_annoOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/threshold-count2_annoOutput.gff
+END
+exact-ntuple_tupleOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/exact-ntuple_tupleOutput.gff
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13691/trunk/extras/apps/insegt/tests/generate_outputs.sh
+END
+exact-ntuple_annoOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/exact-ntuple_annoOutput.gff
+END
+ntuple3_readOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/ntuple3_readOutput.gff
+END
+max-tuple_tupleOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/max-tuple_tupleOutput.gff
+END
+max-tuple_annoOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13596/trunk/extras/apps/insegt/tests/max-tuple_annoOutput.gff
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13691/trunk/extras/apps/insegt/tests/run_tests.py
+END

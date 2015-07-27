@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/seqan/!svn/ver/13919/trunk/core/tests/misc
+END
+test_misc_accumulators.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13855/trunk/core/tests/misc/test_misc_accumulators.h
+END
+test_misc_bit_twiddling.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13855/trunk/core/tests/misc/test_misc_bit_twiddling.h
+END
+test_misc_interval_tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13919/trunk/core/tests/misc/test_misc_interval_tree.h
+END
+test_misc_edit_environment.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13855/trunk/core/tests/misc/test_misc_edit_environment.h
+END
+test_misc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13919/trunk/core/tests/misc/test_misc.cpp
+END
+test_misc_cmdparser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/misc/test_misc_cmdparser.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13611/trunk/core/tests/misc/CMakeLists.txt
+END

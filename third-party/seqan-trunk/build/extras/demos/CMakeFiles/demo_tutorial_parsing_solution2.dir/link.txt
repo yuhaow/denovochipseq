@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_parsing_solution2.dir/tutorial/parsing/solution2.cpp.o  -o ../../bin/demo_tutorial_parsing_solution2 -rdynamic -lrt -lz -lbz2 

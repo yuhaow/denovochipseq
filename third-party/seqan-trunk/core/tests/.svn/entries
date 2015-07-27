@@ -1,0 +1,143 @@
+10
+
+dir
+14263
+http://svn.seqan.de/seqan/trunk/core/tests
+http://svn.seqan.de/seqan
+
+
+
+2013-07-12T11:16:00.012818Z
+14262
+holtgrew
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e6417c60-b987-48fd-844e-b20f0fcc1017
+
+file
+dir
+
+seq_io
+dir
+
+find
+dir
+
+consensus
+dir
+
+random
+dir
+
+basic
+dir
+
+graph_types
+dir
+
+bam_io
+dir
+
+gff_io
+dir
+
+graph_algorithms
+dir
+
+align
+dir
+
+misc
+dir
+
+stream
+dir
+
+parallel
+dir
+
+store
+dir
+
+pipe
+dir
+
+modifier
+dir
+
+graph_msa
+dir
+
+arg_parse
+dir
+
+seeds
+dir
+
+swift_local
+dir
+
+index
+dir
+
+sequence
+dir
+
+graph_align
+dir
+
+score
+dir
+
+sequence_journaled
+dir
+
+map
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2013-07-15T18:56:55.000000Z
+b796e6862f14a3da13b6fe4c14c31039
+2013-03-26T16:25:23.511077Z
+13819
+holtgrew
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+551
+

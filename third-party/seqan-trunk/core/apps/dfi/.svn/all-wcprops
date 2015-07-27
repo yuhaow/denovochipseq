@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/seqan/!svn/ver/13975/trunk/core/apps/dfi
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seqan/!svn/ver/13654/trunk/core/apps/dfi/LICENSE
+END
+dfi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seqan/!svn/ver/13975/trunk/core/apps/dfi/dfi.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13655/trunk/core/apps/dfi/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/13654/trunk/core/apps/dfi/README
+END

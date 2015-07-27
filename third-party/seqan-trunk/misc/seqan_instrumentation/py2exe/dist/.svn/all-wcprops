@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13988/trunk/misc/seqan_instrumentation/py2exe/dist
+END
+_socket.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/dist/_socket.pyd
+END
+_hashlib.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/dist/_hashlib.pyd
+END
+python27.dll
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/python27.dll
+END
+pyexpat.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/dist/pyexpat.pyd
+END
+unicodedata.lib
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/dist/unicodedata.lib
+END
+bz2.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/dist/bz2.pyd
+END
+w9xpopen.exe
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/w9xpopen.exe
+END
+seqan_instrumentation.exe
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13910/trunk/misc/seqan_instrumentation/py2exe/dist/seqan_instrumentation.exe
+END
+select.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/dist/select.pyd
+END
+_ssl.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/dist/_ssl.pyd
+END
+unicodedata.pyd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/dist/unicodedata.pyd
+END

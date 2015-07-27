@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/13855/trunk/core/tests/store
+END
+ex1.fa
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/core/tests/store/ex1.fa
+END
+ex1.sam.copy
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13569/trunk/core/tests/store/ex1.sam.copy
+END
+test_store_io_bam.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13855/trunk/core/tests/store/test_store_io_bam.h
+END
+example_gff.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13433/trunk/core/tests/store/example_gff.tsv
+END
+test.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13685/trunk/core/tests/store/test.tsv
+END
+toy.sam
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/core/tests/store/toy.sam
+END
+amos_to_sam_result.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13441/trunk/core/tests/store/amos_to_sam_result.fasta
+END
+sam_to_amos_result.amos
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13771/trunk/core/tests/store/sam_to_amos_result.amos
+END
+toy.fa
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/core/tests/store/toy.fa
+END
+example_known_genes.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13380/trunk/core/tests/store/example_known_genes.tsv
+END
+example_gtf.tsv
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13433/trunk/core/tests/store/example_gtf.tsv
+END
+test_store_io.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13855/trunk/core/tests/store/test_store_io.h
+END
+toy.bam
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/core/tests/store/toy.bam
+END
+toy.amos
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13441/trunk/core/tests/store/toy.amos
+END
+test_store.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13855/trunk/core/tests/store/test_store.cpp
+END
+ex1.sam
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/core/tests/store/ex1.sam
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13313/trunk/core/tests/store/CMakeLists.txt
+END
+amos_to_sam_result.sam
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13569/trunk/core/tests/store/amos_to_sam_result.sam
+END

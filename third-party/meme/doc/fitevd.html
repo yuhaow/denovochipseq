@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>fitevd</title>
+    <link href="./meme-suite.css" rel="styleSheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <script src="./meme-suite-logo.js" type="text/javascript">&gt;</script>
+      <h1>fitevd</h1>
+      <p><b>Usage:</b> fitevd &lt;<i>q</i>&gt; [options]</p>
+      <p><b>Description:</b></p>
+      <p>
+      <code>fitevd</code> fits an extreme value distribution to a set of score-length paris
+      with a query length of <code>&lt;q&gt;</code>.
+      </p>
+      <p><b>Input:</b></p>
+      <ul>
+        <li>Reads white-space separated score-length pairs from <code>stdin</code></li>
+      </ul>
+      <p><b>Output:</b></p>
+      <ul>
+        <li>Writes the EVD parameters to <code>stdout</code>.</li>
+      </ul>
+      <p><b>Options:</b></p>
+      <ul>
+      <li><code>-d &lt;smin&gt; &lt;smax&gt;</code> 
+    - Print length vs p-value for
+    <code>&lt;smin&gt; &lt;= score &lt;= &lt;smax&gt;</code>.
+  </li>
+      <li><code>-h &lt;H&gt;</code> 
+    - Initial value  of H. Default value: 1.0.
+  </li>
+      <li><code>-ilh &lt;ilh&gt;</code> 
+    - Maximum iterations in outer L-H loop.
+    Default value: 10.
+  </li>
+      <li><code>-inr &lt;inr&gt;</code> 
+    - Maximum iterations in inner N-R loop.
+    Default value: 20.
+  </li>
+      <li><code>-lr &lt;lr&gt;</code> 
+    - Minimum ration of shortest to longest in  group.
+    Default value: 1.50.
+  </li>
+      <li><code>-p &lt;n&gt;</code> 
+    - Print p-values. Default value: off.
+  </li>
+      <li><code>-r &lt;n&gt;</code>
+    - use <code>&lt;n&gt;</code> randomly selected scores.
+    Default value: all.
+  </li>
+      <li><code>-s &lt;s&gt;</code>
+    - Size of length groups. Default value: 10000.
+  </li>
+      <li><code>-t</code>
+    - Turn on debug tracing. Default value: off.
+  </li>
+      </ul>
+      <p><b>Bugs:</b> None known.</p>
+      <p><b>Author:</b> Tim Bailey</p>
+    </div>
+  </body>
+</html>

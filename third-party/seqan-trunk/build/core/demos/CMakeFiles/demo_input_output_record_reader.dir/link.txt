@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_input_output_record_reader.dir/input_output/record_reader.cpp.o  -o ../../bin/demo_input_output_record_reader -rdynamic -lrt -lz -lbz2 

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/seqan/!svn/ver/14206/trunk/extras/demos
+END
+find_motif.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13034/trunk/extras/demos/find_motif.cpp
+END
+zscore.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/extras/demos/zscore.cpp
+END
+zscore_human_mm.3
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13034/trunk/extras/demos/zscore_human_mm.3
+END
+parse_lm_stellar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13950/trunk/extras/demos/parse_lm_stellar.cpp
+END
+zscore_example_mm.3
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13034/trunk/extras/demos/zscore_example_mm.3
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13281/trunk/extras/demos/CMakeLists.txt
+END
+bam_print_alignments.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13950/trunk/extras/demos/bam_print_alignments.cpp
+END
+bam_library_size.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13950/trunk/extras/demos/bam_library_size.cpp
+END
+bam_stats.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13950/trunk/extras/demos/bam_stats.cpp
+END
+bamutil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13950/trunk/extras/demos/bamutil.cpp
+END

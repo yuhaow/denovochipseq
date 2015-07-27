@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG    CMakeFiles/test_find.dir/test_find.cpp.o  -o ../../../bin/test_find -rdynamic -lrt 

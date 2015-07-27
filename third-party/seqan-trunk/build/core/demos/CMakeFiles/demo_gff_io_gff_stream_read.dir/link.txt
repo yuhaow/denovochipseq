@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_gff_io_gff_stream_read.dir/gff_io/gff_stream_read.cpp.o  -o ../../bin/demo_gff_io_gff_stream_read -rdynamic -lrt -lz -lbz2 

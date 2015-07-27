@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>gendb</title>
+    <link href="./meme-suite.css" rel="styleSheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <script src="./meme-suite-logo.js" type="text/javascript">&gt;</script>
+      <h1>gendb</h1>
+      <p><b>Usage:</b> gendb [options] &lt;numseqs&gt;</p>
+      <p><b>Description:</b></p>
+      <p>
+        <code>gendb</code> generates the specified number of sequences
+        using a Markov model.  The sequence lengths are selected
+        uniformly at random within the range specified
+        by <code>--minseq</code> and <code>--maxseq</code>.
+      </p>
+      <p><b>Input:</b></p>
+      <ul>
+        <li>None</li>
+      </ul>
+      <p><b>Output:</b></p>
+      <ul>
+        <li>Writes the sequences in FASTA format to <code>stdout</code>.</li>
+      </ul>
+      <p><b>Options:</b></p>
+      <ul>
+      <li><code>--bfile <i>&lt;file&gt;</i></code>
+    - File containg a background model in 
+    <a href="bfile-format.html">background model format</a>.
+  </li>
+      <li><code>--seed &lt;n&gt;</code>
+    - Seed for random number generator.
+  </li>
+      <li><code>--minseq &lt;n&gt;</code>
+    - Minimum sequence length. Default value: 50.
+  </li>
+      <li><code>--maxseq &lt;n&gt;</code>
+    - Maximum sequence length. Default value: 2000.
+  </li>
+      <li><code>--order <i>&lt;n&gt;</i></code>
+    - Use Markov model of order <code>&lt;n&gt;</code>.
+    Default value: the order of the background model if one is provided,
+    otherwise 0.
+  </li>
+      <li><code>--dummy</code> 
+    - Print a "dummy" sequence record before the generated sequences. 
+    The "dummy" sequence record is a a FASTA header line listing the 
+    <code>gendb</code> parameters but not followed by any sequence lines.
+  </li>
+      <li><code>--type [0|1|2|3|4]</code>
+    - The type of sequence to generate.
+    Allowed types are:
+    <ul><li>0 = protein (default)</li><li>1 = DNA</li><li>2 = codons</li><li>3 = DNA without ambiguous characters</li><li>4 = protein without ambigouous characters</li></ul></li>
+      </ul>
+      <p><b>Bugs:</b> None known.</p>
+      <p><b>Author:</b> Tim Bailey</p>
+    </div>
+  </body>
+</html>

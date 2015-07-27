@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/14245/trunk/extras/include/seqan/vcf_io
+END
+read_vcf.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/14117/trunk/extras/include/seqan/vcf_io/read_vcf.h
+END
+vcf_io_context.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/14016/trunk/extras/include/seqan/vcf_io/vcf_io_context.h
+END
+vcf_stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/14185/trunk/extras/include/seqan/vcf_io/vcf_stream.h
+END
+vcf_record.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/14016/trunk/extras/include/seqan/vcf_io/vcf_record.h
+END
+vcf_header_record.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/14016/trunk/extras/include/seqan/vcf_io/vcf_header_record.h
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/14016/trunk/extras/include/seqan/vcf_io/INFO
+END
+vcf_header.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/14245/trunk/extras/include/seqan/vcf_io/vcf_header.h
+END
+write_vcf.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/14016/trunk/extras/include/seqan/vcf_io/write_vcf.h
+END

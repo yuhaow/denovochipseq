@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_index_node_predicate.dir/index_node_predicate.cpp.o  -o ../../bin/demo_index_node_predicate -rdynamic -lrt -lz -lbz2 

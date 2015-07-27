@@ -1,0 +1,40 @@
+10
+
+dir
+14263
+http://svn.seqan.de/seqan/trunk/misc/trac_plugins
+http://svn.seqan.de/seqan
+
+
+
+2012-09-10T08:40:34.845530Z
+12850
+holtgrew
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e6417c60-b987-48fd-844e-b20f0fcc1017
+
+IncludeMacro
+dir
+
+TextBoxes
+dir
+
+DocLinks
+dir
+
+FoldOut
+dir
+

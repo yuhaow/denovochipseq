@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/14006/trunk/extras/include/seqan/parse_lm
+END
+local_match_store.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/parse_lm/local_match_store.h
+END
+parse_stellar_gff.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/14006/trunk/extras/include/seqan/parse_lm/parse_stellar_gff.h
+END
+parse_lastz_general.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13930/trunk/extras/include/seqan/parse_lm/parse_lastz_general.h
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/parse_lm/INFO
+END
+parse_blastn_tabular.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/14006/trunk/extras/include/seqan/parse_lm/parse_blastn_tabular.h
+END

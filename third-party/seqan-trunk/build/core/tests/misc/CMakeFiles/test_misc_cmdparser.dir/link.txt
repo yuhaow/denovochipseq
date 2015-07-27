@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG    CMakeFiles/test_misc_cmdparser.dir/test_misc_cmdparser.cpp.o  -o ../../../bin/test_misc_cmdparser -rdynamic -lrt 

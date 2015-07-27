@@ -1,0 +1,18 @@
+#pattern name	sequence name	start	stop	score	p-value	q-value	matched sequence
+cluster-8	lac	9	44	17.8792	nan	nan	nan	TAATGTGAGTTAGCTCACTCATTAGGCACCCCAGG
+cluster-16	trn9cat	36	102	10.9305	nan	nan	nan	CCTGGTGTCCCTGTTGATACCGGGAAGCCCTGGGCCAACTTTTGGCGAAAATGAGACGTTGATCGG
+cluster-7	ilv	5	61	9.60584	nan	nan	nan	CGGCGGGGTTTTTTGTTATCTGCAATTCAGTACAAAACGTGATCAACCCCTCAATT
+cluster-2	ara	59	77	7.17504	nan	nan	nan	TTGCACGGCGTCACACTT
+cluster-9	male	14	49	6.74549	nan	nan	nan	TTCTGTAACAGAGATCACACAAAGCGACGGTGGGG
+cluster-11	malt	41	59	6.51379	nan	nan	nan	AATTGTGACACAGTGCAA
+cluster-5	deop2	60	78	5.24387	nan	nan	nan	AATTGTGATGTGTATCGA
+cluster-15	pbr322	57	75	4.32247	nan	nan	nan	GTGAAATACCGCACAGAT
+cluster-14	uxu1	17	35	4.08176	nan	nan	nan	TGTTGTGATGTGGTTAAC
+cluster-1	ce1cg	65	83	3.76129	nan	nan	nan	TTGATCGTTTTCACAAAA
+cluster-13	tnaa	75	93	2.964	nan	nan	nan	GTGATTCGATTCACATTT
+cluster-6	gale	46	64	2.964	nan	nan	nan	TTATTCCATGTCACACTT
+cluster-3	crp	67	85	2.46002	nan	nan	nan	GCAAAGGACGTCACATTA
+cluster-4	cya	50	68	2.2681	nan	nan	nan	AGGTGTTAAATTGATCAC
+cluster-12	ompa	48	66	1.79464	nan	nan	nan	ATGCCTGACGGAGTTCAC
+cluster-17	tdc	82	100	1.73904	nan	nan	nan	GTGAGTGGTCGCACATAT
+cluster-10	malk	61	79	1.5644	nan	nan	nan	TTTCGTGATGTTGCTTGC

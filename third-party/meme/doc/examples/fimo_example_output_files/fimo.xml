@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="fimo-to-html.xsl"?>
+<!-- Begin document body -->
+<fimo version="4.8.1" release="7 PDT 20">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>/Users/cegrant/meme/bin/fimo --oc fimo_example_output_files ../../../tests/common/crp0.meme.html ../../../tests/common/crp0.fasta</command-line>
+<settings>
+<setting name="output directory">fimo_example_output_files</setting>
+<setting name="MEME file name">../../../tests/common/crp0.meme.html</setting>
+<setting name="sequence file name">../../../tests/common/crp0.fasta</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="output threshold set">false</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="max sequence length">250000000</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">2</setting>
+</settings>
+<sequence-data num-sequences="18" num-residues="1890" />
+<alphabet>nucleotide</alphabet>
+<motif name="+1" width="18" best-possible-match="AATTGTGACGTAGATCAC"/>
+<motif name="-1" width="18" best-possible-match="GTGATCTACGTCACAATT"/>
+<motif name="+2" width="8" best-possible-match="CGGTGGGG"/>
+<motif name="-2" width="8" best-possible-match="CCCCACCG"/>
+<motif name="+3" width="11" best-possible-match="CCTGGTGTGCC"/>
+<motif name="-3" width="11" best-possible-match="GGCACACCAGG"/>
+<background source="non-redundant database">
+<value letter="A">0.275</value>
+<value letter="C">0.225</value>
+<value letter="G">0.225</value>
+<value letter="T">0.275</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>

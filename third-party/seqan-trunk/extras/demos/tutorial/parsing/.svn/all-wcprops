@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13299/trunk/extras/demos/tutorial/parsing
+END
+parse_gff2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/parse_gff2.cpp
+END
+solution2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/solution2.cpp
+END
+solution3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/solution3.cpp
+END
+reader_double_demo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/reader_double_demo.cpp
+END
+NC_001405.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/NC_001405.fasta
+END
+NC_001460.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/NC_001460.fasta
+END
+reader_single_demo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/reader_single_demo.cpp
+END
+newick_example.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/newick_example.txt
+END
+parse_newick.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/parse_newick.cpp
+END
+example1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/example1.cpp
+END
+gff2_example.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/gff2_example.txt
+END
+blast_example.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/blast_example.txt
+END
+parse_blastn.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/parse_blastn.cpp
+END
+solution1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/parsing/solution1.cpp
+END

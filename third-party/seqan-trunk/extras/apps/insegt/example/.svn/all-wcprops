@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13034/trunk/extras/apps/insegt/example
+END
+alignments.sam
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/extras/apps/insegt/example/alignments.sam
+END
+tupleOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/extras/apps/insegt/example/tupleOutput.gff
+END
+annoOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/extras/apps/insegt/example/annoOutput.gff
+END
+readOutput.gff
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/extras/apps/insegt/example/readOutput.gff
+END
+annotations.gff
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/extras/apps/insegt/example/annotations.gff
+END

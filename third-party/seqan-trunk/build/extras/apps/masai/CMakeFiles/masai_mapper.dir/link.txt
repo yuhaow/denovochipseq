@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG -DSEQAN_ENABLE_DEBUG=0    CMakeFiles/masai_mapper.dir/mapper.cpp.o  -o ../../../bin/masai_mapper -rdynamic -lrt 

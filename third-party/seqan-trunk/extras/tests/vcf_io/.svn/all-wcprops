@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/14016/trunk/extras/tests/vcf_io
+END
+vcf_header.vcf
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/14016/trunk/extras/tests/vcf_io/vcf_header.vcf
+END
+test_vcf_io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/14016/trunk/extras/tests/vcf_io/test_vcf_io.cpp
+END
+example.vcf
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/14016/trunk/extras/tests/vcf_io/example.vcf
+END
+vcf_record.vcf
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/14016/trunk/extras/tests/vcf_io/vcf_record.vcf
+END
+test_vcf_io.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14016/trunk/extras/tests/vcf_io/test_vcf_io.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/14016/trunk/extras/tests/vcf_io/CMakeLists.txt
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/14079/trunk/extras/include/seqan/journaled_set
+END
+journaled_set_join.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/journaled_set/journaled_set_join.h
+END
+journaled_set_join_global_align_compact.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/seqan/!svn/ver/13864/trunk/extras/include/seqan/journaled_set/journaled_set_join_global_align_compact.h
+END
+score_biaffine.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/journaled_set/score_biaffine.h
+END
+journaled_set_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/14079/trunk/extras/include/seqan/journaled_set/journaled_set_impl.h
+END
+journal_alignment_traceback_adaptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/seqan/!svn/ver/13879/trunk/extras/include/seqan/journaled_set/journal_alignment_traceback_adaptor.h
+END
+journaled_set_join_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/journaled_set/journaled_set_join_config.h
+END
+journaled_set_journal_trace_descriptor.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seqan/!svn/ver/13864/trunk/extras/include/seqan/journaled_set/journaled_set_journal_trace_descriptor.h
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13933/trunk/extras/include/seqan/journaled_set/INFO
+END
+journaled_set_join_global_align_manhatten.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/seqan/!svn/ver/13864/trunk/extras/include/seqan/journaled_set/journaled_set_join_global_align_manhatten.h
+END
+journal_alignment_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/journaled_set/journal_alignment_interface.h
+END
+journaled_set_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/journaled_set/journaled_set_base.h
+END

@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>getsize</title>
+    <link href="./meme-suite.css" rel="styleSheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <script src="./meme-suite-logo.js" type="text/javascript">&gt;</script>
+      <h1>getsize</h1>
+      <p><b>Usage:</b> getsize &lt;datafile&gt; [options]</p>
+      <p><b>Description:</b></p>
+      <p>
+        <code>getsize</code> prints statistics about the sequences in 
+        <code><i>&lt;datafile&gt;</i></code>.
+      </p>
+      <p><b>Input:</b></p>
+      <ul>
+        <li>A file in <a href="fasta-format.html">FASTA format</a>.
+        If the filename is given as "-", then the program reads from
+        standard input.</li>
+      </ul>
+      <p><b>Output:</b></p>
+      <ul>
+        <li>Writes statistics about the sequences to <code>stdout</code>.</li>
+      </ul>
+      <p><b>Options:</b></p>
+      <ul>
+      <li><code>-codons</code>
+    - Print frame 0 codon usage.
+  </li>
+      <li><code>-dna</code>
+    - Print DNA frequencies in <a href="bfile-format.html">background file format</a>.
+  </li>
+      <li><code>-f</code>
+    - Print letter frequences.
+  </li>
+      <li><code>-ft</code>
+    - Print letter frequences in a LaTex table.
+  </li>
+      <li><code>-l</code>
+    - Just print the length of each sequence.
+  </li>
+      <li><code>-f</code>
+    - Do not print warnings about duplicate sequences.
+  </li>
+      <li><code>-prot</code>
+    - Print protein frequencies in <a href="bfile-format.html">background file format</a>.
+  </li>
+      <li><code>-x</code>
+    - Translate DNA in 6 frames.
+  </li>
+      </ul>
+      <p><b>Bugs:</b> None known.</p>
+      <p><b>Author:</b> Tim Bailey</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -fopenmp -O3 -DNDEBUG    CMakeFiles/test_index_crosscompare_char_dfi.dir/test_index_crosscompare_char_dfi.cpp.o  -o ../../../bin/test_index_crosscompare_char_dfi -rdynamic -lrt 

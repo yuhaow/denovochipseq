@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests
+END
+example2.dist
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/tree_recon/tests/example2.dist
+END
+example3.avg.dot
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example3.avg.dot
+END
+example3.dist
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/tree_recon/tests/example3.dist
+END
+example1.out
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/apps/tree_recon/tests/example1.out
+END
+example1.min.dot
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example1.min.dot
+END
+example2.out
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/apps/tree_recon/tests/example2.out
+END
+example2.min.dot
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example2.min.dot
+END
+example3.out
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/apps/tree_recon/tests/example3.out
+END
+example1.max.dot
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example1.max.dot
+END
+example3.min.dot
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example3.min.dot
+END
+example2.max.dot
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example2.max.dot
+END
+example3.max.dot
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example3.max.dot
+END
+example1.newick
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example1.newick
+END
+example2.newick
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example2.newick
+END
+example3.newick
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example3.newick
+END
+example1.dot
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example1.dot
+END
+example2.dot
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example2.dot
+END
+example3.dot
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example3.dot
+END
+example1.wavg.dot
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example1.wavg.dot
+END
+example2.wavg.dot
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example2.wavg.dot
+END
+example3.wavg.dot
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example3.wavg.dot
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/generate_outputs.sh
+END
+example1.nj.dot
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example1.nj.dot
+END
+example2.nj.dot
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example2.nj.dot
+END
+example3.nj.dot
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example3.nj.dot
+END
+example1.avg.dot
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example1.avg.dot
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/run_tests.py
+END
+example2.avg.dot
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13681/trunk/core/apps/tree_recon/tests/example2.avg.dot
+END
+example1.dist
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/tree_recon/tests/example1.dist
+END

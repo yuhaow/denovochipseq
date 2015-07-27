@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/seqan/!svn/ver/13855/trunk/core/tests/map
+END
+test_map_map.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13855/trunk/core/tests/map/test_map_map.h
+END
+test_map_sumlist.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13855/trunk/core/tests/map/test_map_sumlist.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13313/trunk/core/tests/map/CMakeLists.txt
+END
+test_map.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13855/trunk/core/tests/map/test_map.cpp
+END

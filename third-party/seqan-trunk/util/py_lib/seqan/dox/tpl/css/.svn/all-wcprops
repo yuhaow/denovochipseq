@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/tpl/css
+END
+common.css
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/tpl/css/common.css
+END
+custom.css
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/tpl/css/custom.css
+END
+full_list.css
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/tpl/css/full_list.css
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/tpl/css/style.css
+END
+reset.css
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/tpl/css/reset.css
+END
+main.css
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/tpl/css/main.css
+END

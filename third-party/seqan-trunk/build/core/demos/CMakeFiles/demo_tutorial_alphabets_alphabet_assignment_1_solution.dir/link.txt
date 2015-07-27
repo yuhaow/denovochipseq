@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_alphabets_alphabet_assignment_1_solution.dir/tutorial/alphabets/alphabet_assignment_1_solution.cpp.o  -o ../../bin/demo_tutorial_alphabets_alphabet_assignment_1_solution -rdynamic -lrt -lz -lbz2 

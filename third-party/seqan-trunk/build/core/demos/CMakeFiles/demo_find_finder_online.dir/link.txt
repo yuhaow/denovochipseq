@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_find_finder_online.dir/find/finder_online.cpp.o  -o ../../bin/demo_find_finder_online -rdynamic -lrt -lz -lbz2 

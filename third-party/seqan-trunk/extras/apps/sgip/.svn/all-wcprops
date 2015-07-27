@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/13982/trunk/extras/apps/sgip
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13281/trunk/extras/apps/sgip/LICENSE
+END
+sgip_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13982/trunk/extras/apps/sgip/sgip_base.h
+END
+sgip.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/sgip.cpp
+END
+sgip.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/sgip.h
+END
+sgip_output.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13607/trunk/extras/apps/sgip/sgip_output.h
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seqan/!svn/ver/13933/trunk/extras/apps/sgip/INFO
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13281/trunk/extras/apps/sgip/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13810/trunk/extras/apps/sgip/README
+END

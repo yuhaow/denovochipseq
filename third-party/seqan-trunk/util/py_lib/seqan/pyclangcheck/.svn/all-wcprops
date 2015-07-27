@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/pyclangcheck
+END
+simple_checks.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/pyclangcheck/simple_checks.py
+END
+rules.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/pyclangcheck/rules.py
+END
+suppressions.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/pyclangcheck/suppressions.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/pyclangcheck/__init__.py
+END
+app.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/pyclangcheck/app.py
+END
+violations.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/pyclangcheck/violations.py
+END

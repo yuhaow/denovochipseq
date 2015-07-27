@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG    CMakeFiles/test_find_motif.dir/test_find_motif.cpp.o  -o ../../../bin/test_find_motif -rdynamic -lrt 

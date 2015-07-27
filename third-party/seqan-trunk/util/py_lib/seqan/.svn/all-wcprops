@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/14260/trunk/util/py_lib/seqan
+END
+one_package.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/14257/trunk/util/py_lib/seqan/one_package.html
+END
+release_page.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/14257/trunk/util/py_lib/seqan/release_page.html
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/LICENSE
+END
+release_page.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14257/trunk/util/py_lib/seqan/release_page.py
+END
+skel.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13862/trunk/util/py_lib/seqan/skel.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/__init__.py
+END
+paths.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/paths.py
+END
+app_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13843/trunk/util/py_lib/seqan/app_tests.py
+END
+seqan.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13965/trunk/util/py_lib/seqan/seqan.html
+END
+auto_build.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13998/trunk/util/py_lib/seqan/auto_build.py
+END
+seqan.css
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13965/trunk/util/py_lib/seqan/seqan.css
+END

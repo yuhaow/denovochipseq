@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/seqan/!svn/ver/14246/trunk/misc
+END
+adjust_linebreaks.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/misc/adjust_linebreaks.py
+END
+add_include.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/13034/trunk/misc/add_include.py
+END
+iorev_tagreader.awk
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/misc/iorev_tagreader.awk
+END
+zlib.supp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/seqan/!svn/ver/13034/trunk/misc/zlib.supp
+END
+header_gpl3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/13034/trunk/misc/header_gpl3.txt
+END
+guide.tex
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/seqan/!svn/ver/13034/trunk/misc/guide.tex
+END
+mat2cpp.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/seqan/!svn/ver/13034/trunk/misc/mat2cpp.py
+END
+seqan.supp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/seqan/!svn/ver/14243/trunk/misc/seqan.supp
+END
+linux_binary_tests.sh
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13960/trunk/misc/linux_binary_tests.sh
+END
+header_bsd.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/13034/trunk/misc/header_bsd.txt
+END
+record_resources.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/misc/record_resources.py
+END
+svn-eol-style.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13034/trunk/misc/svn-eol-style.txt
+END
+include_check.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/14246/trunk/misc/include_check.cpp
+END
+darwin9.supp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/13034/trunk/misc/darwin9.supp
+END
+profile2pdf.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/13034/trunk/misc/profile2pdf.py
+END
+iorev_tagger.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/13034/trunk/misc/iorev_tagger.py
+END
+guide.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/seqan/!svn/ver/13034/trunk/misc/guide.pdf
+END
+iorev_report_overview
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13034/trunk/misc/iorev_report_overview
+END
+make_snapshot.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seqan/!svn/ver/13927/trunk/misc/make_snapshot.sh
+END
+python.supp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/13034/trunk/misc/python.supp
+END
+iorev_tagger_level2.awk
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13034/trunk/misc/iorev_tagger_level2.awk
+END
+uncrustify.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/13034/trunk/misc/uncrustify.cfg
+END
+adjust_copy_right_year.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13951/trunk/misc/adjust_copy_right_year.sh
+END
+misc_sse2.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/13034/trunk/misc/misc_sse2.h
+END

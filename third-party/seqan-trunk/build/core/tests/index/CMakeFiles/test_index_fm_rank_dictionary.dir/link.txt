@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -fopenmp -O3 -DNDEBUG    CMakeFiles/test_index_fm_rank_dictionary.dir/test_index_fm_rank_dictionary.cpp.o  -o ../../../bin/test_index_fm_rank_dictionary -rdynamic -lrt 

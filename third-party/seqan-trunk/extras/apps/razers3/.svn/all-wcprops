@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/14106/trunk/extras/apps/razers3
+END
+parallel_job_queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/parallel_job_queue.h
+END
+param_tabs.inc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/param_tabs.inc
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13651/trunk/extras/apps/razers3/LICENSE
+END
+simulate_reads.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/simulate_reads.cpp
+END
+razers_window.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13529/trunk/extras/apps/razers3/razers_window.h
+END
+razers.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/14104/trunk/extras/apps/razers3/razers.cpp
+END
+param_tabs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/param_tabs.cpp
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13652/trunk/extras/apps/razers3/INFO
+END
+razers.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/14102/trunk/extras/apps/razers3/razers.h
+END
+parallel_misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/parallel_misc.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/14040/trunk/extras/apps/razers3/README
+END
+parallel_store.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/14093/trunk/extras/apps/razers3/parallel_store.h
+END
+param_tabs.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/param_tabs.h
+END
+outputFormat.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13774/trunk/extras/apps/razers3/outputFormat.h
+END
+compPHSens.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/compPHSens.cpp
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/config.h.in
+END
+razers_matepairs.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/14102/trunk/extras/apps/razers3/razers_matepairs.h
+END
+razers_paired_match_filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/razers_paired_match_filter.h
+END
+readSimulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13607/trunk/extras/apps/razers3/readSimulator.h
+END
+job_queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/job_queue.h
+END
+razers_parallel.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13607/trunk/extras/apps/razers3/razers_parallel.h
+END
+paramChooser.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13124/trunk/extras/apps/razers3/paramChooser.h
+END
+profile_timeline.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/profile_timeline.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/14106/trunk/extras/apps/razers3/CMakeLists.txt
+END
+razers_match_filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/razers_match_filter.h
+END
+razers_matepairs_parallel.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13607/trunk/extras/apps/razers3/razers_matepairs_parallel.h
+END
+quality2prob.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/extras/apps/razers3/quality2prob.cpp
+END

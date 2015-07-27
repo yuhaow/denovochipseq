@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/seqan/!svn/ver/13927/trunk/misc/swig
+END
+example.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/13034/trunk/misc/swig/example.py
+END
+alignment.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seqan/!svn/ver/13927/trunk/misc/swig/alignment.h
+END
+alignment.i
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seqan/!svn/ver/13927/trunk/misc/swig/alignment.i
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13281/trunk/misc/swig/CMakeLists.txt
+END
+HowTo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/13034/trunk/misc/swig/HowTo.txt
+END

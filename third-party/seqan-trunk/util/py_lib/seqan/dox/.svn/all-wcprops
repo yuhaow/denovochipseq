@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seqan/!svn/ver/14260/trunk/util/py_lib/seqan/dox
+END
+proc_doc.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14063/trunk/util/py_lib/seqan/dox/proc_doc.py
+END
+migration.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/14006/trunk/util/py_lib/seqan/dox/migration.py
+END
+example.dot
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/example.dot
+END
+dot_diagrams.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/dot_diagrams.py
+END
+sig_parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/sig_parser.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/__init__.py
+END
+page.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/page.txt
+END
+dox_parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/14060/trunk/util/py_lib/seqan/dox/dox_parser.py
+END
+parse.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/parse.py
+END
+foo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/foo.txt
+END
+pure.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/14063/trunk/util/py_lib/seqan/dox/pure.py
+END
+dox_tokens.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/14060/trunk/util/py_lib/seqan/dox/dox_tokens.py
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/.gitignore
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/14260/trunk/util/py_lib/seqan/dox/TODO
+END
+demo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/demo.cpp
+END
+inc_mgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/14043/trunk/util/py_lib/seqan/dox/inc_mgr.py
+END
+raw_doc.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/14033/trunk/util/py_lib/seqan/dox/raw_doc.py
+END
+write_html.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/14060/trunk/util/py_lib/seqan/dox/write_html.py
+END
+lexer.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/14060/trunk/util/py_lib/seqan/dox/lexer.py
+END
+re
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/re
+END
+file_mgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/file_mgr.py
+END
+input.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/14000/trunk/util/py_lib/seqan/dox/input.txt
+END

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_seed_and_extend_solution4.dir/tutorial/seed_and_extend/solution4.cpp.o  -o ../../bin/demo_tutorial_seed_and_extend_solution4 -rdynamic -lrt -lz -lbz2 

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/math
+END
+math_common_factor.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/math/math_common_factor.h
+END
+math_rational.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/math/math_rational.h
+END
+math_operators.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/math/math_operators.h
+END

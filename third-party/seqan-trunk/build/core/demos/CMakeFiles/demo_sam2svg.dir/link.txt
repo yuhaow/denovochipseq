@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_sam2svg.dir/sam2svg.cpp.o  -o ../../bin/demo_sam2svg -rdynamic -lrt -lz -lbz2 

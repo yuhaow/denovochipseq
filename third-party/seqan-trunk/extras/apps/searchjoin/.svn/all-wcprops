@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/14248/trunk/extras/apps/searchjoin
+END
+join.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13640/trunk/extras/apps/searchjoin/join.cpp
+END
+verifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13640/trunk/extras/apps/searchjoin/verifier.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13799/trunk/extras/apps/searchjoin/LICENSE
+END
+writer.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13546/trunk/extras/apps/searchjoin/writer.h
+END
+search.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13640/trunk/extras/apps/searchjoin/search.cpp
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/14248/trunk/extras/apps/searchjoin/INFO
+END
+db.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13750/trunk/extras/apps/searchjoin/db.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13545/trunk/extras/apps/searchjoin/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13797/trunk/extras/apps/searchjoin/README
+END
+finder.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/14106/trunk/extras/apps/searchjoin/finder.h
+END

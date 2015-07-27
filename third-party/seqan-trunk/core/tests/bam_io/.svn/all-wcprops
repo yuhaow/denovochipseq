@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/14209/trunk/core/tests/bam_io
+END
+test_read_bam.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13938/trunk/core/tests/bam_io/test_read_bam.h
+END
+test_bam_io_context.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/bam_io/test_bam_io_context.h
+END
+test_write_sam.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/14209/trunk/core/tests/bam_io/test_write_sam.h
+END
+test_bam_alignment_record.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13855/trunk/core/tests/bam_io/test_bam_alignment_record.h
+END
+header.bam
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13312/trunk/core/tests/bam_io/header.bam
+END
+small.sam
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/14209/trunk/core/tests/bam_io/small.sam
+END
+test_bam_sam_conversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13855/trunk/core/tests/bam_io/test_bam_sam_conversion.h
+END
+test_bam_header_record.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13855/trunk/core/tests/bam_io/test_bam_header_record.h
+END
+test_write_bam.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13938/trunk/core/tests/bam_io/test_write_bam.h
+END
+test_bam_stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13938/trunk/core/tests/bam_io/test_bam_stream.h
+END
+test_read_sam.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13938/trunk/core/tests/bam_io/test_read_sam.h
+END
+small.bam.bai
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13312/trunk/core/tests/bam_io/small.bam.bai
+END
+test_bam_tags_dict.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/14120/trunk/core/tests/bam_io/test_bam_tags_dict.h
+END
+test_bam_io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13855/trunk/core/tests/bam_io/test_bam_io.cpp
+END
+small.bam
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13312/trunk/core/tests/bam_io/small.bam
+END
+header.sam
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13034/trunk/core/tests/bam_io/header.sam
+END
+test_bam_index.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13855/trunk/core/tests/bam_io/test_bam_index.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13313/trunk/core/tests/bam_io/CMakeLists.txt
+END

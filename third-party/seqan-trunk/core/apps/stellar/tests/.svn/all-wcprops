@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13754/trunk/core/apps/stellar/tests
+END
+512_simSeq2_75e-3.fa
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/512_simSeq2_75e-3.fa
+END
+75e-3.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13754/trunk/core/apps/stellar/tests/75e-3.stdout
+END
+e-1.gff
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13754/trunk/core/apps/stellar/tests/e-1.gff
+END
+minLen20.gff
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/minLen20.gff
+END
+5e-2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/5e-2.txt
+END
+512_simSeq1_5e-2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/512_simSeq1_5e-2.fa
+END
+e-4.gff
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/e-4.gff
+END
+512_simSeq2_5e-2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/512_simSeq2_5e-2.fa
+END
+5e-2txt.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/5e-2txt.stdout
+END
+5e-2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/5e-2.stdout
+END
+minLen150.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/minLen150.stdout
+END
+25e-3.gff
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/25e-3.gff
+END
+512_simSeq1_e-1.fa
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/512_simSeq1_e-1.fa
+END
+512_simSeq2_e-1.fa
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/512_simSeq2_e-1.fa
+END
+75e-3.gff
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13754/trunk/core/apps/stellar/tests/75e-3.gff
+END
+512_simSeq1_e-4.fa
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/512_simSeq1_e-4.fa
+END
+e-1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13754/trunk/core/apps/stellar/tests/e-1.stdout
+END
+512_simSeq2_e-4.fa
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/512_simSeq2_e-4.fa
+END
+minLen20.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/minLen20.stdout
+END
+e-4.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/e-4.stdout
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13754/trunk/core/apps/stellar/tests/generate_outputs.sh
+END
+5e-2.gff
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/5e-2.gff
+END
+512_simSeq1_25e-3.fa
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/512_simSeq1_25e-3.fa
+END
+minLen150.gff
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/minLen150.gff
+END
+512_simSeq2_25e-3.fa
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/512_simSeq2_25e-3.fa
+END
+25e-3.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/25e-3.stdout
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13709/trunk/core/apps/stellar/tests/run_tests.py
+END
+512_simSeq1_75e-3.fa
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/tests/512_simSeq1_75e-3.fa
+END

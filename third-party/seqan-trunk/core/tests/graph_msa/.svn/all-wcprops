@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/13919/trunk/core/tests/graph_msa
+END
+test_graph_msa.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13919/trunk/core/tests/graph_msa/test_graph_msa.cpp
+END
+test_graph_tcoffee.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13855/trunk/core/tests/graph_msa/test_graph_tcoffee.h
+END
+test_graph_msa_guide_tree.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13855/trunk/core/tests/graph_msa/test_graph_msa_guide_tree.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13313/trunk/core/tests/graph_msa/CMakeLists.txt
+END

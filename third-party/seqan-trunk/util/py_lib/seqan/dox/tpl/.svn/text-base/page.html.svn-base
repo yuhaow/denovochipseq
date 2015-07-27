@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title|transtext(top=False) }}{% endblock %}
+
+{% block content %}
+<div id="filecontents">
+<h1>{{ page.title|transtext(top=False) }}</h1>
+
+<div class="docstring">
+  <div class="discussion">
+    <!-- @brief -->
+    {{ sections.brief(page) }}
+    
+    <!-- paragraphs -->
+    {{ sections.body(page, start_heading=2) }}
+  </div>
+</div>
+
+<!-- @see -->
+{{ sections.see_also(page) }}
+</div>
+
+<!--
+ =============================================================================
+  Footer / Debug
+ =============================================================================
+-->
+
+{{ sections.dox_source(page) }}
+
+{% endblock %}

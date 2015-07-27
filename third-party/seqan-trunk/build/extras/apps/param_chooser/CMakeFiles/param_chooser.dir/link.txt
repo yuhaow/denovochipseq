@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG -DSEQAN_ENABLE_DEBUG=0    CMakeFiles/param_chooser.dir/param_chooser.cpp.o  -o ../../../bin/param_chooser -rdynamic -lrt 

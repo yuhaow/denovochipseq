@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/core/apps/razers/example
+END
+genome.fa
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/core/apps/razers/example/genome.fa
+END
+reads.fa.result
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/razers/example/reads.fa.result
+END
+reads.fa
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13034/trunk/core/apps/razers/example/reads.fa
+END
+reads2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/core/apps/razers/example/reads2.fa
+END

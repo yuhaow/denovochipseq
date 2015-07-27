@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/store
+END
+store_access_aligned_reads.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/store/store_access_aligned_reads.cpp
+END
+store_diplay_aligned_reads.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/store/store_diplay_aligned_reads.cpp
+END
+store_access_aligned_reads2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/store/store_access_aligned_reads2.cpp
+END
+ex1.fa
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/store/ex1.fa
+END
+ex1.sam
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/store/ex1.sam
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/store/CMakeLists.txt
+END

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_sequence_io_solution1.dir/tutorial/sequence_io/solution1.cpp.o  -o ../../bin/demo_tutorial_sequence_io_solution1 -rdynamic -lrt -lz -lbz2 

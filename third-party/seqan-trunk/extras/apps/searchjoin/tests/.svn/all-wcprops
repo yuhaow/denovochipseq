@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13546/trunk/extras/apps/searchjoin/tests
+END
+join_geo_1.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13546/trunk/extras/apps/searchjoin/tests/join_geo_1.out
+END
+join_geo_2.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13546/trunk/extras/apps/searchjoin/tests/join_geo_2.out
+END
+dna_database.csv
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13545/trunk/extras/apps/searchjoin/tests/dna_database.csv
+END
+join_geo_3.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13546/trunk/extras/apps/searchjoin/tests/join_geo_3.out
+END
+geo_database.csv
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13545/trunk/extras/apps/searchjoin/tests/geo_database.csv
+END
+join_dna_12.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13546/trunk/extras/apps/searchjoin/tests/join_dna_12.out
+END
+dna_queries.csv
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13545/trunk/extras/apps/searchjoin/tests/dna_queries.csv
+END
+search_dna.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13545/trunk/extras/apps/searchjoin/tests/search_dna.out
+END
+join_dna_16.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13546/trunk/extras/apps/searchjoin/tests/join_dna_16.out
+END
+geo_queries.csv
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13545/trunk/extras/apps/searchjoin/tests/geo_queries.csv
+END
+search_geo.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13545/trunk/extras/apps/searchjoin/tests/search_geo.out
+END
+join_dna_0.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13546/trunk/extras/apps/searchjoin/tests/join_dna_0.out
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13545/trunk/extras/apps/searchjoin/tests/generate_outputs.sh
+END
+join_dna_4.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13546/trunk/extras/apps/searchjoin/tests/join_dna_4.out
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13545/trunk/extras/apps/searchjoin/tests/run_tests.py
+END
+join_geo_0.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13546/trunk/extras/apps/searchjoin/tests/join_geo_0.out
+END
+join_dna_8.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13546/trunk/extras/apps/searchjoin/tests/join_dna_8.out
+END

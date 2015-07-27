@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/packages/urllib3/packages
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/packages/urllib3/packages/__init__.py
+END
+six.py
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/packages/urllib3/packages/six.py
+END

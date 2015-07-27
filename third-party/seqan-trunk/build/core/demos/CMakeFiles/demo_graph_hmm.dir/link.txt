@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_graph_hmm.dir/graph_hmm.cpp.o  -o ../../bin/demo_graph_hmm -rdynamic -lrt -lz -lbz2 

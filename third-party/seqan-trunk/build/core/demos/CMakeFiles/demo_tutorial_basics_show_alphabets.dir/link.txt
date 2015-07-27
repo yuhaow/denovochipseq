@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_basics_show_alphabets.dir/tutorial/basics/show_alphabets.cpp.o  -o ../../bin/demo_tutorial_basics_show_alphabets -rdynamic -lrt -lz -lbz2 

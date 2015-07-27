@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG    CMakeFiles/test_align_split.dir/test_align_split.cpp.o  -o ../../../bin/test_align_split -rdynamic -lrt 

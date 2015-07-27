@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/seqan/!svn/ver/14000/trunk/util/bin
+END
+dox.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/seqan/!svn/ver/14000/trunk/util/bin/dox.py
+END
+pyclangcheck.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/util/bin/pyclangcheck.py
+END
+release_page.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13720/trunk/util/bin/release_page.py
+END
+dddoc.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/13034/trunk/util/bin/dddoc.py
+END
+skel.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/13034/trunk/util/bin/skel.py
+END
+fixgcov.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/13034/trunk/util/bin/fixgcov.py
+END
+build_forwards.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13988/trunk/util/bin/build_forwards.py
+END
+auto_build.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13720/trunk/util/bin/auto_build.py
+END

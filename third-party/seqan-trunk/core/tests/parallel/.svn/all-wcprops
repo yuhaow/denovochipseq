@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/14222/trunk/core/tests/parallel
+END
+test_parallel_atomic_misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13855/trunk/core/tests/parallel/test_parallel_atomic_misc.h
+END
+test_parallel_atomic_primitives.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13855/trunk/core/tests/parallel/test_parallel_atomic_primitives.h
+END
+test_parallel_algorithms.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/14222/trunk/core/tests/parallel/test_parallel_algorithms.h
+END
+test_parallel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/14222/trunk/core/tests/parallel/test_parallel.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13313/trunk/core/tests/parallel/CMakeLists.txt
+END
+test_parallel_splitting.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/14118/trunk/core/tests/parallel/test_parallel_splitting.h
+END

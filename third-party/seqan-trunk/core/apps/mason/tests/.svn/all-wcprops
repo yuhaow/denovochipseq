@@ -1,0 +1,407 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seqan/!svn/ver/13584/trunk/core/apps/mason/tests
+END
+illumina-pe-random-N100-n100-s0_2.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-pe-random-N100-n100-s0_2.fasta
+END
+illumina-se-random-N100-n100-s0-sq.fastq.sam
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-se-random-N100-n100-s0-sq.fastq.sam
+END
+illumina-se-adeno-N100-n36-s0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n36-s0.stdout
+END
+illumina-se-adeno-N100-n100-s0.fasta.sam
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n100-s0.fasta.sam
+END
+illumina-se-adeno-N100-n100-s0-sq.fastq.sam
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n100-s0-sq.fastq.sam
+END
+illumina-se-random-N100-n36-s0.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-se-random-N100-n36-s0.fasta
+END
+illumina-se-random-N100-n36-s0-sq.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-se-random-N100-n36-s0-sq.stdout
+END
+illumina-se-adeno-N100-n36-s0.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n36-s0.fasta
+END
+illumina-se-adeno-N100-n36-s0-sq.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n36-s0-sq.fastq
+END
+illumina-pe-random-N100-n100-s0-sq.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-pe-random-N100-n100-s0-sq.stdout
+END
+illumina-se-adeno-N100-n36-s0-sq.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n36-s0-sq.stdout
+END
+illumina-se-random-N100-n36-s0.fasta.sam
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-se-random-N100-n36-s0.fasta.sam
+END
+illumina-pe-random-N100-n36-s0-sq_2.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-pe-random-N100-n36-s0-sq_2.fastq
+END
+sanger-se-random-N100-nm200-ne20-s0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/sanger-se-random-N100-nm200-ne20-s0.stdout
+END
+illumina-pe-random-N100-n36-s0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-pe-random-N100-n36-s0.stdout
+END
+illumina-pe-random-N100-n100-s0.fasta.sam
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-pe-random-N100-n100-s0.fasta.sam
+END
+illumina-se-adeno-N100-n36-s0.fasta.sam
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n36-s0.fasta.sam
+END
+sanger-se-random-N100-nm400-ne40-s0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/sanger-se-random-N100-nm400-ne40-s0.stdout
+END
+illumina-se-adeno-N100-n36-s0-sq.fastq.sam
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n36-s0-sq.fastq.sam
+END
+illumina-pe-random-N100-n100-s0-sq_1.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-pe-random-N100-n100-s0-sq_1.fastq
+END
+illumina-se-random-N100-n100-s0.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-se-random-N100-n100-s0.fasta
+END
+illumina-se-random-N100-n100-s0-sq.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-se-random-N100-n100-s0-sq.stdout
+END
+illumina-pe-random-N100-n36-s0_2.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-pe-random-N100-n36-s0_2.fasta
+END
+illumina-se-random-N100-n36-s0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-se-random-N100-n36-s0.stdout
+END
+illumina-pe-random-N100-n100-s0-sq.fastq.sam
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-pe-random-N100-n100-s0-sq.fastq.sam
+END
+illumina-pe-random-N100-n100-s0_1.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-pe-random-N100-n100-s0_1.fasta
+END
+illumina-se-random-N100-n100-s0.fasta.sam
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-se-random-N100-n100-s0.fasta.sam
+END
+sanger-se-random-N100-nm200-ne20-s0.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/sanger-se-random-N100-nm200-ne20-s0.fasta
+END
+illumina-se-random-N100-n36-s0-sq.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-se-random-N100-n36-s0-sq.fastq
+END
+sanger-se-random-N100-nm400-ne40-s0.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/sanger-se-random-N100-nm400-ne40-s0.fasta
+END
+sanger-se-random-N100-nm200-ne20-s0-sq.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/sanger-se-random-N100-nm200-ne20-s0-sq.stdout
+END
+illumina-pe-random-N100-n36-s0-sq.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-pe-random-N100-n36-s0-sq.stdout
+END
+sanger-se-random-N100-nm400-ne40-s0-sq.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/sanger-se-random-N100-nm400-ne40-s0-sq.stdout
+END
+sanger-se-random-N100-nm200-ne20-s0.fasta.sam
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/sanger-se-random-N100-nm200-ne20-s0.fasta.sam
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13584/trunk/core/apps/mason/tests/generate_outputs.sh
+END
+illumina-pe-random-N100-n36-s0.fasta.sam
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-pe-random-N100-n36-s0.fasta.sam
+END
+454-se-random-N100-nm200-ne20-s0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/454-se-random-N100-nm200-ne20-s0.stdout
+END
+illumina-pe-random-N100-n36-s0-sq_1.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-pe-random-N100-n36-s0-sq_1.fastq
+END
+illumina-se-random-N100-n36-s0-sq.fastq.sam
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-se-random-N100-n36-s0-sq.fastq.sam
+END
+sanger-se-random-N100-nm400-ne40-s0.fasta.sam
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/sanger-se-random-N100-nm400-ne40-s0.fasta.sam
+END
+454-se-random-N100-nm400-ne40-s0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/454-se-random-N100-nm400-ne40-s0.stdout
+END
+illumina-pe-random-N100-n100-s0-sq_2.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-pe-random-N100-n100-s0-sq_2.fastq
+END
+adeno-genome.fa
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/adeno-genome.fa
+END
+illumina-pe-random-N100-n100-s0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-pe-random-N100-n100-s0.stdout
+END
+454-se-random-N100-nm200-ne20-s0.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/454-se-random-N100-nm200-ne20-s0.fasta
+END
+454-se-random-N100-nm200-ne20-s0-sq.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/454-se-random-N100-nm200-ne20-s0-sq.fastq
+END
+illumina-se-random-N100-n100-s0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-se-random-N100-n100-s0.stdout
+END
+sanger-se-random-N100-nm200-ne20-s0-sq.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/sanger-se-random-N100-nm200-ne20-s0-sq.fastq
+END
+454-se-random-N100-nm400-ne40-s0.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/454-se-random-N100-nm400-ne40-s0.fasta
+END
+454-se-random-N100-nm400-ne40-s0-sq.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/454-se-random-N100-nm400-ne40-s0-sq.fastq
+END
+454-se-random-N100-nm200-ne20-s0-sq.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/454-se-random-N100-nm200-ne20-s0-sq.stdout
+END
+sanger-se-random-N100-nm400-ne40-s0-sq.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/sanger-se-random-N100-nm400-ne40-s0-sq.fastq
+END
+illumina-se-adeno-N100-n100-s0.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n100-s0.stdout
+END
+454-se-random-N100-nm400-ne40-s0-sq.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/454-se-random-N100-nm400-ne40-s0-sq.stdout
+END
+illumina-se-random-N100-n100-s0-sq.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-se-random-N100-n100-s0-sq.fastq
+END
+454-se-random-N100-nm200-ne20-s0.fasta.sam
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/454-se-random-N100-nm200-ne20-s0.fasta.sam
+END
+454-se-random-N100-nm200-ne20-s0-sq.fastq.sam
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/454-se-random-N100-nm200-ne20-s0-sq.fastq.sam
+END
+sanger-se-random-N100-nm200-ne20-s0-sq.fastq.sam
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/sanger-se-random-N100-nm200-ne20-s0-sq.fastq.sam
+END
+454-se-random-N100-nm400-ne40-s0.fasta.sam
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/454-se-random-N100-nm400-ne40-s0.fasta.sam
+END
+illumina-pe-random-N100-n36-s0-sq.fastq.sam
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/illumina-pe-random-N100-n36-s0-sq.fastq.sam
+END
+illumina-pe-random-N100-n36-s0_1.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-pe-random-N100-n36-s0_1.fasta
+END
+illumina-se-adeno-N100-n100-s0.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n100-s0.fasta
+END
+454-se-random-N100-nm400-ne40-s0-sq.fastq.sam
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/454-se-random-N100-nm400-ne40-s0-sq.fastq.sam
+END
+illumina-se-adeno-N100-n100-s0-sq.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13034/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n100-s0-sq.fastq
+END
+sanger-se-random-N100-nm400-ne40-s0-sq.fastq.sam
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/seqan/!svn/ver/13556/trunk/core/apps/mason/tests/sanger-se-random-N100-nm400-ne40-s0-sq.fastq.sam
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13584/trunk/core/apps/mason/tests/run_tests.py
+END
+illumina-se-adeno-N100-n100-s0-sq.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13388/trunk/core/apps/mason/tests/illumina-se-adeno-N100-n100-s0-sq.stdout
+END

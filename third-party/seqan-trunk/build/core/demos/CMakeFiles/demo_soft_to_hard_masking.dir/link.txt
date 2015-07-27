@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_soft_to_hard_masking.dir/soft_to_hard_masking.cpp.o  -o ../../bin/demo_soft_to_hard_masking -rdynamic -lrt -lz -lbz2 

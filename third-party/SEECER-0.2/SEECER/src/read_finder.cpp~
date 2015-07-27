@@ -1,0 +1,128 @@
+/*
+Copyright (C) 2012  Hai-Son Le (haisonle@gmail.com)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+#include "read_finder.h"
+
+
+void HashBasedReadFinder::UpdateGram(char letter, uint64_t& gram, uint64_t& r_gram) {
+
+    switch (letter) {
+    case DNAA:
+	gram = gram << BIT_SHIFT | DNAA;
+	r_gram = r_gram >> BIT_SHIFT | ((uint64_t) DNAT << ((rnaseq_k - 1) * BIT_SHIFT ));
+	break;
+    case DNAT:
+	gram = gram << BIT_SHIFT | DNAT;
+	r_gram = r_gram >> BIT_SHIFT | ((uint64_t) DNAA << ((rnaseq_k - 1) * BIT_SHIFT ));
+	break;
+    case DNAG:
+	gram = gram << BIT_SHIFT | DNAG;
+	    r_gram = r_gram >> BIT_SHIFT | ((uint64_t) DNAC << ((rnaseq_k - 1) * BIT_SHIFT ));
+	    break;
+    case DNAC:
+	gram = gram << BIT_SHIFT | DNAC;
+	r_gram = r_gram >> BIT_SHIFT | ((uint64_t) DNAG << ((rnaseq_k - 1) * BIT_SHIFT ));
+	break;
+    default:
+	gram = gram << BIT_SHIFT;
+	r_gram = r_gram >> BIT_SHIFT;
+	break;				    
+    }
+
+    gram &= mask;
+    r_gram &= mask;
+}
+
+DnaString HashBasedReadFinder::GramToString(uint64_t gram) {
+    DnaString t;
+
+    uint64_t mask = (1 << BIT_SHIFT) - 1;
+
+    for (int i = 0; i < rnaseq_k; ++i) {
+	append(t, Dna(gram & mask));
+	gram >>= BIT_SHIFT;
+    }
+    
+    reverse(t);
+
+    return t;
+}
+
+const char HashBasedReadFinder::codes[256] = {
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -2, -3, -3, -3, -3, -3, 
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, 
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -1, -3, -3, 
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, 
+    -3,  0, -1,  1, -1, -3, -3,  2, -1, -3, -3, -1, -3, -1, -1, -3, 
+    -3, -3, -1, -1,  3, -3, -1, -1, -1, -1, -3, -3, -3, -3, -3, -3, 
+    -3,  0, -1,  1, -1, -3, -3,  2, -1, -3, -3, -1, -3, -1, -1, -3, 
+    -3, -3, -1, -1,  3, -3, -1, -1, -1, -1, -3, -3, -3, -3, -3, -3, 
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, 
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, 
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, 
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, 
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, 
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, 
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, 
+    -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3, -3
+  };
+
+uint64_t HashBasedReadFinder::GramToBinary(const char *in) {
+    uint64_t res = 0;
+    for(int i = 0; i < rnaseq_k; i++) {
+	const char c = codes[(int)*in++];
+        if(c < 0)
+	    return 0;
+        res = (res << 2) | c;
+    }
+    return res;
+}
+
+
+void HashBasedReadFinder::ConstructGramSet(const DnaString& s, std::set<uint64_t>& local_gram_set) {
+
+    int lastN = -1;
+    uint64_t gram = 0;
+    uint64_t r_gram = 0;
+    local_gram_set.clear();
+
+    // std::cerr << "Contruct gram set: " << s;
+
+    for (int k = 0; k < static_cast<int>(length(s)); ++k) {
+	char letter = (int) s[k];
+	
+	if (letter == NDNA) {
+	    lastN = k; 
+	}
+	
+	UpdateGram(letter, gram, r_gram);
+	
+	if (lastN <= (k - rnaseq_k)) {
+	    // add the gram
+	    if (gram < r_gram) {
+		local_gram_set.insert(gram);
+	    } else {
+		local_gram_set.insert(r_gram);
+	    }
+	}
+	
+    } // end getting all grams
+
+    // std::cerr << " " << local_gram_set.size() << std::endl;
+
+}
+

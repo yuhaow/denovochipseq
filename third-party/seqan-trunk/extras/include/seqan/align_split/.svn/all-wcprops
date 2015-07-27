@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/14194/trunk/extras/include/seqan/align_split
+END
+dp_scout_split.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13607/trunk/extras/include/seqan/align_split/dp_scout_split.h
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13933/trunk/extras/include/seqan/align_split/INFO
+END
+align_split_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/14194/trunk/extras/include/seqan/align_split/align_split_interface.h
+END

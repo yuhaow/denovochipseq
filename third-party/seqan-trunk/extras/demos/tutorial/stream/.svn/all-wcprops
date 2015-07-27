@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13920/trunk/extras/demos/tutorial/stream
+END
+stream_read_record_fasta.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/stream/stream_read_record_fasta.cpp
+END
+stream_read_record_auto_format.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13774/trunk/extras/demos/tutorial/stream/stream_read_record_auto_format.cpp
+END
+lexical_cast_example.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/stream/lexical_cast_example.cpp
+END
+stream_read2_fastq.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13920/trunk/extras/demos/tutorial/stream/stream_read2_fastq.cpp
+END
+example.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/stream/example.fasta
+END
+example.fastq
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/extras/demos/tutorial/stream/example.fastq
+END

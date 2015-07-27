@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/seqan/!svn/ver/13034/trunk/misc/ctest
+END
+run_nightly.bat
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13034/trunk/misc/ctest/run_nightly.bat
+END
+run_nightly.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/misc/ctest/run_nightly.sh
+END
+Seqan_Nightly.cmake.example
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/misc/ctest/Seqan_Nightly.cmake.example
+END

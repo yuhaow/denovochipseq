@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>create-priors</title>
+     <link href="./meme-suite.css" rel="styleSheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <script src="./meme-suite-logo.js" type="text/javascript">&gt;</script>
+      <h1>create-priors</h1>
+      <p><b>Usage:</b> <code>create-priors <i>&lt;wiggle file&gt;</i></code></p>
+      <p><b>Description:</b></p>
+      <p>
+      <code>create-priors </code> takes as input a series of numeric values defined
+      with respect to one or more DNA sequences.
+      The program converts the data into a probabilistic prior using the method 
+      described in:
+      <blockquote>
+        Gabriel Cuellar-Partida, Fabian A. Buske, Robert C. McLeay, Tom Whitington,
+        William Stafford Noble, and Timothy L. Bailey,
+        <br />
+        "Epigenetic priors for identifying active transcription 
+        factor binding sites",
+        <br />
+        <em>Bioinformatics</em> 28(1): 56-62, 2012
+        <a href="http://bioinformatics.oxfordjournals.org/content/28/1/56.full.pdf">
+        [pdf]
+        </a>
+      </blockquote>
+      </p>
+      <p>
+      A binned distribution for the priors is also generated.
+      Examples of input data types include sequence tags counts from a
+      DNaseI hypersensitivity or histone modification ChIP-seq assay,
+      or sequence conservation scores.
+      </p>
+      <p><b>Input:</b></p> 
+      A file in 
+      <a href="http://genome.ucsc.edu/goldenPath/help/wiggle.html">wiggle</a> or 
+      <a href="http://genome.ucsc.edu/goldenPath/help/bigWig.html">bigWig format</a>.
+      <p></p>
+      <p><b>Output:</b></p>
+      <p>
+      <code>create-priors</code> will create a directory, 
+      named <code>create-priors_out</code> by default.
+      Any existing output files in the directory will be overwritten.
+      The directory will contain:
+      </p>
+      <ul>
+      <li>
+      A
+      <a href="http://genome.ucsc.edu/goldenPath/help/wiggle.html">wiggle</a>
+      file named <code>create-priors.wig</code>.
+      This file will contain the position specific priors
+      computed from the input tag counts.
+      </li>
+      <li>
+      A text file named <code>priordist.txt</code>.
+      This file will contain a probability distribution for the priors
+      (<a href="examples/compute_prior_dist_example_output_files/prior.dist.txt">
+      sample file</a>).
+      The first two lines are the minimum and maximum priors.
+      Each succeeding line contains the probability that a prior 
+      is in the corresponding bin.
+      The value of the prior is calculated from the bin number using the formula
+      <pre>
+      prior = ((bin #) / (num bins) * (max prior - min prior)) + (min prior)
+      </pre>
+      </li>
+      </ul>
+      <p>
+      The default output directory can be overridden using the 
+      <code>--o</code> or <code>--oc</code>
+      options which are described below.
+      </p>
+      <p><b>Options:</b></p>
+      <ul>
+      <li><code>--alpha <i>&lt;float&gt;</i></code>
+    - The alpha parameter for calculating position specific priors.
+    Alpha represents the fraction of all transcription factor binding 
+    sites that are binding sites for the TF of interest.
+    Alpha must be between 0 and 1.
+    The default value is 1.0.
+  </li>
+      <li><code>--beta <i>&lt;float&gt;</i></code>
+    - The beta parameter for calculating position specific priors.
+    Beta represents an estimate of the total number of binding sites
+    for <em>all</em> transcription factors in the input data.
+    Beta must be greater than 0.
+    The default value is 10000.
+  </li>
+      <li><code>--bigwig</code>
+    - Directs <code>create-priors</code> to output the priors in
+      <a href="http://genome.ucsc.edu/goldenPath/help/bigWig.html">bigWig format</a>.
+      The name of the output file will be <code>create-priors.bwg</code>.
+      This format is more efficent when the size of the input file is large.
+  </li>
+      <li><code>--est-seq-size &lt;n&gt;</code>
+    - Estimated length of the full sequence represented by the wiggle input file.
+    The wiggle file may not contain scores for every position in the underlying sequence.
+    The sequence size is used to esimate the amount of missing data.
+    A rough guess is all that is required.
+    The default behavior is to estimate the sequence size by summing the maximum
+    coordinate of each sequence in the input wiggle file.
+  </li>
+      <li><code>--numbins &lt;n&gt;</code>
+    - Number of bins to use in prior distribution file.
+    The default value is 100.
+  </li>
+      <li><code>--o <i>&lt;dir name&gt;</i></code>
+    - Specifies the output directory.
+    If the directory already exists, the contents will not be overwritten.
+  </li>
+      <li><code>--oc <i>&lt;dir name&gt;</i></code>
+    - Specifies the output directory.
+    If the directory already exists, the contents will be overwritten.
+  </li>
+      <li><code>--psp</code>
+    - Directs <code>create-priors</code> to also output the priors in
+      <a href="http://meme.nbcr.net/meme/doc/meme.html#MEME-PSP">MEME PSP format</a>.
+      The name of the output file will be <code>create-priors.psp</code>.
+      This format is only suitable when the number of postions is relatively small.
+  </li>
+      </ul>
+    </div>
+  </body>
+</html>

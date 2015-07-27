@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_enumerate_strings.dir/enumerate_strings.cpp.o  -o ../../bin/demo_enumerate_strings -rdynamic -lrt -lz -lbz2 

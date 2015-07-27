@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_file_format.dir/file_format.cpp.o  -o ../../bin/demo_file_format -rdynamic -lrt -lz -lbz2 

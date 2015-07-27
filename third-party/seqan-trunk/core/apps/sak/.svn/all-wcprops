@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/seqan/!svn/ver/13933/trunk/core/apps/sak
+END
+sak.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seqan/!svn/ver/13917/trunk/core/apps/sak/sak.cpp
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/seqan/!svn/ver/13281/trunk/core/apps/sak/LICENSE
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/seqan/!svn/ver/13933/trunk/core/apps/sak/INFO
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13665/trunk/core/apps/sak/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/13034/trunk/core/apps/sak/README
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/13034/trunk/util/py_lib/clang
+END
+cindex.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13034/trunk/util/py_lib/clang/cindex.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/util/py_lib/clang/__init__.py
+END

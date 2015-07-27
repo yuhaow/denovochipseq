@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13928/trunk/extras/include/seqan/index
+END
+index_sa_stree.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13928/trunk/extras/include/seqan/index/index_sa_stree.h
+END
+find_backtracking_exp.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/index/find_backtracking_exp.h
+END
+index_qgram_stree.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/index/index_qgram_stree.h
+END
+find_backtracking.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/index/find_backtracking.h
+END
+index_sa_truncated.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/index/index_sa_truncated.h
+END
+index_qgram_bucketrefinement.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/index/index_qgram_bucketrefinement.h
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/seqan/!svn/ver/14071/trunk/util/cmake/ctd
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13600/trunk/util/cmake/ctd/LICENSE
+END
+DESCRIPTION
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13600/trunk/util/cmake/ctd/DESCRIPTION
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13600/trunk/util/cmake/ctd/COPYRIGHT
+END
+mime.types
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/14071/trunk/util/cmake/ctd/mime.types
+END
+mimetypes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13670/trunk/util/cmake/ctd/mimetypes.xml
+END
+configure_profile_properties.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13845/trunk/util/cmake/ctd/configure_profile_properties.cmake
+END
+plugin.properties.in
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13600/trunk/util/cmake/ctd/plugin.properties.in
+END

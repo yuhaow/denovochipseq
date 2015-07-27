@@ -1,0 +1,28 @@
+libcommon_la-motif-in-common.lo libcommon_la-motif-in-common.o:  \
+ motif-in-common.c /usr/include/strings.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/stddef.h \
+  motif-in-common.h motif-in-flags.h scanned-sequence.h string-match.h
+
+/usr/include/strings.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.1.2/include/stddef.h:
+
+motif-in-common.h:
+
+motif-in-flags.h:
+
+scanned-sequence.h:
+
+string-match.h:

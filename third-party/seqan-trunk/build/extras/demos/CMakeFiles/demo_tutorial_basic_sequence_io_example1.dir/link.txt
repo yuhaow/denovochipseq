@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_basic_sequence_io_example1.dir/tutorial/basic_sequence_io/example1.cpp.o  -o ../../bin/demo_tutorial_basic_sequence_io_example1 -rdynamic -lrt -lz -lbz2 

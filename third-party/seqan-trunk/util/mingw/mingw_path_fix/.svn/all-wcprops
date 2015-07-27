@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/util/mingw/mingw_path_fix
+END
+seqan_mingw_fix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/util/mingw/mingw_path_fix/seqan_mingw_fix.cpp
+END
+seqan_mingw_fix_test.bat
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13034/trunk/util/mingw/mingw_path_fix/seqan_mingw_fix_test.bat
+END
+seqan_mingw_fix.bat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/util/mingw/mingw_path_fix/seqan_mingw_fix.bat
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/util/mingw/mingw_path_fix/README.txt
+END
+seqan_mingw_fix.exe
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/util/mingw/mingw_path_fix/seqan_mingw_fix.exe
+END

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_index_indices_assignment_2.dir/tutorial/index/indices_assignment_2.cpp.o  -o ../../bin/demo_tutorial_index_indices_assignment_2 -rdynamic -lrt -lz -lbz2 

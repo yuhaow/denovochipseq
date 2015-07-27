@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_index_index_length_countSequences.dir/index/index_length_countSequences.cpp.o  -o ../../bin/demo_index_index_length_countSequences -rdynamic -lrt -lz -lbz2 

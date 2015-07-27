@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/14232/trunk/core/demos/tutorial/modifiers
+END
+modifier_nested.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/14155/trunk/core/demos/tutorial/modifiers/modifier_nested.cpp
+END
+modifier_modcomplementdna.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/14218/trunk/core/demos/tutorial/modifiers/modifier_modcomplementdna.cpp
+END
+assignment1_solution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/14232/trunk/core/demos/tutorial/modifiers/assignment1_solution.cpp
+END
+modifier_modview.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/14155/trunk/core/demos/tutorial/modifiers/modifier_modview.cpp
+END
+assignment1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/14232/trunk/core/demos/tutorial/modifiers/assignment1.cpp
+END
+modifier_modreverse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/14157/trunk/core/demos/tutorial/modifiers/modifier_modreverse.cpp
+END

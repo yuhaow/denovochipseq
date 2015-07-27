@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -fopenmp -O3 -DNDEBUG -DSEQAN_ENABLE_DEBUG=0    CMakeFiles/razers3_quality2prob.dir/quality2prob.cpp.o  -o ../../../bin/razers3_quality2prob -rdynamic -lrt -lz -lbz2 

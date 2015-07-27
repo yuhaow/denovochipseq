@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/seqan/!svn/ver/13933/trunk/core/apps/mason
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13281/trunk/core/apps/mason/LICENSE
+END
+mason.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13737/trunk/core/apps/mason/mason.h
+END
+simulate_illumina.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13034/trunk/core/apps/mason/simulate_illumina.h
+END
+util.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13034/trunk/core/apps/mason/util.h
+END
+simulate_454.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13607/trunk/core/apps/mason/simulate_454.h
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/core/apps/mason/CHANGELOG
+END
+store_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13034/trunk/core/apps/mason/store_config.h
+END
+simulate_454_base_calling.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/mason/simulate_454_base_calling.h
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13034/trunk/core/apps/mason/COPYING
+END
+simulate_sanger.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13034/trunk/core/apps/mason/simulate_sanger.h
+END
+INFO
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/13933/trunk/core/apps/mason/INFO
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13034/trunk/core/apps/mason/README
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13281/trunk/core/apps/mason/CMakeLists.txt
+END
+mason.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13919/trunk/core/apps/mason/mason.cpp
+END

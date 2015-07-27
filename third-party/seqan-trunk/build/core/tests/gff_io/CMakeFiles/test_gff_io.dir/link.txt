@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG    CMakeFiles/test_gff_io.dir/test_gff_io.cpp.o  -o ../../../bin/test_gff_io -rdynamic -lrt 

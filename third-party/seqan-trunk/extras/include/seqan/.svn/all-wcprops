@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/14248/trunk/extras/include/seqan
+END
+math.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/math.h
+END
+statistics.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/statistics.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13034/trunk/extras/include/seqan/LICENSE
+END
+index_extras.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/index_extras.h
+END
+journaled_set.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/journaled_set.h
+END
+find_motif.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/find_motif.h
+END
+alignment_free.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/alignment_free.h
+END
+bed_io.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/14182/trunk/extras/include/seqan/bed_io.h
+END
+parse_lm.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13855/trunk/extras/include/seqan/parse_lm.h
+END
+vcf_io.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/14016/trunk/extras/include/seqan/vcf_io.h
+END
+align_split.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13477/trunk/extras/include/seqan/align_split.h
+END

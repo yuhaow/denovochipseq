@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/14023/trunk/extras/apps/gustaf/tests
+END
+st1_l30_ith5.gff
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/st1_l30_ith5.gff
+END
+st1_l30_ith5.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/st1_l30_ith5.stderr
+END
+st1_l30_m.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/14023/trunk/extras/apps/gustaf/tests/st1_l30_m.stdout
+END
+st2_l100.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/14023/trunk/extras/apps/gustaf/tests/st2_l100.stdout
+END
+st1_l30.gff
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/st1_l30.gff
+END
+st1_l30.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/st1_l30.stderr
+END
+stellar.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/stellar.stdout
+END
+adeno_modified_reads.fa
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/adeno_modified_reads.fa
+END
+st1_l30_gth3.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/14023/trunk/extras/apps/gustaf/tests/st1_l30_gth3.stdout
+END
+st1_l30_ith5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/14023/trunk/extras/apps/gustaf/tests/st1_l30_ith5.stdout
+END
+st1_l30_m.gff
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/st1_l30_m.gff
+END
+st1_l30_m.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/st1_l30_m.stderr
+END
+st2_l100.gff
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/st2_l100.gff
+END
+st1_l30.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/14023/trunk/extras/apps/gustaf/tests/st1_l30.stdout
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/14023/trunk/extras/apps/gustaf/tests/generate_outputs.sh
+END
+st2_l100.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/st2_l100.stderr
+END
+stellar.gff
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/stellar.gff
+END
+stellar.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/stellar.stderr
+END
+st1_l30_gth3.gff
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/st1_l30_gth3.gff
+END
+adeno_modified.fa
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/adeno_modified.fa
+END
+adeno.fa
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/adeno.fa
+END
+st1_l30_gth3.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/14019/trunk/extras/apps/gustaf/tests/st1_l30_gth3.stderr
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/14023/trunk/extras/apps/gustaf/tests/run_tests.py
+END

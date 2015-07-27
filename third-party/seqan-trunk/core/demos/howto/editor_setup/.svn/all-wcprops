@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/demos/howto/editor_setup
+END
+seqan_style_guide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/core/demos/howto/editor_setup/seqan_style_guide.xml
+END
+editor_setup_eclipse_space_indentation.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/seqan/!svn/ver/13034/trunk/core/demos/howto/editor_setup/editor_setup_eclipse_space_indentation.png
+END
+indentation_settings_xcode3.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13034/trunk/core/demos/howto/editor_setup/indentation_settings_xcode3.png
+END
+indentation_settings_xcode4.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13034/trunk/core/demos/howto/editor_setup/indentation_settings_xcode4.png
+END
+editor_setup_VS_space_indentation.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13034/trunk/core/demos/howto/editor_setup/editor_setup_VS_space_indentation.png
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/14158/trunk/core/demos/sequence
+END
+segment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/14046/trunk/core/demos/sequence/segment.cpp
+END
+stringset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14143/trunk/core/demos/sequence/stringset.cpp
+END
+suffix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/14137/trunk/core/demos/sequence/suffix.cpp
+END
+string.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/14046/trunk/core/demos/sequence/string.cpp
+END
+string2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/14158/trunk/core/demos/sequence/string2.cpp
+END
+infix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/14137/trunk/core/demos/sequence/infix.cpp
+END
+prefix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/14137/trunk/core/demos/sequence/prefix.cpp
+END

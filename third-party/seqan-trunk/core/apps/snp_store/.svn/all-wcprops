@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/13938/trunk/core/apps/snp_store
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13281/trunk/core/apps/snp_store/LICENSE
+END
+snp_store.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13938/trunk/core/apps/snp_store/snp_store.h
+END
+Readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/Readme.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13281/trunk/core/apps/snp_store/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13357/trunk/core/apps/snp_store/README
+END
+snp_store.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13746/trunk/core/apps/snp_store/snp_store.cpp
+END

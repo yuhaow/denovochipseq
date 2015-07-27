@@ -1,0 +1,219 @@
+#!@WHICHPERL@
+#
+# AUTHOR: Timothy L. Bailey
+# CREATE DATE: 7-1-2002
+
+# Copyright Timothy L. Bailey, 2002
+
+use strict;
+use warnings;
+
+use Getopt::Long;
+use Pod::Usage;
+
+=head1 NAME
+
+fasta-get-markov - Estimate a Markov model from a FASTA file of sequences.
+
+=head1 SYNOPSIS
+
+fasta-get-markov [-m <order>] [-p] [-norc]
+
+  [-m <order>]        order of Markov model to use; default 0
+  
+  [-p]                use protein alphabet; default: use DNA alphabet
+  
+  [-norc]             do not combine forward and reverse complement freqs;
+                       this is highly recommended for RNA sequences.
+
+  [-pseudo <count>]   pseudocount added to avoid probabilities of zero;
+                       default: use a pseudocount of 0.1 .
+  
+  [-nostatus]         do not print constant status messages.
+
+  [-help]             display this help message.
+
+  Estimate a Markov model from a FASTA file of sequences.
+
+  Converts U to T for DNA alphabet for use with RNA sequences.
+  Skips tuples containing ambiguous characters.
+  Combines both strands of DNA unless -norc is set.
+
+  Reads standard input.
+  Writes standard output.
+
+  Author: Timothy L. Bailey
+
+=cut
+
+# set special vars
+$| = 1; # flush after all prints
+$SIG{'INT'} = 'quick_exit'; # interrupt handler
+
+# constants
+my $DNA_ALPHABET = "ACGT"; # DNA sequence alphabet
+my $PROT_ALPHABET = "ACDEFGHIKLMNPQRSTVWY"; # protein sequence alphabet
+
+# option defaults
+my $alphabet = $DNA_ALPHABET;
+my $order = 0;
+my $pseudo = 0.1;
+my $isprot = 0; # FALSE
+my $norc = 0; # FALSE 
+my $nostatus = 0; # FALSE
+my $help = 0; # FALSE
+
+
+GetOptions("m=i" => \$order, "p" => \$isprot, "norc" => \$norc,
+  "pseudo=f" => \$pseudo, "nostatus" => \$nostatus,
+  'help|?' => \$help) or pod2usage(2);
+if ($isprot) {
+  $norc = 1;
+  $alphabet = $PROT_ALPHABET;
+}
+pod2usage(1) if $help;
+
+printf STDERR "Using %s alphabet...\n", $isprot ? "PROTEIN" : "DNA" unless $nostatus;
+
+# read FASTA file
+my $seq;
+my $i = 0;
+my %tuple_counts = ();
+my @total_counts = ();
+while (($seq = &read_fasta_sequence()) ne "") {
+  $i++; printf STDERR "Seq: %5d\r", $i unless $nostatus;
+  # Convert U to T for DNA alphabet.
+  $seq =~ s/U/T/g unless $isprot;
+  # count the tuples
+  &count_tuples($seq, $order, $alphabet, \%tuple_counts, \@total_counts);
+} # read next sequence
+
+if ($i > 0) {
+  # print the tuple frequencies
+  &print_tuples($order, $alphabet, $norc, $pseudo, \%tuple_counts, \@total_counts);
+} else {
+  pod2usage("No sequences found!"); 
+}
+exit(0);
+ 
+###############################################################################
+#                      Subroutines                                            #
+###############################################################################
+
+###############################################################################
+#        
+#        read_fasta_sequence
+#
+#        Read a sequence from a FASTA file of sequences.
+#        Removes whitespace from the sequence.
+#
+#        Returns the sequence (without the ID line) or "" if EOF.
+#
+###############################################################################
+sub read_fasta_sequence {
+  my($seq);
+
+  $seq = "";                                        # no sequence read yet
+  while (<STDIN>) {
+    if (/^>/) {                                        # new sequence
+      if ($seq ne "") { return($seq); }                # sequence already read?
+    } else {
+      s/\s*//g;                                 # remove whitespace from string
+      tr/a-z/A-Z/;                                # convert to uppercase
+      $seq .= $_;
+    }
+  }
+  return($seq);                                        # return the sequence
+} # sub read_fasta_sequence
+
+###############################################################################
+#
+#        count_tuples
+#
+#         Count the occurences of tuples of lengths 1 to order+1.
+#
+###############################################################################
+sub count_tuples {
+  my ($seq, $order, $alphabet, $tuple_counts, $total_counts) = @_;
+  my ($minw, $maxw, $length, $w, $i, $tuple);
+
+  $minw = 1;
+  $maxw = $order+1;
+  $length = length($seq);
+
+  #
+  # count tuples
+  #
+  for ($w=$minw; $w<=$maxw; $w++) {                 # width of tuple
+
+    for ($i=0; $i<$length-$w+1; $i++) {                # start of tuple
+      $tuple = substr($seq, $i, $w);                # get the tuple
+      next if ($tuple =~ /[^$alphabet]/);        # skip tuples with ambigs
+      $tuple_counts->{$tuple}++;
+      $total_counts->[$w]++;
+    } # start of tuple
+
+  } # width of tuple
+
+} # count_tuples
+
+###############################################################################
+#
+#        print_tuples
+#
+#         Print the frequency of tuples of lengths 1 to order+1.
+#        Prints all possible tuples, including unobserved ones.
+#        Combines the tuple with its reverse complement and uses average
+#        frequency.
+#
+###############################################################################
+sub print_tuples {
+  my($order, $alph, $norc, $pseudo, $tuple_counts, $total_counts) = @_;
+  my($minw, $maxw, $w, @tuples, @new_tuples, @letters, $t, $a, $i, $tuple, $rc, $freq);
+  my($sum, $pseudo_frac);
+
+  $minw = 1;
+  $maxw = $order+1;
+  @letters = split(//, $alph);                # letters in alphabet
+
+  # print tuple frequencies
+  $tuples[0] = "";
+  for ($w=$minw; $w<=$maxw; $w++) {                 # width of tuple
+    printf("# order %d\n", $w-1);
+    $pseudo_frac = $pseudo / (scalar(@letters) ** $w);
+    $sum = 0; 
+    # add each letter in alphabet to each old tuple
+    $i = 0;
+    foreach $t (@tuples) {
+      foreach $a (@letters) {
+        $tuple = $t . $a;
+        my $tc = (defined($tuple_counts->{$tuple}) ? $tuple_counts->{$tuple} : 0);
+        if (!$norc) {
+          $rc = reverse($tuple);
+          $rc =~ tr/ACGT/TGCA/;
+          my $tc_rc = (defined($tuple_counts->{$rc}) ? $tuple_counts->{$rc} : 0);
+          $freq = ($pseudo_frac + $tc + $tc_rc)/(2*$total_counts->[$w] + $pseudo);
+        } else {
+          $freq = ($pseudo_frac + $tc) / ($total_counts->[$w] + $pseudo);
+        }
+        #$sum += $freq;
+        printf("%s %9.3e\n", $tuple, $freq);
+        $new_tuples[$i++] = $tuple;
+      } # new letter
+    } # old tuple
+
+    @tuples = @new_tuples;
+
+  } # width
+
+} # print_tuples
+ 
+###############################################################################
+#       quick_exit
+#
+#       Handle interrupt.
+#
+###############################################################################
+sub quick_exit {
+  pod2usage("\nProgram interrupted!"); 
+}

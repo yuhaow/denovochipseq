@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG -DSEQAN_ENABLE_DEBUG=0    CMakeFiles/micro_razers.dir/micro_razers.cpp.o CMakeFiles/micro_razers.dir/__/razers/param_tabs.cpp.o  -o ../../../bin/micro_razers -rdynamic -lrt 

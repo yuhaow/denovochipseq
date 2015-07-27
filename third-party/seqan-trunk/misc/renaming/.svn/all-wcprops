@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/seqan/!svn/ver/13034/trunk/misc/renaming
+END
+invalid_identifiers.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/misc/renaming/invalid_identifiers.py
+END
+replace_identifiers.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/misc/renaming/replace_identifiers.py
+END
+helpers.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13034/trunk/misc/renaming/helpers.py
+END
+renameIdentifiers
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13034/trunk/misc/renaming/renameIdentifiers
+END

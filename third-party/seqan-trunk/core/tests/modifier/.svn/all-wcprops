@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/13982/trunk/core/tests/modifier
+END
+test_modifier_shortcuts.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13982/trunk/core/tests/modifier/test_modifier_shortcuts.h
+END
+test_modifier_alphabet.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13792/trunk/core/tests/modifier/test_modifier_alphabet.h
+END
+test_modifier_functors.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13792/trunk/core/tests/modifier/test_modifier_functors.h
+END
+helpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13855/trunk/core/tests/modifier/helpers.h
+END
+test_modifier_string.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13796/trunk/core/tests/modifier/test_modifier_string.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13792/trunk/core/tests/modifier/CMakeLists.txt
+END
+test_modifier_view.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13855/trunk/core/tests/modifier/test_modifier_view.h
+END
+test_modifier.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13855/trunk/core/tests/modifier/test_modifier.cpp
+END

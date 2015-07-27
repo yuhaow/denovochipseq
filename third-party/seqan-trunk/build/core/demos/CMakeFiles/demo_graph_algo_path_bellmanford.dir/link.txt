@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_graph_algo_path_bellmanford.dir/graph_algo_path_bellmanford.cpp.o  -o ../../bin/demo_graph_algo_path_bellmanford -rdynamic -lrt -lz -lbz2 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_data_journaling_example_online_search_assignment4_hint.dir/tutorial/data_journaling/example_online_search_assignment4_hint.cpp.o  -o ../../bin/demo_tutorial_data_journaling_example_online_search_assignment4_hint -rdynamic -lrt -lz -lbz2 

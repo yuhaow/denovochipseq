@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/seqan/!svn/ver/14193/trunk/core/demos/find
+END
+finder_index.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/14193/trunk/core/demos/find/finder_index.cpp
+END
+finder_online.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14193/trunk/core/demos/find/finder_online.cpp
+END
+finder_aho_corasick.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/14193/trunk/core/demos/find/finder_aho_corasick.cpp
+END

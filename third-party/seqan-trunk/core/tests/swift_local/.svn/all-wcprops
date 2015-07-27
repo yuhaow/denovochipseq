@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13855/trunk/core/tests/swift_local
+END
+test_find_swift.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13855/trunk/core/tests/swift_local/test_find_swift.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13313/trunk/core/tests/swift_local/CMakeLists.txt
+END

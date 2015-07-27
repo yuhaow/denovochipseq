@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13919/trunk/core/tests/sequence_journaled
+END
+test_sequence_journaled.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13919/trunk/core/tests/sequence_journaled/test_sequence_journaled.h
+END
+test_sequence_journaled_iterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13919/trunk/core/tests/sequence_journaled/test_sequence_journaled_iterator.h
+END
+test_sequence_journaled.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/seqan/!svn/ver/13855/trunk/core/tests/sequence_journaled/test_sequence_journaled.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13313/trunk/core/tests/sequence_journaled/CMakeLists.txt
+END

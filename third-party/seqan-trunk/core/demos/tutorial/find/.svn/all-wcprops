@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/14238/trunk/core/demos/tutorial/find
+END
+find_index_multiple.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/find/find_index_multiple.cpp
+END
+find_exact.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/find/find_exact.cpp
+END
+find_assignment1_solution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/14235/trunk/core/demos/tutorial/find/find_assignment1_solution.cpp
+END
+find_assignment2_solution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/14237/trunk/core/demos/tutorial/find/find_assignment2_solution.cpp
+END
+find_assignment3_solution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/14238/trunk/core/demos/tutorial/find/find_assignment3_solution.cpp
+END
+find_index.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/find/find_index.cpp
+END
+find_approx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/find/find_approx.cpp
+END
+find_assignment1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/14235/trunk/core/demos/tutorial/find/find_assignment1.cpp
+END
+find_assignment2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/find/find_assignment2.cpp
+END
+find_assignment3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/find/find_assignment3.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/demos/tutorial/find/CMakeLists.txt
+END

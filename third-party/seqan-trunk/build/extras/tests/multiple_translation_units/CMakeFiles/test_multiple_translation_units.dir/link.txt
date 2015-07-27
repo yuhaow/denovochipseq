@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG    CMakeFiles/test_multiple_translation_units.dir/test_multiple_translation_units.cpp.o CMakeFiles/test_multiple_translation_units.dir/test_multiple_translation_units_2.cpp.o  -o ../../../bin/test_multiple_translation_units -rdynamic -lrt 

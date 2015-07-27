@@ -1,0 +1,104 @@
+10
+
+dir
+14263
+http://svn.seqan.de/seqan/trunk/core/apps
+http://svn.seqan.de/seqan
+
+
+
+2013-06-17T11:23:50.326099Z
+14115
+holtgrew
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e6417c60-b987-48fd-844e-b20f0fcc1017
+
+tree_recon
+dir
+
+rabema
+dir
+
+razers2
+dir
+
+micro_razers
+dir
+
+seqan_tcoffee
+dir
+
+dfi
+dir
+
+splazers
+dir
+
+pair_align
+dir
+
+stellar
+dir
+
+razers
+dir
+
+seqcons
+dir
+
+snp_store
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2013-07-15T18:57:34.000000Z
+e736180ceee414922b684dbf45fd81ce
+2013-03-26T17:10:21.426469Z
+13820
+holtgrew
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+626
+
+mason
+dir
+
+sak
+dir
+

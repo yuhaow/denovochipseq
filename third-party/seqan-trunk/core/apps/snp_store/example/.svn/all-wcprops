@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/example
+END
+exampleGenome.fa
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/example/exampleGenome.fa
+END
+exampleReads.gff
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/example/exampleReads.gff
+END

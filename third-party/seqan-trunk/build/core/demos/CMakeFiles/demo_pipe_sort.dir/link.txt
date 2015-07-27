@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_pipe_sort.dir/pipe_sort.cpp.o  -o ../../bin/demo_pipe_sort -rdynamic -lrt -lz -lbz2 

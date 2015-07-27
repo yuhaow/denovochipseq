@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/seqan/!svn/ver/13855/trunk/core/tests/pipe
+END
+test_pipe.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13855/trunk/core/tests/pipe/test_pipe.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13313/trunk/core/tests/pipe/CMakeLists.txt
+END
+test_pipe.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13855/trunk/core/tests/pipe/test_pipe.cpp
+END

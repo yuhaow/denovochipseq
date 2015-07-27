@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13988/trunk/misc/seqan_instrumentation/py2exe/dist/classes
+END
+diff.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13902/trunk/misc/seqan_instrumentation/py2exe/dist/classes/diff.py
+END
+id.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/id.py
+END
+sync.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/sync.py
+END
+stats.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13902/trunk/misc/seqan_instrumentation/py2exe/dist/classes/stats.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/__init__.py
+END
+configobj.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13988/trunk/misc/seqan_instrumentation/py2exe/dist/classes/configobj.py
+END
+dirs.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/dirs.py
+END
+flushfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/flushfile.py
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/14262/trunk/core/tests/arg_parse
+END
+test_arg_parse_option.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13855/trunk/core/tests/arg_parse/test_arg_parse_option.h
+END
+test_arg_parse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13912/trunk/core/tests/arg_parse/test_arg_parse.cpp
+END
+test_argument_parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13855/trunk/core/tests/arg_parse/test_argument_parser.h
+END
+test_extensions.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/14262/trunk/core/tests/arg_parse/test_extensions.h
+END
+test_app.ctd
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13912/trunk/core/tests/arg_parse/test_app.ctd
+END
+test_arg_parse.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/14107/trunk/core/tests/arg_parse/test_arg_parse.h
+END
+test_arg_parse_argument.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/14108/trunk/core/tests/arg_parse/test_arg_parse_argument.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13543/trunk/core/tests/arg_parse/CMakeLists.txt
+END
+test_arg_parse_ctd_support.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13912/trunk/core/tests/arg_parse/test_arg_parse_ctd_support.h
+END

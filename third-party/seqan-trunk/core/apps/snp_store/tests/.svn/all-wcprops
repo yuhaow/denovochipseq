@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13688/trunk/core/apps/snp_store/tests
+END
+indels_realign_m0mp1oa.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13116/trunk/core/apps/snp_store/tests/indels_realign_m0mp1oa.out
+END
+snps_realign_m0mp1oa_it1ipt01.out
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13336/trunk/core/apps/snp_store/tests/snps_realign_m0mp1oa_it1ipt01.out
+END
+indels_realign_m1mp1oa.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13116/trunk/core/apps/snp_store/tests/indels_realign_m1mp1oa.out
+END
+snp_store_realign_m0mp1oa_it1ipt01.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13116/trunk/core/apps/snp_store/tests/snp_store_realign_m0mp1oa_it1ipt01.stdout
+END
+snps_realign_m0mp1oa.out
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13336/trunk/core/apps/snp_store/tests/snps_realign_m0mp1oa.out
+END
+indels_realign.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/tests/indels_realign.out
+END
+snps_realign_m1mp1oa.out
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13336/trunk/core/apps/snp_store/tests/snps_realign_m1mp1oa.out
+END
+human-reads2.gff
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/tests/human-reads2.gff
+END
+snp_store_realign_m0mp1oa.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/tests/snp_store_realign_m0mp1oa.stdout
+END
+indels_default.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13116/trunk/core/apps/snp_store/tests/indels_default.out
+END
+snp_store_realign_m1mp1oa.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seqan/!svn/ver/13116/trunk/core/apps/snp_store/tests/snp_store_realign_m1mp1oa.stdout
+END
+snps_realign.out
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13336/trunk/core/apps/snp_store/tests/snps_realign.out
+END
+human-reads2.fq
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/tests/human-reads2.fq
+END
+snps_default.out
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13688/trunk/core/apps/snp_store/tests/snps_default.out
+END
+snp_store_realign.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/tests/snp_store_realign.stdout
+END
+snp_store_default.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/tests/snp_store_default.stdout
+END
+human-reads2.sam
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/tests/human-reads2.sam
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13336/trunk/core/apps/snp_store/tests/generate_outputs.sh
+END
+human-chr22-inf2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/core/apps/snp_store/tests/human-chr22-inf2.fa
+END
+indels_realign_m0mp1oa_it1ipt01.out
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13116/trunk/core/apps/snp_store/tests/indels_realign_m0mp1oa_it1ipt01.out
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13297/trunk/core/apps/snp_store/tests/run_tests.py
+END

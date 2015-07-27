@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_interval_tree.dir/interval_tree.cpp.o  -o ../../bin/demo_interval_tree -rdynamic -lrt -lz -lbz2 

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13889/trunk/core/apps/seqcons/example
+END
+reads_small.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13889/trunk/core/apps/seqcons/example/reads_small.fasta
+END
+reads_large.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13889/trunk/core/apps/seqcons/example/reads_large.fasta
+END

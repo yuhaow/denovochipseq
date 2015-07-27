@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_alignments_pairwise_sequence_alignment_assignment5_step6.dir/tutorial/alignments/pairwise_sequence_alignment_assignment5_step6.cpp.o  -o ../../bin/demo_tutorial_alignments_pairwise_sequence_alignment_assignment5_step6 -rdynamic -lrt -lz -lbz2 

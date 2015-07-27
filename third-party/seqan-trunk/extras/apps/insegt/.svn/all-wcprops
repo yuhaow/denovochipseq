@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/seqan/!svn/ver/13983/trunk/extras/apps/insegt
+END
+base.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13983/trunk/extras/apps/insegt/base.h
+END
+read_gtf.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13436/trunk/extras/apps/insegt/read_gtf.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13281/trunk/extras/apps/insegt/LICENSE
+END
+overlap_module.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13983/trunk/extras/apps/insegt/overlap_module.h
+END
+read_gff.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13436/trunk/extras/apps/insegt/read_gff.h
+END
+fusion.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13983/trunk/extras/apps/insegt/fusion.h
+END
+insegt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13873/trunk/extras/apps/insegt/insegt.cpp
+END
+create_gff.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13983/trunk/extras/apps/insegt/create_gff.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13691/trunk/extras/apps/insegt/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13691/trunk/extras/apps/insegt/README
+END

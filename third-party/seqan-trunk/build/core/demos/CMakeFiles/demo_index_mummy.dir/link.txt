@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_index_mummy.dir/index_mummy.cpp.o  -o ../../bin/demo_index_mummy -rdynamic -lrt -lz -lbz2 

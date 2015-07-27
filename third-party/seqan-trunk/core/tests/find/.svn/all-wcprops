@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/seqan/!svn/ver/13990/trunk/core/tests/find
+END
+test_find.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13990/trunk/core/tests/find/test_find.cpp
+END
+test_find_myers_banded.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13855/trunk/core/tests/find/test_find_myers_banded.h
+END
+test_find_hamming.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13855/trunk/core/tests/find/test_find_hamming.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13313/trunk/core/tests/find/CMakeLists.txt
+END

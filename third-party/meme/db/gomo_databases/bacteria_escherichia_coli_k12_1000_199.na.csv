@@ -1,0 +1,1782 @@
+http://regulondb.ccg.unam.mx/SearchListController?object_form=GN&amp;object_id=!!GENEID!!&amp;key_id_org=ECK12&amp;Submit=Go
+GO:0000302	yqhD	ymgA	yggE	yhjA
+GO:0019464	zwf	pdhR
+GO:0000310	gpt
+GO:0005829	ilvC	leuL	zwf	cyaY
+GO:0000376	rpsL
+GO:0000372	rpsL
+GO:0000375	rpsL
+GO:0004372	panB	zwf	glyA
+GO:0004375	gcvT
+GO:0031071	iscR	zwf
+GO:0004360	glmU
+GO:0005887	nuoA	yneN
+GO:0004358	argA	zwf
+GO:0004359	ybaS	yneH
+GO:0031047	rydC	rybB
+GO:0004396	alsK
+GO:0004399	hisL
+GO:0004386	rhlE	C034	hrpA
+GO:0019522	idnD
+GO:0019520	idnD
+GO:0019523	idnD
+GO:0019518	tdcA
+GO:0019541	zwf	prpB
+GO:0019540	entC
+GO:0019538	elaD	yaeP	iraD	cydA	ytfE	aslB	lepA	glnS	lysU	rseX	slyD	proS	narG	aspS	iraP	napF	rimO	def	cutA	hypA	rpsL	erpA	iraM	rimL	ydeM	thrS	hybO	acnA	zwf	alaS	fdnG	symR	folP	fldA	leuS	gcvB	htpG	glmZ	sdhC	serS
+GO:0005886	napF	nuoA	uhpA	kdpD	mcbA	zwf	yneN	ndh	lldP	cyoA
+GO:0019566	araB	aldA	fucA	fucP
+GO:0019569	araB
+GO:0019568	araB	aldA	fucA	fucP
+GO:0004326	zwf
+GO:0004335	zwf
+GO:0004324	fpr
+GO:0004351	gadB	gadA	zwf
+GO:0004356	glnA
+GO:0004354	gdhA
+GO:0004355	gltB
+GO:0004337	xseB
+GO:0004340	alsK
+GO:0004342	nagB
+GO:0004345	zwf
+GO:0033120	rpsL
+GO:0032502	sohA	hlyE	chpS	frdA	zwf
+GO:0032505	zapB	ftsP
+GO:0000217	ybcN
+GO:0019585	uxuA	kdgK	uxaC
+GO:0019586	exuT	kdgK	uxaC	uxaB
+GO:0019580	garD	garP
+GO:0019582	garD	garP
+GO:0019583	yjjM
+GO:0019584	yjjM
+GO:0019577	gudP	garD	garP
+GO:0019579	gudP	garD	garP
+GO:0019572	araB
+GO:0019571	aldA	fucA	fucP
+GO:0000255	gcl	allD
+GO:0000256	gcl	allD
+GO:0033178	zwf
+GO:0033177	zwf
+GO:0000267	pyrG	bfd	lysU	aspA	lpp	tig	sodB	metY	pdxH	deoC	ackA	metG	gyrA	purC	purA	dps	thrS	uspA	ptsH	yjgF	nfsB	hslV	ycaI	pdhR	ycaC	glnA	gadB	gadA	ppa	fabI	mdh	glyA	gor	rfaD	tpiA	rhoL	gapA	fbaB	clpB	panB	rpsB	clpP	edd	focA	adhE	tnaC	ahpC	pykF	wrbA	mnmE	mrcB	udp	zwf	alaS	mliC	upp	talB	xerD	gltA	mscL	sppA
+GO:0000270	mraZ	mipA	mltF	zwf	mltB	mltA	ampG	ybjQ
+GO:0000271	leuS	lpcA	gmhB	imp	mcbA	ppiB	rfaD	yjbE
+GO:0019626	csiD	sad	zwf
+GO:0000287	panB	aroK	hpt	serS
+GO:0019646	zwf	ndh
+GO:0019605	csiD	sad	zwf
+GO:0000299	zwf
+GO:0019676	glnA
+GO:0019679	zwf	prpB
+GO:0019686	deoC
+GO:0005737	glpT	slyD	secM	purH	cysK	ybgI	cysE	purL	deoC	yghZ	ivbL	mog	yeiT	pepT	greA	sspA	pepQ	pepD	sfsA	pgl	proC	pyrL	fucP	rplK	yahK	focA	cmk	frdA	tktA	ybaS	manX	map	cyaY	gpmM	rfbB	yjeJ	speA	gnd	hflD	gpmA	tdcA	bglA	moeA	rihA	elbB	fldA	zinT	yqhD	ybbN	yniC	ilvC	mtn	metY	yeeZ	gudP	hisL	napF	ackA	gyrA	atpI	uxaB	rbsD	thrS	cbpA	gcvT	nirB	glmU	ptsA	pck	pdhR	yceD	ldhA	cynT	uspE	yeeN	polA	sdhC	yicC	rpsB	lpcA	prlC	seqA	ispU	rpsM	rpsL	rdoA	mnmE	grpE	zwf	pdxB	lolB	yjiH	argD	tpx	leuL	kdgK	treB
+GO:0019665	tdcA
+GO:0004221	elaD
+GO:0018130	iscR	zwf
+GO:0018131	iscR	zwf
+GO:0019290	entC
+GO:0019292	tyrB
+GO:0019299	rhaM	rhaB	aldA	fucA
+GO:0018198	rimO	hypA
+GO:0018197	rimO
+GO:0018193	rimO	def	hypA	rimL
+GO:0019262	nanA
+GO:0019264	glyA
+GO:0019222	yaeP	iraD	thrS	acnA	alpA	rseX	zwf	alaS	yjjM	symR	rybB	iraP	sohA	fldA	ssrS	yiaJ	gcvB	glmZ	rpsL	yeaT	allS	iraM	rppH	nrdR
+GO:0019219	yaeP	alpA	zwf	alaS	yjjM	rybB	sohA	yiaJ	ssrS	rpsL	glmZ	yeaT	allS	rppH	nrdR
+GO:0065009	menA	rraB
+GO:0065007	kefA	yaeP	iraD	alpA	rseX	yjjM	rydC	proQ	rybB	iraP	aqpZ	napF	adiC	ssrS	menA	adiA	rraB	rpsL	iraM	nrdR	nhaA	nhaB	mscS	thrS	acnA	zwf	alaS	symR	sohA	fldA	chaA	hlyE	chpS	lptA	fieF	yiaJ	gcvB	gadB	gadA	glmZ	glmY	yeaT	allS	mscL	minC	rppH
+GO:0019213	argE	nagB	zwf
+GO:0065008	nhaA	kefA	nhaB	mscS	zwf	chaA	sohA	aqpZ	chpS	fieF	adiC	adiA	gadB	gadA	mscL
+GO:0065003	napF	cydA	thrS	cutA	zwf	glmZ	fdnG	sdhC	rybB	narG
+GO:0019209	yneN
+GO:0019243	gloB	gloA
+GO:0019239	yfhB	nagB	udk	nrdR
+GO:0019238	hisL	zwf	ribA
+GO:0005622	alpA	glpT	slyD	secM	purH	cysK	ybgI	purL	cysE	deoC	yghZ	ivbL	mog	yeiT	pepT	greA	sspA	pepQ	pepD	sfsA	pgl	proC	pyrL	rplK	fucP	yahK	focA	cmk	frdA	tktA	ybaS	manX	map	cyaY	gpmM	rfbB	yjeJ	speA	gnd	nuoA	hflD	gpmA	tdcA	bglA	rihA	elbB	fldA	moeA	zinT	yqhD	smtA	ybbN	yniC	ilvC	mtn	metY	yeeZ	gudP	hisL	napF	ackA	gyrA	atpI	uxaB	rbsD	thrS	gcvT	cbpA	nirB	glmU	ptsA	pck	pdhR	yceD	ldhA	cynT	uspE	yeeN	polA	sdhC	yicC	intA	rpsB	lpcA	prlC	seqA	ispU	rpsM	rpsL	rdoA	mnmE	grpE	zwf	pdxB	lolB	yjiH	argD	tpx	leuL	kdgK	treB
+GO:0019303	rbsD
+GO:0019301	rhaM	rhaB	aldA	fucA
+GO:0005634	zwf
+GO:0019313	rpiB	rpiR	alsK
+GO:0019314	rpiB	rpiR	alsK
+GO:0019317	aldA	fucA	fucP	lldP
+GO:0019316	rpiB	rpiR	alsK
+GO:0005623	pyrG	cydA	lpp	tig	alpA	glpT	sodB	slyD	secM	purH	cysK	ybgI	purL	cysE	tppB	yejA	tatA	deoC	yneN	yghZ	lldP	purC	ivbL	purA	yeiT	mog	dps	pepT	greA	kdpD	sspA	nfsB	pepQ	ycaI	ycaC	pepD	sfsA	proC	pgl	ppa	fabI	glyA	rfaD	fucP	rplK	pyrL	yahK	tpiA	gapA	fbaB	clpB	uhpA	focA	cmk	narG	adhE	tnaC	dmsA	ahpC	frdA	ybaS	tktA	yncD	manX	map	cyaY	rfbB	gpmM	gnd	yjeJ	speA	nuoA	mrcB	hflD	udp	alaS	tdcA	gpmA	mliC	bamA	bglA	fldA	elbB	rihA	moeA	xerD	zinT	gltA	smtA	yqhD	ybbN	ftsP	mscL	yniC	ilvC	bfd	aspA	lysU	mtn	yeeZ	metY	cyoA	pdxH	hisL	gudP	napF	ackA	metG	gyrA	uxaB	atpI	malK	rbsD	thrS	gcvT	uspA	cbpA	zapB	nirB	ptsH	glmU	yjgF	ptsA	ndh	hslV	pck	yceD	pdhR	mdoD	ldhA	glnA	chiA	gadB	uspE	gadA	cynT	yeeN	gltS	mdh	polA	gor	sdhC	dppA	malE	rhoL	yicC	intA	panB	clpP	rpsB	smpA	lpcA	tesA	edd	prlC	seqA	ydhY	nanC	pykF	ispU	wrbA	torC	rpsM	rdoA	rpsL	mnmE	grpE	mcbA	zwf	fdnG	pdxB	yjiH	lolB	upp	talB	argD	tpx	leuL	kdgK	treB	sppA
+GO:0005624	pyrG	bfd	lysU	aspA	lpp	tig	sodB	metY	pdxH	deoC	ackA	metG	gyrA	purC	purA	dps	thrS	uspA	ptsH	yjgF	nfsB	hslV	ycaI	pdhR	ycaC	glnA	gadB	gadA	ppa	fabI	mdh	glyA	gor	rfaD	tpiA	rhoL	gapA	fbaB	clpB	panB	rpsB	clpP	edd	focA	adhE	tnaC	ahpC	pykF	wrbA	mnmE	mrcB	udp	zwf	alaS	mliC	upp	talB	xerD	gltA	mscL	sppA
+GO:0019318	rhaM	rpiB	zwf	fbp	fucA	maeA	rhaB	rpiR	aldA	fucP	lldP	fruB	alsK
+GO:0005625	mnmE
+GO:0019319	fbp	zwf	maeA
+GO:0019324	yiaK	rhaB	araB
+GO:0019323	yiaK	rbsD	araB	aldA	fucA	fucP	xylA
+GO:0032300	zwf
+GO:0019321	yiaK	rbsD	rhaB	araB	aldA	fucA	fucP	xylA
+GO:0019320	rhaM	rhaB	rpiB	rpiR	aldA	zwf	fucA	fucP	lldP	fruB	alsK
+GO:0032359	intA
+GO:0004568	chiA
+GO:0004566	uidA
+GO:0005694	smtA	alpA	intA
+GO:0004592	panB
+GO:0004596	rimL
+GO:0004585	zwf
+GO:0031226	napF	nuoA	uhpA	kdpD	zwf	yneN
+GO:0031224	nuoA	cydA	uhpA	kdpD	zwf	fdnG	narG	dmsA	napF	tppB	torC	tatA	yneN	gltS	sdhC
+GO:0031225	zwf
+GO:0031235	napF	kdpD
+GO:0031236	mcbA
+GO:0004521	sohA	chpS
+GO:0031232	mcbA
+GO:0004518	sohA	chpS	mutH	yqgE	zwf
+GO:0004519	sohA	chpS	mutH	zwf
+GO:0018209	rimL
+GO:0004514	nadC
+GO:0004553	chiA	essD	mltF	uidA	mltA
+GO:0004540	sohA	chpS	zwf
+GO:0033317	panB	panE
+GO:0000405	ybcN
+GO:0018249	hypA
+GO:0019394	gudP	garP
+GO:0019392	gudP	garP
+GO:0019391	uidA
+GO:0019389	uidA
+GO:0019344	cysK	cysE	cysP
+GO:0033384	xseB
+GO:0033383	xseB
+GO:0005515	pyrG	rplN	pyrH	ftnA	yjdI	yihD	rplY	entC	yjdN	surE	yqeB	yhdN	yihI	yhdT	bcsA	udk	lldP	paaA	yihR	zipA	yhcA	yrfG	yhbU	ldcC	yhbT	fucA	yhcM	ypfG	yjbQ	sgcX	pheL	rplK	fucP	inaA	rplM	folB	hyaA	amiA	maeB	ykfJ	adhE	yjfP	molR	rfe	frdA	ybaQ	map	iscR	ybaK	aceB	yhfG	blc	yidZ	yjeF	hybO	udp	folX	yjeS	yhdW	ybaY	yrdD	folP	yheS	hdeA	eutS	eutN	smtA	mtlA	ybbN	dpiB	arcA	ypdA	sapA	pabC	folC	lysA	ybbL	adiY	yjhP	ubiC	lysR	essQ	umuD	vacJ	yjhI	ubiE	btuB	ubiG	ubiF	alkA	yidP	napF	topA	cadB	yqaB	ackA	kdsC	yjgZ	ampC	rpoZ	nudB	nudC	rbsD	thrS	nirB	yjgR	yjgI	yjgH	ndk	rcsF	rcsD	yjgL	nudF	nudG	galE	pdhR	dacA	yicR	essD	fhuA	dacB	aphA	yicJ	csdA	polA	polB	uspG	thrL	yjfZ	torR	rluD	yjjU	rpsB	hcp	nac	yjjI	yjjK	yibL	yjjB	rpsP	rpsM	rpsL	galU	nanA	galR	rpsJ	mnmE	yibF	argT	yjiR	mfd	gcl	yjiP	hcaE	dcm	argG	cpxR	dinJ	lolA	lolB	yiaK	lptA	yjiE	talA	yjiC	hda	torY	glgC	gcd	yagT	murB	holC	csiD	spy	glpT	cusC	uxuA	slyD	tatE	csiR	yagA	deoC	ybgA	ybgC	rph	rsuA	rhsC	waaA	cmtB	trxC	trxB	rpsU	pphA	holE	rfaD	tpiA	nsrR	yaeP	helD	mutH	thiC	uhpA	ybiT	frlA	rnt	focA	asnA	asnC	menF	rfaQ	narG	xapR	menA	rnc	ybiH	rnb	idnD	uvrD	rne	uvrA	rnd	ybiA	narZ	rfbB	asnS	narX	luxS	yafN	nuoA	rssA	gspA	hemA	hflD	gspC	acnA	hemC	yafY	pfkA	xylA	agaS	ybjQ	fldA	gltB	ftsK	yafC	groS	ybjC	yafL	hrpB	dgsA	yafM	metN	aspC	ygcL	pldA	ybcN	truD	dusB	aspA	ygcF	dusC	hycA	mgtA	nikA	metY	ynbA	ygcN	hisL	metB	htrG	metA	chbB	metG	insC	metE	mcbR	atpI	sufA	acrR	eutB	typA	livK	ybdL	erfK	ygdH	ynaK	glmU	yraL	yraM	yoaD	envR	glnB	mraZ	yrbF	glnH	ppdA	gadE	yadG	gadB	rhoL	hydN	intA	rhlE	adk	rhlB	clpS	yodC	arnB	fdoG	ybeZ	yaaA	hchA	ybeB	yjbJ	phnC	gloA	ybeD	yfbQ	aroK	tyrB	degP	ygbL	yfbK	ucpA	hyfA	leuS	recN	glpE	glpD	yfaY	recE	yfaX	tauA	phoB	phoA	ybfF	yjaB	hipB	atoD	prfC	qor	yffB	yeaU	lpp	ycbJ	secM	mpl	hupA	sbcD	ycbB	hupB	hypA	yebS	glf	yneK	grxD	cspG	purC	ydfH	grxA	purA	purU	nhaA	dps	cls	ydeM	rsgA	ydeP	ymfH	ycaR	ispB	yfdX	pps	ispD	glyQ	pgpB	pepQ	ycaI	guaB	artJ	ynfE	pepE	mdtN	guaC	pepD	ppk	ynfB	oppA	sxy	fabI	astC	lsrA	ppc	fryB	pepB	ugpB	yeaO	clpA	dkgB	yddL	sdaC	mltA	yedE	yncA	tsr	tnaC	yedI	yncE	ymfT	yedM	yfdP	yedL	yedP	yedW	yfdG	gnd	priA	yfcD	yccT	yccU	araB	betI	tdcA	ydcP	yecD	yfbV	ydcR	elbB	fecA	ibpA	cof	ycbX	lexA	ydcF	ydcC	fadI	mutS	epd	ilvC	mutY	ilvL	yfjJ	ydbC	gpt	rraB	queC	yfjX	iclR	ompA	ttcA	relA	pth	yeeR	htpG	gltX	gcvA	yeeN	gor	sdhC	yeeL	panB	rdgC	yajQ	can	frc	rnlA	nrdD	ompW	lrp	nrdA	ompR	ttdA	poxA	poxB	frvA	crl	ispG	rimJ	crp	yaiI	zwf	pdxB	yegW	tpx	frwC	ycjM	treR	msrA	yihX	tag	tig	ygiN	cysP	dnaA	cysJ	ycjX	cysE	ycjY	xseA	garP	flhB	ulaR	yejK	ycjW	cysD	yghZ	fimA	dnaQ	ytfM	rhaM	dhaK	ghrB	ulaA	dnaX	yciG	selA	gsp	ygjJ	nadE	pinR	ung	flgB	nadC	asd	yciS	tar	flgK	proV	gapA	dsbG	accD	cfa	accA	bglX	srmB	potA	proS	pspA	ahpC	ytjC	citC	def	ytjB	manX	rspA	dsbB	dcuS	mipA	bamB	bamD	rtcB	cedA	bamA	prpR	cytR	rrmA	moeA	fliF	xerD	cueR	carA	rrmJ	uidA	bolA	dfp	yhiR	hscC	hscB	elaB	ygeH	matC	evgA	yhiL	ydjA	ygeP	ydjF	yliJ	rpiR	yhiI	ygeA	modA	mobA	ydiF	ygfJ	ribF	ptsG	ptsH	ribA	ydiA	ribB	yhjK	yceD	hsdR	yhjC	yhjJ	yhjH	cho	ygfF	ydiN	lacZ	ydiU	yhjB	ygfB	ygfA	smpA	yggM	putA	moaA	yggR	ychJ	seqA	ydhY	yhgF	aldB	ydhR	rdoA	ydhS	yhfX	ydhM	nagK	mcrB	yggG	yhhW	ydgJ	ydgK	yhhX	puuD	rpiB	rmuC	rlmL	yghT	ycgE	ycgK	yhhK	pstS	serC	yhhI	serB	sohA	dicB	mhpR	rsmE	dcyD	rsmD	sppA
+GO:0019438	nudB	tyrB	aroF	zwf
+GO:0019439	csiD	sad	zwf	paaA
+GO:0005506	cydA	nirB	zwf	uxuA	nrdA	fucA	narG	ada	dmsA	def	torC	uxaC	cyaY	narZ
+GO:0005507	cyoA
+GO:0019407	gatY
+GO:0031167	rlmN	rsmE	rsmD	rlmF	asnC
+GO:0019400	gatY
+GO:0019404	gatY
+GO:0019405	gatY
+GO:0019402	gatY
+GO:0004497	ssuE
+GO:0005542	ygfZ
+GO:0005529	xylF
+GO:0005525	smtA	zwf	mnmE
+GO:0005524	napF	yjeF	adk	smtA	sfsA	oppA	zwf	C034	ycaI
+GO:0004470	maeA
+GO:0004474	glcD
+GO:0032259	rlmN	rpsP	rsmE	trmA	rsmD	mnmE	rlmF	asnC
+GO:0032261	gpt	hpt
+GO:0032264	gpt	hpt
+GO:0032263	gpt	hpt
+GO:0032267	tilS	zwf
+GO:0032265	gpt
+GO:0004462	gloA
+GO:0004458	dld
+GO:0004457	dld	lldP
+GO:0004455	ilvC
+GO:0004456	zwf	edd
+GO:0004452	idi
+GO:0005575	pyrG	cydA	lpp	tig	alpA	glpT	sodB	slyD	secM	purH	cysK	ybgI	purL	cysE	tppB	yejA	tatA	deoC	yneN	yghZ	lldP	purC	ivbL	purA	yeiT	mog	dps	pepT	greA	kdpD	sspA	nfsB	pepQ	ycaI	ycaC	pepD	sfsA	proC	pgl	ppa	fabI	glyA	rfaD	fucP	rplK	pyrL	yahK	tpiA	gapA	fbaB	clpB	uhpA	focA	cmk	narG	adhE	tnaC	dmsA	ahpC	frdA	ybaS	tktA	yncD	manX	map	cyaY	rfbB	gpmM	gnd	yjeJ	speA	nuoA	mrcB	hflD	udp	alaS	tdcA	gpmA	mliC	bamA	bglA	fldA	elbB	rihA	moeA	xerD	zinT	gltA	smtA	yqhD	ybbN	ftsP	mscL	yniC	ilvC	bfd	aspA	lysU	mtn	yeeZ	metY	cyoA	pdxH	hisL	gudP	napF	ackA	metG	gyrA	uxaB	atpI	malK	rbsD	thrS	gcvT	uspA	cbpA	zapB	nirB	ptsH	glmU	yjgF	ptsA	ndh	hslV	pck	yceD	pdhR	mdoD	ldhA	glnA	chiA	gadB	uspE	gadA	cynT	yeeN	gltS	mdh	polA	gor	sdhC	dppA	malE	rhoL	yicC	intA	panB	clpP	rpsB	smpA	lpcA	tesA	edd	prlC	seqA	ydhY	nanC	pykF	ispU	wrbA	torC	rpsM	rdoA	rpsL	mnmE	grpE	mcbA	zwf	fdnG	pdxB	yjiH	lolB	upp	talB	argD	tpx	leuL	kdgK	treB	sppA
+GO:0031163	iscR	zwf	erpA	gntX
+GO:0018339	rimO
+GO:0004424	hisL
+GO:0004422	gpt	hpt
+GO:0004416	gloB	yeiG
+GO:0004412	metB
+GO:0004401	hisL
+GO:0004400	hisL
+GO:0031118	rluD	rluC	rluF	rsuA	rluE	rluB
+GO:0031119	yqcC	iscR	zwf
+GO:0000796	smtA
+GO:0019001	rsgA	smtA	zwf	mnmE
+GO:0019003	rsgA
+GO:0019015	alpA	intA
+GO:0019012	alpA	intA
+GO:0019038	alpA	intA
+GO:0019058	essD	zwf
+GO:0019067	essD	zwf
+GO:0019068	zwf
+GO:0019076	essD
+GO:0019077	essD
+GO:0000793	smtA
+GO:0010035	arsR	zinT	cutC
+GO:0010038	zinT	cutC
+GO:0042916	phnC
+GO:0042917	phnC
+GO:0042900	fucP
+GO:0005452	narU	narK
+GO:0042955	malK	malE
+GO:0042956	malK	malE
+GO:0042963	zwf
+GO:0042960	arsR
+GO:0032155	zapB
+GO:0032153	zapB
+GO:0042937	tppB	oppA
+GO:0042936	tppB	dppA
+GO:0042939	tppB	oppA
+GO:0042938	tppB	dppA
+GO:0005488	rplN	pyrG	pyrH	yjdI	ftnA	yihD	rplY	entC	yjdN	surE	yhdN	yqeB	yihI	yhdT	bcsA	lldP	udk	paaA	yihR	zipA	yhcA	yrfG	yhbU	ldcC	yhbT	fucA	yhcM	ypfG	yjbQ	sgcX	pheL	fucP	rplK	rplM	inaA	folB	hyaA	amiA	maeB	ykfJ	yjfP	adhE	molR	rfe	frdA	ybaQ	iscR	map	ybaK	aceB	yhfG	blc	yjeF	yidZ	hybO	udp	folX	yjeS	azoR	yhdW	ybaY	yrdD	folP	yheS	hdeA	eutS	zinT	yieE	eutN	smtA	yqhD	mtlA	ybbN	dpiB	arcA	ypdA	sapA	pabC	folC	folD	lysA	ybbL	adiY	yjhP	ubiC	lysR	essQ	umuD	trmA	vacJ	yjhI	ubiE	btuB	ubiG	ubiF	alkA	yidP	napF	topA	cadB	yqaB	ackA	erpA	kdsC	yjgZ	uxaC	ampC	uxaB	rpoZ	nudB	nudC	rbsD	thrS	nirB	yjgR	yjgI	yjgH	ndk	rcsF	symR	ndh	rcsD	yjgL	nudF	nudG	galE	pdhR	dacA	yicR	essD	fhuA	dacB	aphA	yicJ	csdA	polA	polB	uspG	thrL	yjfZ	torR	rluD	yjjU	rpsB	hcp	nac	yjjI	yjjK	yibL	yjjB	rpsP	torC	rpsM	rpsL	galU	nanA	galR	rpsJ	mnmE	yibF	argT	yjiR	mfd	gcl	yjiP	hcaE	allD	dcm	argG	cpxR	dinJ	lolA	lolB	yiaK	lptA	yjiE	talA	yjiC	hda	torY	bioB	glgC	gcd	yagT	murB	holC	cydA	csiD	spy	glpT	cusC	uxuA	slyD	tatE	csiR	yagA	deoC	ybgA	ybgC	rph	rsuA	rhsC	waaA	cmtB	trxC	trxB	rpsU	pphA	holE	rfaD	tpiA	nsrR	yaeP	helD	mutH	thiC	lepA	uhpA	ybiT	frlA	rnt	focA	asnA	asnC	menF	rfaQ	narG	dmsA	xapR	menA	rnc	ybiH	rnb	idnD	uvrD	rne	uvrA	rnd	cyaY	ybiA	narZ	rfbB	asnS	narX	xylF	luxS	yafN	nuoA	rssA	gspA	hemA	hflD	gspC	acnA	hemC	yafY	pfkA	xylA	agaS	ybjQ	fldA	gltB	ftsK	yafC	groS	ybjC	yafL	hrpB	dgsA	yafM	metN	aspC	ygcL	pldA	ybcN	truD	dusB	aspA	ygcF	dusC	hycA	mgtA	nikA	metY	ynbA	ygcN	hisL	metB	htrG	metA	chbB	metG	insC	gntX	metE	mcbR	atpI	sufA	acrR	eutB	typA	livK	ybdL	erfK	ygdH	ynaK	glmU	yraL	yraM	yoaD	envR	glnB	mraZ	yrbF	glnH	ppdA	gadE	yadG	gadB	glmZ	dppA	rhoL	hydN	intA	aidB	rhlE	adk	rhlB	clpS	yodC	arnB	ybeZ	fdoG	yfaE	yaaA	hchA	ybeB	wrbA	yjbJ	phnC	gloA	ybeD	yfbQ	yfbR	aroK	tyrB	degP	ygbL	fdnG	yfbK	ucpA	hyfA	ada	leuS	recN	glpE	glpD	yfaY	recE	yfaX	tauA	phoB	phoA	ybfF	yjaB	hipB	atoD	prfC	qor	yffB	yeaU	yeaV	lpp	ycbJ	secM	mpl	hupA	sbcD	ycbB	hupB	hypA	yebS	hpt	glf	yneK	grxD	cspG	purC	ydfH	cspE	grxA	purA	purU	nhaA	dps	cls	ydeM	rsgA	ydeP	ymfH	ycaR	ispB	C034	yfdX	pps	ispD	glyQ	pgpB	pepQ	ycaI	guaB	artJ	ynfE	pepE	mdtN	guaC	pepD	ppk	ynfB	sfsA	oppA	sxy	fabI	glyA	astC	lsrA	ppc	fryB	pepB	ugpB	yeaO	clpA	dkgB	yddL	sdaC	mltA	yedE	yncA	tsr	tnaC	yedI	yncE	yfdR	ymfT	yedM	yfdP	yedL	ymgA	yedP	yedW	yfdG	gnd	priA	yfcD	yccT	yccU	araB	betI	tdcA	ydcP	yecD	yfbV	ydcR	elbB	fecA	ibpA	cof	ycbX	lexA	ydcF	ydcC	fadI	mutS	epd	ilvC	mutY	ilvL	yfjJ	cyoA	ydbC	gpt	rraB	queC	yfjX	iclR	ompA	ttcA	relA	pth	yeeR	htpG	gltX	gcvA	yeeN	gltS	gor	sdhC	yeeL	panB	rdgC	yajQ	can	frc	rnlA	nrdD	ompW	lrp	nrdA	ompR	panE	ttdA	poxA	poxB	frvA	crl	ispG	nrdR	rimJ	crp	yaiI	zwf	pdxB	yegW	tpx	frwC	ycjM	treR	msrA	yihX	tag	tig	ygiN	cysP	dnaA	cysJ	ycjX	cysE	ycjY	xseA	garP	flhB	ulaR	yejK	ycjW	cysD	yghZ	fimA	dnaQ	ytfM	rhaM	dhaK	ghrB	ulaA	dnaX	yciG	selA	gsp	ygjJ	nadE	pinR	ung	flgB	nadC	asd	yciS	tar	flgK	proV	gapA	dsbG	accD	cfa	accA	bglX	srmB	potA	proS	pspA	ahpC	ytjC	citC	def	ytjB	manX	rspA	dsbB	dcuS	mipA	bamB	alaS	bamD	rtcB	cedA	bamA	prpR	cytR	rrmA	moeA	fliF	xerD	cueR	carA	rrmJ	uidA	bolA	dfp	yhiR	dld	hscC	hscB	elaB	ygeH	matC	evgA	yhiL	ydjA	ygeP	ydjF	yliJ	rpiR	yhiI	ygeA	modA	mobA	ydiF	ygfJ	ribF	ptsG	ptsH	ribA	ydiA	ribB	yhjK	yceD	hsdR	yhjC	yhjJ	yhjH	cho	ygfF	ydiN	lacZ	ydiU	yhjB	ygfB	ygfA	smpA	yggM	nagB	putA	moaA	yggR	ychJ	seqA	ydhY	ygfZ	atl	yhgF	aldB	ydhR	rdoA	ydhS	yhfX	ydhM	nagK	mcrB	yggG	yhhW	ydgJ	ydgK	yhhX	puuD	rpiB	rmuC	rlmL	yghT	ycgE	ycgK	yhhK	pstS	serC	yhhI	serB	sohA	dicB	mhpR	rsmE	dcyD	rsmD	sppA	serS
+GO:0042946	malK	malE
+GO:0042947	malK	malE
+GO:0005403	fucP
+GO:0005416	gltS
+GO:0005432	yrbG
+GO:0042981	hlyE	zwf
+GO:0005402	fucP
+GO:0033585	tyrB
+GO:0019154	glcD
+GO:0010106	gntX
+GO:0019168	ubiE
+GO:0019134	glmU
+GO:0019143	kdsC
+GO:0019146	yrbG	srlA
+GO:0017004	napF	cydA	fdnG	sdhC	narG
+GO:0019175	leuS
+GO:0019177	nudB
+GO:0010124	paaA
+GO:0010181	yieE	nuoA	wrbA	zwf	ydjA	azoR	lldP
+GO:0033554	iraP	relA	yebG	ydjM	acnA	ssuE	zwf	gntX	iraM	symE
+GO:0005372	aqpZ
+GO:0005385	fieF
+GO:0005381	fieF	efeU
+GO:0005354	fucP
+GO:0005351	glpT	fucP
+GO:0005363	malK	malE
+GO:0005342	ygaZ	yddG	gltS	leuE
+GO:0005343	gltS
+GO:0005313	gltS
+GO:0005304	ygaZ
+GO:0005319	lptA	kdsC	ycaI
+GO:0005302	yddG
+GO:0019202	metB	kdpD	lysC
+GO:0019203	fbp
+GO:0019200	yiaK	rbsD	rhaB	araB	zwf	nanA	kdgK	fucP	dgoR	xylA	fruB	alsK
+GO:0019201	adk	pabC
+GO:0019207	yneN
+GO:0019205	adk	pabC
+GO:0004091	tesA	pgl	zwf	ybfF
+GO:0004089	can	cynT	zwf
+GO:0005198	thrS
+GO:0005215	kefA	efeU	glpT	cyoA	napF	aqpZ	psd	tppB	yejA	kdsC	nhaA	nhaB	malK	ompA	ynaI	ulaA	nirB	mdtJ	ycaI	yhjD	gadB	yrbG	oppA	gltS	ydiN	dppA	fucP	malE	arsR	proP	narK	glnK	narU	adiC	kch	idnD	phnC	yddG	xylF	nuoA	mscS	zwf	leuE	acrD	chaA	fieF	lptA	glpF	ygaZ	putP	mscL	ampG
+GO:0005216	kefA	fieF	mscS	ynaI	kch	mscL
+GO:0005244	kch
+GO:0004106	aroF
+GO:0005249	kch
+GO:0005261	fieF	kch
+GO:0005267	kch
+GO:0005275	gltS	mdtJ
+GO:0005283	gltS
+GO:0004161	xseB
+GO:0004160	ilvL
+GO:0004175	zwf
+GO:0004176	yifB
+GO:0004170	dut
+GO:0004185	zwf
+GO:0004180	zwf
+GO:0004124	cysK	cysP
+GO:0004141	bioB
+GO:0004146	zwf
+GO:0004150	folB
+GO:0004156	zwf
+GO:0010350	iraM
+GO:0000910	zwf	mltB	mltA	yihA
+GO:0000902	sohA	chpS	frdA	zwf
+GO:0000906	nrdR
+GO:0000900	thrS	symR
+GO:0004067	zwf	asnB
+GO:0004069	aspC	zwf
+GO:0004072	metB	kdpD	lysC
+GO:0045974	gcvB	symR
+GO:0004073	asd
+GO:0004076	bioB
+GO:0004047	gcvT	zwf
+GO:0004044	zwf
+GO:0004019	zwf	purA
+GO:0004017	adk
+GO:0004022	yqhD	zwf
+GO:0004024	yqhD
+GO:0004033	ydjL	yqhD
+GO:0004038	gcl	zwf
+GO:0004004	rhlE	C034	hrpA
+GO:0004000	yfhB
+GO:0050511	mraZ	zwf
+GO:0050518	ispD
+GO:0050515	lolB
+GO:0042542	ymgA	yhjA
+GO:0042546	mraZ	mipA	zwf	mltB	mltA
+GO:0006412	thrS	lepA	glnS	lysU	acnA	rseX	zwf	alaS	symR	proS	aspS	fldA	leuS	gcvB	rpsL	glmZ	serS
+GO:0006413	thrS	glmZ
+GO:0006414	lepA
+GO:0050572	idnD
+GO:0042538	proP
+GO:0006402	rraB	symE
+GO:0006400	yqcC	yfhB	ttcA	rpsP	tilS	dusA	sfsA	iscR	zwf	trmA	mnmE	asnC
+GO:0006401	menA	rraB	symE
+GO:0050569	aldA
+GO:0042558	nudB	zwf
+GO:0042559	nudB	zwf
+GO:0006457	htpG	zwf	slyD
+GO:0006446	thrS	glmZ
+GO:0006429	leuS
+GO:0006435	thrS
+GO:0006434	serS
+GO:0006433	proS
+GO:0006430	lysU
+GO:0006419	alaS
+GO:0006417	fldA	thrS	gcvB	acnA	rseX	zwf	glmZ	symR
+GO:0006418	aspS	leuS	thrS	glnS	lysU	alaS	proS	serS
+GO:0006422	aspS
+GO:0006425	glnS
+GO:0043556	acnA	zwf
+GO:0043555	acnA	zwf
+GO:0043543	zwf	rimL
+GO:0006473	zwf	rimL
+GO:0006474	rimL
+GO:0043565	zwf
+GO:0006461	napF	cydA	cutA	zwf	fdnG	sdhC	narG
+GO:0043566	mutS	ybcN	zwf	nrdR	cspE
+GO:0006468	folP
+GO:0006464	folP	elaD	rimO	def	hypA	zwf	rimL
+GO:0043623	napF	cydA	fdnG	sdhC	narG
+GO:0043624	yaeP
+GO:0043648	gudP	garD	metB	tyrB	yeaU	garP	aroF	asd	zwf	yeaT	lysC	thrL
+GO:0043649	gudP	garD	garP
+GO:0002100	yfhB
+GO:0006397	hrpA
+GO:0006396	yfhB	rluD	rluC	rluF	rluE	tilS	trmA	rluB	asnC	metY	yqcC	rpsP	iscR	rpsL	mnmE	rsuA	rlmN	zwf	rlmF	lptA	ttcA	sfsA	dusA	rsmE	rsmD	hrpA
+GO:0006399	yfhB	thrS	glnS	tilS	lysU	zwf	trmA	alaS	asnC	proS	aspS	yqcC	leuS	ttcA	rpsP	dusA	sfsA	iscR	mnmE	serS
+GO:0042493	ribF	yejA	zwf	acrD
+GO:0003690	mutS	zwf	nrdR
+GO:0003697	cspE
+GO:0010447	ybaS
+GO:0003674	yjdI	yjdN	entC	yhdN	yhdT	bcsA	yhdJ	yhcA	mngR	yhbU	yrfG	yhbT	fucA	yhcM	yjbQ	ypfG	sgcX	pheL	fucP	folB	tilS	hyaA	caiT	maeB	maeA	yjfP	rfe	ybaS	ybaQ	ybaO	iscR	ybaK	yhfG	aceB	blc	yjeF	hybO	mprA	folX	yjeS	yhdW	azoR	ybaY	yrdD	folP	yheS	eutS	aaeR	eutN	smtA	ybbN	dpiB	ypdA	folC	folD	ybbL	yjhP	ubiC	essQ	fbp	vacJ	yjhI	ubiE	ubiD	gdhA	ubiG	alkA	ubiF	napF	topA	cadC	cadB	rcsA	ackA	srlA	yjgZ	hcaR	malK	yjgR	yjgI	yjgH	rcsF	ndk	ndh	yjgL	rcsD	pdhR	fhuA	essD	csdA	malE	yjfZ	rluD	torR	yjjU	rluC	rluF	rluE	yjjQ	hcp	yjjN	nac	yjjM	nanR	yjjI	rluB	yjjK	nanC	yjjB	torC	nanA	mnmE	cobU	yjiR	yjiP	allA	hcaE	allD	dcm	cpxR	dinJ	talB	lptA	yjiE	talA	yjiC	hda	allR	bioB	torY	allS	glgC	murB	cydA	holC	csiD	holD	norR	alpA	glpT	dgoR	wbbI	tatE	csiR	ybgA	ppiB	rph	ybgC	rsuA	rhsC	pgl	holE	pphA	rfaD	dipZ	nsrR	mutH	helD	uhpA	ybiT	rnt	narK	focA	asnA	menF	asnC	asnB	narG	rfaQ	narU	dmsA	ybiH	rnc	tktA	menA	rnb	tktB	uvrD	rne	rnd	uvrA	cyaY	narZ	ybiA	rfbB	narX	asnS	mscS	rssA	acnB	hemA	hemC	acnA	pfkA	ybjQ	gltB	hrpA	mscL	groS	ybjC	hrpB	dgsA	metN	aspC	ybcL	pldA	ybcN	ybcQ	aspA	hycA	mgtA	metY	ynbA	aspS	hisL	metB	insH	htrG	metA	metG	insC	gntX	metE	mcbR	acrR	eutB	alsK	typA	ybdL	ynaI	ynaK	glmU	yraL	yraM	envR	mntR	glnB	glnA	yrbF	glnH	ppdA	yrbG	intD	glmZ	dppA	rhoL	hydN	intA	rhlE	rhlB	glnS	clpS	fdoG	ybeZ	glnK	yfaE	hchA	ybeB	gloB	yjbJ	wrbA	phnC	gloA	ybeD	acpT	yfbQ	yfbR	tyrB	fdnG	yfbK	hyfA	acrD	glpF	glpE	glpD	yfaY	yfaX	tauA	phoB	phoA	ybfF	hipB	yjaB	prfC	yeaU	lpp	yeaV	ycbJ	secM	hupA	hupB	ycbB	hypA	yneN	yebS	cspA	yebR	glf	yneK	cspG	ivbL	cspE	yneH	cls	ycaR	C034	pps	glyQ	ycaI	ynfE	ppk	ynfB	yeaG	astC	glyA	yeaT	fryB	ppc	ugpB	yeaO	cmk	yedE	yncA	tnaC	yedI	yncE	yedM	yedL	ligB	yedP	yedW	gnd	priA	yccT	araB	yccU	betI	yccX	tdcA	yecD	cof	ibpA	ycbX	mutS	ilvC	epd	ilvI	ilvL	mutY	psd	gpt	queC	rraB	gcvT	gcvR	chiA	ttcA	yeeR	pth	gltX	yeeN	gcvA	gltS	gor	fruB	yeeL	kdgR	sgrR	rdgC	lpcA	can	rnlA	lrp	ttdA	poxA	poxB	frvA	crl	crp	qseB	pdxB	yegS	yegW	kdgK	frwC	ycjM	treR	msrA	garD	yihX	sad	yiiE	ycjG	ygiN	dnaA	ycjX	ycjY	flhD	garP	yejA	flhB	ulaR	yejK	ycjW	yghZ	dnaQ	rhaM	dhaK	yeiR	lgt	yciK	ghrB	ulaA	dnaX	yciG	selA	yciA	gsp	ygjJ	nadE	pinR	ung	flgB	nadC	yciZ	ygjD	nadA	nadB	yeiL	yciS	dhaR	yeiG	yeiE	flgK	proV	gapA	cfa	bglX	proP	proQ	potA	proS	rhaB	manX	prpB	mipA	bamB	alaS	lrhA	bamD	rtcB	bamA	prpR	rrmA	fliF	carA	rrmJ	solA	rtcR	ygeL	hscC	hscB	ygeH	matC	ygeP	yliJ	aqpZ	rpiR	ygeA	ygfJ	ptsG	ptsH	yceD	chpS	hsdR	cho	cdaR	ygfF	ygfB	ygfA	smpA	yggM	nagB	ssuE	yggR	ychJ	seqA	ychQ	ygfZ	aldA	aldB	rdoA	gatY	nagK	mcrB	yggG	rpiA	rpiB	rlmN	rlmL	yghO	yghT	ycgE	serA	ycgK	rlmF	serC	serB	sohA	serS	pyrG	rplN	pyrH	ftnA	yihD	rplY	surE	yqeB	yihI	tppB	yihU	udk	lldP	paaA	yihR	zipA	ldcC	rplK	abgR	inaA	rplM	amiA	yifB	ykfJ	adhE	molR	frdA	adiC	adiA	yqgE	map	paaX	yidZ	udp	hdeA	yieE	zinT	mtlA	yqhD	arcA	pabC	sapA	lysC	lysA	adiY	trmJ	lysR	umuD	lysU	trmA	btuB	yidP	yqaB	erpA	kdsC	ampC	uxaC	uxaB	rpoZ	nudB	rbsD	nudC	thrS	nirB	symR	nudF	hdfR	galE	nudG	uidR	yicR	dacA	dacB	aphA	yicJ	polA	polB	thrL	uspG	rpsB	edd	yqcC	yibL	kch	rpsP	rpsM	galU	rpsL	galR	rpsJ	yibF	argT	mfd	gcl	argP	argG	lolA	lolB	yiaK	argC	idi	argD	argE	yiaJ	argA	gcd	yagT	spy	uxuA	cusC	slyD	yagA	deoC	uxuR	waaA	kdpD	cmtB	trxC	trxB	dxr	yahD	rpsU	tpiA	yaeP	thiC	lepA	frlA	xapR	idnD	luxS	xylF	nuoA	yafN	gspA	gspC	hflD	yafY	xylA	agaS	fldA	ftsK	dut	yafC	yafL	ampG	yafM	ygcL	slp	truD	dusB	dusC	ygcF	nikA	ygcN	chbB	sufA	atpI	livK	erfK	ygdH	yoaD	mraZ	yadG	gadE	gadB	gadA	aidB	adk	yodC	arnB	yaaA	atoS	aroK	degP	aroF	ygbL	ucpA	leuE	ada	chaA	leuS	recN	leuL	ygaZ	recE	atoD	yffB	qor	lsrR	mpl	sbcD	hpt	grxD	purC	ydfH	purA	grxA	nhaA	purU	nhaB	dps	ydeM	mdtA	rsgA	ymfH	ydeP	ispB	yfdX	ispD	pgpB	pepQ	mdtJ	guaB	fabR	artJ	guaC	mdtN	pepE	pepD	sfsA	sxy	oppA	fabI	lsrA	pepB	pepA	arsR	clpA	dkgB	yddL	sdaA	mltB	sdaC	yddV	mltA	tsr	yfdR	ymfT	yfdP	mltF	yddG	ymgA	feaR	yfdG	yfcD	zraS	ydcP	yfbV	ydcR	elbB	fecA	ydcF	lexA	ydcC	fadI	kefA	yfjJ	cyoA	gudP	ydbC	yfjX	iclR	ompA	zur	relA	relB	htpG	cynT	sdhC	panB	yfhB	yfhA	yajQ	frc	nrdD	ompW	nrdA	ompR	panE	rimO	ispU	rutR	ispG	rimL	nrdR	rimJ	yaiI	zwf	fieF	tpx	tag	tig	glcD	cysP	cysJ	cysK	cysE	xseA	cysB	xseB	cysD	fimA	ytfM	fpr	asd	tar	dsbG	accD	accA	srmB	pspA	ahpC	ytjC	citC	def	ytjB	rspA	dsbB	pspF	apt	dcuS	cedA	cytR	moeA	xerD	cueR	uidA	bolA	dfp	yhiR	dld	elaD	elaB	ydjL	efeU	evgA	yhiL	ydjA	ydjF	efeO	yhiI	ascG	modA	mobA	ydiF	ribF	ribC	ribA	ydiA	ribB	yhjK	yhjD	yhjC	yhjJ	yhjH	ydiN	lacZ	ydiU	yhjB	tesA	putA	moaA	ydhY	atl	yhgF	ydhR	ydhS	yhfX	ydhM	yhhW	ydgJ	ydgK	yhhX	puuD	rmuC	puuC	yhhK	pstS	yhhI	dicB	mhpR	dicA	putP	rsmE	dcyD	rsmD	sppA
+GO:0003676	mutS	aidB	thrS	ybcN	lepA	zwf	trmA	C034	symR	sohA	atl	smtA	rpsL	glmZ	ymgA	folD	nrdR	cspE
+GO:0003677	mutS	sohA	aidB	atl	ybcN	smtA	zwf	ymgA	nrdR	cspE
+GO:0003684	atl
+GO:0050661	nirB	panE
+GO:0050662	dld	nuoA	csiD	gcl	nirB	zwf	ydjA	ndh	azoR	panE	asnC	napF	yieE	frdA	wrbA	sdhC	uxaB	lldP
+GO:0042623	xylF	malK	rhlE	zwf	C034	ycaI	napF	htpG	yejA	oppA	hrpA	dppA	malE
+GO:0050660	dld	frdA	csiD	nirB	sdhC	ndh	asnC
+GO:0042626	xylF	napF	malK	yejA	oppA	zwf	dppA	malE	ycaI
+GO:0042625	zwf
+GO:0006512	elaD
+GO:0006508	hybO	zwf
+GO:0006531	aspC	tyrB	zwf
+GO:0006532	aspC	tyrB	zwf
+GO:0006534	cysK	cysE	cysP
+GO:0006535	cysK	cysE	cysP
+GO:0006526	argC
+GO:0006525	argC	sad
+GO:0006528	zwf
+GO:0006527	sad
+GO:0006529	zwf
+GO:0006520	aspC	ilvC	ilvI	sad	glnS	lysU	sdaA	ilvL	sdaC	gdhA	cysP	proS	aspS	hisL	cysK	poxB	metB	cysE	ivbL	yneH	thrS	tyrB	aroF	zwf	alaS	tdcA	serA	serC	serB	pdhR	argC	leuS	glnA	gltB	leuL	asd	glyA	lysC	thrL	serS
+GO:0006519	aspC	ilvC	ilvI	csiD	sad	glnS	lysU	sdaA	ilvL	sdaC	gdhA	cysP	proS	aspS	hisL	cysK	poxB	metB	cysE	ivbL	yneH	thrS	tyrB	puuC	aroF	zwf	alaS	tdcA	serA	serC	serB	pdhR	argC	leuS	glnA	gltB	leuL	asd	glyA	lysC	thrL	serS
+GO:0006549	ilvC	ilvI	ilvL	ivbL
+GO:0006547	hisL
+GO:0006553	metB	asd	lysC	thrL
+GO:0006551	tyrB	leuL	zwf
+GO:0006536	glnA	gltB	gdhA
+GO:0006537	gltB	gdhA
+GO:0006544	poxB	zwf	glyA	pdhR
+GO:0006543	yneH
+GO:0006546	zwf	pdhR
+GO:0006545	poxB	glyA
+GO:0006541	glnA	yneH
+GO:0006571	tyrB	aroF	zwf
+GO:0006570	tyrB	aroF	zwf
+GO:0006575	csiD	puuC	sad	zwf
+GO:0006573	ilvC	ilvI	ilvL	ivbL
+GO:0006576	puuC	sad
+GO:0006558	tyrB	aroF	zwf
+GO:0006564	serA	serC	serB
+GO:0006563	cysK	cysE	sdaA	tdcA	glyA	sdaC	serA	serC	cysP	serB
+GO:0006566	tdcA	thrL
+GO:0006565	sdaA	tdcA	glyA	sdaC
+GO:0006567	tdcA
+GO:0006598	puuC	sad
+GO:0006595	puuC	sad
+GO:0020037	cydA	nirB	sdhC	cyoA
+GO:0043687	folP	elaD	hypA
+GO:0042597	mdoD	ydhY	zinT	nanC	chiA	tesA	torC	mcbA	ftsP	zwf	dppA
+GO:0042594	iraP	relA	ssuE	gntX	iraM
+GO:0042578	hisL	yfbR	leuS	aroK	yfdR	holD	fbp	kdsC	ugpB	serB
+GO:0042592	nhaA	kefA	nhaB	mscS	zwf	chaA	aqpZ	fieF	adiC	adiA	gadB	gadA	mscL
+GO:0002097	yfhB	sfsA
+GO:0042586	def
+GO:0002094	ubiC	menA	zwf
+GO:0050626	torC
+GO:0006629	lpcA	csiD	gmhB	sad	imp	lpp	zwf	ispB	leuS	ispU	xseB	rfaD	ppiB
+GO:0006631	csiD	sad	zwf
+GO:0050790	menA	rraB
+GO:0050794	yaeP	rseX	alpA	yjjM	proQ	rybB	napF	ssrS	rpsL	nrdR	thrS	acnA	zwf	alaS	symR	hlyE	fldA	sohA	chpS	yiaJ	gcvB	glmZ	yeaT	allS	rppH	minC
+GO:0050793	zwf
+GO:0006605	zwf
+GO:0006612	zwf
+GO:0050789	yaeP	iraD	alpA	rseX	yjjM	rydC	proQ	rybB	iraP	napF	ssrS	rpsL	iraM	nrdR	thrS	acnA	zwf	alaS	symR	sohA	fldA	hlyE	chpS	lptA	yiaJ	gcvB	glmZ	glmY	yeaT	allS	rppH	minC
+GO:0050779	zwf	rppH
+GO:0042732	xylA
+GO:0042762	zwf
+GO:0043333	ubiE
+GO:0042723	xseB
+GO:0042724	xseB
+GO:0042710	ttdA	bhsA	yccW	ymgC	dcuB	yjiP	ymgA	srlA	yjbE	solA	yihR
+GO:0043414	rlmN	rpsP	rsmE	trmA	rsmD	mnmE	rlmF	asnC
+GO:0043412	yfhB	rluD	rluC	elaD	rluF	rluE	tilS	lpp	trmA	rluB	asnC	yqcC	rimO	def	rpsP	iscR	hypA	rimL	mnmE	rsuA	rlmN	zwf	rlmF	folP	ttcA	sfsA	dusA	rsmE	rsmD
+GO:0006752	panB	nudB	zwf	panE
+GO:0006753	zwf
+GO:0006754	zwf
+GO:0006743	ubiC	ribF	zwf	ispD	ubiE	ubiD	dxr	ubiG	lolB	ubiF	idi	xseB	ispG	ygfB
+GO:0006744	ubiC	ribF	zwf	ispD	ubiE	ubiD	dxr	ubiG	lolB	ubiF	idi	xseB	ispG	ygfB
+GO:0006768	bioB
+GO:0006767	nudB	leuS	yciK	zwf	bioB	xseB	cobU	serC
+GO:0006772	xseB
+GO:0006775	menA	ubiE	menF
+GO:0006760	nudB	zwf
+GO:0006766	nudB	leuS	yciK	menA	zwf	bioB	xseB	ubiE	cobU	menF	serC
+GO:0042891	yejA
+GO:0042884	yejA
+GO:0042873	yjjL
+GO:0006725	nudB	csiD	tyrB	sad	aroF	zwf	entC	paaA
+GO:0042868	spf	zwf
+GO:0006730	rlmN	rpsP	cynT	zwf	rsmE	trmA	rsmD	mnmE	yeiG	rlmF	asnC
+GO:0006733	ubiC	ribF	zwf	ispD	ubiE	ubiD	dxr	ubiG	lolB	ubiF	idi	xseB	ispG	ygfB
+GO:0006732	panB	nudB	ubiC	ribF	zwf	ispD	ubiE	ubiD	panE	dxr	serC	menF	ubiG	lolB	ubiF	idi	menA	xseB	ispG	ygfB
+GO:0006720	ispU	ispB	xseB
+GO:0050896	mutS	slp	iraD	ybcN	holD	ydjM	yiiM	iraP	aqpZ	yebG	ydbD	yejA	gntX	insC	yebR	iraM	symE	paaA	ribF	kdpD	symR	relA	yhjA	arsR	aidB	mutH	ytfE	yjjQ	ssuE	proP	yddV	rybB	atl	ybaS	gloB	wrbA	yhbO	ymgA	gloA	mnmE	yggE	aroK	yjeF	acnA	zwf	cutC	acrD	ada	bhsA	hdeD	hdeA	yieE	zinT	yqhD	ycbX
+GO:0050897	yfbR	yfdR	gcl
+GO:0042844	fucA
+GO:0042846	fucA
+GO:0042840	uxuA	kdgK	uxaC
+GO:0042843	xylA
+GO:0042839	uxuA	kdgK	uxaC
+GO:0042838	gudP	garP
+GO:0042836	gudP	garP
+GO:0042834	lpp
+GO:0042822	serC
+GO:0042823	serC
+GO:0043431	ubiG
+GO:0042816	xseB	serC
+GO:0042819	xseB	serC
+GO:0006791	zwf
+GO:0006790	cysK	cysE	ssuE	zwf	bioB	cysP	serS
+GO:0006796	folP	aroK	zwf
+GO:0006793	folP	aroK	zwf
+GO:0006792	zwf
+GO:0042802	pyrG	iscR	rne
+GO:0043487	zwf	glmZ	rppH	rybB
+GO:0043488	glmZ	rybB
+GO:0006778	leuS	yciK	cobU
+GO:0006779	leuS	yciK	cobU
+GO:0043492	xylF	napF	malK	yejA	oppA	zwf	dppA	malE	ycaI
+GO:0043484	rpsL
+GO:0043531	C034
+GO:0050801	nhaA	chaA	nhaB	fieF	adiC	adiA	gadB	gadA	zwf
+GO:0004777	sad	aldA
+GO:0004784	zwf
+GO:0004793	poxB
+GO:0004794	tdcA	ilvL
+GO:0004795	thrL
+GO:0004764	ydiN
+GO:0004798	pabC
+GO:0004799	lgt
+GO:0006835	zwf
+GO:0006833	aqpZ
+GO:0006820	narU	arsR	nirB	phnC	narK
+GO:0006818	nhaA	chaA	nhaB	nuoA	zwf
+GO:0006816	chaA
+GO:0006814	nhaA	chaA	nhaB	gltS
+GO:0006813	chaA	kch
+GO:0006812	nhaA	chaA	nhaB	fieF	nuoA	efeO	kch	zwf	efeU	gltS	glnK
+GO:0006811	arsR	nhaA	nhaB	nuoA	ynaI	nirB	zwf	efeU	narK	glnK	narU	chaA	fieF	efeO	kch	phnC	gltS
+GO:0006826	fieF	efeO	zwf	efeU
+GO:0006829	fieF
+GO:0006883	nhaA	chaA	nhaB
+GO:0006882	fieF
+GO:0006886	zwf
+GO:0006885	nhaB	adiC	adiA	gadB	gadA	zwf
+GO:0006884	aqpZ	kefA	mscS	mscL
+GO:0006879	fieF
+GO:0006865	ygaZ	putP	yddG	gltS	leuE
+GO:0006857	tppB	oppA	zwf	dppA
+GO:0006855	acrD
+GO:0006874	chaA
+GO:0006873	nhaA	chaA	nhaB	fieF	adiC	adiA	gadB	gadA	zwf
+GO:0006876	fieF
+GO:0006875	nhaA	chaA	nhaB
+GO:0006869	ycaI
+GO:0006807	aspC	ilvC	csiD	ilvI	sad	lysU	ilvL	gdhA	cysP	hisL	aspS	cysK	cysE	metB	ivbL	yneH	thrS	glmU	pdhR	glnA	asd	cynT	glyA	thrL	nagB	glnS	sdaA	sdaC	proS	poxB	nanA	puuC	tyrB	aroF	gcl	zwf	alaS	tdcA	allD	serA	serC	serB	argC	folP	leuS	leuL	gltB	lysC	serS
+GO:0006805	yieE	zwf	mnmE	paaA
+GO:0042026	slyD
+GO:0006810	efeU	glpT	napF	aqpZ	psd	efeO	tppB	yejA	kdsC	nhaA	nhaB	malK	ompA	ynaI	ulaA	nirB	mdtJ	ycaI	yhjD	oppA	gltS	dppA	fucP	malE	arsR	proP	narK	proQ	glnK	yjjL	narU	dmsA	frdA	kch	idnD	phnC	yddG	xylF	nuoA	zwf	leuE	acrD	chaA	fieF	lptA	glpF	putP	ygaZ	ampG
+GO:0042044	aqpZ
+GO:0042083	lgt
+GO:0004751	rpiA	rpiB	zwf
+GO:0004750	aroK	zwf
+GO:0004747	rbsD
+GO:0004746	ribC
+GO:0004731	deoC
+GO:0048027	glmZ
+GO:0003909	ligB
+GO:0004635	hisL
+GO:0004634	pyrG	zwf
+GO:0048037	dld	nuoA	csiD	gcl	nirB	zwf	ydjA	ndh	azoR	panE	asnC	napF	yieE	frdA	wrbA	glyA	sdhC	uxaB	lldP
+GO:0004648	serC
+GO:0003911	ligB
+GO:0004647	serB
+GO:0048029	xylF
+GO:0003924	lepA	rsgA	hypA	mnmE
+GO:0003922	guaB
+GO:0003921	guaB
+GO:0004659	ubiC	menA	ispU	ispB	zwf	xseB	menF
+GO:0003933	zwf	ribA
+GO:0003934	zwf
+GO:0003935	ribA
+GO:0004672	yeaG	kdpD	zwf	rdoA	hipB
+GO:0004673	kdpD
+GO:0004674	zwf	rdoA	hipB
+GO:0003992	argD	zwf
+GO:0003994	acnB	acnA	zwf
+GO:0003984	ilvI	ivbL
+GO:0003985	leuL	zwf
+GO:0006950	mutS	aidB	mutH	iraD	ybcN	ytfE	ydjM	ssuE	proP	yddV	rybB	iraP	aqpZ	atl	wrbA	yebG	yhbO	ymgA	gntX	yebR	iraM	symE	yggE	aroK	yjeF	kdpD	acnA	zwf	symR	ada	bhsA	relA	yqhD	yhjA
+GO:0003998	yccX
+GO:0003995	aidB
+GO:0003999	apt
+GO:0006970	aqpZ	kdpD	zwf	proP
+GO:0006972	proP
+GO:0006974	mutS	ada	mutH	aidB	aroK	atl	yjeF	ybcN	iraD	yebG	zwf
+GO:0003941	sdaA	tdcA	sdaC
+GO:0003942	argC
+GO:0003949	hisL
+GO:0006979	wrbA	acnA	yqhD	yhbO	zwf	ymgA	gntX	yebR	yggE	yhjA
+GO:0006996	rluD	rluC	rsuA	rluF	rluE	thrS	rlmN	rsgA	zwf	rlmF	metY	asnC	rluB	rpsP	smtA	rsmE	rsmD
+GO:0003954	nuoA	zwf	ndh
+GO:0003969	yfhB
+GO:0003977	glmU
+GO:0042150	zwf
+GO:0006928	yncA	yeiT	yneE	chaB	frdA	yfgJ	yqaB	yehL	ydgA	ybiA	ymfA
+GO:0006915	hlyE	zwf
+GO:0006917	hlyE	zwf
+GO:0042132	fbp
+GO:0042176	iraP	iraD	iraM
+GO:0042177	iraP	iraD	iraM
+GO:0042178	paaA
+GO:0004622	tesA
+GO:0004620	tesA
+GO:0004616	gnd	zwf
+GO:0004617	serA
+GO:0004614	zwf
+GO:0043789	yddV
+GO:0003848	zwf
+GO:0003862	leuL
+GO:0003824	pyrG	yeaU	entC	mpl	yihU	hypA	hpt	yebR	glf	yhdJ	udk	lldP	paaA	ivbL	yneH	purA	rsgA	ycaR	ispB	C034	ispD	fucA	ycaI	guaB	yeaG	oppA	glyA	fucP	ugpB	folB	tilS	sdaA	caiT	sdaC	mltB	mltA	yddV	yifB	maeA	frdA	ybaS	yfdR	adiA	yqgE	ligB	mltF	iscR	gnd	araB	yjeF	yccX	tdcA	azoR	folP	yieE	yqhD	pabC	lysC	trmJ	mutS	ubiC	ilvC	ilvI	lysU	fbp	trmA	ilvL	ubiE	ubiD	gdhA	ubiG	ubiF	cyoA	gudP	napF	gpt	kdsC	srlA	uxaC	uxaB	nudB	malK	rbsD	thrS	gcvT	ndh	chiA	relA	essD	htpG	cynT	sdhC	thrL	fruB	malE	rluD	panB	yfhB	rluC	rluF	rluE	can	lpcA	yjjN	edd	nrdD	panE	rluB	yqcC	poxB	rimO	nanC	rpsP	ispU	torC	nanA	ispG	mnmE	rimL	cobU	nrdR	gcl	allA	zwf	allD	lolB	yiaK	yegS	argC	idi	argD	talB	argE	argA	kdgK	bioB	glgC	garD	murB	cydA	csiD	holD	sad	uxuA	ycjG	slyD	dgoR	glcD	cysP	wbbI	cysK	cysE	garP	yejA	deoC	xseB	ppiB	rhaM	yeiR	rsuA	lgt	yciK	ulaA	fpr	kdpD	yciA	gsp	dxr	nadC	ygjD	nadA	nadB	asd	pgl	rfaD	yeiG	mutH	lepA	asnC	menF	proS	narG	asnB	dmsA	rhaB	menA	tktA	def	tktB	idnD	prpB	narZ	xylF	nuoA	acnB	apt	acnA	alaS	xylA	ybjQ	gltB	dut	hrpA	uidA	solA	aspC	dld	elaD	ydjL	aspS	hisL	efeO	metB	alsK	ribF	ribC	glmU	ribA	ribB	chpS	glnA	mraZ	yrbG	gadB	intD	gadA	ydiN	dppA	ygfB	intA	aidB	rhlE	adk	tesA	nagB	glnS	ssuE	ychQ	gloB	aldA	wrbA	rdoA	gloA	gatY	acpT	yfbR	rpiA	rpiB	aroK	rlmN	tyrB	puuC	aroF	fdnG	serA	rlmF	serC	serB	ada	sohA	leuS	leuL	rsmE	rsmD	ybfF	serS	hipB	atoD
+GO:0003823	zwf	dinJ
+GO:0003864	panB
+GO:0003867	csiD	puuC
+GO:0003879	hisL
+GO:0003883	pyrG	zwf
+GO:0042273	thrS
+GO:0042274	rsgA
+GO:0033036	napF	zwf
+GO:0042257	thrS
+GO:0042255	thrS
+GO:0042254	rluD	rluC	rsuA	rluF	rluE	thrS	rsgA	rlmN	zwf	rlmF	metY	asnC	rluB	rpsP	rsmE	rsmD
+GO:0042278	deoC
+GO:0042277	dppA
+GO:0042221	arsR	slp	yjjQ	holD	yiiM	gloB	wrbA	yejA	ydbD	yhbO	ymgA	insC	gntX	gloA	yebR	mnmE	yggE	paaA	ribF	kdpD	acnA	zwf	cutC	acrD	yieE	zinT	yqhD	ycbX	yhjA
+GO:0042219	csiD	puuC	sad	zwf
+GO:0033014	leuS	yciK	cobU
+GO:0033013	leuS	yciK	cobU
+GO:0012501	hlyE	zwf
+GO:0012502	hlyE	zwf
+GO:0003700	sohA
+GO:0005976	leuS	lpcA	gmhB	imp	mcbA	ppiB	rfaD	yjbE
+GO:0005975	lpcA	nagB	yeaU	gmhB	imp	fbp	mltB	mltA	maeA	rhaB	rpiR	aldA	idnD	bglH	chbB	mltF	nanA	ppiB	yjbE	prpB	gatY	lldP	alsK	rhaM	rbsD	rpiB	araB	mipA	glmU	mcbA	zwf	fucA	xylA	ybjQ	yiaK	folP	leuS	mraZ	yeaT	uidA	rfaD	fucP	ampG	fruB
+GO:0003724	rhlE	C034	hrpA
+GO:0003727	cspE
+GO:0003723	glmZ	C034	trmA	rpsL	folD	cspE
+GO:0003729	glmZ	cspE
+GO:0005996	rhaM	rbsD	rpiB	araB	fbp	zwf	fucA	maeA	xylA	yiaK	rhaB	rpiR	aldA	fucP	lldP	fruB	alsK
+GO:0005998	xylA
+GO:0005997	xylA
+GO:0003735	thrS
+GO:0003746	lepA
+GO:0003755	slyD
+GO:0003756	zwf
+GO:0042402	puuC	sad
+GO:0003796	essD
+GO:0042375	ubiC	ribF	zwf	ispD	ubiE	ubiD	dxr	menF	ubiG	lolB	ubiF	idi	menA	xseB	ispG	ygfB
+GO:0042380	ribF
+GO:0042364	nudB	leuS	yciK	zwf	bioB	xseB	cobU	serC
+GO:0005941	hisL	dmsA	nirB
+GO:0042371	menA	ubiE	menF
+GO:0042373	menA	ubiE	menF
+GO:0042354	aldA	fucA	fucP	lldP
+GO:0042355	aldA	fucA	fucP	lldP
+GO:0042362	menA	ubiE	menF
+GO:0005948	ivbL
+GO:0004843	elaD
+GO:0004838	aspC	tyrB	zwf
+GO:0004871	kdpD
+GO:0004857	ybcL	menA	rraB
+GO:0004856	yiaK	xylA
+GO:0004807	zwf
+GO:0004801	talB	zwf
+GO:0004802	tktA	tktB	zwf	ivbL
+GO:0004829	thrS
+GO:0004828	serS
+GO:0004827	proS
+GO:0004824	lysU
+GO:0004823	leuS
+GO:0004819	glnS
+GO:0004813	alaS
+GO:0004815	aspS
+GO:0004812	aspS	leuS	thrS	glnS	lysU	alaS	proS	serS
+GO:0008789	uxaC
+GO:0008787	alsK
+GO:0030401	yaeP	ybcQ	cspE
+GO:0008786	rpiB
+GO:0008790	fucP
+GO:0008792	adiA
+GO:0008793	tyrB	zwf
+GO:0030423	rybB
+GO:0008763	zwf
+GO:0008764	mraZ	zwf
+GO:0008762	murB
+GO:0008767	glf
+GO:0008760	zwf
+GO:0008758	ppiB
+GO:0008774	zwf
+GO:0008775	zwf	atoD
+GO:0008776	tdcA
+GO:0008777	argE	zwf
+GO:0051065	nrdD
+GO:0008745	zwf	ybjQ
+GO:0008744	yiaK
+GO:0008742	yiaK	araB
+GO:0008741	araB
+GO:0008740	rhaB
+GO:0008738	fucA
+GO:0008736	fucP
+GO:0008737	fucP
+GO:0051073	cobU
+GO:0015399	xylF	napF	malK	nuoA	yejA	oppA	zwf	dppA	malE	ycaI	cyoA
+GO:0008754	rfaD
+GO:0008757	trmJ	aroK	rlmN	rpsP	zwf	rsmE	trmA	rsmD	yhdJ	ubiE	rlmF	asnC
+GO:0008756	menF
+GO:0008752	ssuE
+GO:0008747	nanA
+GO:0051082	hdeA	zwf	bamA
+GO:0051049	napF	proQ
+GO:0015380	narU	narK
+GO:0008716	zwf
+GO:0008719	zwf
+GO:0051050	proQ
+GO:0051051	napF
+GO:0008733	araB
+GO:0008732	poxB
+GO:0015370	gltS
+GO:0008734	nadB	zwf
+GO:0008726	ssuE
+GO:0016769	hisL	aspC	argD	csiD	tyrB	puuC	glmU	zwf	serC
+GO:0016773	rbsD	araB	ulaA	gcl	kdpD	zwf	dgoR	xylA	lolB	yiaK	rhaB	yeaG	rdoA	kdgK	nanA	fucP	fruB	cobU	hipB	alsK
+GO:0015368	yrbG
+GO:0016774	metB	kdpD	tdcA	lysC
+GO:0016775	kdpD
+GO:0016776	yeiR	adk	pabC
+GO:0016772	adk	dgoR	rhaB	metB	garP	rdoA	nanA	cobU	acpT	alsK	rbsD	yeiR	araB	ulaA	gcl	glmU	ycaR	kdpD	zwf	tdcA	ispD	xylA	lolB	yegS	yiaK	yeaG	kdgK	pabC	lysC	fucP	glgC	fruB	hipB
+GO:0016758	wbbI	mraZ	zwf
+GO:0016757	hisL	wbbI	mraZ	nadC	apt	deoC	gpt	zwf	hpt	mltB	cobU
+GO:0046078	yfbR
+GO:0046075	pabC
+GO:0008703	nrdR
+GO:0008710	bioB
+GO:0016765	ubiC	ychQ	yciK	menA	ispU	ribC	ispB	zwf	xseB	menF
+GO:0016763	hisL	nadC	apt	deoC	gpt	zwf	hpt	cobU
+GO:0016744	talB	tktA	tktB	ilvI	zwf	xseB	ivbL
+GO:0016747	cysE	leuL	glmU	argA	zwf	bioB	rimL
+GO:0016746	cysE	leuL	glmU	argA	zwf	bioB	prpB	rimL	glcD
+GO:0015341	fieF
+GO:0016742	panB
+GO:0015333	tppB
+GO:0016743	zwf
+GO:0016740	trmJ	aspC	ubiC	ilvI	csiD	trmA	ubiE	dgoR	glcD	ubiG	hisL	wbbI	metB	cysE	garP	deoC	gpt	hpt	xseB	yhdJ	ivbL	paaA	alsK	yeiR	rbsD	lgt	yciK	ulaA	gcvT	ribC	ycaR	glmU	kdpD	ispB	ispD	mraZ	nadC	yeaG	glyA	fucP	fruB	panB	adk	mltB	asnC	menF	ychQ	rhaB	rimO	menA	tktA	tktB	rpsP	ispU	iscR	rdoA	nanA	prpB	rimL	cobU	acpT	aroK	araB	tyrB	rlmN	apt	puuC	gcl	zwf	tdcA	rlmF	xylA	serC	lolB	yegS	yiaK	talB	argD	leuL	argA	rsmE	rsmD	kdgK	bioB	lysC	pabC	glgC	hipB	atoD
+GO:0016741	trmJ	panB	aroK	lgt	rlmN	gcvT	zwf	trmA	ubiE	rlmF	asnC	ubiG	rpsP	rsmE	rsmD	glyA	yhdJ
+GO:0015315	glpT
+GO:0046036	pyrG	zwf
+GO:0046034	zwf
+GO:0015307	acrD
+GO:0016788	yfbR	elaD	mutH	aroK	holD	tesA	fbp	zwf	yciA	serB	hisL	sohA	chpS	leuS	yfdR	gloB	yqgE	pgl	kdsC	yeiG	ugpB	ybfF
+GO:0016791	hisL	yfbR	leuS	aroK	yfdR	holD	fbp	kdsC	serB
+GO:0007154	iraP	relA	ulaA	yebG	ydjM	ssuE	kdpD	gntX	iraM	symE
+GO:0015301	narU	narK
+GO:0015300	nhaA	chaA	nhaB	adiC	yrbG	gadB	glpT	acrD
+GO:0016798	chiA	essD	mltF	uidA	mltA
+GO:0046037	guaB
+GO:0016790	elaD	gloB	tesA	yeiG	yciA	ybfF
+GO:0016779	glmU	ycaR	ispD	glgC
+GO:0016778	zwf
+GO:0016783	iscR	zwf	bioB
+GO:0007165	ulaA	kdpD
+GO:0016782	rimO	iscR	zwf	bioB	atoD
+GO:0016780	zwf	cobU	acpT
+GO:0016787	mutS	elaD	holD	fbp	hisL	napF	yejA	hypA	kdsC	ppiB	udk	yneH	nudB	malK	yeiR	rsgA	ribA	C034	yciA	gsp	ycaI	chpS	chiA	relA	ygjD	essD	htpG	pgl	oppA	yeiG	dppA	ugpB	malE	yfhB	mutH	lepA	rhlE	tesA	nagB	mltA	yifB	asnB	ybaS	yfdR	def	gloB	yqgE	mltF	mnmE	nrdR	xylF	yfbR	aroK	yjeF	gcl	yccX	zwf	allD	serB	ybjQ	sohA	leuS	argE	dut	hrpA	uidA	ybfF
+GO:0007166	kdpD
+GO:0001510	rlmN	rpsP	rsmE	trmA	rsmD	mnmE	rlmF	asnC
+GO:0016721	zwf
+GO:0016712	ssuE
+GO:0016731	fpr
+GO:0016730	fpr
+GO:0016725	nrdD	ispG
+GO:0016728	nrdD	ispG
+GO:0016705	ssuE	ygfB	ubiF
+GO:0022883	fieF
+GO:0022890	fieF	zwf	efeU	cyoA
+GO:0022891	arsR	kefA	glpT	efeU	proP	narK	cyoA	narU	kch	tppB	phnC	yddG	xylF	nhaA	malK	nhaB	mscS	ulaA	ynaI	nirB	zwf	leuE	ycaI	acrD	chaA	fieF	glpF	ygaZ	yrbG	gltS	mscL	ampG	fucP	malE
+GO:0022892	arsR	kefA	glpT	efeU	proP	narK	cyoA	narU	aqpZ	kch	tppB	phnC	yddG	kdsC	xylF	nhaA	malK	nhaB	mscS	ulaA	ynaI	nirB	zwf	leuE	ycaI	acrD	chaA	lptA	fieF	glpF	ygaZ	yrbG	oppA	gltS	mscL	fucP	dppA	ampG	malE
+GO:0030371	thrS	zwf	symR
+GO:0051143	fucA
+GO:0022865	zwf
+GO:0022857	arsR	kefA	glpT	efeU	proP	narK	glnK	cyoA	narU	aqpZ	napF	adiC	tppB	kch	idnD	yejA	phnC	yddG	xylF	nhaA	malK	nhaB	mscS	nuoA	ulaA	ynaI	ompA	nirB	zwf	mdtJ	leuE	ycaI	acrD	chaA	fieF	glpF	ygaZ	putP	yrbG	gadB	oppA	gltS	mscL	ydiN	fucP	dppA	ampG	malE
+GO:0001558	sohA	chpS
+GO:0051119	xylF	malK	glpT	fucP	malE
+GO:0051108	caiT
+GO:0051109	caiT
+GO:0001539	chaB	frdA
+GO:0008694	zwf	ubiD
+GO:0008690	ycaR
+GO:0022897	tppB
+GO:0001522	rluD	yqcC	rluC	rluF	rsuA	rluE	iscR	zwf	rluB
+GO:0008681	ygfB
+GO:0008682	zwf
+GO:0008685	ispD
+GO:0008686	ribB
+GO:0030308	sohA	chpS
+GO:0030307	chpS
+GO:0008643	xylF	malK	ulaA	idnD	fucP	malE	yjjL
+GO:0008645	fucP	yjjL
+GO:0008652	aspC	ilvC	ilvI	ilvL	gdhA	cysP	hisL	cysK	poxB	cysE	metB	ivbL	tyrB	aroF	zwf	serA	serC	serB	argC	leuL	gltB	asd	glyA	lysC	thrL	serS
+GO:0008653	leuS	lpcA	gmhB	imp	ppiB	rfaD
+GO:0008649	rlmN	rsmE	rsmD	rlmF	asnC
+GO:0008661	xseB
+GO:0008667	entC
+GO:0008662	fruB
+GO:0008671	dgoR
+GO:0008672	garP
+GO:0008677	panE
+GO:0008679	garP	gcl
+GO:0008673	kdgK
+GO:0008674	dgoR
+GO:0008675	zwf	edd
+GO:0008676	ychQ
+GO:0008610	leuS	lpcA	ispU	gmhB	imp	ispB	xseB	ppiB	rfaD
+GO:0015491	nhaA	chaA	nhaB	yrbG
+GO:0008614	xseB
+GO:0008615	xseB
+GO:0030312	smpA	tesA	lpp	zwf	mcbA	bamA	mdoD	ydhY	zinT	nanC	yncD	ftsP	dppA
+GO:0030313	smpA	tesA	lpp	zwf	mcbA	bamA	mdoD	ydhY	zinT	nanC	yncD	ftsP	dppA
+GO:0016628	aroF	entC
+GO:0016627	frdA	aidB	aroF	entC	sdhC
+GO:0016615	yeaU	zwf	maeA
+GO:0016614	dld	murB	ilvC	ydjL	yeaU	yjjN	uxuA	panE	maeA	glcD	hisL	metB	idnD	garP	gatY	uxaB	lldP	nrdR	gnd	gcl	zwf	allD	fucA	serA	dxr	yiaK	leuL	yqhD	ydiN
+GO:0016619	maeA
+GO:0016616	murB	ilvC	ydjL	yeaU	yjjN	uxuA	panE	maeA	hisL	metB	idnD	garP	gatY	uxaB	nrdR	gnd	gcl	zwf	allD	fucA	serA	dxr	yiaK	leuL	yqhD	ydiN
+GO:0015453	nuoA	zwf	cyoA
+GO:0016620	argC	csiD	sad	aldA	asd	zwf	fdnG
+GO:0046183	idnD
+GO:0046185	gloB	gcl	gloA	yeiG	glcD
+GO:0046181	idnD
+GO:0016646	ssuE	zwf
+GO:0016645	ssuE	zwf	solA
+GO:0016647	solA
+GO:0016655	nuoA	wrbA	ndh
+GO:0016651	nuoA	wrbA	zwf	ndh
+GO:0016639	gltB	gdhA
+GO:0016638	gltB	gcvT	nadB	zwf	gdhA
+GO:0016635	sdhC
+GO:0016641	nadB	zwf
+GO:0040033	gcvB	symR
+GO:0016642	gcvT
+GO:0016667	dmsA	yebR
+GO:0046164	rhaM	rbsD	rpiB	araB	gcl	zwf	fucA	xylA	glcD	yiaK	rhaB	rpiR	aldA	gatY	fucP	lldP	fruB	alsK
+GO:0046165	fbp	zwf	maeA
+GO:0016671	yebR
+GO:0015423	malK	malE
+GO:0016675	efeO
+GO:0015422	malK	malE
+GO:0015421	oppA	dppA
+GO:0015405	xylF	napF	malK	yejA	oppA	zwf	dppA	malE	ycaI
+GO:0015407	xylF
+GO:0046174	gatY
+GO:0046176	idnD
+GO:0007049	minC
+GO:0007047	mraZ	mipA	zwf	mltB	mltA
+GO:0016662	torC
+GO:0016661	torC	azoR
+GO:0015439	napF
+GO:0015437	ycaI
+GO:0007059	smtA
+GO:0015440	oppA	dppA
+GO:0016679	cydA	zwf	cyoA
+GO:0016682	cydA	zwf	cyoA
+GO:0046125	pabC
+GO:0030261	smtA
+GO:0030258	lpp
+GO:0030234	ybcL	menA	yneN	rraB	proQ
+GO:0030246	xylF
+GO:0008565	zwf
+GO:0030295	yneN
+GO:0045005	mutS	mutH	aroK	yjeF	ybcN	zwf
+GO:0030288	mdoD	ydhY	zinT	nanC	tesA	mcbA	ftsP	zwf	dppA
+GO:0008979	intD	intA
+GO:0008980	tdcA
+GO:0008988	rlmF
+GO:0008987	nadA	zwf
+GO:0008982	ulaA
+GO:0008990	rsmD
+GO:0008996	zwf
+GO:0008998	nrdD
+GO:0008993	rhaB
+GO:0008994	rhaB
+GO:0051287	dld	nuoA	uxaB
+GO:0008966	folP
+GO:0008963	zwf
+GO:0008967	aroK
+GO:0008968	lpcA
+GO:0008977	aroF
+GO:0015563	nirB	narK
+GO:0015562	narU	fieF	ygaZ	narK
+GO:0015559	acrD
+GO:0008911	aldA	zwf
+GO:0008907	intD	intA
+GO:0008909	entC	menF
+GO:0015535	fucP
+GO:0046296	gcl	glcD
+GO:0046294	yeiG
+GO:0015527	glpT
+GO:0046292	yeiG
+GO:0008939	cobU
+GO:0008935	menF
+GO:0008937	fpr
+GO:0008955	zwf
+GO:0015591	xylF
+GO:0008921	wbbI
+GO:0016987	zwf
+GO:0016986	zwf
+GO:0008912	fucA
+GO:0008933	zwf	mltB
+GO:0040007	sohA	chpS
+GO:0040008	sohA	chpS
+GO:0048468	hlyE	zwf
+GO:0040029	rydC	rybB
+GO:0015501	gltS
+GO:0015513	nirB	narK
+GO:0015514	narU	narK
+GO:0015517	fucP
+GO:0015518	fucP
+GO:0051301	zapB	smtA	ftsP	zwf	mltB	mltA	yihA
+GO:0016903	argC	csiD	sad	aldA	asd	zwf	fdnG
+GO:0001727	yegS
+GO:0030154	hlyE	zwf
+GO:0030163	iraP	iraD	iraM
+GO:0030170	csiD	zwf	glyA
+GO:0030145	uxaC
+GO:0030151	dmsA	torC	fdnG	narZ	narG
+GO:0008835	nrdR
+GO:0008841	zwf
+GO:0008843	chiA
+GO:0051167	araB
+GO:0051184	napF
+GO:0051181	napF
+GO:0008849	zwf
+GO:0051179	glpT	efeU	aqpZ	napF	yneE	psd	efeO	yqaB	tppB	yejA	kdsC	nhaA	yeiT	nhaB	malK	ulaA	ynaI	ompA	nirB	mdtJ	ycaI	yhjD	oppA	gltS	dppA	fucP	ymfA	malE	arsR	proP	narK	proQ	yjjL	glnK	narU	yncA	dmsA	frdA	kch	idnD	phnC	yddG	yehL	ybiA	xylF	nuoA	zwf	ydgA	leuE	acrD	chaA	chaB	lptA	fieF	glpF	yfgJ	ygaZ	putP	ampG
+GO:0008867	garD
+GO:0008866	uxuA
+GO:0008863	fdnG
+GO:0051186	panB	ubiC	entC	ubiE	panE	ubiD	ubiG	menF	ubiF	menA	iscR	erpA	gntX	xseB	ispG	cobU	nudB	yciK	ribF	zwf	ispD	dxr	serC	lolB	idi	leuS	bioB	ygfB
+GO:0051187	zwf
+GO:0051188	panB	nudB	ubiC	yciK	ribF	zwf	ispD	entC	ubiE	ubiD	panE	serC	menF	ubiG	dxr	ubiF	lolB	idi	leuS	menA	xseB	ispG	ygfB	cobU
+GO:0008869	dgoR
+GO:0008878	glgC
+GO:0008872	gudP
+GO:0008880	uxaC
+GO:0008884	gsp
+GO:0008885	gsp
+GO:0008889	ugpB
+GO:0008887	gcl
+GO:0008897	acpT
+GO:0015665	glpF	glpT
+GO:0009970	ssuE
+GO:0015662	zwf
+GO:0048500	zwf
+GO:0009982	rluD	yqcC	rluC	rluF	rsuA	rluE	rluB
+GO:0009986	mcbA
+GO:0009987	pyrG	gmhB	yeaU	lpp	rseX	lsrR	entC	yihA	yhdN	iraP	yneE	hupA	hupB	yebG	hypA	yneN	hpt	cspA	iraM	lldP	paaA	ivbL	yneH	purA	nhaA	nhaB	ydeM	rsgA	mdtA	mngR	ispB	ispD	fucA	guaB	fabR	sfsA	yeaT	glyA	abgR	fucP	pepA	ymfA	arsR	tilS	sdaA	sdaC	mltB	mltA	maeA	cmk	yncA	frdA	adiC	adiA	yqgE	ligB	ybaO	iscR	yedW	feaR	paaX	yidZ	araB	yjeF	hybO	mprA	tdcA	zraS	ydcR	folP	exuT	yieE	aaeR	smtA	ycbX	arcA	caiF	lysC	pabC	lexA	adiY	mutS	kefA	ubiC	ilvC	ilvI	lysU	fbp	trmA	ilvL	rydC	ubiE	ubiD	gdhA	ubiG	ubiF	gudP	napF	cadC	rcsA	yqaB	gpt	rraB	erpA	uxaC	hcaR	symE	uxaB	nudB	rbsD	thrS	gcvR	symR	rcsD	hdfR	pdhR	uidR	hlyE	zur	ttcA	relA	relB	gcvB	htpG	cynT	gcvA	sdhC	fruB	rppH	thrL	kdgR	rluD	panB	yfhB	rluC	yfhA	rluF	rluE	lpcA	ytfE	yjjQ	nac	yjjM	nanR	panE	rluB	rybB	yqcC	poxB	rimO	rpsP	ispU	frvA	rpsL	rutR	yehL	nanA	ispG	mnmE	rimL	cobU	nrdR	crp	gcl	argP	zwf	qseB	allD	cpxR	lolB	yiaK	idi	argC	lptA	fieF	yiaJ	yfgJ	allR	kdgK	bioB	allS	treR	garD	cydA	aslB	csiD	sad	alpA	norR	yiiE	uxuA	slyD	glcD	cysP	spf	cysK	cysE	flhD	cutA	garP	csiR	deoC	ulaR	cysB	xseB	ppiB	yeiT	rhaM	yeiR	rsuA	yciK	uxuR	ulaA	kdpD	dxr	yahD	yciZ	asd	yeiL	dhaR	rfaD	yeiG	yeiE	minC	nsrR	dipZ	yaeP	mutH	lepA	proQ	asnC	menF	proS	narG	pspA	xapR	rhaB	menA	def	idnD	prpB	ybiA	pspF	mscS	dcuS	mipA	acnA	alaS	lrhA	xylA	prpR	fldA	gltB	cueR	dusA	ftsP	hrpA	uidA	bolA	mscL	rtcR	ygeL	aspC	elaD	ybcN	ydjM	imp	metY	aspS	hisL	aqpZ	ssrS	rpiR	metB	ascG	gntX	acrR	alsK	ribF	zapB	glmU	mntR	chpS	glnA	mraZ	gadB	cdaR	gadA	glmZ	ygfB	rhoL	aidB	adk	nagB	glnS	ssuE	atl	gloB	aldA	gloA	yjbE	gatY	yfbR	atoS	rpiB	aroK	rlmN	tyrB	puuC	aroF	yghO	mcbA	fdnG	ydgA	serA	rlmF	serC	serB	ada	sohA	chaA	chaB	leuS	dicA	leuL	rsmE	rsmD	serS	hipB
+GO:0016898	dld
+GO:0015647	oppA
+GO:0046379	yjbE
+GO:0009991	iraP	relA	yebG	ydjM	ssuE	gntX	iraM	symE
+GO:0009992	aqpZ	kefA	mscS	mscL
+GO:0015684	fieF	efeO	efeU
+GO:0015674	chaA	fieF	efeO	zwf	efeU
+GO:0015672	nhaA	chaA	nhaB	nuoA	kch	zwf	gltS
+GO:0046396	exuT	kdgK	uxaC	uxaB
+GO:0046397	exuT	kdgK	uxaC	uxaB
+GO:0046395	garD	csiD	gcl	sad	zwf	uxuA	yjjM	glcD	gudP	exuT	garP	kdgK	uxaC	uxaB
+GO:0046392	garD	garP
+GO:0046393	garD	garP
+GO:0016874	panB	pyrG	thrS	glnS	tilS	lysU	zwf	alaS	caiT	gsp	menF	mpl	proS	guaB	aspS	leuS	glnA	mraZ	ligB	bioB	rfaD	serS	purA
+GO:0016875	aspS	leuS	thrS	glnS	lysU	alaS	proS	serS
+GO:0008800	zwf
+GO:0016866	rluD	rluC	rbsD	rsuA	rluF	rluE	aroF	zwf	entC	menF	rluB	yqcC	folP	leuL	glf	nrdR
+GO:0016868	folP	zwf
+GO:0016867	nrdR
+GO:0015699	arsR
+GO:0015691	fieF
+GO:0016860	rpiA	rpiB	araB	nagB	zwf	xylA	hisL	idi	rhaB	yrbG	yihU	srlA	uxaC	fucP
+GO:0016863	idi
+GO:0015695	glnK
+GO:0016864	zwf
+GO:0015696	glnK
+GO:0016861	rpiA	rpiB	araB	nagB	zwf	xylA	hisL	rhaB	yrbG	yihU	srlA	uxaC	fucP
+GO:0016862	zwf
+GO:0015698	narU	arsR	nirB	narK
+GO:0016857	yiaK	rhaM	aroK	nanC	araB	zwf	nanA	fucP
+GO:0016855	ycjG
+GO:0016854	yiaK	rhaM	aroK	nanC	araB	zwf	nanA	ycjG	fucP
+GO:0016859	slyD
+GO:0016891	chpS
+GO:0016893	chpS
+GO:0008820	cobU
+GO:0048518	hlyE	lptA	chpS	alpA	zwf	glmZ	rpsL	yeaT	allS	proQ
+GO:0048519	thrS	iraD	rseX	alaS	symR	iraP	sohA	napF	chpS	yiaJ	gcvB	glmY	iraM	nrdR
+GO:0008817	yciK
+GO:0008819	cobU
+GO:0048522	hlyE	chpS	alpA	zwf	glmZ	rpsL	yeaT	allS	proQ
+GO:0008813	ubiC	zwf
+GO:0016887	xylF	mutS	malK	yjeF	rhlE	zwf	C034	ycaI	napF	htpG	yejA	oppA	hrpA	dppA	malE
+GO:0016886	ligB
+GO:0016884	guaB
+GO:0016881	panB	mraZ	zwf	caiT	mpl
+GO:0016882	bioB
+GO:0016880	glnA	gsp
+GO:0048523	napF	sohA	chpS	yiaJ	thrS	gcvB	rseX	alaS	symR	nrdR
+GO:0008834	ispU
+GO:0008829	udk
+GO:0008827	zwf	cyoA
+GO:0008824	cynT
+GO:0016879	panB	pyrG	glnA	mraZ	tilS	zwf	caiT	bioB	gsp	mpl	purA	guaB
+GO:0016878	menF
+GO:0016877	caiT	menF
+GO:0016876	aspS	leuS	thrS	glnS	lysU	alaS	proS	serS
+GO:0016814	hisL	yfhB	zwf	ribA	udk	nrdR
+GO:0016817	mutS	lepA	rhlE	napF	yejA	hypA	ppiB	mnmE	xylF	nudB	malK	yeiR	yjeF	rsgA	yccX	zwf	C034	ycaI	relA	htpG	dut	oppA	hrpA	dppA	malE
+GO:0016810	yfhB	gcl	nagB	zwf	ribA	allD	gsp	ybjQ	asnB	hisL	argE	ybaS	def	udk	nrdR	yneH
+GO:0016811	argE	ybaS	def	nagB	zwf	gsp	asnB	ybjQ	yneH
+GO:0016812	gcl	zwf
+GO:0016813	allD
+GO:0016818	mutS	lepA	rhlE	napF	yejA	hypA	ppiB	mnmE	xylF	nudB	malK	yeiR	yjeF	rsgA	yccX	zwf	C034	ycaI	relA	htpG	dut	oppA	hrpA	dppA	malE
+GO:0016820	xylF	napF	malK	yejA	oppA	zwf	dppA	malE	ycaI
+GO:0016829	folB	pyrG	ubiC	garD	can	sdaA	edd	ilvL	sdaC	yddV	ubiD	dgoR	menF	cysP	hisL	gudP	cysK	rhaB	poxB	adiA	garP	iscR	nanA	gloA	uxaC	prpB	acnB	gcl	acnA	allA	zwf	tdcA	ispD	fucA	gadB	gadA	cynT	thrL
+GO:0016831	adiA	gcl	gadB	gadA	zwf	ubiD
+GO:0016830	folB	ubiC	gcl	zwf	edd	fucA	dgoR	ubiD	menF	rhaB	poxB	adiA	garP	gadB	gadA	nanA
+GO:0016832	folB	poxB	rhaB	garP	zwf	edd	fucA	dgoR
+GO:0016833	ubiC	zwf	nanA	menF
+GO:0016835	pyrG	garD	can	acnB	acnA	zwf	edd	ilvL	dgoR	menF	cysP	hisL	gudP	cysK	cynT	uxaC	prpB	thrL
+GO:0016836	pyrG	garD	can	acnB	acnA	zwf	edd	ilvL	dgoR	menF	gudP	hisL	cynT	uxaC	prpB
+GO:0016838	thrL
+GO:0046306	ssuE
+GO:0016840	allA	sdaA	cynT	tdcA	ilvL	sdaC
+GO:0016842	allA
+GO:0016841	sdaA	tdcA	ilvL	sdaC
+GO:0016846	iscR	zwf	gloA
+GO:0016849	ispD	yddV
+GO:0016853	rluD	rluC	rluF	rluE	lpcA	nagB	ycjG	entC	slyD	rluB	menF	hisL	yqcC	rhaB	nanC	yihU	nanA	glf	srlA	uxaC	nrdR	rhaM	rpiA	rsuA	rbsD	rpiB	aroK	araB	aroF	zwf	xylA	yiaK	folP	idi	leuL	yrbG	fucP
+GO:0046377	mcbA
+GO:0015609	malK	malE
+GO:0046373	araB
+GO:0015608	xylF	malK	malE
+GO:0046372	aldA	fucA	fucP
+GO:0015606	mdtJ
+GO:0015604	phnC
+GO:0046367	rpiB	rpiR	alsK
+GO:0046365	rhaM	rbsD	rpiB	araB	zwf	fucA	xylA	yiaK	rhaB	rpiR	aldA	fucP	lldP	fruB	alsK
+GO:0046364	fbp	zwf	maeA
+GO:0015611	xylF
+GO:0015614	xylF
+GO:0009891	glmZ
+GO:0009890	thrS	gcvB	rseX	symR
+GO:0009893	alpA	zwf	glmZ	rpsL	yeaT	allS
+GO:0009892	sohA	iraP	yiaJ	iraD	thrS	gcvB	rseX	alaS	symR	iraM	nrdR
+GO:0009898	napF	kdpD
+GO:0009895	iraP	iraD	iraM
+GO:0009894	iraP	iraD	iraM
+GO:0046359	csiD	sad	zwf
+GO:0009897	mcbA
+GO:0046356	zwf
+GO:0046346	nanA
+GO:0046348	nagB	nanA
+GO:0046349	folP	glmU
+GO:0030091	ytfE
+GO:0015639	efeU
+GO:0015640	oppA
+GO:0015643	zwf	dinJ
+GO:0001871	lpp
+GO:0051213	ada
+GO:0051205	zwf
+GO:0051234	efeU	glpT	napF	aqpZ	psd	efeO	tppB	yejA	kdsC	nhaA	nhaB	malK	ompA	ynaI	ulaA	nirB	mdtJ	ycaI	yhjD	oppA	gltS	dppA	fucP	malE	arsR	proP	narK	proQ	glnK	yjjL	narU	dmsA	frdA	kch	idnD	phnC	yddG	xylF	nuoA	zwf	leuE	acrD	chaA	fieF	lptA	glpF	putP	ygaZ	ampG
+GO:0051224	napF
+GO:0051223	napF
+GO:0051252	zwf	glmZ	rpsL	rppH	rybB
+GO:0051254	rpsL
+GO:0051259	cutA
+GO:0051260	cutA
+GO:0051247	glmZ
+GO:0051246	iraP	fldA	iraD	thrS	gcvB	acnA	rseX	zwf	glmZ	symR	iraM
+GO:0051248	iraP	iraD	thrS	gcvB	rseX	symR	iraM
+GO:0030031	frdA
+GO:0030030	frdA
+GO:0051276	smtA
+GO:0030007	chaA
+GO:0030003	nhaA	chaA	nhaB	fieF	adiC	adiA	gadB	gadA	zwf
+GO:0030004	nhaA	chaA	nhaB	adiC	adiA	gadB	gadA	zwf
+GO:0030005	chaA	fieF
+GO:0030001	nhaA	chaA	nhaB	fieF	efeO	kch	zwf	efeU	gltS
+GO:0015794	glpT
+GO:0015791	glpF	glpT
+GO:0015793	glpF	glpT
+GO:0009889	fldA	thrS	gcvB	acnA	rseX	zwf	glmZ	symR
+GO:0015766	malK	malE
+GO:0015768	malK	malE
+GO:0015774	malK	malE
+GO:0006099	zwf
+GO:0006094	fbp	zwf	maeA
+GO:0006091	dld	nuoA	nirB	zwf	tdcA	fdnG	ndh	cyoA	narG	dmsA	frdA	torC	erpA	sdhC	lldP	narZ
+GO:0006096	zwf
+GO:0006090	fbp	zwf	tdcA	maeA
+GO:0006089	gloB	gloA	lldP
+GO:0006081	gloB	gcl	gloA	yeiG	glcD
+GO:0006082	aspC	garD	ilvC	ilvI	csiD	sad	yeaU	lysU	fbp	uxuA	ilvL	gdhA	glcD	cysP	hisL	aspS	gudP	cysK	metB	cysE	garP	uxaC	uxaB	lldP	ivbL	yneH	nudB	thrS	pdhR	glnA	asd	cynT	glyA	yeaT	thrL	glnS	sdaA	yjjM	sdaC	maeA	proS	poxB	gloB	idnD	nanA	gloA	prpB	tyrB	gcl	aroF	zwf	alaS	tdcA	serA	serC	serB	argC	exuT	leuS	gltB	leuL	kdgK	bioB	lysC	serS
+GO:0006084	zwf
+GO:0006066	rhaM	rbsD	rpiB	araB	gcl	fbp	zwf	entC	fucA	maeA	xylA	glcD	yiaK	rhaB	rpiR	aldA	gatY	fucP	lldP	fruB	alsK
+GO:0006063	exuT	uxuA	kdgK	uxaC	uxaB
+GO:0006064	uxuA	kdgK	uxaC
+GO:0006050	nanA
+GO:0006053	nanA
+GO:0006054	nanA
+GO:0006051	nanA
+GO:0006059	gatY
+GO:0006040	folP	nagB	glmU	nanA
+GO:0006041	folP	nagB	glmU
+GO:0006042	folP	glmU
+GO:0006043	nagB
+GO:0047547	zwf	prpB
+GO:0006044	folP	nagB	glmU
+GO:0006045	folP	glmU
+GO:0047545	serA
+GO:0006046	nagB
+GO:0006047	folP	glmU
+GO:0006048	folP	glmU
+GO:0006118	zwf	ndh
+GO:0006119	zwf
+GO:0022402	minC
+GO:0006139	treR	pyrG	alpA	norR	lsrR	yiiE	yhdN	spf	hupA	flhD	hupB	yebG	csiR	deoC	hypA	ulaR	yneN	cysB	hpt	cspA	purA	rsuA	uxuR	mdtA	mngR	guaB	fabR	yahD	yciZ	sfsA	yeiL	yeaT	dhaR	abgR	pepA	yeiE	nsrR	dipZ	arsR	yaeP	mutH	tilS	cmk	asnC	proS	pspA	xapR	menA	yqgE	ligB	iscR	ybaO	yedW	feaR	pspF	paaX	yidZ	yjeF	mprA	dcuS	alaS	lrhA	zraS	ydcR	prpR	folP	aaeR	cueR	dusA	hrpA	arcA	bolA	caiF	pabC	lexA	rtcR	adiY	mutS	ygeL	ybcN	lysU	trmA	rydC	metY	aspS	cadC	ssrS	rcsA	rpiR	gpt	rraB	ascG	hcaR	symE	acrR	thrS	gcvR	glmU	rcsD	mntR	hdfR	pdhR	uidR	zur	ttcA	relB	cdaR	gadA	gcvA	glmZ	rhoL	rppH	kdgR	rluD	yfhB	rluC	yfhA	rluF	rluE	aidB	yjjQ	adk	glnS	nac	yjjM	nanR	rluB	rybB	yqcC	atl	rpsP	frvA	rpsL	rutR	mnmE	nrdR	yfbR	atoS	aroK	rlmN	crp	yghO	argP	zwf	qseB	rlmF	cpxR	ada	sohA	lptA	leuS	yiaJ	dicA	allR	rsmE	rsmD	allS	serS	hipB
+GO:0008270	nagB	gcl	yqhD	zwf	alaS	allD
+GO:0006100	yeaU	yeaT
+GO:0006108	yeaU	yeaT
+GO:0006113	frdA	tdcA
+GO:0035194	rydC	rybB
+GO:0008253	holD
+GO:0008252	yfbR	yfdR	holD
+GO:0008251	yfhB
+GO:0043211	xylF	malK	malE
+GO:0008219	hlyE	zwf
+GO:0043231	zwf
+GO:0043226	smtA	alpA	zwf	intA
+GO:0043228	smtA	alpA	intA
+GO:0043227	zwf
+GO:0043229	smtA	alpA	zwf	intA
+GO:0043241	yaeP
+GO:0043234	malK	nuoA	nirB	zwf	fdnG	hisL	dmsA	napF	cysK	cysE	leuL	yejA	smtA	ivbL	malE
+GO:0051595	yjjQ	gloB	ydbD	insC	gloA
+GO:0043232	smtA	alpA	intA
+GO:0051596	gloB	gloA
+GO:0008236	zwf
+GO:0008233	elaD	tesA	ygjD	zwf	yifB
+GO:0008234	elaD
+GO:0008238	zwf
+GO:0022415	essD	zwf	intA
+GO:0022414	essD	zwf	intA
+GO:0022411	yaeP
+GO:0051540	nuoA	nirB	yeaV	zwf	hcaE	yfaE	narG	dmsA	frdA	iscR	erpA	gntX	bioB	sdhC	narZ
+GO:0015755	fucP
+GO:0015756	fucP
+GO:0015757	fucP
+GO:0015753	xylF
+GO:0015752	xylF
+GO:0015751	fucP
+GO:0015750	xylF	fucP
+GO:0015749	xylF	fucP	yjjL
+GO:0043284	leuS	lpcA	lepA	gmhB	imp	mcbA	ppiB	rfaD	yjbE
+GO:0043283	mutS	elaD	iraD	ybcN	gmhB	lysU	lpp	imp	alpA	trmA	metY	aspS	iraP	spf	ssrS	yebG	hypA	rraB	ppiB	iraM	symE	rsuA	thrS	ttcA	sfsA	glmZ	yeaT	rfaD	rppH	rluD	yfhB	rluC	rluF	yaeP	rluE	mutH	aidB	lpcA	lepA	glnS	tilS	yjjM	rluB	asnC	rybB	proS	yqcC	rimO	atl	menA	def	rpsP	ligB	iscR	rpsL	yjbE	mnmE	rimL	aroK	yjeF	rlmN	mcbA	zwf	alaS	rlmF	ada	folP	lptA	leuS	yiaJ	dusA	rsmE	rsmD	hrpA	allS	serS
+GO:0043285	iraP	menA	iraD	rraB	iraM	symE
+GO:0015741	zwf
+GO:0051538	frdA	sdhC	narZ	narG
+GO:0051539	dmsA	frdA	nuoA	nirB	zwf	erpA	bioB	gntX	sdhC	narZ	narG
+GO:0051536	nuoA	nirB	yeaV	zwf	hcaE	yfaE	narG	dmsA	frdA	iscR	erpA	gntX	bioB	sdhC	narZ
+GO:0051537	frdA	nuoA	yeaV	iscR	zwf	hcaE	erpA	bioB	sdhC	yfaE
+GO:0015711	phnC
+GO:0015716	phnC
+GO:0015707	narU	nirB	narK
+GO:0015700	arsR
+GO:0015706	narU	narK
+GO:0008289	lpp
+GO:0008299	ispU	ispB	xseB
+GO:0009719	mutS	ada	mutH	aidB	aroK	atl	yjeF	ybcN	iraD	yebG	zwf
+GO:0009712	entC
+GO:0015886	napF
+GO:0015893	yejA	acrD
+GO:0047652	allD
+GO:0022607	napF	cydA	thrS	cutA	zwf	glmZ	fdnG	sdhC	rybB	narG
+GO:0022604	zwf
+GO:0022603	zwf
+GO:0008137	nuoA	ndh
+GO:0008135	thrS	lepA	symR
+GO:0008143	cspE
+GO:0006007	zwf
+GO:0006006	fbp	zwf	maeA
+GO:0006004	aldA	fucA	fucP	lldP
+GO:0006001	fruB
+GO:0006000	fruB
+GO:0008150	pyrG	iraD	gmhB	entC	yihA	yhdN	iraP	tppB	iraM	lldP	paaA	yihR	mngR	fucA	abgR	fucP	tilS	maeA	frdA	adiC	ybaS	adiA	yqgE	iscR	ybaO	paaX	yidZ	yjeF	mprA	hybO	bhsA	hdeD	folP	hdeA	exuT	yieE	zinT	aaeR	yqhD	smtA	arcA	pabC	lysC	caiF	adiY	ubiC	lysU	fbp	trmA	ubiE	gdhA	ubiD	ubiG	ubiF	napF	cadC	rcsA	yqaB	erpA	kdsC	srlA	uxaC	uxaB	symE	hcaR	nudB	malK	rbsD	thrS	nirB	symR	ndh	rcsD	hdfR	pdhR	uidR	essD	thrL	rppH	malE	rluD	rluC	rluF	rluE	yjjQ	nac	yjjM	nanR	rluB	yjjL	yqcC	kch	rpsP	torC	yhbO	rpsL	nanA	mnmE	cobU	gcl	argP	yjiP	allD	cpxR	lolB	yiaK	argC	idi	lptA	yiaJ	allR	bioB	allS	cydA	csiD	holD	aslB	norR	alpA	glpT	uxuA	slyD	spf	cutA	csiR	deoC	ppiB	rsuA	uxuR	kdpD	dxr	yahD	rfaD	dipZ	nsrR	yaeP	mutH	lepA	narK	menF	asnC	narG	narU	dmsA	xapR	menA	idnD	narZ	ybiA	xylF	nuoA	mscS	acnA	cutC	xylA	ybjQ	fldA	gltB	dusA	ftsP	hrpA	mscL	ampG	aspC	slp	ybcN	imp	metY	hisL	aspS	metB	chbB	gntX	insC	acrR	alsK	ynaI	glmU	mntR	mraZ	glnA	gadB	gadA	glmZ	glmY	dppA	rhoL	intA	aidB	adk	glnS	glnK	gloB	wrbA	phnC	gloA	yjbE	atoS	yfbR	aroK	tyrB	aroF	mcbA	fdnG	leuE	acrD	ada	chaA	leuS	chaB	glpF	leuL	ygaZ	hipB	yeaU	lpp	lsrR	rseX	yneE	hupA	hupB	yebG	hypA	yneN	hpt	cspA	yebR	ivbL	purA	yneH	nhaA	nhaB	ydeM	mdtA	rsgA	ispB	ispD	mdtJ	ycaI	guaB	fabR	sfsA	oppA	glyA	yeaT	pepA	ymfA	arsR	ymgC	sdaA	mltB	sdaC	yddV	mltA	cmk	yncA	mltF	ligB	yddG	ymgA	yedW	feaR	araB	yccW	tdcA	zraS	ydcR	ycbX	lexA	mutS	kefA	ilvC	ilvI	ilvL	rydC	cyoA	gudP	psd	ydbD	gpt	rraB	ompA	gcvR	hlyE	zur	relA	ttcA	relB	htpG	gcvB	cynT	gcvA	gltS	sdhC	fruB	yfhB	panB	kdgR	yfhA	ytfE	lpcA	panE	rybB	ttdA	rimO	poxB	ispU	frvA	rutR	yehL	ispG	rimL	nrdR	crp	zwf	qseB	fieF	yfgJ	kdgK	treR	garD	sad	yiiE	glcD	cysP	yiiM	cysK	cysE	flhD	garP	yejA	cysB	ulaR	xseB	yeiT	rhaM	yeiR	yciK	ulaA	yciZ	asd	yeiL	dhaR	yeiG	minC	yeiE	proP	proQ	proS	pspA	rhaB	def	bglH	prpB	pspF	dcuS	mipA	lrhA	alaS	prpR	cueR	dcuB	uidA	bolA	solA	rtcR	ygeL	dld	elaD	ydjM	efeU	aqpZ	ssrS	efeO	rpiR	ascG	ribF	zapB	chpS	yhjD	cdaR	ygfB	yhjA	nagB	ssuE	atl	aldA	gatY	yggE	rpiB	rlmN	puuC	yghO	ydgA	serA	rlmF	serC	serB	sohA	dicA	putP	rsmE	rsmD	serS
+GO:0008152	pyrG	iraD	gmhB	yeaU	lpp	rseX	lsrR	entC	yhdN	iraP	hupA	hupB	yebG	hypA	yneN	hpt	cspA	iraM	lldP	paaA	ivbL	yneH	purA	ydeM	mdtA	mngR	ispB	ispD	fucA	guaB	fabR	sfsA	yeaT	glyA	abgR	fucP	pepA	arsR	tilS	sdaA	sdaC	mltB	mltA	maeA	cmk	frdA	yqgE	ligB	mltF	ybaO	iscR	yedW	feaR	paaX	yidZ	araB	yjeF	hybO	mprA	tdcA	zraS	ydcR	folP	exuT	yieE	aaeR	ycbX	arcA	pabC	lysC	caiF	lexA	adiY	mutS	ubiC	ilvC	ilvI	lysU	fbp	trmA	ilvL	rydC	ubiE	ubiD	gdhA	ubiG	ubiF	cyoA	gudP	napF	cadC	rcsA	gpt	erpA	rraB	uxaC	hcaR	symE	uxaB	nudB	rbsD	thrS	nirB	gcvR	symR	ndh	rcsD	hdfR	pdhR	uidR	zur	ttcA	relB	gcvB	htpG	cynT	gcvA	sdhC	fruB	rppH	thrL	kdgR	rluD	panB	yfhB	rluC	yfhA	rluF	rluE	lpcA	ytfE	yjjQ	nac	yjjM	nanR	panE	rluB	rybB	yqcC	poxB	rimO	rpsP	ispU	frvA	torC	rpsL	rutR	nanA	ispG	mnmE	rimL	cobU	nrdR	crp	gcl	argP	zwf	qseB	allD	cpxR	lolB	yiaK	idi	argC	lptA	yiaJ	allR	kdgK	bioB	allS	treR	garD	cydA	aslB	csiD	sad	alpA	norR	yiiE	uxuA	slyD	glcD	cysP	spf	cysK	cysE	flhD	cutA	garP	csiR	deoC	ulaR	cysB	xseB	ppiB	yeiT	rhaM	rsuA	yciK	uxuR	dxr	yahD	yciZ	asd	yeiL	dhaR	rfaD	yeiG	yeiE	nsrR	dipZ	yaeP	mutH	lepA	asnC	menF	proS	narG	pspA	dmsA	xapR	rhaB	menA	def	idnD	bglH	prpB	narZ	pspF	nuoA	dcuS	mipA	acnA	alaS	lrhA	xylA	prpR	ybjQ	fldA	gltB	cueR	dusA	hrpA	uidA	bolA	ampG	rtcR	ygeL	aspC	dld	elaD	ybcN	imp	metY	aspS	hisL	ssrS	rpiR	metB	chbB	ascG	gntX	acrR	alsK	ribF	glmU	mntR	glnA	mraZ	cdaR	gadA	glmZ	ygfB	rhoL	aidB	adk	nagB	glnS	ssuE	atl	gloB	aldA	gloA	yjbE	gatY	yfbR	atoS	rpiB	aroK	rlmN	tyrB	puuC	aroF	yghO	mcbA	fdnG	serA	rlmF	serC	serB	ada	sohA	leuS	dicA	leuL	rsmE	rsmD	serS	hipB
+GO:0006012	zwf
+GO:0006014	rbsD
+GO:0044265	rhaM	rbsD	rpiB	araB	nagB	zwf	fucA	xylA	yiaK	rhaB	rpiR	menA	aldA	idnD	rraB	nanA	uidA	fucP	gatY	lldP	symE	fruB	alsK
+GO:0044264	leuS	lpcA	gmhB	imp	mcbA	ppiB	rfaD	yjbE
+GO:0044262	lpcA	gmhB	nagB	yeaU	imp	fbp	maeA	rhaB	rpiR	aldA	idnD	nanA	ppiB	yjbE	gatY	lldP	alsK	rhaM	rbsD	rpiB	araB	glmU	mcbA	zwf	fucA	xylA	yiaK	folP	leuS	yeaT	uidA	rfaD	fucP	fruB
+GO:0044260	elaD	yaeP	lpcA	cydA	ytfE	aslB	lepA	gmhB	glnS	lysU	imp	rseX	slyD	proS	narG	aspS	napF	rimO	def	hypA	erpA	rpsL	ppiB	yjbE	rimL	ydeM	thrS	hybO	acnA	mcbA	zwf	alaS	fdnG	symR	folP	fldA	leuS	gcvB	htpG	glmZ	rfaD	sdhC	serS
+GO:0044255	lpcA	csiD	gmhB	sad	imp	lpp	zwf	ispB	leuS	ispU	xseB	rfaD	ppiB
+GO:0044273	ssuE
+GO:0044275	rhaM	rbsD	rpiB	araB	nagB	zwf	fucA	xylA	yiaK	rhaB	rpiR	aldA	idnD	nanA	uidA	gatY	fucP	lldP	fruB	alsK
+GO:0044270	puuC	sad	sdaA	cynT	zwf	tdcA	glyA	sdaC	pdhR	yneH
+GO:0044272	cysK	cysE	bioB	cysP	serS
+GO:0044271	aspC	ilvC	ilvI	ilvL	gdhA	cysP	hisL	cysK	poxB	cysE	metB	ivbL	tyrB	aroF	zwf	serA	serC	serB	argC	leuL	gltB	asd	glyA	lysC	thrL	serS
+GO:0051454	adiC	adiA	gadB	gadA	zwf
+GO:0051453	nhaB	adiC	adiA	gadB	gadA	zwf
+GO:0044267	elaD	yaeP	cydA	ytfE	lepA	aslB	glnS	lysU	rseX	slyD	proS	narG	aspS	napF	rimO	def	hypA	rpsL	erpA	rimL	ydeM	thrS	hybO	acnA	zwf	alaS	fdnG	symR	fldA	folP	leuS	gcvB	htpG	glmZ	sdhC	serS
+GO:0051452	nhaB
+GO:0044242	csiD	sad	zwf
+GO:0008104	napF	zwf
+GO:0008106	yqhD
+GO:0043101	gpt	hpt
+GO:0044237	pyrG	gmhB	yeaU	lpp	rseX	lsrR	entC	yhdN	hupA	hupB	yebG	hypA	yneN	hpt	cspA	lldP	paaA	ivbL	yneH	purA	ydeM	mdtA	mngR	ispB	ispD	fucA	guaB	fabR	sfsA	yeaT	glyA	abgR	fucP	pepA	arsR	tilS	sdaA	sdaC	maeA	cmk	yqgE	ligB	ybaO	iscR	yedW	feaR	paaX	yidZ	araB	yjeF	hybO	mprA	tdcA	zraS	ydcR	folP	exuT	yieE	aaeR	ycbX	arcA	pabC	lysC	caiF	lexA	adiY	mutS	ubiC	ilvC	ilvI	lysU	fbp	trmA	ilvL	rydC	ubiE	ubiD	gdhA	ubiG	ubiF	gudP	napF	cadC	rcsA	gpt	erpA	rraB	uxaC	uxaB	symE	hcaR	nudB	rbsD	thrS	gcvR	symR	rcsD	hdfR	pdhR	uidR	zur	ttcA	relB	gcvB	htpG	cynT	gcvA	sdhC	thrL	rppH	fruB	kdgR	rluD	panB	yfhB	rluC	yfhA	rluF	rluE	lpcA	ytfE	yjjQ	nac	yjjM	nanR	panE	rluB	rybB	yqcC	poxB	rimO	rpsP	ispU	frvA	rpsL	rutR	nanA	ispG	mnmE	rimL	cobU	nrdR	crp	gcl	argP	zwf	qseB	allD	cpxR	lolB	yiaK	idi	argC	lptA	yiaJ	allR	kdgK	bioB	allS	treR	garD	cydA	csiD	aslB	sad	alpA	norR	yiiE	uxuA	slyD	glcD	cysP	spf	cysK	cysE	flhD	garP	csiR	deoC	ulaR	cysB	xseB	ppiB	rhaM	rsuA	yciK	uxuR	dxr	yahD	yciZ	asd	yeiL	dhaR	rfaD	yeiG	yeiE	nsrR	dipZ	yaeP	mutH	lepA	asnC	menF	proS	narG	pspA	xapR	rhaB	menA	def	idnD	prpB	pspF	dcuS	acnA	alaS	lrhA	xylA	prpR	fldA	gltB	cueR	dusA	hrpA	uidA	bolA	rtcR	ygeL	aspC	elaD	ybcN	imp	metY	aspS	hisL	ssrS	rpiR	metB	ascG	gntX	acrR	alsK	ribF	glmU	mntR	glnA	cdaR	gadA	glmZ	ygfB	rhoL	aidB	adk	nagB	glnS	ssuE	atl	gloB	aldA	gloA	yjbE	gatY	yfbR	atoS	rpiB	aroK	rlmN	tyrB	puuC	aroF	yghO	mcbA	fdnG	serA	rlmF	serC	serB	ada	sohA	leuS	dicA	leuL	rsmE	rsmD	serS	hipB
+GO:0044238	pyrG	iraD	gmhB	yeaU	lpp	rseX	lsrR	yhdN	iraP	hupA	hupB	yebG	hypA	yneN	hpt	cspA	iraM	lldP	ivbL	yneH	purA	ydeM	mdtA	mngR	ispB	fucA	guaB	fabR	sfsA	glyA	yeaT	abgR	fucP	pepA	arsR	tilS	sdaA	sdaC	mltB	mltA	maeA	cmk	yqgE	ligB	mltF	ybaO	iscR	yedW	feaR	paaX	yidZ	yjeF	araB	hybO	mprA	tdcA	zraS	ydcR	folP	aaeR	arcA	pabC	lysC	caiF	lexA	adiY	mutS	ilvC	ilvI	lysU	fbp	trmA	ilvL	rydC	gdhA	napF	cadC	rcsA	gpt	erpA	rraB	symE	hcaR	rbsD	thrS	gcvR	symR	rcsD	hdfR	pdhR	uidR	zur	ttcA	relB	gcvB	htpG	gcvA	sdhC	thrL	rppH	fruB	kdgR	rluD	yfhB	rluC	yfhA	rluF	rluE	lpcA	ytfE	yjjQ	nac	yjjM	nanR	rluB	rybB	yqcC	poxB	rimO	rpsP	ispU	frvA	rpsL	rutR	nanA	mnmE	rimL	nrdR	crp	argP	zwf	qseB	cpxR	yiaK	argC	lptA	yiaJ	allR	allS	treR	cydA	csiD	aslB	sad	norR	alpA	yiiE	slyD	cysP	spf	cysK	cysE	cutA	flhD	csiR	deoC	ulaR	cysB	xseB	ppiB	rhaM	rsuA	uxuR	yahD	yciZ	asd	yeiL	dhaR	rfaD	yeiE	dipZ	nsrR	yaeP	mutH	lepA	asnC	proS	narG	pspA	xapR	rhaB	menA	def	idnD	bglH	prpB	pspF	dcuS	mipA	acnA	alaS	lrhA	xylA	prpR	ybjQ	fldA	gltB	cueR	dusA	hrpA	uidA	bolA	ampG	rtcR	ygeL	aspC	elaD	ybcN	imp	metY	aspS	hisL	ssrS	rpiR	metB	chbB	ascG	acrR	alsK	glmU	mntR	glnA	mraZ	cdaR	gadA	glmZ	rhoL	aidB	adk	nagB	glnS	atl	aldA	yjbE	gatY	yfbR	atoS	rpiB	aroK	rlmN	tyrB	puuC	aroF	yghO	mcbA	fdnG	serA	rlmF	serC	serB	ada	sohA	leuS	dicA	leuL	rsmE	rsmD	serS	hipB
+GO:0051480	chaA
+GO:0051481	chaA
+GO:0035250	wbbI
+GO:0044248	garD	csiD	sad	uxuA	glcD	gudP	rpiR	garP	deoC	rraB	uxaC	uxaB	symE	lldP	paaA	yneH	alsK	rhaM	rbsD	fucA	pdhR	cynT	glyA	fucP	yeiG	fruB	nagB	ssuE	sdaA	yjjM	sdaC	rhaB	menA	gloB	idnD	aldA	gloA	nanA	gatY	rpiB	araB	puuC	gcl	zwf	tdcA	allD	xylA	yiaK	exuT	ycbX	kdgK	uidA
+GO:0044249	aspC	pyrG	ubiC	ilvC	ilvI	lysU	fbp	rseX	ilvL	entC	ubiE	gdhA	ubiD	ubiG	cysP	ubiF	aspS	hisL	cysK	metB	cysE	xseB	ivbL	purA	nudB	yciK	thrS	ribF	ispD	symR	dxr	guaB	gcvB	asd	glmZ	glyA	ygfB	thrL	panB	lepA	adk	glnS	maeA	panE	menF	proS	poxB	menA	iscR	rpsL	ispG	cobU	yfbR	tyrB	aroF	acnA	zwf	alaS	serA	serC	lolB	serB	idi	argC	fldA	leuS	gltB	leuL	bioB	pabC	lysC	serS
+GO:0009651	proP
+GO:0043168	aroK	phnC
+GO:0043169	cydA	nagB	uxuA	nrdA	cyoA	narG	dmsA	yfdR	def	torC	hypA	uxaC	cyaY	narZ	yfbR	gcl	nirB	zwf	fdnG	alaS	allD	fucA	ada	zinT	yqhD	gltS
+GO:0043167	panB	cydA	nagB	uxuA	nrdA	narG	cyoA	dmsA	yfdR	def	torC	phnC	hypA	hpt	uxaC	cyaY	narZ	yfbR	aroK	gcl	nirB	zwf	alaS	fdnG	allD	fucA	ada	zinT	yqhD	gltS	serS
+GO:0009653	sohA	chpS	frdA	zwf
+GO:0043173	gpt	hpt
+GO:0043170	iraD	cydA	aslB	gmhB	yeaU	lpp	alpA	rseX	slyD	iraP	spf	cutA	yebG	hypA	ppiB	iraM	lldP	rhaM	rsuA	ydeM	fucA	sfsA	yeaT	rfaD	fucP	yaeP	mutH	lepA	tilS	mltB	mltA	maeA	asnC	proS	narG	rhaB	menA	def	idnD	bglH	ligB	mltF	iscR	prpB	araB	yjeF	hybO	mipA	acnA	alaS	xylA	ybjQ	folP	fldA	dusA	hrpA	uidA	ampG	mutS	elaD	ybcN	lysU	imp	fbp	trmA	metY	aspS	napF	ssrS	rpiR	chbB	erpA	rraB	symE	alsK	rbsD	thrS	glmU	symR	mraZ	ttcA	gcvB	htpG	glmZ	sdhC	rppH	fruB	rluD	yfhB	rluC	rluF	rluE	aidB	lpcA	ytfE	nagB	glnS	yjjM	rluB	rybB	yqcC	rimO	atl	rpsP	aldA	rpsL	nanA	yjbE	gatY	mnmE	rimL	rpiB	aroK	rlmN	mcbA	zwf	fdnG	rlmF	yiaK	ada	lptA	leuS	yiaJ	rsmE	rsmD	allS	serS
+GO:0015848	mdtJ
+GO:0015849	ygaZ	putP	zwf	yddG	gltS	leuE
+GO:0015846	mdtJ
+GO:0009679	fucP
+GO:0043163	yeiR
+GO:0043165	yeiR
+GO:0008169	ubiE
+GO:0008168	trmJ	panB	aroK	lgt	rlmN	gcvT	zwf	trmA	ubiE	rlmF	asnC	ubiG	rpsP	rsmE	rsmD	glyA	yhdJ
+GO:0015813	gltS
+GO:0008175	trmJ	rpsP	trmA
+GO:0008177	sdhC
+GO:0008171	ubiG
+GO:0008173	trmJ	rlmN	rpsP	rsmE	trmA	rsmD	rlmF	asnC
+GO:0015804	ygaZ	putP	leuE
+GO:0015803	ygaZ
+GO:0015801	yddG
+GO:0015800	gltS
+GO:0008186	rhlE	C034	hrpA
+GO:0015834	oppA
+GO:0015833	tppB	yejA	oppA	zwf	dppA
+GO:0015835	ampG
+GO:0015837	ygaZ	putP	yddG	gltS	mdtJ	leuE
+GO:0043190	napF	malK	yejA	malE
+GO:0008194	wbbI	mraZ	zwf
+GO:0008198	ada	def	zwf	uxuA	fucA	cyaY	uxaC
+GO:0008199	zwf	cyaY
+GO:0015823	yddG
+GO:0015820	leuE
+GO:0015827	yddG
+GO:0015824	putP
+GO:0015829	ygaZ
+GO:0015828	yddG
+GO:0030604	zwf	dxr
+GO:0009636	yiiM	yjjQ	gloB	ydbD	ycbX	insC	gloA
+GO:0009628	aqpZ	hdeD	hdeA	ybaS	kdpD	yhbO	zwf	proP	mnmE
+GO:0048869	hlyE	zwf
+GO:0048858	frdA
+GO:0048856	sohA	chpS	frdA	zwf
+GO:0009605	iraP	relA	yebG	ydjM	ssuE	gntX	iraM	symE
+GO:0051716	iraP	relA	yebG	ydjM	acnA	ssuE	zwf	gntX	iraM	symE
+GO:0048878	nhaA	kefA	nhaB	mscS	zwf	chaA	aqpZ	fieF	adiC	adiA	gadB	gadA	mscL
+GO:0051704	ymgC	yccW	yjiP	zwf	hlyE	bhsA	ttdA	dcuB	ymgA	yjbE	srlA	solA	yihR
+GO:0008509	narU	arsR	nirB	glpT	phnC	narK
+GO:0008514	phnC
+GO:0006298	mutS	mutH	aroK	yjeF	ybcN	zwf
+GO:0030674	smpA	mipA
+GO:0006281	mutS	ada	mutH	aidB	aroK	atl	yjeF	ybcN	yebG	zwf
+GO:0006260	mutS	mutH	aroK	yjeF	ybcN	zwf
+GO:0006261	mutS	mutH	aroK	yjeF	ybcN	zwf
+GO:0006266	ligB
+GO:0030641	nhaB	adiC	adiA	gadB	gadA	zwf
+GO:0008470	aidB
+GO:0008448	nagB
+GO:0008443	fruB
+GO:0006310	zwf
+GO:0006307	ada	aidB
+GO:0006364	rluD	rluC	rsuA	rluF	rluE	rlmN	zwf	rlmF	metY	asnC	rluB	rpsP	rsmE	rsmD
+GO:0008483	hisL	aspC	argD	csiD	tyrB	puuC	glmU	zwf	serC
+GO:0022618	thrS	glmZ	rybB
+GO:0022613	rluD	rluC	rsuA	rluF	rluE	thrS	rlmN	rsgA	zwf	rlmF	metY	asnC	rluB	rybB	rpsP	rsmE	glmZ	rsmD
+GO:0006353	yaeP
+GO:0006355	ssrS	yiaJ	alpA	zwf	yjjM	alaS	yeaT	allS
+GO:0008490	arsR
+GO:0006351	yaeP	ssrS	yiaJ	alpA	zwf	yjjM	alaS	yeaT	allS
+GO:0006350	treR	lsrR	norR	alpA	yiiE	yhdN	hupA	hupB	flhD	csiR	hypA	cysB	yneN	ulaR	cspA	uxuR	mdtA	mngR	fabR	yahD	yciZ	yeiL	yeaT	dhaR	abgR	pepA	yeiE	dipZ	nsrR	arsR	yaeP	cmk	pspA	xapR	iscR	ybaO	yedW	pspF	feaR	paaX	yidZ	mprA	dcuS	alaS	lrhA	zraS	ydcR	prpR	cueR	aaeR	bolA	arcA	lexA	caiF	rtcR	adiY	ygeL	cadC	ssrS	rcsA	rpiR	ascG	hcaR	acrR	thrS	gcvR	rcsD	hdfR	mntR	pdhR	uidR	zur	relB	gadA	cdaR	gcvA	rhoL	kdgR	yfhA	yjjQ	nac	yjjM	nanR	frvA	rutR	nrdR	atoS	crp	argP	yghO	zwf	qseB	cpxR	sohA	yiaJ	dicA	allR	allS	hipB
+GO:0043068	hlyE	zwf
+GO:0043067	hlyE	zwf
+GO:0009593	kdpD
+GO:0015949	adk	deoC
+GO:0015950	adk
+GO:0015951	adk
+GO:0015939	panB	panE
+GO:0043094	gpt	hpt
+GO:0015930	gltB
+GO:0043093	zapB	ftsP
+GO:0015940	panB	panE
+GO:0051726	minC
+GO:0015922	nadB	zwf
+GO:0015921	lptA	kdsC
+GO:0015920	lptA	kdsC
+GO:0015988	nuoA
+GO:0015985	zwf
+GO:0015986	zwf
+GO:0015990	nuoA
+GO:0043038	aspS	leuS	thrS	glnS	lysU	alaS	proS	serS
+GO:0043039	aspS	leuS	thrS	glnS	lysU	alaS	proS	serS
+GO:0015992	nhaA	chaA	nhaB	nuoA	zwf
+GO:0015978	gntX
+GO:0015976	gntX
+GO:0015980	dld	nuoA	nirB	zwf	tdcA	fdnG	ndh	cyoA	narG	dmsA	frdA	torC	erpA	sdhC	lldP	narZ
+GO:0043064	frdA
+GO:0043065	hlyE	zwf
+GO:0007231	kdpD
+GO:0007234	kdpD
+GO:0022829	ompA
+GO:0047465	nanA
+GO:0030580	ubiE
+GO:0006152	deoC
+GO:0022843	kch
+GO:0006177	guaB
+GO:0030554	dld	yjeF	adk	csiD	nirB	zwf	C034	ndh	ycaI	asnC	napF	frdA	sfsA	smtA	oppA	sdhC
+GO:0022836	kefA	mscS	ynaI	kch	mscL
+GO:0022838	aqpZ	kefA	fieF	mscS	ynaI	kch	mscL
+GO:0022832	kch
+GO:0022833	kefA	mscS	ynaI	mscL
+GO:0047429	relA	dut
+GO:0006163	adk	gpt	zwf	hpt	purA	guaB
+GO:0006164	adk	zwf	purA	guaB
+GO:0008410	zwf	atoD
+GO:0008412	ubiC	zwf
+GO:0008415	cysE	leuL	glmU	argA	zwf	rimL
+GO:0008428	menA	rraB
+GO:0022804	arsR	glpT	proP	narK	glnK	cyoA	narU	napF	adiC	tppB	idnD	yejA	xylF	nhaA	malK	nhaB	nuoA	ulaA	nirB	zwf	mdtJ	ycaI	acrD	chaA	fieF	putP	gadB	yrbG	oppA	gltS	ydiN	ampG	fucP	dppA	malE
+GO:0022803	aqpZ	kefA	fieF	mscS	ynaI	kch	ompA	mscL
+GO:0008430	fdnG
+GO:0030529	zwf
+GO:0030528	treR	lsrR	norR	alpA	yiiE	dgoR	yhdN	hupA	hupB	flhD	csiR	hypA	cysB	ulaR	yneN	cspA	cspE	uxuR	mdtA	mngR	fabR	yahD	yciZ	sxy	yeiL	yeaT	dhaR	abgR	pepA	yeiE	dipZ	nsrR	arsR	yaeP	cmk	pspA	xapR	iscR	ybaO	yedW	feaR	pspF	paaX	yidZ	mprA	dcuS	alaS	lrhA	zraS	ydcR	prpR	aaeR	cueR	arcA	bolA	lexA	rtcR	adiY	ygeL	slp	ybcQ	cadC	rcsA	rpiR	insH	ascG	hcaR	acrR	thrS	gcvR	rcsD	hdfR	mntR	pdhR	uidR	zur	relB	gadA	cdaR	gcvA	rhoL	kdgR	sgrR	yfhA	yjjQ	nac	yjjM	nanR	frvA	rutR	nrdR	atoS	crp	argP	yghO	zwf	qseB	cpxR	sohA	yiaJ	dicA	allR	allS	hipB
+GO:0008425	ubiE
+GO:0008324	nhaA	nhaB	zwf	efeU	proP	cyoA	acrD	chaA	fieF	kch	tppB	yrbG	gltS	ampG	fucP
+GO:0006213	pabC
+GO:0008361	sohA	chpS
+GO:0008360	zwf
+GO:0006221	yfbR	pyrG	zwf	pabC
+GO:0006220	yfbR	pyrG	zwf	pabC
+GO:0006226	yfbR
+GO:0008375	mraZ	zwf
+GO:0008374	cysE
+GO:0008378	wbbI
+GO:0006235	pabC
+GO:0006241	pyrG	zwf
+GO:0008380	rpsL
+GO:0008381	kefA	mscS	ynaI	mscL
+GO:0030488	rpsP	trmA	mnmE	asnC
+GO:0030490	rpsP	zwf	metY
+GO:0006259	mutS	ada	mutH	aidB	aroK	atl	yjeF	ybcN	yebG	ligB	zwf
+GO:0047482	zwf
+GO:0051605	hybO
+GO:0051604	ydeM	hybO	aslB	hypA	erpA
+GO:0051606	kdpD
+GO:0044419	hlyE	zwf
+GO:0009451	rluD	yfhB	rluC	rsuA	rluF	rluE	rlmN	tilS	zwf	trmA	rlmF	asnC	rluB	yqcC	ttcA	rpsP	dusA	sfsA	iscR	rsmE	rsmD	mnmE
+GO:0009450	csiD	sad	zwf
+GO:0044428	zwf
+GO:0044427	smtA	alpA	intA
+GO:0044424	alpA	glpT	slyD	secM	purH	cysK	ybgI	purL	cysE	deoC	yghZ	ivbL	mog	yeiT	pepT	greA	sspA	pepQ	pepD	sfsA	pgl	proC	pyrL	rplK	fucP	yahK	focA	cmk	frdA	tktA	ybaS	manX	map	cyaY	gpmM	rfbB	yjeJ	speA	gnd	nuoA	hflD	gpmA	tdcA	bglA	rihA	elbB	fldA	moeA	zinT	yqhD	smtA	ybbN	yniC	ilvC	mtn	metY	yeeZ	gudP	hisL	napF	ackA	gyrA	atpI	uxaB	rbsD	thrS	gcvT	cbpA	nirB	glmU	ptsA	pck	pdhR	yceD	ldhA	cynT	uspE	yeeN	polA	sdhC	yicC	intA	rpsB	lpcA	prlC	seqA	ispU	rpsM	rpsL	rdoA	mnmE	grpE	zwf	pdxB	lolB	yjiH	argD	tpx	leuL	kdgK	treB
+GO:0044425	malK	nuoA	cydA	smpA	uhpA	lpp	kdpD	mcbA	zwf	fdnG	ndh	bamA	narG	dmsA	napF	yncD	tppB	torC	tatA	yejA	yneN	gltS	sdhC	malE
+GO:0044422	smtA	alpA	zwf	intA
+GO:0044423	alpA	intA
+GO:0009486	zwf	cyoA
+GO:0044403	hlyE	zwf
+GO:0009408	yhbO
+GO:0009407	ycbX
+GO:0044462	smpA	tesA	lpp	zwf	mcbA	bamA	mdoD	ydhY	zinT	nanC	yncD	ftsP	dppA
+GO:0051641	zwf
+GO:0044459	napF	nuoA	uhpA	kdpD	mcbA	zwf	yneN	ndh
+GO:0051649	zwf
+GO:0009416	yhbO
+GO:0009410	yieE	holD	zwf	mnmE	paaA
+GO:0009411	yhbO
+GO:0044464	pyrG	cydA	lpp	tig	alpA	glpT	sodB	slyD	secM	purH	cysK	ybgI	purL	cysE	tppB	yejA	tatA	deoC	yneN	yghZ	lldP	purC	ivbL	purA	yeiT	mog	dps	pepT	greA	kdpD	sspA	nfsB	pepQ	ycaI	ycaC	pepD	sfsA	proC	pgl	ppa	fabI	glyA	rfaD	fucP	rplK	pyrL	yahK	tpiA	gapA	fbaB	clpB	uhpA	focA	cmk	narG	adhE	tnaC	dmsA	ahpC	frdA	ybaS	tktA	yncD	manX	map	cyaY	rfbB	gpmM	gnd	yjeJ	speA	nuoA	mrcB	hflD	udp	alaS	tdcA	gpmA	mliC	bamA	bglA	fldA	elbB	rihA	moeA	xerD	zinT	gltA	smtA	yqhD	ybbN	ftsP	mscL	yniC	ilvC	bfd	aspA	lysU	mtn	yeeZ	metY	cyoA	pdxH	hisL	gudP	napF	ackA	metG	gyrA	uxaB	atpI	malK	rbsD	thrS	gcvT	uspA	cbpA	zapB	nirB	ptsH	glmU	yjgF	ptsA	ndh	hslV	pck	yceD	pdhR	mdoD	ldhA	glnA	chiA	gadB	uspE	gadA	cynT	yeeN	gltS	mdh	polA	gor	sdhC	dppA	malE	rhoL	yicC	intA	panB	clpP	rpsB	smpA	lpcA	tesA	edd	prlC	seqA	ydhY	nanC	pykF	ispU	wrbA	torC	rpsM	rdoA	rpsL	mnmE	grpE	mcbA	zwf	fdnG	pdxB	yjiH	lolB	upp	talB	argD	tpx	leuL	kdgK	treB	sppA
+GO:0009432	yebG	ydjM	symE
+GO:0051668	zwf
+GO:0009436	gcl	glcD
+GO:0009438	gloB	gloA
+GO:0009439	cynT	zwf
+GO:0044445	leuL	zwf
+GO:0044444	cysK	ilvC	cysE	leuL	zwf	cyaY	ivbL
+GO:0009441	gcl	glcD
+GO:0009442	gcl	allD
+GO:0044446	smtA	alpA	zwf	intA
+GO:0051674	yncA	yeiT	yneE	chaB	frdA	yfgJ	yqaB	yehL	ydgA	ybiA	ymfA
+GO:0009440	cynT	zwf
+GO:0009445	puuC	sad
+GO:0009447	puuC	sad
+GO:0009448	csiD	sad	zwf
+GO:0009326	fdnG
+GO:0009314	yhbO
+GO:0009312	lpcA	gmhB	rfaD
+GO:0009311	lpcA	gmhB	rfaD
+GO:0009316	leuL	zwf
+GO:0045727	glmZ
+GO:0009310	puuC	sad	sdaA	zwf	tdcA	glyA	sdaC	pdhR	yneH
+GO:0009308	aspC	ilvC	ilvI	csiD	sad	glnS	nagB	lysU	sdaA	ilvL	sdaC	gdhA	cysP	proS	aspS	hisL	cysK	poxB	metB	cysE	nanA	ivbL	yneH	thrS	tyrB	puuC	gcl	aroF	glmU	zwf	tdcA	alaS	allD	serA	serC	pdhR	serB	folP	argC	leuS	glnA	gltB	leuL	asd	glyA	lysC	thrL	serS
+GO:0009309	aspC	ilvC	ilvI	ilvL	gdhA	cysP	hisL	cysK	poxB	cysE	metB	ivbL	tyrB	aroF	zwf	serA	serC	serB	argC	leuL	gltB	asd	glyA	lysC	thrL	serS
+GO:0009344	nirB
+GO:0018958	entC
+GO:0009333	cysK	cysE
+GO:0045793	chpS
+GO:0045792	sohA	chpS
+GO:0018987	aqpZ	kefA	mscS	mscL
+GO:0046892	hypA
+GO:0009389	dmsA
+GO:0009384	nanA
+GO:0009382	hisL
+GO:0046873	fieF	kch	efeU
+GO:0046870	zinT
+GO:0046872	panB	cydA	nagB	uxuA	nrdA	narG	cyoA	dmsA	yfdR	def	torC	hypA	hpt	uxaC	cyaY	narZ	yfbR	aroK	gcl	nirB	zwf	fdnG	alaS	allD	fucA	ada	zinT	yqhD	gltS	serS
+GO:0050385	allA
+GO:0009390	dmsA
+GO:0050380	yeiR
+GO:0046857	azoR
+GO:0009392	ybjQ
+GO:0009396	nudB	zwf
+GO:0046912	zwf	prpB	glcD
+GO:0046914	cydA	nagB	uxuA	nrdA	cyoA	narG	dmsA	def	yfdR	torC	hypA	uxaC	cyaY	narZ	yfbR	gcl	nirB	zwf	fdnG	alaS	allD	fucA	ada	zinT	yqhD
+GO:0046915	fieF	efeU
+GO:0046907	zwf
+GO:0046906	cydA	nirB	sdhC	cyoA
+GO:0060089	kdpD
+GO:0009405	hlyE	zwf
+GO:0009404	ycbX
+GO:0009401	ulaA
+GO:0009200	pabC
+GO:0009202	pabC
+GO:0045851	nhaB
+GO:0009201	pyrG	zwf
+GO:0045852	adiC	adiA	gadB	gadA	zwf
+GO:0009206	zwf
+GO:0009205	zwf
+GO:0009208	pyrG	zwf
+GO:0009245	ppiB
+GO:0009242	mcbA
+GO:0009244	lpcA	gmhB	rfaD
+GO:0009236	leuS	yciK	cobU
+GO:0009237	entC
+GO:0009234	menA	ubiE	menF
+GO:0045883	zwf
+GO:0009235	leuS	yciK	cobU
+GO:0009238	entC
+GO:0009239	entC
+GO:0009233	menA	ubiE	menF
+GO:0045893	alpA	zwf	yeaT	allS
+GO:0045892	yiaJ	alaS
+GO:0009228	xseB
+GO:0050440	zwf	prpB
+GO:0009225	folP	glmU
+GO:0009220	pyrG	zwf
+GO:0009221	yfbR	pabC
+GO:0050446	azoR
+GO:0009218	pyrG	zwf
+GO:0009219	yfbR	pabC
+GO:0009212	pabC
+GO:0009211	pabC
+GO:0009209	pyrG	zwf
+GO:0046983	ymfH
+GO:0046982	ymfH
+GO:0009273	mraZ	mipA	zwf	mltB	mltA
+GO:0009279	smpA	yncD	lpp	zwf	bamA
+GO:0050497	rimO
+GO:0009266	yhbO
+GO:0009263	yfbR	pabC
+GO:0009262	yfbR	pabC
+GO:0009260	pyrG	adk	zwf	guaB
+GO:0050486	entC	menF
+GO:0009268	hdeD	hdeA	ybaS	yhbO	mnmE
+GO:0009267	iraP	relA	ssuE	gntX	iraM
+GO:0009253	ybjQ
+GO:0009252	mraZ	mipA	zwf	mltB	mltA
+GO:0009254	mltF
+GO:0009257	zwf
+GO:0009256	zwf
+GO:0009259	pyrG	adk	zwf	guaB
+GO:0046942	ygaZ	putP	zwf	yddG	gltS	leuE
+GO:0046943	ygaZ	yddG	gltS	leuE
+GO:0046933	zwf
+GO:0046961	zwf
+GO:0009296	frdA
+GO:0031975	smpA	tesA	lpp	zwf	mcbA	bamA	mdoD	ydhY	zinT	nanC	yncD	ftsP	dppA
+GO:0045926	sohA	chpS
+GO:0045927	chpS
+GO:0045934	sohA	yiaJ	alaS	nrdR
+GO:0045935	alpA	zwf	rpsL	yeaT	allS
+GO:0045941	alpA	zwf	yeaT	allS
+GO:0045947	thrS
+GO:0045948	glmZ
+GO:0009108	panB	nudB	ubiC	ribF	zwf	ispD	ubiE	ubiD	panE	dxr	serC	menF	ubiG	lolB	ubiF	idi	menA	xseB	ispG	ygfB
+GO:0009109	zwf
+GO:0009102	bioB
+GO:0009103	leuS	lpcA	gmhB	imp	ppiB	rfaD
+GO:0055066	chaA	fieF
+GO:0055067	nhaA	chaA	nhaB	adiC	adiA	gadB	gadA	zwf
+GO:0055065	nhaA	chaA	nhaB
+GO:0008047	yneN	proQ
+GO:0055075	chaA
+GO:0055078	nhaA	chaA	nhaB
+GO:0055072	fieF
+GO:0055073	fieF
+GO:0055074	chaA
+GO:0055069	fieF
+GO:0009120	pabC
+GO:0009123	yfbR	guaB
+GO:0009124	yfbR	guaB
+GO:0009126	guaB
+GO:0017171	zwf
+GO:0009127	guaB
+GO:0009129	yfbR
+GO:0055080	nhaA	chaA	nhaB	fieF	adiC	adiA	gadB	gadA	zwf
+GO:0055082	nhaA	chaA	nhaB	fieF	adiC	adiA	gadB	gadA	zwf
+GO:0009110	nudB	leuS	yciK	menA	zwf	bioB	xseB	ubiE	cobU	menF	serC
+GO:0009116	deoC	pabC
+GO:0009117	yfbR	pyrG	adk	gpt	zwf	hpt	pabC	purA	guaB
+GO:0017198	rimL
+GO:0008081	ugpB
+GO:0008080	glmU	argA	zwf	rimL
+GO:0009176	yfbR
+GO:0009177	yfbR
+GO:0009199	pyrG	zwf
+GO:0050179	poxB
+GO:0009148	pabC
+GO:0009147	pyrG	zwf	pabC
+GO:0009145	zwf
+GO:0009144	zwf
+GO:0009142	pyrG	zwf	pabC
+GO:0009141	pyrG	zwf	pabC
+GO:0016072	rluD	rluC	rsuA	rluF	rluE	rlmN	zwf	rlmF	metY	asnC	rluB	rpsP	rsmE	rsmD
+GO:0016070	rluD	yfhB	rluC	rluF	yaeP	rluE	glnS	tilS	lysU	alpA	yjjM	trmA	metY	asnC	rluB	rybB	proS	aspS	yqcC	spf	ssrS	menA	rpsP	iscR	rraB	rpsL	mnmE	symE	rsuA	thrS	rlmN	zwf	alaS	rlmF	lptA	leuS	yiaJ	ttcA	dusA	sfsA	rsmE	glmZ	rsmD	yeaT	hrpA	allS	rppH	serS
+GO:0016071	glmZ	rraB	hrpA	symE	rybB
+GO:0009130	yfbR
+GO:0009168	guaB
+GO:0009162	yfbR
+GO:0009161	guaB
+GO:0009167	guaB
+GO:0009165	yfbR	pyrG	adk	zwf	pabC	purA	guaB
+GO:0008033	yqcC	yfhB	ttcA	rpsP	tilS	dusA	sfsA	iscR	zwf	trmA	mnmE	asnC
+GO:0009164	deoC
+GO:0008026	rhlE	C034	hrpA
+GO:0016093	ispU	ispB	xseB
+GO:0009157	yfbR
+GO:0050131	solA
+GO:0016090	ispU	ispB	xseB
+GO:0016091	ispU	ispB	xseB
+GO:0016094	ispU	ispB	xseB
+GO:0050136	nuoA	ndh
+GO:0009150	adk	zwf	guaB
+GO:0009152	adk	zwf	guaB
+GO:0009156	guaB
+GO:0016151	hypA
+GO:0050089	yihU
+GO:0009007	aroK	zwf	yhdJ
+GO:0009008	aroK	zwf	yhdJ
+GO:0009009	zwf
+GO:0017057	pgl	zwf
+GO:0009000	iscR	zwf
+GO:0009001	cysE
+GO:0009002	zwf
+GO:0017076	dld	yjeF	rsgA	adk	csiD	nirB	zwf	C034	ndh	ycaI	asnC	napF	frdA	smtA	sfsA	oppA	sdhC	mnmE
+GO:0017089	lptA	kdsC
+GO:0009085	metB	asd	lysC	thrL
+GO:0009084	argC	gltB	gdhA
+GO:0009089	metB	asd	lysC	thrL
+GO:0009088	thrL
+GO:0009082	ilvC	tyrB	ilvI	leuL	zwf	ilvL	ivbL
+GO:0009081	ilvC	tyrB	ilvI	leuL	zwf	ilvL	ivbL
+GO:0009072	tyrB	aroF	zwf
+GO:0009073	tyrB	aroF	zwf
+GO:0009075	hisL
+GO:0009076	hisL
+GO:0009071	sdaA	zwf	tdcA	glyA	sdaC	pdhR
+GO:0009070	serA	cysP	serC	serB	cysK	poxB	cysE	metB	asd	glyA	lysC	thrL	serS
+GO:0009069	sdaA	zwf	tdcA	sdaC	serA	serC	cysP	serB	pdhR	cysK	poxB	metB	cysE	asd	glyA	lysC	thrL	serS
+GO:0009067	aspC	metB	tyrB	asd	zwf	lysC	thrL
+GO:0009068	tdcA
+GO:0009065	sad	yneH
+GO:0009066	aspC	metB	tyrB	asd	zwf	tdcA	lysC	thrL
+GO:0009063	sad	sdaA	zwf	tdcA	glyA	sdaC	pdhR	yneH
+GO:0009064	argC	glnA	gltB	sad	gdhA	yneH
+GO:0009061	dmsA	frdA	nuoA	torC	nirB	zwf	fdnG	erpA	narZ	lldP	narG
+GO:0009062	csiD	sad	zwf
+GO:0009060	dld	nuoA	torC	zwf	erpA	sdhC	ndh	lldP	cyoA
+GO:0009058	aspC	pyrG	ubiC	ilvC	ilvI	gmhB	lysU	imp	fbp	rseX	ilvL	entC	ubiE	gdhA	ubiD	ubiG	cysP	ubiF	aspS	hisL	cysK	metB	cysE	xseB	ppiB	ivbL	purA	nudB	yciK	thrS	ribF	glmU	ispB	ispD	symR	dxr	guaB	mraZ	gcvB	asd	glmZ	glyA	rfaD	ygfB	thrL	panB	lpcA	lepA	adk	glnS	mltB	mltA	maeA	panE	menF	proS	poxB	menA	ispU	iscR	rpsL	yjbE	ispG	cobU	yfbR	tyrB	aroF	mipA	acnA	mcbA	zwf	alaS	serA	serC	serB	lolB	folP	idi	argC	fldA	leuS	gltB	leuL	bioB	lysC	pabC	serS
+GO:0009059	lpcA	lepA	gmhB	glnS	lysU	imp	fbp	rseX	mltB	mltA	maeA	proS	aspS	rpsL	ppiB	yjbE	thrS	mipA	acnA	glmU	mcbA	zwf	alaS	symR	fldA	folP	leuS	mraZ	gcvB	glmZ	rfaD	serS
+GO:0009055	dld	nuoA	cydA	fpr	zwf	fdnG	ndh	cyoA	narG	dmsA	frdA	torC	sdhC	narZ
+GO:0009056	garD	iraD	csiD	sad	uxuA	glcD	gudP	iraP	rpiR	garP	deoC	chbB	rraB	uxaC	iraM	uxaB	symE	lldP	paaA	yneH	alsK	rhaM	rbsD	fucA	pdhR	cynT	glyA	fucP	yeiG	fruB	nagB	ssuE	sdaA	yjjM	sdaC	rhaB	menA	gloB	idnD	aldA	bglH	gloA	nanA	gatY	prpB	rpiB	araB	puuC	gcl	zwf	tdcA	allD	xylA	ybjQ	yiaK	exuT	ycbX	kdgK	uidA
+GO:0009057	iraD	nagB	iraP	rhaB	rpiR	menA	aldA	idnD	bglH	chbB	rraB	nanA	iraM	gatY	prpB	symE	lldP	alsK	rhaM	rbsD	rpiB	araB	zwf	fucA	xylA	ybjQ	yiaK	uidA	fucP	fruB
+GO:0009040	allD
+GO:0009045	xylA
+GO:0009021	trmA
+GO:0009028	gcl
+GO:0009026	uxaB
+GO:0009013	csiD
+GO:0009019	rpsP
+GO:0009016	argD	zwf
+GO:0016051	lpcA	gmhB	imp	mipA	glmU	mcbA	fbp	zwf	mltB	mltA	maeA	folP	leuS	mraZ	yjbE	rfaD	ppiB
+GO:0016052	rhaM	rbsD	rpiB	araB	nagB	zwf	fucA	xylA	ybjQ	yiaK	rhaB	rpiR	aldA	idnD	bglH	chbB	nanA	uidA	prpB	fucP	gatY	lldP	fruB	alsK
+GO:0016054	garD	csiD	gcl	sad	zwf	uxuA	yjjM	glcD	gudP	exuT	garP	kdgK	uxaC	uxaB
+GO:0016042	csiD	sad	zwf
+GO:0016049	sohA	chpS
+GO:0016044	yeiR	zwf
+GO:0016043	rluD	rluC	yaeP	rluF	rluE	cydA	mltB	mltA	rluB	asnC	metY	rybB	narG	napF	frdA	cutA	rpsP	yeiR	rsuA	thrS	rlmN	rsgA	mipA	zwf	fdnG	rlmF	sohA	chpS	mraZ	smtA	rsmE	glmZ	rsmD	sdhC
+GO:0016032	essD	zwf	intA
+GO:0016036	iraP
+GO:0016020	smpA	cydA	uhpA	lpp	cyoA	narG	napF	dmsA	tppB	yncD	torC	yejA	tatA	yneN	lldP	malK	nuoA	kdpD	mcbA	zwf	fdnG	ndh	bamA	gltS	sdhC	malE
+GO:0016021	dmsA	nuoA	tppB	torC	tatA	zwf	fdnG	yneN	gltS	sdhC
+GO:0009092	metB	asd	lysC	thrL
+GO:0009090	metB	asd	lysC	thrL
+GO:0009097	ilvC	ilvI	ilvL	ivbL
+GO:0009095	tyrB	aroF	zwf
+GO:0009094	tyrB	aroF	zwf
+GO:0009099	ilvC	ilvI	ilvL	ivbL
+GO:0009098	tyrB	leuL	zwf
+GO:0030964	nuoA	zwf
+GO:0030983	mutS	zwf
+GO:0030976	gcl
+GO:0017148	thrS	gcvB	rseX	symR
+GO:0030920	rimL
+GO:0017111	mutS	xylF	malK	yjeF	rhlE	lepA	rsgA	zwf	C034	ycaI	napF	htpG	yejA	hypA	oppA	hrpA	dppA	mnmE	malE
+GO:0046410	menF
+GO:0046401	lpcA	gmhB	rfaD
+GO:0000041	fieF	efeO	zwf	efeU
+GO:0000049	trmA
+GO:0045333	dld	nuoA	nirB	zwf	fdnG	ndh	cyoA	narG	dmsA	frdA	torC	erpA	sdhC	lldP	narZ
+GO:0045337	xseB
+GO:0045338	xseB
+GO:0000051	argC	sad
+GO:0031365	def	rimL
+GO:0031324	sohA	yiaJ	thrS	gcvB	rseX	alaS	symR	nrdR
+GO:0031323	yaeP	thrS	acnA	alpA	rseX	zwf	alaS	yjjM	symR	rybB	sohA	fldA	ssrS	yiaJ	gcvB	glmZ	rpsL	yeaT	allS	rppH	nrdR
+GO:0031326	fldA	thrS	gcvB	acnA	rseX	zwf	glmZ	symR
+GO:0000096	cysK	cysE	cysP	serS
+GO:0031325	alpA	zwf	glmZ	rpsL	yeaT	allS
+GO:0000097	cysK	cysE	cysP	serS
+GO:0031328	glmZ
+GO:0031327	thrS	gcvB	rseX	symR
+GO:0046484	iscR	zwf
+GO:0046487	gcl	glcD
+GO:0046483	nudB	leuS	yciK	gcl	iscR	zwf	bioB	allD	cobU
+GO:0046493	ppiB
+GO:0046459	csiD	sad	zwf
+GO:0046451	metB	asd	lysC	thrL
+GO:0046417	tyrB	aroF	zwf
+GO:0046428	menA
+GO:0046429	ispG
+GO:0001101	slp	ymgA
+GO:0016300	trmJ	trmA
+GO:0016301	adk	dgoR	rhaB	metB	garP	rdoA	nanA	cobU	alsK	rbsD	araB	gcl	kdpD	zwf	tdcA	xylA	lolB	yiaK	yegS	yeaG	kdgK	pabC	lysC	fucP	fruB	hipB
+GO:0032991	malK	nuoA	nirB	zwf	fdnG	hisL	dmsA	napF	cysK	cysE	leuL	yejA	smtA	ivbL	malE
+GO:0016310	folP	zwf
+GO:0016311	aroK
+GO:0032977	zwf
+GO:0032990	frdA
+GO:0032984	yaeP
+GO:0032989	sohA	chpS	frdA	zwf
+GO:0031420	gltS
+GO:0031406	zwf
+GO:0031404	aroK
+GO:0031405	zwf
+GO:0031402	gltS
+GO:0000027	thrS
+GO:0000017	malK	malE
+GO:0000003	essD	zapB	ftsP	zwf	intA
+GO:0000160	kdpD
+GO:0000166	dld	nuoA	yjeF	csiD	adk	rsgA	nirB	zwf	C034	ydjA	ndh	azoR	ycaI	asnC	napF	frdA	yieE	wrbA	smtA	sfsA	oppA	sdhC	mnmE	lldP
+GO:0045449	sohA	yaeP	ssrS	yiaJ	alpA	zwf	yjjM	alaS	yeaT	allS	nrdR
+GO:0019954	zapB	ftsP
+GO:0018409	rimL
+GO:0050048	tyrB	zwf
+GO:0046583	fieF
+GO:0046553	yeaU
+GO:0045426	ubiC	ribF	zwf	ispD	ubiE	ubiD	dxr	menF	ubiG	lolB	ubiF	idi	menA	xseB	ispG	ygfB
+GO:0015002	zwf	cyoA
+GO:0016208	adk
+GO:0016212	aspC	zwf
+GO:0016211	glnA
+GO:0016246	rybB
+GO:0015075	arsR	kefA	efeU	glpT	proP	narK	cyoA	narU	kch	tppB	phnC	nhaA	nhaB	mscS	ynaI	nirB	zwf	acrD	chaA	fieF	yrbG	gltS	mscL	ampG	fucP
+GO:0015078	zwf	cyoA
+GO:0015077	zwf	cyoA
+GO:0016259	serS
+GO:0015086	fieF
+GO:0015082	fieF	efeU
+GO:0016226	iscR	zwf	erpA	gntX
+GO:0000104	frdA
+GO:0000107	hisL
+GO:0000105	hisL
+GO:0031554	yaeP
+GO:0016289	tesA	yciA
+GO:0015031	napF	zwf
+GO:0016291	tesA	yciA
+GO:0016298	tesA
+GO:0031504	mraZ	mipA	zwf	mltB	mltA
+GO:0016260	serS
+GO:0016265	hlyE	zwf
+GO:0000154	rluD	rluC	rluF	rsuA	rluE	rlmN	rsmE	rsmD	rlmF	rluB	asnC
+GO:0000155	kdpD
+GO:0015093	fieF	efeU
+GO:0019842	ygfZ	csiD	gcl	zwf	glyA
+GO:0019843	C034	trmA	rpsL
+GO:0019829	zwf
+GO:0046685	arsR
+GO:0019867	smpA	yncD	lpp	zwf	bamA
+GO:0046677	ribF
+GO:0046688	cutC
+GO:0046686	zinT
+GO:0019887	yneN
+GO:0046653	nudB
+GO:0046654	nudB
+GO:0046655	nudB	zwf
+GO:0046656	nudB	zwf
+GO:0018738	yeiG
+GO:0019899	sohA	rraB
+GO:0019897	mcbA
+GO:0019898	mcbA
+GO:0016540	folP
+GO:0016564	treR	lsrR	dgoR	rcsA	rpiR	hupA	flhD	hupB	csiR	ulaR	cysB	ascG	hcaR	acrR	uxuR	thrS	mngR	gcvR	rcsD	hdfR	mntR	pdhR	fabR	uidR	zur	yciZ	relB	gcvA	dhaR	abgR	pepA	rhoL	nsrR	sgrR	kdgR	arsR	nac	nanR	cmk	frvA	ybaO	iscR	rutR	pspF	nrdR	paaX	yidZ	crp	mprA	zwf	alaS	lrhA	cpxR	prpR	yiaJ	dicA	cueR	allR	arcA	lexA	hipB
+GO:0016566	yiaJ	alaS
+GO:0016563	ygeL	alpA	norR	yhdN	cadC	rcsA	hupA	flhD	insH	hupB	hypA	yneN	cysB	cspA	hcaR	thrS	mdtA	rcsD	fabR	sxy	gadA	cdaR	yeiL	gcvA	yeaT	dhaR	abgR	yeiE	sgrR	yfhA	yjjQ	nac	cmk	pspA	xapR	ybaO	iscR	yedW	feaR	pspF	atoS	yidZ	crp	dcuS	argP	zwf	lrhA	qseB	zraS	cpxR	prpR	aaeR	cueR	arcA	allS	rtcR	adiY
+GO:0015104	arsR
+GO:0015103	narU	arsR	nirB	glpT	narK
+GO:0015114	glpT
+GO:0015113	narU	nirB	narK
+GO:0015112	narU	narK
+GO:0015108	narU	narK
+GO:0015105	arsR
+GO:0015106	narU	narK
+GO:0015144	xylF	malK	ulaA	glpT	fucP	malE	ycaI
+GO:0015148	xylF
+GO:0015145	xylF	fucP
+GO:0015146	xylF	fucP
+GO:0015149	fucP
+GO:0015157	malK	malE
+GO:0015159	ycaI
+GO:0015154	malK	malE
+GO:0015150	fucP
+GO:0015151	malK	malE
+GO:0015169	glpT
+GO:0015168	glpF	glpT
+GO:0015166	glpF	glpT
+GO:0016579	elaD
+GO:0015171	ygaZ	yddG	gltS	leuE
+GO:0015173	yddG
+GO:0031668	iraP	relA	ssuE	gntX	iraM
+GO:0015172	gltS
+GO:0031669	iraP	relA	ssuE	gntX	iraM
+GO:0015175	ygaZ	leuE
+GO:0031667	iraP	relA	ssuE	gntX	iraM
+GO:0015179	ygaZ	yddG	gltS	leuE
+GO:0045181	gltB
+GO:0045182	thrS	lepA	zwf	symR
+GO:0045184	napF	zwf
+GO:0015192	yddG
+GO:0015190	leuE
+GO:0015197	tppB	oppA	dppA
+GO:0015196	yddG
+GO:0015198	tppB	oppA	dppA
+GO:0045259	zwf
+GO:0046700	gcl	allD
+GO:0045261	zwf
+GO:0045263	zwf
+GO:0045271	nuoA
+GO:0045272	nuoA
+GO:0045229	yeiR	mraZ	mipA	zwf	mltB	mltA
+GO:0045226	yjbE
+GO:0046777	folP
+GO:0019748	ycbX
+GO:0046790	zwf
+GO:0019754	cynT	zwf
+GO:0019752	aspC	garD	ilvC	ilvI	csiD	sad	yeaU	lysU	fbp	uxuA	ilvL	gdhA	glcD	cysP	hisL	aspS	gudP	cysK	metB	cysE	garP	uxaC	uxaB	lldP	ivbL	yneH	nudB	thrS	pdhR	glnA	asd	glyA	yeaT	thrL	glnS	sdaA	yjjM	sdaC	maeA	proS	poxB	gloB	idnD	nanA	gloA	prpB	tyrB	gcl	aroF	zwf	alaS	tdcA	serA	serC	serB	argC	exuT	leuS	gltB	leuL	kdgK	bioB	lysC	serS
+GO:0019751	fucA	gatY
+GO:0019740	glnA
+GO:0019725	nhaA	kefA	nhaB	mscS	zwf	chaA	aqpZ	fieF	adiC	adiA	gadB	gadA	mscL
+GO:0032787	nudB	csiD	sad	gcl	fbp	zwf	tdcA	uxuA	maeA	glcD	exuT	gloB	idnD	kdgK	gloA	bioB	uxaC	prpB	lldP	uxaB
+GO:0032774	yaeP	ssrS	yiaJ	alpA	zwf	yjjM	alaS	yeaT	allS
+GO:0019783	elaD
+GO:0016441	rydC	rybB
+GO:0016436	rsmE
+GO:0015203	mdtJ
+GO:0016453	leuL	zwf
+GO:0019694	ssuE
+GO:0016423	rpsP
+GO:0019698	exuT	kdgK	uxaC	uxaB
+GO:0016435	rsmD	asnC
+GO:0016433	rlmN	rlmF
+GO:0016427	trmJ
+GO:0015232	napF
+GO:0016413	cysE
+GO:0016412	cysE
+GO:0016410	glmU	argA	zwf	rimL
+GO:0016407	cysE	leuL	glmU	argA	zwf	rimL
+GO:0016408	leuL	zwf
+GO:0016405	caiT	menF
+GO:0015238	acrD
+GO:0015239	acrD
+GO:0015221	ycaI
+GO:0015288	ompA
+GO:0015250	aqpZ
+GO:0015254	glpF
+GO:0015267	aqpZ	kefA	fieF	mscS	ynaI	kch	ompA	mscL
+GO:0016485	folP
+GO:0016481	sohA	yiaJ	alaS	nrdR
+GO:0016491	dld	ilvC	murB	cydA	csiD	ydjL	sad	yeaU	uxuA	entC	ubiE	gdhA	glcD	ubiF	cyoA	hisL	efeO	metB	garP	yebR	uxaB	lldP	gcvT	ribF	fpr	ndh	fucA	dxr	nadB	asd	sdhC	ydiN	ygfB	aidB	ssuE	yjjN	nrdD	maeA	panE	narG	dmsA	frdA	idnD	aldA	torC	wrbA	ispG	gatY	narZ	nrdR	gnd	nuoA	gcl	aroF	zwf	fdnG	allD	serA	azoR	yiaK	ada	argC	yieE	gltB	leuL	yqhD	solA
+GO:0016458	rydC	rybB
+GO:0015295	tppB	proP	fucP	ampG
+GO:0016462	mutS	xylF	malK	nudB	yeiR	yjeF	rhlE	lepA	rsgA	zwf	C034	ycaI	napF	relA	dut	htpG	yejA	hypA	oppA	hrpA	ppiB	dppA	mnmE	malE
+GO:0015298	nhaA	chaA	nhaB	yrbG	acrD
+GO:0015297	narU	nhaA	chaA	nhaB	adiC	yrbG	gadB	glpT	narK	acrD
+GO:0015299	acrD
+GO:0015292	idnD	putP	proP	ydiN	glnK
+GO:0015291	nhaA	arsR	nhaB	nirB	glpT	proP	narK	glnK	acrD	narU	chaA	fieF	adiC	tppB	idnD	putP	yrbG	gadB	gltS	ydiN	fucP	ampG
+GO:0015294	tppB	gltS	proP	fucP	ampG
+GO:0015293	tppB	glpT	gltS	proP	fucP	ampG
+GO:0016469	zwf

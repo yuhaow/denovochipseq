@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/13942/trunk/core/apps/seqcons
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13281/trunk/core/apps/seqcons/LICENSE
+END
+read_simulator.R
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13451/trunk/core/apps/seqcons/read_simulator.R
+END
+seqcons.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13942/trunk/core/apps/seqcons/seqcons.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13626/trunk/core/apps/seqcons/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13778/trunk/core/apps/seqcons/README
+END

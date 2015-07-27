@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_alignments_alignment_msa_assignment1.dir/tutorial/alignments/alignment_msa_assignment1.cpp.o  -o ../../bin/demo_tutorial_alignments_alignment_msa_assignment1 -rdynamic -lrt -lz -lbz2 

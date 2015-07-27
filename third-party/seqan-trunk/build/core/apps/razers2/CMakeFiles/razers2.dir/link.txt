@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG -DSEQAN_ENABLE_DEBUG=0    CMakeFiles/razers2.dir/razers.cpp.o CMakeFiles/razers2.dir/param_tabs.cpp.o  -o ../../../bin/razers2 -rdynamic -lrt -lz 

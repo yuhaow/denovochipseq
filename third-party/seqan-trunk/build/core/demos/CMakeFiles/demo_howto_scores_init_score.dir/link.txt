@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_howto_scores_init_score.dir/howto/scores/init_score.cpp.o  -o ../../bin/demo_howto_scores_init_score -rdynamic -lrt -lz -lbz2 

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/seqan/!svn/ver/13982/trunk/extras/tests/find_motif
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13313/trunk/extras/tests/find_motif/CMakeLists.txt
+END
+test_find_motif.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13982/trunk/extras/tests/find_motif/test_find_motif.cpp
+END

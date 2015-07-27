@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_alignments_alignment_local_standard.dir/tutorial/alignments/alignment_local_standard.cpp.o  -o ../../bin/demo_tutorial_alignments_alignment_local_standard -rdynamic -lrt -lz -lbz2 

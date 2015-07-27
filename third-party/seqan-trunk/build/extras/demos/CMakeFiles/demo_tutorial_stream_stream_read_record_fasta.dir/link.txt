@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_stream_stream_read_record_fasta.dir/tutorial/stream/stream_read_record_fasta.cpp.o  -o ../../bin/demo_tutorial_stream_stream_read_record_fasta -rdynamic -lrt -lz -lbz2 

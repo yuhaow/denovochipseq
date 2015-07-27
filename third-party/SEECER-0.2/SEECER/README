@@ -1,0 +1,99 @@
+---------------------------------------------------------------
+SEECER: SEquencing Error CorrEction for Rna-Seq data
+Probabilistic error correction in de novo RNA sequencing
+---------------------------------------------------------------
+Hai-Son Le (hple@cs.cmu.edu)
+Marcel Schulz (maschulz@cs.cmu.edu)
+Ziv Bar-Joseph (zivbj@cs.cmu.edu)
+
+Requirements:
+1. JELLYFISH
+2. SeqAn
+3. GNU Scientific Library
+
+Installation:
+1. Compile JELLYFISH
+cd jellyfish-1.1.4/
+./configure
+make
+
+2. Compile SEECER:
+cd SEECER 
+./configure
+make
+
+3. Usage:
+
++ Bash script to run Seecer:
+   # This script runs the SEECER pipeline of 4 steps:
+   #
+   # 1. Replace Ns and strip off read IDs (to save memory).
+   # 2. Run JellyFish to count kmers.
+   # 3. Correct errors with SEECER.
+   # 4. Clean up and put back original read IDs.
+   
+   run_seecer.sh [options] read1 read2
+
+   read1, read2: are Fasta/Fastaq files.
+	  If only read1 is provided, the reads are considered singles.
+          Otherwise, read1 and read2 are paired-end reads.
+
+   Options:
+      -t <v> : *required* specify a temporary working directory.
+      -k <v> : sepcify a different K value (default = 17).
+      -j <v> : specify the location of JELLYFISH binary
+               (default = ../jellyfish-1.1.4/bin/jellyfish).
+      -p <v> : specify extra SEECER parameters (default = '').
+      -s <v> : specify the starting step ( default = 1). Values = 1,2,3,4.
+      -h : help message
+
++ Seecer's parameters:
+   # seecer [options] read1 [read2]
+   # --------------------------------------------
+   #  read1, read2: are Fasta/Fastaq files.
+   #     If only read1 is provided, the reads are considered singles.
+   #     Otherwise, read1 and read2 are paired-end reads.
+   # *** Important ***:
+   # Reads should not contain Ns. Please use the provided run_seecer.sh 
+   # script to handle Ns.
+   # --------------------------------------------
+   # Options:
+   # --kmer <k> : specify a different K value (default = 17).
+   # --kmerCount <f> : specify the file containing kmer counts. This file
+   #     is produced by JELLYFISH, we provided a Bash script to generate this file
+   #     (run_seecer.sh).
+   #     If the parameter is not set, SEECER will count kmers by itself
+   #     (slower and memory-inefficient).
+   # --clusterLLH <e> : specify a different log likelihood threshold (default = -1).
+   # --entropy <e> : specify a different entropy threshold (default = 0.6).
+   # --help, -h : this help message.
+
+
+
+4. Test cases:
+
+ * Small dataset
+   (first 25000 pairs of SRR027877 from www.ncbi.nlm.nih.gov/sra/SRX011546)
+   bash ./bin/run_seecer.sh   testdata/SRR027877-small-p1.fastq testdata/SRR027877-small-p2.fastq
+
+
+   The corrected reads are store in the files testdata/*_corrected.fa
+
+
+Licenses:
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+

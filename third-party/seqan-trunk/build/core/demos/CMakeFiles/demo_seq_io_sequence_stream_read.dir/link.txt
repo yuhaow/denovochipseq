@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_seq_io_sequence_stream_read.dir/seq_io/sequence_stream_read.cpp.o  -o ../../bin/demo_seq_io_sequence_stream_read -rdynamic -lrt -lz -lbz2 

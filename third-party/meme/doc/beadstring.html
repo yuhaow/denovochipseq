@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>beadstring - a motif search tool</title>
+    <link href="./meme-suite.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <script src="./meme-suite-logo.js" type="text/javascript">&gt;</script>
+
+      <h1>beadstring -- not currently supported</h1>
+
+      <p><b>Usage:</b></p>
+      <p>
+      <code>beadstring [options] &lt;motifs&gt; &lt;database&gt;</code>
+      </p>
+
+      <p>
+      <b>Description:</b>
+      </p>
+
+      <p>
+      <code>Beadstring</code> builds a linear hidden Markov model (HMM) from
+      the motifs and motif occurences listed in the motif file, and uses
+      that HMM to search a sequence database for a particular ordered series
+      of motifs.  A description of the algorithm is found in:
+      </p>
+
+      <p>
+      <a href="http://bioinformatics.oxfordjournals.org/cgi/content/abstract/13/4/397">Grundy,
+      Bailey, Elkan and Baker. "Meta-MEME: Motif-based Hidden Markov Models
+      of Protein Families".  <i>Computer Applications in the
+      Biosciences.</i> 13(4):397-406, 1997.</a>
+      </p>
+
+      <p>
+      By default, the order and spacing of motifs in the model is determined
+      from the "Summary of Motifs" section of the MEME input file.
+      <code>Beadstring</code> searches the summary for the sequence that
+      contains the maximal number of distinct motif occurrences.  If there
+      is a tie, then <code>beadstring</code> selects the sequence with the
+      smallest combined p-value.  <code>Beadstring</code> then eliminates
+      all but the most significant occurrence of each motif and uses the
+      resulting order and spacing of motif occurrences to initialize the
+      HMM.  This procedure can be overridden by selecting the
+      <code>--motif</code>, <code>--motif-e-thresh</code>,
+      <code>--motif-p-thresh</code> or <code>--order</code> options.</p>
+
+      <p>
+      The command line option <code>--p-score</code> activates an
+      alternative scoring mode, called "p-value scoring."  This scoring
+      method is described in</p>
+
+      <p>
+      <a href="http://bioinformatics.oxfordjournals.org/cgi/reprint/19/suppl_2/ii16">Bailey
+      and Noble.  "Searching for statistically significant regulatory
+      modules."  <i>Bioinformatics</i> 19(Suppl 2):ii16-ii25, 2003.</a>
+      </p>
+
+
+      <p><b>Input:</b></p> 
+      <ul> 
+      <li>
+      <code>&lt;motifs&gt;</code> is a list of motifs in <A HREF="meme-format.html">MEME format</A>.
+      </li>
+      <li>
+      <code>&lt;database&gt;</code> is a collection of sequences in
+      <A HREF="fasta-format.html">FASTA</A> format. 
+      </li>
+      </ul>
+      <p><b>Output:</b></p>
+      <p>
+      Beadstring will create a directory, named <code>beadstring_out</code> by default.
+      Any existing output files in the directory will be overwritten.
+      The directory will contain:
+      </p>
+      <ul>
+      <li>
+      An XML file named <code>beadstring.xml</code> using the 
+      <a href="http://zlab.bu.edu/~phaverty/SupplementalData/CisML">CisML</a> schema.
+      </li>
+      <li>
+      An XML file named <code>model.xml</code> using the MEME_HMM schema.
+      </li>
+      <li>
+      An HTML file named <code>beadstring.html</code>
+      </li>
+      <li>
+      A plain text file named <code>beadstring.text</code>
+      </li>
+      </ul>
+      <p>
+      The default output directory can be overridden using the <code>--o</code> or <code>--oc</code>
+      options which are described below.
+      </p>
+      <p><b>Options:</b></p>
+
+      <p>
+      Options related to input and output:</p>
+
+      <ul>
+      <li><code>--bgfile <i>&lt;bfile&gt;</i></code> 
+    - Read background frequencies from
+    <code><i>&lt;bfile&gt;</i></code>.  
+    The file should be in 
+    <a href="bfile-format.html">MEME background file format</a>.
+    The default is to use frequencies
+    embedded in the application from the non-redundant database.  If the
+    argument is the keyword <code>motif-file</code>, then the frequencies
+    will be taken from the motif file.
+  </li>
+      <li><code>--e-thresh <i>&lt;ev&gt;</i></code>
+    - Only print results with E-values less than 
+    <code><i>&lt;ev&gt;</i></code>.
+    Default is 0.01.</li>
+      <li><code>--max-seqs <code><i>&lt;max&gt;</i></code></code>
+    - Print results for no more than <code><i>&lt;max&gt;</i></code>
+    sequences.  By default, all matches are reported, up to the specified
+    E-value threshold (see <code>--e-thresh</code>).
+  </li>
+      <li><code>--model-file <i>&lt;model file&gt;</i></code>
+    - Creation of the HMM will be skipped,
+    and the HMM will be read from the file instead.
+  </li>
+      <li><code>--no-search</code>
+    - This option turns off the search phase of <code>beadstring</code>.
+    The HMM will be stored if the <code>--model</code> option is specified.
+  </li>
+      <li><code>--o <i>&lt;dir name&gt;</i></code>
+    - Specifies the output directory.
+    If the directory already exists, the contents will not be overwritten.
+  </li>
+      <li><code>--oc <i>&lt;dir name&gt;</i></code>
+    - Specifies the output directory.
+    If the directory already exists, the contents will be overwritten.
+  </li>
+      <li><code>--progress <i>&lt;value&gt;</i></code>
+    - Print to standard error a progress
+    message approximately every <code><i>&lt;value&gt;</i></code> seconds.
+  </li>
+      <li><code>--score-file <i>&lt;score file&gt;</i></code>
+    - Cause a score file (in BLAST format) to be read and used instead of
+    the built-in PAM (for proteins) or transition/transversion (for DNA)
+    score file. Several score files are provided (including BLOSUM62) in the
+    directory <code>doc</code>.
+    Other, user-provided score files may be specified as well,
+    as long as they are in the proper format.
+  </li>
+      <li><code>--verbosity 1|2|3|4</code>
+    - Set the verbosity of status reports to standard error.
+    The default level is 2.
+  </li>
+      </ul>
+
+      <p>
+      Options related to selecting motifs for the model:</p>
+
+      <ul>
+      <li><code>--motif <i>&lt;id&gt;</i></code>
+    - Use only the motif identified by <code><i>&lt;id&gt;</i></code>. 
+    This option may be repeated.
+  </li>
+      <li><command-option name="motif-e-thresh"></command-option></li>
+      <li><command-option name="motif-p-thresh"></command-option></li>
+      <li><code>--order <i>&lt;string&gt;</i></code>
+    - The given string specifies the order and spacing of the motifs within the
+    model, and has the format "l=n=l=n=...=l=n=l", where "l" is the
+    length of a region between motifs, and "n" is a motif index. Thus,
+    for example, the string "34=3=17=2=5" specifies a two-motif linear
+    model, with motifs 3 and 2 separated by 17 letters and flanked by
+    34 letters and 5 letters on the left and right. If the motif file
+    contains motif occurrences on both strands, then the motif IDs in
+    the order string should be preceded by "+" or "-" indicating the
+    strandedness of the motif.
+  </li>
+
+      </ul>
+
+      <p>
+      Options related to building the model:</p>
+
+      <ul>
+      <li><code>--fim</code>
+    - Gaps between motifs are not penalized.
+    Spacer states between motifs are represented as free-insertion modules (FIM).
+    A FIM is an insert state with 1.0 probability of self-transition 
+    and 1.0 probability of exit transition. 
+    Thus, traversing such a state has zero transition cost.
+    Specifying this option causes all spacers to be represented using FIMs.
+  </li>
+      <li><code>--gap-extend <i>&lt;cost&gt;</i></code>
+    - This switch causes
+    <b>all</b> spacer self-loop log-odds scores to be set to
+    <code><i>&lt;cost&gt;</i></code>. 
+    In addition, it causes all other transitions out of a
+    spacer to be set to zero. Together with the <code>--gap-open</code>
+    switch, this allows you to specify an affine gap penalty function,
+    overriding the gap penalty implicit in the model (self-loop transition
+    probabilities of gap states).
+  </li>
+      <li><code>--gap-open <i>&lt;cost&gt;</i></code>
+    - This switch causes
+    <b>all</b> transitions into a spacer state to be assigned a log-odds
+    score equal to <code><i>&lt;cost&gt;</i></code>.
+    Together with the <code>--gap-extend</code> switch,
+    this allows you to specify an affine gap penalty function,
+    overriding the gap penalty implicit in the model
+    (transition probabilities into and out of gap states).
+  </li>
+      <li><code>--motif-pseudo <i>&lt;float&gt;</i></code>
+    - A pseudocount to be added to each count in the motif matrix,
+    after first multiplying by the corresponding background frequency (default=0.1).
+   Default value is 0.0.</li>
+      <li><code>--nspacer <i>&lt;value&gt;</i></code>
+    - By default each spacer is modeled using a single insert state.
+    The distribution of spacer lengths produced by a single insert
+    state is exponential in form.
+    A more reasonable distribution would be a bell-shaped curve such as a Gaussian.
+    Modeling the length distribution explicitly is computationally expensive;
+    however, a Gaussian distribution can be
+    approximated using multiple insert states to represent a single
+    spacer region. The <code>--nspacer</code> option specifies the number of
+    insert states used to represent each spacer.
+  </li>
+      <li><code>--spacer-pseudo <i>&lt;value&gt;</i></code>
+    - Specify the value of the
+    pseudocount used in converting transition counts to spacer
+    self-loop probabilities.
+   Default value is 0.0.</li>
+      <li><code>--trans-pseudo <i>&lt;value&gt;</i></code>
+    - Specify the value of the
+    pseudocount used in converting transition counts to transition
+    probabilities.
+   Default value is 0.1.</li>
+      <li><code>--zselo</code>
+    Spacer emission log-odds scores to be set to zero.
+    This prevents regions of unusual base/residue composition 
+    matching spacers well when
+    the spacer emission frequencies are different than the background frequencies.
+    It is particularly useful with DNA models.
+  </li>
+      </ul>
+
+      <p>
+      Options related to scoring:</p>
+
+      <ul>
+      <li><code>--allow-weak-motifs</code> 
+    - In p-value score mode, weak motifs
+    are defined as ones where the best possible hit has a p-value greater
+    than the p-value threshold.  Such motifs cannot contribute to a match
+    in p-value score mode. By default, the program rejects any search
+    results containing weak motifs, unless the
+    <code>--allow-weak-motifs</code> switch is given.  In that case, the
+    search will proceed, but the weak motifs will never appear in any
+    matches.  <b>Note</b>:This switch only applies to p-value score mode.
+  </li>
+      <li><code>--global</code>
+    - Scores are computed for the match between the entire sequence 
+    and the model (the default is to use the maximal local score).
+  </li>
+      <li><code>--pam <i>&lt;distance&gt;</i></code>
+    - By default, target probabilities are derived
+    from the <em>distance-250</em> PAM matrix for proteins, and from a
+    <code><i>&lt;distance&gt;-1</i></code>
+    transition/transversion matrix for DNA.  
+    With the <code>-pam</code> switch, 
+    you can specify a different <b>integer</b> distance
+    from 1 to 500. (This can be overridden with 
+    the <code>--score-file</code> switch below). 
+    The <code><i>&lt;distance&gt;-1</i></code> transition/transversion joint
+    probability matrix for DNA is given below:
+
+    <pre>
+           A    C    G    T    
+      A  .990 .002 .006 .002
+      C  .002 .990 .002 .006
+      G  .006 .002 .990 .002
+      T  .002 .006 .002 .990
+    </pre></li>
+      <li><code>--paths single|all</code>
+    - This option determines how the program computes raw scores.
+    With the <code>single</code> option,
+    the program computes the Viterbi score,
+    which is the log-odds score associated with the single
+    most likely match between the sequence and the model. The
+    <code>all</code> option yields the total log-odds score,
+    which is the sum of the log-odds of all sequence-to-model matches.
+    The default is Viterbi scoring.
+  </li>
+      <li><code>--p-score <i>&lt;float&gt;</i></code>
+    - The <code>--p-score</code> switch
+    activates p-value score mode with the given threshold. (The default
+    score mode is called "log-odds score mode".) In p-value score mode,
+    motif match scores are converted to their p-values. They are then
+    converted to bit scores as follows:
+    <div style="margin-left: 2em">S = -log<sub>2</sub>(p/T)</div>
+    where S is the bit score of the hit,
+    p is the p-value of the log-odds score,
+    and T is the p-value threshold.
+    In this way,
+    only hits more significant than the p-value threshold get positive scores.
+    The p-value threshold, T, must be in the range 0&lt;T&lt;=1.
+  </li>
+      </ul>
+
+    </div>
+  </body>
+</html>

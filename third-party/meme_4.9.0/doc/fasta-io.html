@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>fasta-io</title>
+    <link href="./meme-suite.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <script src="./meme-suite-logo.js" type="text/javascript">&gt;</script>
+      <h1>fasta-io</h1>
+
+      <p>
+        <b>Usage:</b> <code>fasta-io [options] &lt;<i>sequences</i>&gt;</code>
+      </p>
+
+      <p><b>Description:</b></p>
+      <p>
+        This utility reads a sequence file in FASTA format and writes
+        it to standard out.
+      </p>
+
+      <p><b>Input:</b></p>
+
+      <ul>
+      <li>&lt;<i>sequences</i>&gt; - a file containing a set of sequences in 
+      <a href="fasta-format.html">FASTA format</a>.
+      </li>
+      </ul>
+
+      <p><b>Output:</b></p>
+      <p>
+      The program prints to standard output.
+      </p>
+
+      <p><b>Options:</b></p>
+
+      <ul>
+      <li><code>--blocksize <i>&lt;n&gt;</i></code> 
+    - Read sequences in blocks of size <code><i>n</i></code>. 
+    Default behavior is
+    to read one full sequence at a time.  
+  </li>
+      <li><code>-dna</code>
+    - Sets alphabet to DNA (default protein).
+  </li>
+      <li><code>-many</code>
+    - Read all sequences into memory at start up.
+  </li>
+      <li><code>--verbosity 1|2|3|4</code>
+    - Set the verbosity of status reports to standard error.
+    The default level is 2.
+  </li>
+      </ul>
+
+      <p><b>Bugs:</b> None known.</p>
+
+    </div>
+  </body>
+</html>

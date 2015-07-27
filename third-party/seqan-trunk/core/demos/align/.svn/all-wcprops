@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/14164/trunk/core/demos/align
+END
+global_alignment_unbanded.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/14164/trunk/core/demos/align/global_alignment_unbanded.cpp
+END
+gaps_example.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14142/trunk/core/demos/align/gaps_example.cpp
+END
+align.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/14127/trunk/core/demos/align/align.cpp
+END
+global_alignment_banded.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/14164/trunk/core/demos/align/global_alignment_banded.cpp
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/14148/trunk/core/demos/seq_io
+END
+sequence_stream_read.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/14148/trunk/core/demos/seq_io/sequence_stream_read.cpp
+END
+fai_index_example.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/14148/trunk/core/demos/seq_io/fai_index_example.cpp
+END
+sequence_stream_write.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/14148/trunk/core/demos/seq_io/sequence_stream_write.cpp
+END

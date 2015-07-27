@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_index_index_qgram.dir/tutorial/index/index_qgram.cpp.o  -o ../../bin/demo_tutorial_index_index_qgram -rdynamic -lrt -lz -lbz2 

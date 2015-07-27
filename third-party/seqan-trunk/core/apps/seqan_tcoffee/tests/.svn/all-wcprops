@@ -1,0 +1,965 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests
+END
+1aab.ms10.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.ms10.fasta
+END
+2trx.e-5.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.e-5.fasta
+END
+1ad2.e-5.out
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.e-5.out
+END
+adeno2-rna.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/adeno2-rna.fasta
+END
+1aab.bmax.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.bmax.fasta
+END
+2trx.mlcs.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.mlcs.fasta
+END
+2trx.moverlap.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.moverlap.out
+END
+1ad2.mlcs.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.mlcs.out
+END
+1aab.mglobal.mlocal.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.mglobal.mlocal.out
+END
+adeno3.fa
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno3.fa
+END
+2trx.bnj.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.bnj.fasta
+END
+1aab.mlocal.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.mlocal.fasta
+END
+2trx.mm-8.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.mm-8.fasta
+END
+1ad2.mglobal.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.mglobal.out
+END
+1ad2.mm-8.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.mm-8.out
+END
+1ad2.ms10.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.ms10.out
+END
+1aab.mglobal.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.mglobal.fasta
+END
+1aab.g-20.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.g-20.out
+END
+2trx.bmin.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.bmin.fasta
+END
+1aab.bnj.out
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.bnj.out
+END
+1aab.newick
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.newick
+END
+2trx.maVTML200.out
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.maVTML200.out
+END
+2trx.moverlap.mlcs.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.moverlap.mlcs.out
+END
+1ad2.g-20.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.g-20.fasta
+END
+1aab.fa
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.fa
+END
+1ad2.mlocal.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.mlocal.fasta
+END
+2trx.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.fasta
+END
+1ad2.protein.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.protein.fasta
+END
+1ad2.mlocal.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.mlocal.out
+END
+2trx.mglobal.mlcs.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.mglobal.mlcs.fasta
+END
+1ad2.mglobal.mlcs.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.mglobal.mlcs.out
+END
+adeno3.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/adeno3.fasta
+END
+1ad2.moverlap.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.moverlap.fasta
+END
+2trx.bavg.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.bavg.fasta
+END
+VTML200I
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/VTML200I
+END
+1ad2.mlocal.moverlap.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.mlocal.moverlap.fasta
+END
+2trx.newick
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.newick
+END
+adeno3.out
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno3.out
+END
+2trx.bavg.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.bavg.out
+END
+1aab.mglobal.mlocal.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.mglobal.mlocal.fasta
+END
+1ad2.i.out
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.i.out
+END
+2trx.protein.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.protein.out
+END
+adeno3-rna.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/adeno3-rna.fasta
+END
+1ad2.mlocal.moverlap.out
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.mlocal.moverlap.out
+END
+1aab.i.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.i.fasta
+END
+1aab.protein.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.protein.out
+END
+1ad2.bwavg.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.bwavg.fasta
+END
+2trx.e-5.out
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.e-5.out
+END
+1ad2.u.out
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.u.out
+END
+2trx.mlcs.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.mlcs.out
+END
+1ad2.ms10.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.ms10.fasta
+END
+1aab.u.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.u.fasta
+END
+out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/out.fasta
+END
+1ad2.bnj.out
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.bnj.out
+END
+1ad2.mglobal.mlocal.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.mglobal.mlocal.fasta
+END
+1ad2.bmax.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.bmax.fasta
+END
+1ad2.mglobal.mlocal.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.mglobal.mlocal.out
+END
+2trx.mglobal.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.mglobal.out
+END
+1ad2.bmin.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.bmin.out
+END
+2trx.mm-8.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.mm-8.out
+END
+1aab.maVTML200.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.maVTML200.fasta
+END
+1ad2.bmax.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.bmax.out
+END
+2trx.ms10.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.ms10.out
+END
+1aab.moverlap.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.moverlap.fasta
+END
+1aab.mglobal.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.mglobal.out
+END
+1aab.bavg.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.bavg.out
+END
+1aab.maVTML200.out
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.maVTML200.out
+END
+1ad2.out
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.out
+END
+1aab.mlcs.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.mlcs.fasta
+END
+adeno4.fa
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno4.fa
+END
+2trx.g-20.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.g-20.fasta
+END
+1aab.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.fasta
+END
+2trx.mlocal.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.mlocal.fasta
+END
+adeno2.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/adeno2.fasta
+END
+1aab.mlcs.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.mlcs.out
+END
+2trx.mlocal.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.mlocal.out
+END
+1ad2.i.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.i.fasta
+END
+2trx.protein.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.protein.fasta
+END
+1ad2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.fa
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/run_tests.py
+END
+2trx.mglobal.mlcs.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.mglobal.mlcs.out
+END
+1aab.mm-8.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.mm-8.fasta
+END
+2trx.moverlap.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.moverlap.fasta
+END
+1aab.bmin.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.bmin.fasta
+END
+adeno4-rna.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/adeno4-rna.fasta
+END
+2trx.mlocal.moverlap.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.mlocal.moverlap.fasta
+END
+1ad2.u.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.u.fasta
+END
+1aab.mm-8.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.mm-8.out
+END
+1aab.ms10.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.ms10.out
+END
+2trx.i.out
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.i.out
+END
+2trx.mlocal.moverlap.out
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.mlocal.moverlap.out
+END
+1ad2.mglobal.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.mglobal.fasta
+END
+2trx.bwavg.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.bwavg.fasta
+END
+1ad2.bwavg.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.bwavg.out
+END
+1aab.mlocal.moverlap.out
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.mlocal.moverlap.out
+END
+1ad2.moverlap.mlcs.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.moverlap.mlcs.fasta
+END
+1ad2.maVTML200.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.maVTML200.fasta
+END
+1aab.bwavg.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.bwavg.fasta
+END
+2trx.u.out
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.u.out
+END
+1aab.mglobal.mlcs.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.mglobal.mlcs.fasta
+END
+2trx.ms10.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.ms10.fasta
+END
+2trx.bnj.out
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.bnj.out
+END
+2trx.mglobal.mlocal.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.mglobal.mlocal.fasta
+END
+1aab.bavg.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.bavg.fasta
+END
+1aab.bwavg.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.bwavg.out
+END
+2trx.bmax.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.bmax.fasta
+END
+1aab.mglobal.mlcs.out
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.mglobal.mlcs.out
+END
+2trx.mglobal.mlocal.out
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.mglobal.mlocal.out
+END
+2trx.bmin.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.bmin.out
+END
+2trx.bmax.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.bmax.out
+END
+adeno2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno2.fa
+END
+1aab.moverlap.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.moverlap.out
+END
+1ad2.g-20.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.g-20.out
+END
+2trx.out
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.out
+END
+1ad2.e-5.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.e-5.fasta
+END
+1aab.out
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.out
+END
+adeno4-rna.fa
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno4-rna.fa
+END
+adeno2.out
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno2.out
+END
+1aab.protein.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.protein.fasta
+END
+adeno4.out
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno4.out
+END
+1ad2.moverlap.out
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.moverlap.out
+END
+1ad2.mlcs.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.mlcs.fasta
+END
+2trx.i.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.i.fasta
+END
+2trx.fa
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.fa
+END
+1aab.e-5.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.e-5.fasta
+END
+1aab.mlocal.moverlap.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.mlocal.moverlap.fasta
+END
+1ad2.bnj.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.bnj.fasta
+END
+adeno2-rna.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno2-rna.out
+END
+adeno3-rna.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno3-rna.out
+END
+1aab.bmin.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.bmin.out
+END
+adeno4-rna.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno4-rna.out
+END
+1aab.e-5.out
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.e-5.out
+END
+2trx.u.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.u.fasta
+END
+1aab.bmax.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.bmax.out
+END
+1ad2.mm-8.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.mm-8.fasta
+END
+1aab.i.out
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.i.out
+END
+1aab.g-20.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.g-20.fasta
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/generate_outputs.sh
+END
+2trx.mglobal.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.mglobal.fasta
+END
+1ad2.bmin.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.bmin.fasta
+END
+1aab.bnj.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.bnj.fasta
+END
+2trx.bwavg.out
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.bwavg.out
+END
+adeno3-rna.fa
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno3-rna.fa
+END
+2trx.moverlap.mlcs.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.moverlap.mlcs.fasta
+END
+2trx.maVTML200.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/2trx.maVTML200.fasta
+END
+1aab.u.out
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.u.out
+END
+1ad2.moverlap.mlcs.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.moverlap.mlcs.out
+END
+1ad2.maVTML200.out
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.maVTML200.out
+END
+1aab.mlocal.out
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.mlocal.out
+END
+1aab.moverlap.mlcs.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1aab.moverlap.mlcs.fasta
+END
+1ad2.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.fasta
+END
+1aab.moverlap.mlcs.out
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1aab.moverlap.mlcs.out
+END
+1ad2.mglobal.mlcs.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.mglobal.mlcs.fasta
+END
+1ad2.bavg.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/1ad2.bavg.fasta
+END
+1ad2.newick
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.newick
+END
+adeno4.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13623/trunk/core/apps/seqan_tcoffee/tests/adeno4.fasta
+END
+2trx.g-20.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/2trx.g-20.out
+END
+1ad2.bavg.out
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.bavg.out
+END
+adeno2-rna.fa
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/adeno2-rna.fa
+END
+1ad2.protein.out
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/core/apps/seqan_tcoffee/tests/1ad2.protein.out
+END

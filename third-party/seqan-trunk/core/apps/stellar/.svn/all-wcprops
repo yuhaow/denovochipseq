@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/13986/trunk/core/apps/stellar
+END
+stellar_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13709/trunk/core/apps/stellar/stellar_types.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13281/trunk/core/apps/stellar/LICENSE
+END
+stellar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13784/trunk/core/apps/stellar/stellar.cpp
+END
+stellar_extension.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13986/trunk/core/apps/stellar/stellar_extension.h
+END
+stellar.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13754/trunk/core/apps/stellar/stellar.h
+END
+stellar_output.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/core/apps/stellar/stellar_output.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13627/trunk/core/apps/stellar/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13627/trunk/core/apps/stellar/README
+END

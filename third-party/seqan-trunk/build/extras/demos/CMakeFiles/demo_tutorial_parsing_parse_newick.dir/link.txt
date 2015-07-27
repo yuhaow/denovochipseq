@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_parsing_parse_newick.dir/tutorial/parsing/parse_newick.cpp.o  -o ../../bin/demo_tutorial_parsing_parse_newick -rdynamic -lrt -lz -lbz2 

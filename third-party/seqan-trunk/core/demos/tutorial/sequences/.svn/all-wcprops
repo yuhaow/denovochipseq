@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13259/trunk/core/demos/tutorial/sequences
+END
+segments_assignment_hint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/seqan/!svn/ver/13250/trunk/core/demos/tutorial/sequences/segments_assignment_hint.cpp
+END
+lexical_assignment_solution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13250/trunk/core/demos/tutorial/sequences/lexical_assignment_solution.cpp
+END
+segments_assignment_solution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13250/trunk/core/demos/tutorial/sequences/segments_assignment_solution.cpp
+END
+segments_assignment_2_solution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13250/trunk/core/demos/tutorial/sequences/segments_assignment_2_solution.cpp
+END
+string_assignment_1_solution.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13250/trunk/core/demos/tutorial/sequences/string_assignment_1_solution.cpp
+END

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_file_io_mmap_string_example.dir/tutorial/file_io/mmap_string_example.cpp.o  -o ../../bin/demo_tutorial_file_io_mmap_string_example -rdynamic -lrt -lz -lbz2 

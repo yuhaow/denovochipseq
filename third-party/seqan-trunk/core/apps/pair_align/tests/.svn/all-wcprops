@@ -1,0 +1,977 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/13988/trunk/core/apps/pair_align/tests
+END
+2trx.lo5_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.lo5_out.fasta
+END
+2trx.ctttt_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.ctttt_out.fasta
+END
+1ad2.cffff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cffff_out.fasta
+END
+adeno2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno2.stdout
+END
+1ad2.maVTML200_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.maVTML200_out.fasta
+END
+1aab.msw_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.msw_out.fasta
+END
+1aab.cffff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cffff.stdout
+END
+adeno3.fa
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/core/apps/pair_align/tests/adeno3.fa
+END
+1ad2.cftff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cftff_out.fasta
+END
+2trx.ms10_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.ms10_out.fasta
+END
+2trx.e-5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.e-5.stdout
+END
+1ad2.mnw.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.mnw.stdout
+END
+1aab.hi5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.hi5.stdout
+END
+2trx.ctfff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.ctfff_out.fasta
+END
+adeno1-rna.fa
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/pair_align/tests/adeno1-rna.fa
+END
+1ad2.g-20.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.g-20.stdout
+END
+1aab.cfftf.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cfftf.stdout
+END
+2trx.mlcs.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.mlcs.stdout
+END
+1ad2.msw.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.msw.stdout
+END
+1ad2.g-20_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.g-20_out.fasta
+END
+1aab.cfftf_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cfftf_out.fasta
+END
+2trx.ctttt.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.ctttt.stdout
+END
+1ad2.cffff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cffff.stdout
+END
+1aab.mlcs.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.mlcs.stdout
+END
+2trx_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx_out.fasta
+END
+2trx.cttff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cttff_out.fasta
+END
+2trx.cfftt_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cfftt_out.fasta
+END
+1aab.mnw_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.mnw_out.fasta
+END
+adeno1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno1.stdout
+END
+1ad2.maVTML200.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.maVTML200.stdout
+END
+1aab.fa
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/core/apps/pair_align/tests/1aab.fa
+END
+1aab.cfttf_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cfttf_out.fasta
+END
+1aab.ctfft_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.ctfft_out.fasta
+END
+2trx.mm-8.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.mm-8.stdout
+END
+adeno3_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno3_out.fasta
+END
+1ad2.cfftf.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cfftf.stdout
+END
+1ad2.e-5_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.e-5_out.fasta
+END
+1aab.mm-8.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.mm-8.stdout
+END
+1ad2.mgotoh.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.mgotoh.stdout
+END
+2trx.cftff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cftff.stdout
+END
+1ad2.mgotoh_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.mgotoh_out.fasta
+END
+1ad2.mlcs_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.mlcs_out.fasta
+END
+adeno3-rna_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno3-rna_out.fasta
+END
+VTML200I
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13034/trunk/core/apps/pair_align/tests/VTML200I
+END
+2trx.lo5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.lo5.stdout
+END
+2trx.ctfft.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.ctfft.stdout
+END
+2trx.cfttf.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cfttf.stdout
+END
+1aab.lo5_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.lo5_out.fasta
+END
+1ad2.mm-8_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.mm-8_out.fasta
+END
+2trx.cffff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cffff_out.fasta
+END
+1aab.g-20_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.g-20_out.fasta
+END
+adeno1.fa
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/core/apps/pair_align/tests/adeno1.fa
+END
+1ad2.cfftf_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cfftf_out.fasta
+END
+2trx.maVTML200_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.maVTML200_out.fasta
+END
+adeno2-rna.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno2-rna.stdout
+END
+1ad2.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.stdout
+END
+1aab.maVTML200_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.maVTML200_out.fasta
+END
+2trx.cftff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cftff_out.fasta
+END
+1aab.cffft.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cffft.stdout
+END
+1aab.cffft_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cffft_out.fasta
+END
+1ad2.cfttf_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cfttf_out.fasta
+END
+1ad2.ctfft_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.ctfft_out.fasta
+END
+2trx.mnw.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.mnw.stdout
+END
+2trx.g-20.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.g-20.stdout
+END
+1aab.mlcs_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.mlcs_out.fasta
+END
+2trx.msw.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.msw.stdout
+END
+2trx.g-20_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.g-20_out.fasta
+END
+2trx.cffff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cffff.stdout
+END
+1aab.g-20.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.g-20.stdout
+END
+1aab.cttff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cttff.stdout
+END
+1aab.cfftt.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cfftt.stdout
+END
+1ad2.hi5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.hi5.stdout
+END
+1ad2.hi5_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13684/trunk/core/apps/pair_align/tests/1ad2.hi5_out.fasta
+END
+1ad2.cffft.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cffft.stdout
+END
+2trx.maVTML200.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.maVTML200.stdout
+END
+1aab.mm-8_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.mm-8_out.fasta
+END
+2trx.cfftf.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cfftf.stdout
+END
+2trx.e-5_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.e-5_out.fasta
+END
+1aab.e-5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.e-5.stdout
+END
+adeno2-rna_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno2-rna_out.fasta
+END
+2trx.mgotoh.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.mgotoh.stdout
+END
+1ad2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/core/apps/pair_align/tests/1ad2.fa
+END
+1ad2.cfftt.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cfftt.stdout
+END
+1ad2.cttff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cttff.stdout
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13684/trunk/core/apps/pair_align/tests/run_tests.py
+END
+2trx.mgotoh_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.mgotoh_out.fasta
+END
+1ad2.msw_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.msw_out.fasta
+END
+2trx.mlcs_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.mlcs_out.fasta
+END
+1aab.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.stdout
+END
+1ad2.protein.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.protein.stdout
+END
+1aab.ctttt_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.ctttt_out.fasta
+END
+2trx.mm-8_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.mm-8_out.fasta
+END
+1ad2.cffft_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cffft_out.fasta
+END
+1aab.maVTML200.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.maVTML200.stdout
+END
+2trx.cfftf_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cfftf_out.fasta
+END
+1ad2.mnw_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.mnw_out.fasta
+END
+1aab.ctfff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.ctfff.stdout
+END
+1aab.ctfff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.ctfff_out.fasta
+END
+2trx.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.stdout
+END
+1aab.lo5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.lo5.stdout
+END
+1aab.mgotoh_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.mgotoh_out.fasta
+END
+1ad2.ms10.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.ms10.stdout
+END
+2trx.ctfft_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.ctfft_out.fasta
+END
+2trx.cfttf_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cfttf_out.fasta
+END
+1ad2.protein_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.protein_out.fasta
+END
+adeno1_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno1_out.fasta
+END
+1aab.cttff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cttff_out.fasta
+END
+1aab.cfftt_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cfftt_out.fasta
+END
+adeno2.fa
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/core/apps/pair_align/tests/adeno2.fa
+END
+1ad2.ctfff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.ctfff.stdout
+END
+2trx.hi5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.hi5.stdout
+END
+1aab.protein.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.protein.stdout
+END
+2trx.hi5_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.hi5_out.fasta
+END
+2trx.cffft.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cffft.stdout
+END
+1aab.protein_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.protein_out.fasta
+END
+adeno3-rna.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno3-rna.stdout
+END
+1ad2.lo5_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.lo5_out.fasta
+END
+adeno1-rna_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno1-rna_out.fasta
+END
+1ad2.ctttt_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.ctttt_out.fasta
+END
+1aab.e-5_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.e-5_out.fasta
+END
+1aab.mgotoh.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.mgotoh.stdout
+END
+2trx.fa
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13034/trunk/core/apps/pair_align/tests/2trx.fa
+END
+2trx.cttff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cttff.stdout
+END
+2trx.cfftt.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cfftt.stdout
+END
+1aab.mnw.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.mnw.stdout
+END
+1aab.ctttt.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.ctttt.stdout
+END
+2trx.msw_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.msw_out.fasta
+END
+1ad2.ms10_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.ms10_out.fasta
+END
+1aab.msw.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.msw.stdout
+END
+1ad2.e-5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.e-5.stdout
+END
+2trx.protein.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.protein.stdout
+END
+1aab.cffff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cffff_out.fasta
+END
+1ad2.ctfff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.ctfff_out.fasta
+END
+1ad2.mlcs.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.mlcs.stdout
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13988/trunk/core/apps/pair_align/tests/generate_outputs.sh
+END
+1ad2.ctttt.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.ctttt.stdout
+END
+2trx.cffft_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.cffft_out.fasta
+END
+1ad2_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2_out.fasta
+END
+1aab.cftff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cftff.stdout
+END
+adeno3-rna.fa
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/pair_align/tests/adeno3-rna.fa
+END
+1aab.cftff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cftff_out.fasta
+END
+1ad2.cttff_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cttff_out.fasta
+END
+1ad2.cfftt_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cfftt_out.fasta
+END
+2trx.mnw_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.mnw_out.fasta
+END
+1ad2.mm-8.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.mm-8.stdout
+END
+1aab_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab_out.fasta
+END
+1aab.cfttf.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.cfttf.stdout
+END
+1aab.ctfft.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.ctfft.stdout
+END
+adeno3.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno3.stdout
+END
+adeno2_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno2_out.fasta
+END
+1ad2.cftff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cftff.stdout
+END
+2trx.ms10.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.ms10.stdout
+END
+2trx.protein_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.protein_out.fasta
+END
+1aab.ms10.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.ms10.stdout
+END
+1ad2.lo5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.lo5.stdout
+END
+adeno1-rna.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/adeno1-rna.stdout
+END
+2trx.ctfff.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/2trx.ctfff.stdout
+END
+1aab.ms10_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1aab.ms10_out.fasta
+END
+adeno2-rna.fa
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13034/trunk/core/apps/pair_align/tests/adeno2-rna.fa
+END
+1aab.hi5_out.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13684/trunk/core/apps/pair_align/tests/1aab.hi5_out.fasta
+END
+1ad2.cfttf.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.cfttf.stdout
+END
+1ad2.ctfft.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13702/trunk/core/apps/pair_align/tests/1ad2.ctfft.stdout
+END

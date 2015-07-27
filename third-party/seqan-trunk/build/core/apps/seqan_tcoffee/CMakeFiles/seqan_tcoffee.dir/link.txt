@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG -DSEQAN_ENABLE_DEBUG=0    CMakeFiles/seqan_tcoffee.dir/seqan_tcoffee.cpp.o  -o ../../../bin/seqan_tcoffee -rdynamic -lrt 

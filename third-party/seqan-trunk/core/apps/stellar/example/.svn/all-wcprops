@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13281/trunk/core/apps/stellar/example
+END
+NC_001477.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13281/trunk/core/apps/stellar/example/NC_001477.fasta
+END
+reads.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13281/trunk/core/apps/stellar/example/reads.fasta
+END
+NC_001474.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13281/trunk/core/apps/stellar/example/NC_001474.fasta
+END

@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_bam_io_bam_stream.dir/bam_io/bam_stream.cpp.o  -o ../../bin/demo_bam_io_bam_stream -rdynamic -lrt -lz -lbz2 

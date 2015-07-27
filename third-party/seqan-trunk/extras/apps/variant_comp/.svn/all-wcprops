@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/seqan/!svn/ver/13873/trunk/extras/apps/variant_comp
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13808/trunk/extras/apps/variant_comp/LICENSE
+END
+variant_comp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13873/trunk/extras/apps/variant_comp/variant_comp.cpp
+END
+variant_comp.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13802/trunk/extras/apps/variant_comp/variant_comp.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/CMakeLists.txt
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13808/trunk/extras/apps/variant_comp/README
+END

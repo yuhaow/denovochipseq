@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13988/trunk/misc/seqan_instrumentation/py2exe
+END
+tee.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/tee.cmd
+END
+py2exe-0.6.9.win32-py2.7.exe
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/py2exe-0.6.9.win32-py2.7.exe
+END
+setup.bat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/setup.bat
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/setup.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/README
+END

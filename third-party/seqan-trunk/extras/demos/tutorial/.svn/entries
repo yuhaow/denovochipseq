@@ -1,0 +1,135 @@
+10
+
+dir
+14263
+http://svn.seqan.de/seqan/trunk/extras/demos/tutorial
+http://svn.seqan.de/seqan
+
+
+
+2013-06-28T17:12:27.115269Z
+14206
+holtgrew
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+e6417c60-b987-48fd-844e-b20f0fcc1017
+
+bed_io
+dir
+
+indexed_fasta_io
+dir
+
+bam_io
+dir
+
+basic_sam_bam_io
+dir
+
+gff_io
+dir
+
+stream
+dir
+
+find_motif_pms1.cpp
+file
+
+
+
+
+2013-07-15T18:56:49.000000Z
+2ef8527d27c493bf5a14485544748be0
+2013-04-26T13:31:13.069609Z
+13988
+weese
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+898
+
+find_motif.cpp
+file
+
+
+
+
+2013-07-15T18:56:49.000000Z
+3e1dedd24acd99035b98ebb0e27992f5
+2013-04-26T13:31:13.069609Z
+13988
+weese
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1163
+
+basic_sequence_io
+dir
+
+data_journaling
+dir
+
+parsing
+dir
+
+vcf_io
+dir
+
+mini_bowtie
+dir
+
+first_steps
+dir
+
+file_io
+dir
+

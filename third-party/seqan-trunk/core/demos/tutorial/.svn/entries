@@ -1,0 +1,125 @@
+10
+
+dir
+14263
+http://svn.seqan.de/seqan/trunk/core/demos/tutorial
+http://svn.seqan.de/seqan
+
+
+
+2013-07-03T11:09:29.052220Z
+14238
+sabrina7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e6417c60-b987-48fd-844e-b20f0fcc1017
+
+random
+dir
+
+find
+dir
+
+modifiers
+dir
+
+read_mapping
+dir
+
+annotation_store
+dir
+
+getting_started
+dir
+
+rnaseq
+dir
+
+lexical_casting
+dir
+
+sequences
+dir
+
+store
+dir
+
+sequence_io
+dir
+
+graph
+dir
+
+alignments
+dir
+
+alphabets
+dir
+
+string_sets
+dir
+
+basics
+dir
+
+sequences_in_depth
+dir
+
+index
+dir
+
+sequence
+dir
+
+seed_and_extend
+dir
+
+iterators
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2013-07-15T18:57:49.000000Z
+d606a608a5efd7f3d4fdd9427d887ffa
+2012-10-24T08:49:57.184157Z
+13108
+holtgrew
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+390
+

@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -fopenmp -O3 -DNDEBUG    CMakeFiles/test_parallel.dir/test_parallel.cpp.o  -o ../../../bin/test_parallel -rdynamic -lrt 

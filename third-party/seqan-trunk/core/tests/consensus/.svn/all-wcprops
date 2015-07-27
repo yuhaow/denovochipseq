@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/seqan/!svn/ver/13855/trunk/core/tests/consensus
+END
+simulated_reads.fastaS
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13451/trunk/core/tests/consensus/simulated_reads.fastaS
+END
+sam_to_cgb_result.cgb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13443/trunk/core/tests/consensus/sam_to_cgb_result.cgb
+END
+toy.sam
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/seqan/!svn/ver/13443/trunk/core/tests/consensus/toy.sam
+END
+sam_to_frg_result.frg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13450/trunk/core/tests/consensus/sam_to_frg_result.frg
+END
+toy.fa
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/seqan/!svn/ver/13450/trunk/core/tests/consensus/toy.fa
+END
+test_consensus.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/consensus/test_consensus.cpp
+END
+small_example.sam
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13490/trunk/core/tests/consensus/small_example.sam
+END
+simulated_reference.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13451/trunk/core/tests/consensus/simulated_reference.fasta
+END
+simulated_reads.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13451/trunk/core/tests/consensus/simulated_reads.fasta
+END
+test_consensus.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13855/trunk/core/tests/consensus/test_consensus.h
+END
+test_consensus_realign.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13855/trunk/core/tests/consensus/test_consensus_realign.h
+END
+simulated_reads.fastaF
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13451/trunk/core/tests/consensus/simulated_reads.fastaF
+END
+reads_to_sam_read_result.sam
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13451/trunk/core/tests/consensus/reads_to_sam_read_result.sam
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13490/trunk/core/tests/consensus/CMakeLists.txt
+END
+simulated_reads.fastaL
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13451/trunk/core/tests/consensus/simulated_reads.fastaL
+END
+sam_to_fasta_read_result.fa
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13450/trunk/core/tests/consensus/sam_to_fasta_read_result.fa
+END

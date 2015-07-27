@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/14116/trunk/extras/tests/multiple_translation_units
+END
+test_multiple_translation_units.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/seqan/!svn/ver/14116/trunk/extras/tests/multiple_translation_units/test_multiple_translation_units.cpp
+END
+test_multiple_translation_units_2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/seqan/!svn/ver/13950/trunk/extras/tests/multiple_translation_units/test_multiple_translation_units_2.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13857/trunk/extras/tests/multiple_translation_units/CMakeLists.txt
+END

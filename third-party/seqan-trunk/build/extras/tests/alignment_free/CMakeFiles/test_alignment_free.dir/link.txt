@@ -1,0 +1,1 @@
+/usr/bin/c++    -W -Wall -Wno-long-long -fstrict-aliasing -Wstrict-aliasing -pedantic -Wno-variadic-macros -O3 -DNDEBUG    CMakeFiles/test_alignment_free.dir/test_alignment_free.cpp.o  -o ../../../bin/test_alignment_free -rdynamic -lrt 

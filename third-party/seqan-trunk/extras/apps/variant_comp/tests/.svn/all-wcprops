@@ -1,0 +1,377 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests
+END
+predicted_wrong_pt10_st1_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt10_st1_out.txt
+END
+predicted_wrong.gff
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13803/trunk/extras/apps/variant_comp/tests/predicted_wrong.gff
+END
+predicted_full_pt10_sc10.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_sc10.stderr
+END
+gold_standard_pt10_st1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt10_st1.stdout
+END
+predicted_full_pt1_st10.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt1_st10.stderr
+END
+predicted_full_pt1_st10_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt1_st10_out.txt
+END
+gold_standard_pt1_st10_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt1_st10_outFN.txt
+END
+adeno_modified_reads.fa
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13803/trunk/extras/apps/variant_comp/tests/adeno_modified_reads.fa
+END
+predicted_full_pt10_st10_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_st10_outFN.txt
+END
+predicted_full_pt1_st1_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt1_st1_outFN.txt
+END
+predicted_wrong_pt1_st10.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt1_st10.stdout
+END
+predicted_wrong_pt10_st10.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt10_st10.stderr
+END
+predicted_wrong_pt1_st1.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt1_st1.stderr
+END
+predicted_full.gff.overlap.gff
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13803/trunk/extras/apps/variant_comp/tests/predicted_full.gff.overlap.gff
+END
+predicted_wrong_pt10_st10_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt10_st10_out.txt
+END
+predicted_wrong_pt1_st1_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt1_st1_out.txt
+END
+predicted_full_pt10_st1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_st1.stdout
+END
+gold_standard_pt10_st10.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt10_st10.stdout
+END
+gold_standard_pt1_st1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt1_st1.stdout
+END
+gold_standard_pt10_st1.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt10_st1.stderr
+END
+predicted_wrong_pt10_st1_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt10_st1_outFN.txt
+END
+gold_standard_pt10_st1_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt10_st1_out.txt
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/generate_outputs.sh
+END
+gold_standard.gff
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13803/trunk/extras/apps/variant_comp/tests/gold_standard.gff
+END
+predicted_full_pt1_st10_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt1_st10_outFN.txt
+END
+adeno.fa
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13803/trunk/extras/apps/variant_comp/tests/adeno.fa
+END
+adeno_modified.fa
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13803/trunk/extras/apps/variant_comp/tests/adeno_modified.fa
+END
+predicted_wrong_pt1_st10.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt1_st10.stderr
+END
+predicted_wrong_pt1_st10_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt1_st10_out.txt
+END
+predicted_full_pt10_st10.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_st10.stdout
+END
+gold_standard_pt1_st10.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt1_st10.stdout
+END
+predicted_full_pt1_st1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt1_st1.stdout
+END
+predicted_full_pt10_st1.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_st1.stderr
+END
+gold_standard_pt10_st10.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt10_st10.stderr
+END
+gold_standard_pt1_st1.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt1_st1.stderr
+END
+predicted_wrong_pt10_st10_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt10_st10_outFN.txt
+END
+predicted_wrong_pt1_st1_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt1_st1_outFN.txt
+END
+predicted_full_pt10_sc10_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_sc10_out.txt
+END
+gold_standard_pt1_st1_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt1_st1_out.txt
+END
+gold_standard_pt10_st10_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt10_st10_out.txt
+END
+predicted_full_pt10_st1_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_st1_out.txt
+END
+predicted_full.gff
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13803/trunk/extras/apps/variant_comp/tests/predicted_full.gff
+END
+gold_standard_pt10_st1_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt10_st1_outFN.txt
+END
+predicted_wrong_pt10_st1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt10_st1.stdout
+END
+predicted_full_pt10_sc10.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_sc10.stdout
+END
+predicted_full_pt1_st10.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt1_st10.stdout
+END
+predicted_full_pt10_st10.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_st10.stderr
+END
+gold_standard_pt1_st10.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt1_st10.stderr
+END
+predicted_full_pt1_st1.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt1_st1.stderr
+END
+predicted_wrong_pt1_st10_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt1_st10_outFN.txt
+END
+generate_outputs.sh~
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/generate_outputs.sh~
+END
+gold_standard_pt1_st10_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt1_st10_out.txt
+END
+predicted_full_pt10_st10_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_st10_out.txt
+END
+predicted_full_pt1_st1_out.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt1_st1_out.txt
+END
+predicted_full_pt10_sc10_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_sc10_outFN.txt
+END
+gold_standard_pt1_st1_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt1_st1_outFN.txt
+END
+gold_standard_pt10_st10_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/gold_standard_pt10_st10_outFN.txt
+END
+predicted_full_pt10_st1_outFN.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_full_pt10_st1_outFN.txt
+END
+predicted_wrong_pt10_st10.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt10_st10.stdout
+END
+predicted_wrong_pt1_st1.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt1_st1.stdout
+END
+predicted_wrong_pt10_st1.stderr
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/predicted_wrong_pt10_st1.stderr
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13806/trunk/extras/apps/variant_comp/tests/run_tests.py
+END

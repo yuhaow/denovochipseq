@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_terminal_demo.dir/terminal_demo.cpp.o  -o ../../bin/demo_terminal_demo -rdynamic -lrt -lz -lbz2 

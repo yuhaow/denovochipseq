@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/demo_tutorial_iterators_iterators_assignment_4_workshop_solution.dir/tutorial/iterators/iterators_assignment_4_workshop_solution.cpp.o  -o ../../bin/demo_tutorial_iterators_iterators_assignment_4_workshop_solution -rdynamic -lrt -lz -lbz2 

@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/13920/trunk/core/tests/seq_io
+END
+SRR067601_1.1k.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/core/tests/seq_io/SRR067601_1.1k.fasta
+END
+test_dna.fa.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13034/trunk/core/tests/seq_io/test_dna.fa.bz2
+END
+test_dna.fq.gz
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13034/trunk/core/tests/seq_io/test_dna.fq.gz
+END
+test_dna.fa
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/tests/seq_io/test_dna.fa
+END
+test_stream_record_reader_fastq.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13920/trunk/core/tests/seq_io/test_stream_record_reader_fastq.h
+END
+test_seq_io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13855/trunk/core/tests/seq_io/test_seq_io.cpp
+END
+test_seq_io_generic.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/seq_io/test_seq_io_generic.h
+END
+SRR067601_1.1k.fasta.gz
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/core/tests/seq_io/SRR067601_1.1k.fasta.gz
+END
+test_stream_read_genbank.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13920/trunk/core/tests/seq_io/test_stream_read_genbank.h
+END
+test_dna.fq.bz2
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13034/trunk/core/tests/seq_io/test_dna.fq.bz2
+END
+adeno_genome.fa.fai
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13034/trunk/core/tests/seq_io/adeno_genome.fa.fai
+END
+test_dna.fa.gz
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13034/trunk/core/tests/seq_io/test_dna.fa.gz
+END
+adeno_genome.fa
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13034/trunk/core/tests/seq_io/adeno_genome.fa
+END
+test_dna.fq
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/seqan/!svn/ver/13034/trunk/core/tests/seq_io/test_dna.fq
+END
+test_sequence_stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13855/trunk/core/tests/seq_io/test_sequence_stream.h
+END
+test_stream_write_fasta.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13855/trunk/core/tests/seq_io/test_stream_write_fasta.h
+END
+test_genomic_region.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/seq_io/test_genomic_region.h
+END
+test_stream_guess_stream_format.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13855/trunk/core/tests/seq_io/test_stream_guess_stream_format.h
+END
+test_stream_read_embl.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13920/trunk/core/tests/seq_io/test_stream_read_embl.h
+END
+test_fai_index.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13855/trunk/core/tests/seq_io/test_fai_index.h
+END
+test_stream_read_auto_format.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13855/trunk/core/tests/seq_io/test_stream_read_auto_format.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13313/trunk/core/tests/seq_io/CMakeLists.txt
+END
+test_stream_record_reader_fasta.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13920/trunk/core/tests/seq_io/test_stream_record_reader_fasta.h
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests
+END
+srg_lattice-4.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/srg_lattice-4.stdout
+END
+srg_triang-5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/srg_triang-5.stdout
+END
+srg_latin-4.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/srg_latin-4.stdout
+END
+generate_outputs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/generate_outputs.sh
+END
+srg_paley-5.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/srg_paley-5.stdout
+END
+iso_m2D_m196.A00_B00.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/iso_m2D_m196.A00_B00.stdout
+END
+iso_r01_m200.A00.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/iso_r01_m200.A00.stdout
+END
+iso_r01_m200.A00_B00.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/iso_r01_m200.A00_B00.stdout
+END
+iso_r01_m200.A00_B01.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/iso_r01_m200.A00_B01.stdout
+END
+srg_sts7.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/srg_sts7.stdout
+END
+iso_r01_m200.A01_B01.stdout
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/iso_r01_m200.A01_B01.stdout
+END
+run_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13034/trunk/extras/apps/sgip/tests/run_tests.py
+END

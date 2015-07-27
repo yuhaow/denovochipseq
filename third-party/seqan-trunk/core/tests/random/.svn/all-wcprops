@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/14026/trunk/core/tests/random
+END
+test_random.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14026/trunk/core/tests/random/test_random.cpp
+END
+test_random_shuffle.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/random/test_random_shuffle.h
+END
+test_random_dists.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/14026/trunk/core/tests/random/test_random_dists.h
+END
+test_random_rng.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13855/trunk/core/tests/random/test_random_rng.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13313/trunk/core/tests/random/CMakeLists.txt
+END

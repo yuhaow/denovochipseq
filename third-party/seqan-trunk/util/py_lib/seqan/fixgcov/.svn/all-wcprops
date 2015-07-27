@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/fixgcov
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/fixgcov/__init__.py
+END
+app.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/fixgcov/app.py
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/13034/trunk/util/py_lib/seqan/fixgcov/README
+END

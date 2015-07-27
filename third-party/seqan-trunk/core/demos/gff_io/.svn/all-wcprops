@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/seqan/!svn/ver/14208/trunk/core/demos/gff_io
+END
+gff_stream_read.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/14208/trunk/core/demos/gff_io/gff_stream_read.cpp
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/14013/trunk/misc/seqan_instrumentation/bin/classes
+END
+diff.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/14013/trunk/misc/seqan_instrumentation/bin/classes/diff.py
+END
+id.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/bin/classes/id.py
+END
+sync.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/bin/classes/sync.py
+END
+stats.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13886/trunk/misc/seqan_instrumentation/bin/classes/stats.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/bin/classes/__init__.py
+END
+configobj.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13988/trunk/misc/seqan_instrumentation/bin/classes/configobj.py
+END
+dirs.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/bin/classes/dirs.py
+END
+flushfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/bin/classes/flushfile.py
+END

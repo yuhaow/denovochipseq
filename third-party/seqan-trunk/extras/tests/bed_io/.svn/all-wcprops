@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/seqan/!svn/ver/14182/trunk/extras/tests/bed_io
+END
+test_bed_io.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/14182/trunk/extras/tests/bed_io/test_bed_io.cpp
+END
+example.bed
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/14182/trunk/extras/tests/bed_io/example.bed
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/14010/trunk/extras/tests/bed_io/CMakeLists.txt
+END

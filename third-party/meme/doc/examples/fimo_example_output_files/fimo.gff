@@ -1,0 +1,25 @@
+##gff-version 3
+ara	fimo	nucleotide_motif	59	76	17.4133	-	.	motif_name=1;pvalue=4.92e-07;qvalue=0.000591;sequence=AAGTGTGACGCCGTGCAA
+bglr1	fimo	nucleotide_motif	76	93	10.1182	+	.	motif_name=1;pvalue=8.35e-05;qvalue=0.0126;sequence=AACTGTGAGCATGGTCAT
+ce1cg	fimo	nucleotide_motif	65	82	14.6297	-	.	motif_name=1;pvalue=4.97e-06;qvalue=0.00188;sequence=TTTTGTGAAAACGATCAA
+crp	fimo	nucleotide_motif	67	84	13.4778	-	.	motif_name=1;pvalue=1.12e-05;qvalue=0.00275;sequence=TAATGTGACGTCCTTTGC
+cya	fimo	nucleotide_motif	50	67	13.2858	+	.	motif_name=1;pvalue=1.27e-05;qvalue=0.00275;sequence=AGGTGTTAAATTGATCAC
+deop2	fimo	nucleotide_motif	60	77	15.9735	+	.	motif_name=1;pvalue=1.74e-06;qvalue=0.00106;sequence=AATTGTGATGTGTATCGA
+gale	fimo	nucleotide_motif	46	63	13.8617	-	.	motif_name=1;pvalue=8.61e-06;qvalue=0.00261;sequence=AAGTGTGACATGGAATAA
+ilv	fimo	nucleotide_motif	43	60	16.0695	-	.	motif_name=1;pvalue=1.61e-06;qvalue=0.00106;sequence=AATTGAGGGGTTGATCAC
+ilv	fimo	nucleotide_motif	5	12	15.7824	+	.	motif_name=2;pvalue=6.67e-06;qvalue=0.0235;sequence=CGGCGGGG
+lac	fimo	nucleotide_motif	9	26	17.4133	+	.	motif_name=1;pvalue=4.92e-07;qvalue=0.000591;sequence=TAATGTGAGTTAGCTCAC
+lac	fimo	nucleotide_motif	33	43	20.5669	-	.	motif_name=3;pvalue=2.27e-07;qvalue=0.000776;sequence=CCTGGGGTGCC
+male	fimo	nucleotide_motif	14	31	13.2858	+	.	motif_name=1;pvalue=1.27e-05;qvalue=0.00275;sequence=TTCTGTAACAGAGATCAC
+male	fimo	nucleotide_motif	41	48	15.5214	+	.	motif_name=2;pvalue=1.48e-05;qvalue=0.0261;sequence=CGGTGGGG
+malk	fimo	nucleotide_motif	61	78	12.5179	+	.	motif_name=1;pvalue=2.09e-05;qvalue=0.00396;sequence=TTTCGTGATGTTGCTTGC
+malt	fimo	nucleotide_motif	41	58	17.2214	+	.	motif_name=1;pvalue=5.86e-07;qvalue=0.000591;sequence=AATTGTGACACAGTGCAA
+ompa	fimo	nucleotide_motif	48	65	12.9978	+	.	motif_name=1;pvalue=1.54e-05;qvalue=0.00311;sequence=ATGCCTGACGGAGTTCAC
+pbr322	fimo	nucleotide_motif	57	74	15.3016	-	.	motif_name=1;pvalue=2.98e-06;qvalue=0.00151;sequence=ATCTGTGCGGTATTTCAC
+tdc	fimo	nucleotide_motif	82	99	12.4219	-	.	motif_name=1;pvalue=2.22e-05;qvalue=0.00396;sequence=ATATGTGCGACCACTCAC
+tdc	fimo	nucleotide_motif	78	95	10.7901	+	.	motif_name=1;pvalue=5.8e-05;qvalue=0.00925;sequence=ATTTGTGAGTGGTCGCAC
+tnaa	fimo	nucleotide_motif	75	92	13.5738	-	.	motif_name=1;pvalue=1.05e-05;qvalue=0.00275;sequence=AAATGTGAATCGAATCAC
+tnaa	fimo	nucleotide_motif	71	88	12.2299	+	.	motif_name=1;pvalue=2.5e-05;qvalue=0.00421;sequence=GATTGTGATTCGATTCAC
+trn9cat	fimo	nucleotide_motif	84	101	14.3417	+	.	motif_name=1;pvalue=6.13e-06;qvalue=0.00206;sequence=AAATGAGACGTTGATCGG
+trn9cat	fimo	nucleotide_motif	36	46	20.3059	+	.	motif_name=3;pvalue=5.03e-07;qvalue=0.00086;sequence=CCTGGTGTCCC
+uxu1	fimo	nucleotide_motif	17	34	14.8216	+	.	motif_name=1;pvalue=4.31e-06;qvalue=0.00186;sequence=TGTTGTGATGTGGTTAAC

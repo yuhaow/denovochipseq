@@ -1,0 +1,50 @@
+Invoking:
+  fasta-get-markov -nostatus -m 1 < memechip_out/sample-dna-Klf1.fa 1> memechip_out/background
+Finished invoke:
+  name: bg  status: 0  time: 1.918697
+Invoking:
+  getsize memechip_out/sample-dna-Klf1.fa 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.04782
+Invoking:
+  fasta-most -min 50 < memechip_out/sample-dna-Klf1.fa 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.185613
+Invoking:
+  fasta-center -len 100 < memechip_out/sample-dna-Klf1.fa 1> memechip_out/seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.128835
+Invoking:
+  fasta-dinucleotide-shuffle -f memechip_out/seqs-centered -t -dinuc 1> memechip_out/seqs-shuffled
+Finished invoke:
+  name: shuffle_seqs  status: 0  time: 5.025475
+Invoking:
+  fasta-subsample memechip_out/seqs-centered 600 -rest memechip_out/seqs-discarded 1> memechip_out/seqs-sampled
+Finished invoke:
+  name: sample_seqs  status: 0  time: 0.054148
+Invoking:
+  meme memechip_out/seqs-sampled -oc memechip_out/meme_out -dna -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile memechip_out/background -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 2458.595146
+Invoking:
+  dreme -v 1 -oc memechip_out/dreme_out -p memechip_out/seqs-centered -n memechip_out/seqs-shuffled -png
+Finished invoke:
+  name: dreme  status: 0  time: 145.394736
+Invoking:
+  centrimo -noflip -seqlen 500 -verbosity 1 -oc memechip_out/centrimo_out -bgfile memechip_out/background memechip_out/sample-dna-Klf1.fa memechip_out/meme_out/meme.xml memechip_out/dreme_out/dreme.xml JASPAR_CORE_2009.meme
+Finished invoke:
+  name: centrimo  status: 0  time: 42.977827
+Invoking:
+  tomtom -verbosity 1 -oc memechip_out/meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile memechip_out/background memechip_out/meme_out/meme.xml JASPAR_CORE_2009.meme
+Finished invoke:
+  name: meme_tomtom  status: 0  time: 5.716438
+Invoking:
+  tomtom -verbosity 1 -oc memechip_out/dreme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc -bfile memechip_out/background memechip_out/dreme_out/dreme.xml JASPAR_CORE_2009.meme
+Finished invoke:
+  name: dreme_tomtom  status: 0  time: 2.667074
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.5 memechip_out/combined.meme memechip_out/combined.meme 1> memechip_out/motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 2.0331
+Writing output
+Done

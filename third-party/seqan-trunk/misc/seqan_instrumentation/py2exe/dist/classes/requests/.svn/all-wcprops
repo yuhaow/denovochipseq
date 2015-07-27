@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests
+END
+api.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/api.py
+END
+async.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/async.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/__init__.py
+END
+status_codes.py
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/status_codes.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/utils.py
+END
+auth.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/auth.py
+END
+exceptions.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/exceptions.py
+END
+compat.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/compat.py
+END
+hooks.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/hooks.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/seqan/!svn/ver/13860/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/models.py
+END
+structures.py
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/structures.py
+END
+sessions.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/sessions.py
+END
+defaults.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/seqan/!svn/ver/13034/trunk/misc/seqan_instrumentation/py2exe/dist/classes/requests/defaults.py
+END

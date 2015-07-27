@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>pmp_bf</title>
+    <link href="./meme-suite.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="main">
+      <script src="./meme-suite-logo.js" type="text/javascript">&gt;</script>
+      <h1>pmp_bf</h1>
+
+      <p>
+        <b>Usage:</b> <code>pmp_bf [options] &lt;<i>tree</i>&gt; &lt;<i>motif</i>&gt;</code>
+      </p>
+
+      <p><b>Description:</b></p>
+      <p>
+        This utility calculates the statistical power of a phylogenetic motif model.
+      </p>
+
+      <p><b>Input:</b></p>
+
+      <ul>
+      <li>&lt;<i>tree</i>&gt; - a file containing a phylogenetic tree in
+      <a href="http://evolution.genetics.washington.edu/phylip/newicktree.html">Newick format</a>.
+      </li>
+      <li>&lt;<i>motif</i>&gt; - a file containing a set of motifs in 
+      <a href="meme.html">MEME format</a>.
+      </li>
+      </ul>
+
+      <p><b>Output:</b></p>
+      <p>
+      The program prints to standard output.
+      </p>
+
+      <p><b>Options:</b></p>
+
+      <ul>
+      <li><code>--bg <i>&lt;float&gt;</i></code>
+    - The mutation rate for sites in the
+    background model.  The default value is 1.
+  </li>
+      <li><code>--bgfile <i>&lt;bfile&gt;</i></code> 
+    - Read background frequencies from
+    <code><i>&lt;bfile&gt;</i></code>.  
+    The file should be in 
+    <a href="bfile-format.html">MEME background file format</a>.
+    The default is to use frequencies
+    embedded in the application from the non-redundant database.  If the
+    argument is the keyword <code>motif-file</code>, then the frequencies
+    will be taken from the motif file.
+  </li>
+      <li><code>--fg <i>&lt;float&gt;</i></code>
+    - The mutation rate for sites in the foreground model(s).
+    The default value is 1.
+  </li>
+      <li><code>--hb</code> 
+    - Use the Halpern-Bruno modification to the evolutionary model.
+  </li>
+      <li><code>--motif <i>&lt;id&gt;</i></code>
+    - Use only the motif identified by <code><i>&lt;id&gt;</i></code>. 
+    This option may be repeated.
+  </li>
+      <li><command-option name="motif-name"></command-option></li>
+      <li><code>--pseudocounts &lt;float&gt;</code> 
+    - A pseudocount to be added to each count in the motif matrix, 
+    weighted by the background frequencies for the nucleotides (Dirichlet prior), 
+    before converting the motif to probabilities. 
+    The default value is 0.1.
+  </li>
+      <li><code>--pur-pyr &lt;float&gt;</code>
+    - The ratio of the purine transition rate to pyrimidine transition rate.
+    This parameter is used by the Tamura-nei model.
+    The default value is 1.0.
+  </li>
+      <li><code>--transition-transversion &lt;float&gt;</code>
+    - The ratio of the transition rate to the transversion rate.
+    This parameter is used by the Kimura 2-parameter, F84, HKY,
+    and Tamura-nei models.
+    The default value is 0.5.
+  </li>
+      <li><command-option name="ustart"></command-option></li>
+      <li><code>--verbosity 1|2|3|4</code>
+    - Set the verbosity of status reports to standard error.
+    The default level is 2.
+  </li>
+      </ul>
+
+      <p><b>Bugs:</b> None known.</p>
+
+    </div>
+  </body>
+</html>

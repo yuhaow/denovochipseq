@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/14240/trunk/core/demos/index
+END
+index_qgram.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/seqan/!svn/ver/14140/trunk/core/demos/index/index_qgram.cpp
+END
+index_finder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/14183/trunk/core/demos/index/index_finder.cpp
+END
+index_iterator_short.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/14179/trunk/core/demos/index/index_iterator_short.cpp
+END
+index_begin_atEnd_representative_bottomUp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/seqan/!svn/ver/14240/trunk/core/demos/index/index_begin_atEnd_representative_bottomUp.cpp
+END
+shape.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/seqan/!svn/ver/14183/trunk/core/demos/index/shape.cpp
+END
+shape_hash_next.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/14183/trunk/core/demos/index/shape_hash_next.cpp
+END
+shape_hash.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/14183/trunk/core/demos/index/shape_hash.cpp
+END
+index_open_save.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/14240/trunk/core/demos/index/index_open_save.cpp
+END
+index_getOccurrences_getFrequency_range_getFibre.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/seqan/!svn/ver/14240/trunk/core/demos/index/index_getOccurrences_getFrequency_range_getFibre.cpp
+END
+index_begin_atEnd_representative.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/14240/trunk/core/demos/index/index_begin_atEnd_representative.cpp
+END
+index_iterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/14179/trunk/core/demos/index/index_iterator.cpp
+END
+shape_hash_init.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/14183/trunk/core/demos/index/shape_hash_init.cpp
+END
+index_textAt_indexText_saAt_indexRequire.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/seqan/!svn/ver/14240/trunk/core/demos/index/index_textAt_indexText_saAt_indexRequire.cpp
+END
+index_length_countSequences.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/14240/trunk/core/demos/index/index_length_countSequences.cpp
+END
+index_begin_range_goDown_representative_repLength.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/seqan/!svn/ver/14240/trunk/core/demos/index/index_begin_range_goDown_representative_repLength.cpp
+END

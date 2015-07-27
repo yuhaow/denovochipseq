@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/seqan/!svn/ver/13855/trunk/core/tests/basic
+END
+test_basic_fundamental.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_fundamental.cpp
+END
+test_basic_math.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_math.h
+END
+test_basic_alphabet_simple_type.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_alphabet_simple_type.h
+END
+test_basic_metaprogramming_type.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_metaprogramming_type.h
+END
+test_basic_fundamental_concepts.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_fundamental_concepts.h
+END
+test_basic_fundamental_metafunctions.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_fundamental_metafunctions.h
+END
+test_basic_array_constructor_destruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_array_constructor_destruct.h
+END
+test_basic_alphabet_profile.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_alphabet_profile.h
+END
+test_basic_parallelism.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_parallelism.cpp
+END
+test_basic_alphabet_adapt_builtins.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_alphabet_adapt_builtins.h
+END
+test_basic_metaprogramming_math.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_metaprogramming_math.h
+END
+test_basic_fundamental_transport.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_fundamental_transport.h
+END
+test_basic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic.cpp
+END
+test_basic_tag.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_tag.h
+END
+test_basic_proxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_proxy.cpp
+END
+test_basic_holder.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13034/trunk/core/tests/basic/test_basic_holder.h
+END
+test_basic_concepts.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_concepts.h
+END
+test_basic_allocator.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_allocator.h
+END
+test_basic_alphabet.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_alphabet.h
+END
+test_basic_smart_pointer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_smart_pointer.cpp
+END
+test_basic_container_proxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_container_proxy.h
+END
+test_basic_smart_pointer_holder.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_smart_pointer_holder.h
+END
+test_basic_math.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_math.cpp
+END
+test_basic_aggregate.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_aggregate.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/seqan/!svn/ver/13313/trunk/core/tests/basic/CMakeLists.txt
+END
+test_basic_iterator_concepts.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_iterator_concepts.h
+END
+test_basic_alphabet_math.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_alphabet_math.h
+END
+test_basic_iterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_iterator.h
+END
+test_basic_metaprogramming.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_metaprogramming.h
+END
+test_basic_metaprogramming_control.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_metaprogramming_control.h
+END
+test_basic_transport.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_transport.h
+END
+test_basic_array_construct_destruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_array_construct_destruct.h
+END
+test_basic_alphabet_qualities.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_alphabet_qualities.h
+END
+test_basic_alphabet_residue.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_alphabet_residue.h
+END
+test_basic_construct_destruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_construct_destruct.h
+END
+test_basic_fundamental_conversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_fundamental_conversion.h
+END
+test_basic_alphabet_storage.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_alphabet_storage.h
+END
+test_basic_parallelism.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_parallelism.h
+END
+test_basic_metaprogramming_logic.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_metaprogramming_logic.h
+END
+test_basic_hosted_type_interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_hosted_type_interface.h
+END
+test_basic_alphabet_bio.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_alphabet_bio.h
+END
+test_basic_allocator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_allocator.cpp
+END
+test_basic_alphabet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_alphabet.cpp
+END
+test_basic_fundamental_tags.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_fundamental_tags.h
+END
+test_basic_container.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_container.cpp
+END
+test_basic_metaprogramming_enable_if.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_metaprogramming_enable_if.h
+END
+test_basic_alphabet_concepts.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_alphabet_concepts.h
+END
+test_basic_fundamental_helpers.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_fundamental_helpers.h
+END
+test_basic_aggregate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_aggregate.cpp
+END
+test_basic_proxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_proxy.h
+END
+test_basic_type.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_type.h
+END
+test_basic_iterator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_iterator.cpp
+END
+test_basic_metaprogramming.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_metaprogramming.cpp
+END
+test_basic_concept.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_concept.cpp
+END
+test_basic_fundamental_comparison.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/seqan/!svn/ver/13855/trunk/core/tests/basic/test_basic_fundamental_comparison.h
+END
